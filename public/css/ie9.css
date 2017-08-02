@@ -1,73 +1,95 @@
 /*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Polymorph by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
 */
 
-/* Features */
+/* List */
 
-	.features:after {
-		clear: both;
-		content: '';
-		display: block;
+	ul.pagination {
+		display: inline-block;
 	}
 
-	.features article {
-		float: left;
-	}
-
-		.features article:after {
-			clear: both;
+		ul.pagination:after {
 			content: '';
 			display: block;
+			clear: both;
 		}
 
-		.features article .icon {
+		ul.pagination li {
 			float: left;
 		}
 
 /* Posts */
 
 	.posts:after {
-		clear: both;
 		content: '';
 		display: block;
+		clear: both;
 	}
 
-	.posts article {
+	.posts > article {
 		float: left;
 	}
 
-/* Main */
+/* Header */
 
-	#main {
-		padding-left: 24em;
+	#header:after {
+		content: '';
+		display: block;
+		clear: both;
 	}
 
-/* Sidebar */
-
-	#sidebar {
-		position: absolute;
-		top: 0;
-		left: 0;
-		min-height: 100%;
-		width: 24em;
+	#header .logo {
+		float: left;
 	}
+
+	#header nav {
+		float: left;
+	}
+
+		#header nav:after {
+			content: '';
+			display: block;
+			clear: both;
+		}
+
+		#header nav > ul {
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+
+			#header nav > ul > li {
+				display: inline-block;
+			}
 
 /* Banner */
 
 	#banner:after {
-		clear: both;
 		content: '';
 		display: block;
+		clear: both;
 	}
 
-	#banner .content {
+	#banner > article {
 		float: left;
-		padding-right: 4em;
+		min-height: 0 !important;
 	}
 
-	#banner .image {
+		#banner > article .content {
+			margin: 0 auto;
+		}
+
+/* Footer */
+
+	#footer > .inner:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	#footer > .inner > section {
 		float: left;
-		margin-left: 0;
+		width: 50%;
 	}

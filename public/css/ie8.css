@@ -1,7 +1,7 @@
 /*
-	Editorial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Polymorph by Pixelarity
+	pixelarity.com | hello@pixelarity.com
+	License: pixelarity.com/license
 */
 
 /* Button */
@@ -11,11 +11,39 @@
 	input[type="button"],
 	button,
 	.button {
-		border: solid 2px #f56a6a;
+		border: solid 1px #dbdbdb;
+	}
+
+		input[type="submit"].special,
+		input[type="reset"].special,
+		input[type="button"].special,
+		button.special,
+		.button.special {
+			border: 0;
+		}
+
+/* Form */
+
+	form .field {
+		padding-left: 0;
 	}
 
 /* Posts */
 
-	.posts article {
-		width: 40%;
+	.posts > article {
+		width: 33%;
+		float: none;
+		display: inline-block;
+	}
+
+/* Header */
+
+	#header {
+		border-bottom: solid 1px #dbdbdb;
+	}
+
+/* Banner */
+
+	#banner > article:before {
+		display: none;
 	}

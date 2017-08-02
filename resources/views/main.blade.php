@@ -1,109 +1,243 @@
-<!doctype html>
 @extends('layouts.master')
+  @section('title', 'Talleresamoros')
+  @section('style')
+    @parent
+  @endsection
 
+	@section('header')
+    @parent
+  @endsection
 
-<html lang="{{ app()->getLocale() }}">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        @section('title', 'Talleresamoros')
-        <link rel="icon" href="{!! asset('images/main/hrx-537-vye.jpg') !!}"/>
-        @section('header')
-          @parent
-        @endsection
-    </head>
-    <body>
-      @section('header')
-        <header id="header">
-          <a href="{{ route('index') }}" class="logo"><strong>Inicio</strong> Tallers Amoròs</a>
-          <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-            <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon fa-medium"><span class="label">Medium</span></a></li>
+  @section('banner')
+    <section id="banner">
+
+      <!-- One -->
+      <article class="full">
+        <img src="{!! asset('images/main/2013_honda_mean_mower-wide.jpg') !!}" alt="" data-position="center" />
+        <div class="content">
+          <h2><a href="#">Talleres Amoròs</a></h2>
+          <p><b>Descubre todos los productos de las grandes marcas del sector.</b></p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="half" style="background-color: #FE9A2E;">
+          {{-- <img src="" alt="" data-position="center" /> --}}
+        <img src="{!! asset('images/main/Push-Rotary-Lawn-Mower.jpg') !!}" alt="" data-position="center"/>
+        <div class="content">
+          <h2><a href="#">Cortacésped</a></h2>
+          <p>Descubre todos nuestros cortacéspedes ¡No esperes más!.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="half" style="background-color: #FF4000;">
+        {{-- <img src="{!! asset('images/main/maxresdefault2.jpg') !!}" alt="" data-position="center"/> --}}
+        <div class="content">
+          <h2><a href="#">Motosierra</a></h2>
+          <p>Todas nuestras motosierras a un click de distáncia.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="half" style="background-color: #8ea9e8;">
+          <img src="" alt="" data-position="center" />
+          {{-- <img src="{!! asset('images/item/category/REGENERADORES_EN_TARRAGONA_CAT.jpg') !!}" alt="" data-position="center" /> --}}          <div class="content">
+          <h2><a class="link" href="#">Cortacésped</a></h2>
+          <p>Descubre todos nuestros cortacéspedes ¡No esperes más!.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="half" style="background-color: #ec8d81;">
+        <img src="" alt="" data-position="center" />
+        {{-- <img src="{!! asset('images/item/category/REGENERADORES_EN_TARRAGONA_CAT.jpg') !!}" alt="" data-position="center" /> --}}
+        <div class="content">
+          <h2><a href="#">Motosierra</a></h2>
+          <p>Todas nuestras motosierras a un click de distáncia.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+      <article class="half" style="background-color: #8d82c4;">
+        <img src="" alt="" data-position="center" />
+        {{-- <img src="{!! asset('images/item/category/REGENERADORES_EN_TARRAGONA_CAT.jpg') !!}" alt="" data-position="center" /> --}}
+        <div class="content">
+          <h2><a href="#">Motosierra</a></h2>
+          <p>Todas nuestras motosierras a un click de distáncia.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+      <article class="half" style="background-color: #6fc3df;">
+        <img src="" alt="" data-position="center" />
+        {{-- <img src="{!! asset('images/item/category/REGENERADORES_EN_TARRAGONA_CAT.jpg') !!}" alt="" data-position="center" /> --}}
+        <div class="content">
+          <h2><a href="#">Motosierra</a></h2>
+          <p>Todas nuestras motosierras a un click de distáncia.</p>
+          <ul class="actions">
+            <li><a href="#" class="button">Explorar</a></li>
+          </ul>
+        </div>
+      </article>
+
+    </section>
+  @endsection
+
+  @section('body')
+    <!-- Post -->
+    <section class="main special">
+      <div class="inner">
+        <header class="major">
+          <span class="category">In Depth</span>
+          <h2><a href="#">Etiam feugiat tempus veroeros lorem</a></h2>
+          <ul class="meta">
+            <li>3 days ago</li>
+            <li><a href="#" class="favorites">2,174</a></li>
+            <li><a href="#" class="comments">1,423</a></li>
           </ul>
         </header>
-      @endsection
-      <!-- Header -->
+        <a href="#" class="image main"><img src="{!! asset('images/main/main1.jpg') !!}" alt="" /></a>
+        <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p>
+        <footer>
+          <ul class="actions">
+            <li><a href="#" class="button">Full Story</a></li>
+          </ul>
+        </footer>
+      </div>
+    </section>
 
-      @section('body')
-      <!-- section -->
-      <section>
-        <header class="main">
-          <h1>Talleres Amoròs</h1>
-          <p>Soluciones agrícolas</p>
-        </header>
-
-        <span class="image main"><img src="{!! asset('images/main/main1.jpg') !!}" alt="" /></span>
-
-        {{-- <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p> --}}
-      </section>
-
-      <!-- Section -->
-        <section>
-          <header class="major">
-            <h2>Productos destacados</h2>
+  <!-- Posts -->
+    <section class="main">
+      <div class="posts">
+        <article>
+          <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
+          <header>
+            <h2><a href="#">Mauris vitae</a></h2>
+            <ul class="meta">
+              <li>3 days ago</li>
+              <li><a href="#" class="favorites">2,174</a></li>
+              <li><a href="#" class="comments">1,423</a></li>
+            </ul>
           </header>
-          <div class="posts">
-            <article>
-              <a href="{{ route('item', ['category' => 'cortacesped', 'itemShortName' => 'HRE 370', 'itemId' => '10']) }}" class="image"><img src="{!! asset('images/main/kit-hhte-38-be-hbp-20-ah-hbc-210-we.jpg') !!}" alt="" /></a>
-              <h3>KIT HHTE 38 BE + HBP 20 AH + HBC 210 WE</h3>
-              <p>La desbrozadora de batería Honda HHTE38BE es ideal para el mantenimiento de espacios con vegetación densa, hierba alta y maleza persistente (batería y cargador incluidos).</p>
-              <ul class="actions">
-                <li><a href="{{ route('item', ['category' => 'cortacesped', 'itemShortName' => 'HRE 370', 'itemId' => '10']) }}" class="button">Más</a></li>
-              </ul>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
-              <h3>HF 2315 SB</h3>
-              <p>Cortacésped de asiento Honda HF2315SB, transmisión mecánica, deflector y mulching opcional, Optiflow, comodidad y seguridad.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Más</a></li>
-              </ul>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="{!! asset('images/main/deposito-rapidon-6-lts.jpg') !!}" alt="" /></a>
-              <h3>Depósito RAPIDON 6 lts</h3>
-              <p>Depósito transparente Rapidon6 con indicador de contenido, para repostar de la manera más cómoda, rápida y limpia, evitando derramar combustible.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Más</a></li>
-              </ul>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="{!! asset('images/main/hhb-25.jpg') !!}" alt="" /></a>
-              <h3>HHB 25</h3>
-              <p>Utilizar el soplador Honda HHB 25, con sólo 4.5 Kg y motor de 4 tiempos, es la manera más cómoda y eficaz de mantener limpio tu jardín.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Más</a></li>
-              </ul>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="{!! asset('images/main/hre-330.jpg') !!}" alt="" /></a>
-              <h3>HRE 330</h3>
-              <p>Cortacésped eléctrico Honda HRE330, económico, fácil y ligero, para jardines pequeños. Con portacables, cuchilla inteligente y protección contra sobre calentamiento.</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Más</a></li>
-              </ul>
-            </article>
-            <article>
-              <a href="#" class="image"><img src="{!! asset('images/main/kit-hhbe-81-be-hbp-40-ah-hbc-210-we.jpg') !!}" alt="" /></a>
-              <h3>KIT HHBE 81 BE + HBP 40 AH + HBC 210 WE</h3>
-              <p>El soplador de batería Honda HHBE81BE permite limpiar sin esfuerzo la hojarasca y suciedad acumuladas, incluso espacios interiores (batería y cargador incluidos).</p>
-              <ul class="actions">
-                <li><a href="#" class="button">Más</a></li>
-              </ul>
-            </article>
-          </div>
-          <a href="#" class="button special fit">Ver más</a>
-        </section>
-      @endsection
-      @section('sidebar')
-          @parent
-      @endsection
-      @section('javascript')
-          @parent
-      @endsection
-    </body>
-</html>
+          <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+          </footer>
+        </article>
+        <article>
+          <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
+          <header>
+            <h2><a href="#">Dapibus nulla</a></h2>
+            <ul class="meta">
+              <li>3 days ago</li>
+              <li><a href="#" class="favorites">2,174</a></li>
+              <li><a href="#" class="comments">1,423</a></li>
+            </ul>
+          </header>
+          <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+          </footer>
+        </article>
+        <article>
+          <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
+          <header>
+            <h2><a href="#">Dictum veroeros</a></h2>
+            <ul class="meta">
+              <li>3 days ago</li>
+              <li><a href="#" class="favorites">2,174</a></li>
+              <li><a href="#" class="comments">1,423</a></li>
+            </ul>
+          </header>
+          <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+          </footer>
+        </article>
+        <article>
+          <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
+          <header>
+            <h2><a href="#">Lorem sed magna</a></h2>
+            <ul class="meta">
+              <li>3 days ago</li>
+              <li><a href="#" class="favorites">2,174</a></li>
+              <li><a href="#" class="comments">1,423</a></li>
+            </ul>
+          </header>
+          <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+          </footer>
+        </article>
+        <article>
+          <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
+          <header>
+            <h2><a href="#">Vitae adipiscing</a></h2>
+            <ul class="meta">
+              <li>3 days ago</li>
+              <li><a href="#" class="favorites">2,174</a></li>
+              <li><a href="#" class="comments">1,423</a></li>
+            </ul>
+          </header>
+          <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+          </footer>
+        </article>
+        <article>
+          <a href="#" class="image"><img src="{!! asset('images/main/hf-2315-sb.jpg') !!}" alt="" /></a>
+          <header>
+            <h2><a href="#">Aliquam phasellus</a></h2>
+            <ul class="meta">
+              <li>3 days ago</li>
+              <li><a href="#" class="favorites">2,174</a></li>
+              <li><a href="#" class="comments">1,423</a></li>
+            </ul>
+          </header>
+          <p>Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna feugiat cursus lorem nisi. Ut mauris vitae mi dapibus nulla dictum. Ipsum dolor sit amet tempus adipiscing amet sed aliquam veroeros etiam magna.</p>
+          <footer>
+            <ul class="actions">
+              <li><a href="#" class="button">Full Story</a></li>
+            </ul>
+          </footer>
+        </article>
+      </div>
+      <footer class="major">
+        <ul class="pagination">
+          <!--<li><a href="#" class="previous">Prev</a></li>-->
+          <li><a href="#" class="page active">1</a></li>
+          <li><a href="#" class="page">2</a></li>
+          <li><a href="#" class="page">3</a></li>
+          <li><span class="extra">&hellip;</span></li>
+          <li><a href="#" class="page">19</a></li>
+          <li><a href="#" class="page">20</a></li>
+          <li><a href="#" class="next">Next</a></li>
+        </ul>
+      </footer>
+    </section>
+  @endsection
+
+  @section('javascript')
+      @parent
+  @endsection

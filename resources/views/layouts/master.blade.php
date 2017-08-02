@@ -1,6 +1,9 @@
 <html>
     <head>
         <title>@yield('title')</title>
+        <link rel="icon" href="{!! asset('images/main/hrx-537-vye.jpg') !!}"/>
+        <meta charset="utf-8" />
+    		<meta name="viewport" content="width=device-width, initial-scale=1" />
         @section('style')
           <!-- Fonts -->
           <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
@@ -13,163 +16,92 @@
     <body>
       <!-- Wrapper -->
   			<div id="wrapper">
+          <!-- Header -->
+
+          @section('header')
+            <header id="header">
+              <div class="logo">
+                <a href="index.html" class="title"><strong>Talleresamoros</strong> <span class="extra">Soluciones agrícolas</span></a>
+              </div>
+              <!-- Nav -->
+              <nav id="nav">
+                <ul>
+                  <li><a href="index.html">Inicio</a></li>
+                  <li>
+                    <a href="#" class="dropdown">Productos</a>
+                    <ul>
+                      <li><a href="#">Marcas</a>
+                        <ul>
+                          <li><a href="#">Honda</a></li>
+                          <li><a href="#">Pellenc</a></li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a href="#">Categorias</a>
+                        <ul>
+                          <li><a href="#">Cortacésped</a></li>
+                          <li><a href="#">Motosierra</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="generic.html">¿Quienes somos?</a></li>
+                  <li><a href="elements.html">Contacto</a></li>
+                </ul>
+              </nav>
+            </header>
+          @show
+          @section('banner')
+
+          @show
   				<!-- Main -->
   					<div id="main">
-  						<div class="inner">
-                @section('header')
+              @section('body')
 
-                @show
-                @section('body')
-
-                @show
-
-                @section('related')
-
-                @show
-
-                @section('footer')
-
-                @show
-                </div>
-            </div>
-          @section('sidebar')
-          <!-- Sidebar -->
-            <div id="sidebar">
-              <div class="inner">
-
-                <!-- Search -->
-                  <section id="search" class="alt">
-                    <form method="post" action="#">
-                      <input type="text" name="query" id="query" placeholder="Search" />
-                    </form>
-                  </section>
-
-                <!-- Menu -->
-                  <nav id="menu">
-                    <header class="major">
-                      <h2>Menú</h2>
-                    </header>
-                    <ul>
-                      <li><a href="{{ route('index') }}">Inicio</a></li>
-                      <li>
-                        <span class="opener">Agrícola</span>
-                        <ul>
-                          <li>
-                            <span class="">Maquinaria</span>
-                            <ul>
-                              <li><a href="#">Motosierras</a></li>
-                              <li><a href="#">Desbrozadoras</a></li>
-                              <li><a href="#">Cortasetos</a></li>
-                              <li><a href="#">Sopladores</a></li>
-                              <li><a href="#">Multiusos</a></li>
-                              <li><a href="#">Perforadoras</a></li>
-                              <li><a href="#">Regeneradores</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <span class="">Accesorios</span>
-                            <ul>
-                              <li><a href="#">Motosierras</a></li>
-                              <li><a href="#">Desbrozadoras</a></li>
-                              <li><a href="#">Cortasetos</a></li>
-                              <li><a href="#">Otros productos</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      <li>
-                        <span class="opener">Jardineria</span>
-                        <ul>
-                          <li>
-                            <span class="">Maquinaria</span>
-                            <ul>
-                              <li><a href="#">Motosierras</a></li>
-                              <li><a href="#">Desbrozadoras</a></li>
-                              <li><a href="#">Cortasetos</a></li>
-                              <li><a href="#">Sopladores</a></li>
-                              <li><a href="#">Multiusos</a></li>
-                              <li><a href="#">Perforadoras</a></li>
-                              <li><a href="#">Regeneradores</a></li>
-                            </ul>
-                          </li>
-                          <li>
-                            <span class="">Accesorios</span>
-                            <ul>
-                              <li><a href="#">Motosierras</a></li>
-                              <li><a href="#">Desbrozadoras</a></li>
-                              <li><a href="#">Cortasetos</a></li>
-                              <li><a href="#">Otros productos</a></li>
-                            </ul>
-                          </li>
-                        </ul>
-                      </li>
-                      {{-- <li>
-                        <span class="opener">Accesorios</span>
-                        <ul>
-                          <li><a href="#">Motosierras</a></li>
-                          <li><a href="#">Desbrozadoras</a></li>
-                          <li><a href="#">Cortasetos</a></li>
-                          <li><a href="#">Otros productos</a></li>
-                        </ul>
-                      </li>
-                      <li>
-                        <span class="opener">Maquinaria</span>
-                        <ul>
-                          <li><a href="#">Batería de litio</a></li>
-                          <li><a href="#">Gasolina</a></li>
-                        </ul>
-                      </li> --}}
-                      <li><a href="{{ route('contactUs') }}">Contacto</a></li>
-                    </ul>
-                  </nav>
-
-                <!-- Section -->
-                  <section>
-                    <header class="major">
-                      <h2>Novedades</h2>
-                    </header>
-                    <div class="mini-posts">
-                      <article>
-                        <a href="{{ route('item', ['category' => 'bateria', 'itemShortName' => 'Test', 'itemId' => '10']) }}" class="image"><img src="{!! asset('images/main/hrx-537-vye.jpg') !!}" alt="" /></a>
-                        <p>Cortacésped <b>Honda HRX 537 VYE</b>, estárter automático, jardines medios o grandes, sistema de corte Versamow® y avance automático Smart Drive®.</p>
-                      </article>
-                      <article>
-                        <a href="{{ route('item', ['category' => 'bateria', 'itemShortName' => 'Test', 'itemId' => '10']) }}" class="image"><img src="{!! asset('images/main/miimo-hrm-310.jpg') !!}" alt="" /></a>
-                        <p>Si lo que quieres es un césped perfecto sin preocuparte de nada, el <b>Honda Miimo 310</b> es la solución ideal. Para jardines de cualquier medida, hasta un máximo de 2.000 m2. Instalación no incluida en el precio.</p>
-                      </article>
-                    </div>
-                    <ul class="actions">
-                      <li><a href="#" class="button">Ver más</a></li>
-                    </ul>
-                  </section>
-
-                <!-- Section -->
-                  <section>
-                    <header class="major">
-                      <h2>Contacta</h2>
-                    </header>
-                    <p>¿Tienes dudas acerca de uno de nuestros producots?</p>
-                    <p>¡Contacta con nosotros!</p>
-                    <ul class="contact">
-                      <li class="fa-envelope-o"><a href="#">talleresamoros@untitled.tld</a></li>
-                      <li class="fa-phone">(000) 000-0000</li>
-                      <li class="fa-home">1234 Somewhere Road #8254<br />
-                      Nashville, TN 00000-0000</li>
-                    </ul>
-                  </section>
-
+              @show
+              @section('footer')
                 <!-- Footer -->
-                  <footer id="footer">
-                    <p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-                  </footer>
-
-              </div>
+                <footer id="footer">
+                  <div class="inner">
+                    <section>
+                      <h2>Redes sociales</h2>
+                      <p>¡Síguenos en nuestras redes sociales para estar a la última de todas las novedades de TallersAmoros!</p>
+                      <ul class="icons style2">
+                        <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                        <li><a href="#" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+                      </ul>
+                    </section>
+                    <section>
+                      <h2>¡Contacta con nosotros!</h2>
+                      <form method="post" action="#">
+                        <div class="field half first">
+                          <input type="text" name="name" id="name" placeholder="Nombre" />
+                        </div>
+                        <div class="field half">
+                          <input type="email" name="email" id="email" placeholder="Correo electrónico" />
+                        </div>
+                        <div class="field">
+                          <textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea>
+                        </div>
+                        <ul class="actions">
+                          <li><input type="submit" value="Enviar" /></li>
+                        </ul>
+                      </form>
+                    </section>
+                  </div>
+                  <div class="copyright">
+                    <p>&copy; Untitled. All rights reserved. Lorem ipsum dolor sit amet nullam.</p>
+                  </div>
+                </footer>
+              @show
             </div>
-          @show
         </div>
         @section('javascript')
           <!-- Scripts -->
           {!! Html::script('js/jquery.min.js') !!}
+          {!! Html::script('js/jquery.dropotron.min.js') !!}
           {!! Html::script('js/skel.min.js') !!}
           {!! Html::script('js/util.js') !!}
           {!! Html::script('js/main.js') !!}
