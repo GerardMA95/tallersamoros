@@ -153,6 +153,15 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_item' => '74',
                     'id_feature' => '15'
                 ]
+                /* DESBROZADORA - PESO */
+                ,[
+                    'id_item' => '62',
+                    'id_feature' => '53'
+                ],
+                [
+                    'id_item' => '63',
+                    'id_feature' => '55'
+                ]
             ]);
         } else { echo "\e[31mTable item_feature is not empty, therefore NOT "; }
     }

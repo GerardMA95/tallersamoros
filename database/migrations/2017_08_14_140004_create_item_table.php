@@ -17,7 +17,7 @@ class CreateItemTable extends Migration
             $table->increments('id');
             $table->string('name', 100);
             $table->string('short_name' , 70);
-            $table->string('short_description');
+            $table->text('short_description');
             $table->text('description');
             $table->integer('price');
             $table->timestamp('created_at');
