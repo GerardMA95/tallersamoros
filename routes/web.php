@@ -13,11 +13,19 @@
 
 Route::get('/', function () {
     return view('main');
-})->name('index');
+})->name('main');
 
-Route::get('/articulos/{category}/{itemShortName?}/{itemId?}', function ($category, $itemShortName = 'Test', $itemId = '10') {
-    return view('item.item', ['category' => $category, 'itemShortName' => $itemShortName, 'itemId' => $itemId]);
-})->name('item');
+/*
+|--------------------------------------------------------------------------
+| Items Routes
+|--------------------------------------------------------------------------
+*/
+
+Route::get('/busqueda/{patent?}/{category?}', 'Entity\Category\CategoryController@list')->name('itemSearch');
+
+Route::get('/busqueda/{patent}/{category}/listado', 'Entity\Item\ItemController@list')->name('itemList');
+
+Route::get('/busqueda/{patent}/{category}/listado/{itemId}','Entity\Item\ItemController@description')->name('itemDescription');
 
 /*
 |--------------------------------------------------------------------------

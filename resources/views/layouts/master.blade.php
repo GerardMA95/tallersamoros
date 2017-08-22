@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>@yield('title')</title>
-        <link rel="icon" href="{!! asset('images/main/hrx-537-vye.jpg') !!}"/>
+        <link rel="icon" href="{!! asset('images/logo/amoros/favicon.ico') !!}"/>
         <meta charset="utf-8" />
     		<meta name="viewport" content="width=device-width, initial-scale=1" />
         @section('style')
@@ -15,33 +15,25 @@
     </head>
     <body>
       <!-- Wrapper -->
-  			<div id="wrapper">
+        <div id="wrapper">
           <!-- Header -->
 
           @section('header')
             <header id="header">
               <div class="logo">
-                <a href="index.html" class="title"><strong>Talleresamoros</strong> <span class="extra">Soluciones agrícolas</span></a>
+                <a href="{{ route('main') }}" class="title"><strong>Talleresamoros</strong> <span class="extra">Soluciones agrícolas</span></a>
               </div>
               <!-- Nav -->
               <nav id="nav">
                 <ul>
-                  <li><a href="index.html">Inicio</a></li>
+                  <li><a href="{{ route('main') }}">Inicio</a></li>
                   <li>
-                    <a href="#" class="dropdown">Productos</a>
+                    <a href="{{ route('itemSearch') }}" class="dropdown">Productos</a>
                     <ul>
-                      <li><a href="#">Marcas</a>
-                        <ul>
-                          <li><a href="#">Honda</a></li>
-                          <li><a href="#">Pellenc</a></li>
-                        </ul>
+                      <li><a href="{{ route('itemSearch' , ['patent' => 'all', 'category' => 'none']) }}">Marcas</a>
                       </li>
                       <li>
-                        <a href="#">Categorias</a>
-                        <ul>
-                          <li><a href="#">Cortacésped</a></li>
-                          <li><a href="#">Motosierra</a></li>
-                        </ul>
+                        <a href="{{ route('itemSearch', ['patent' => 'none', 'category' => 'all']) }}">Categorias</a>
                       </li>
                     </ul>
                   </li>
@@ -54,8 +46,8 @@
           @section('banner')
 
           @show
-  				<!-- Main -->
-  					<div id="main">
+  		    <!-- Main -->
+  			<div id="main">
               @section('body')
 
               @show
@@ -92,7 +84,7 @@
                     </section>
                   </div>
                   <div class="copyright">
-                    <p>&copy; Untitled. All rights reserved. Lorem ipsum dolor sit amet nullam.</p>
+                    <p>&copy; 2017 Tallers Amoros</p>
                   </div>
                 </footer>
               @show
