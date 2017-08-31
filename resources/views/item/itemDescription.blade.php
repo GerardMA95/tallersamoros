@@ -17,7 +17,8 @@
           <span class="category">Detalles del producto</span>
           <h2>
             <a>
-                {{ request()->route('itemId') }}
+                {{-- {{ request()->route('itemId') }} --}}
+                {{ $item->name }}
             </a>
           </h2>
         </header>

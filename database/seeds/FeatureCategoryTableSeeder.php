@@ -69,6 +69,13 @@ class FeatureCategoryTableSeeder extends Seeder
                     'short_description' => 'short_description',
                     'description' => 'Description',
                 ],
+                [
+                    'id' => '9',
+                    'name' => 'Cap. Bolsa',
+                    'short_name' => 'capBolsa',
+                    'short_description' => 'short_description',
+                    'description' => 'Description',
+                ],
             ]);
         } else { echo "\e[31mTable feature_category is not empty, therefore NOT "; }
     }
