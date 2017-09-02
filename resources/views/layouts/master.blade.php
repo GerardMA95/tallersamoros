@@ -67,20 +67,24 @@
                     </section>
                     <section>
                       <h2>¡Contacta con nosotros!</h2>
-                      <form method="post" action="#">
+                      {!! Form::open(['url' => '/contacto/correo']) !!}
                         <div class="field half first">
-                          <input type="text" name="name" id="name" placeholder="Nombre" />
+                            {{ Form::text('name' , '', ['placeholder' => 'Nombre']) }}
                         </div>
                         <div class="field half">
-                          <input type="email" name="email" id="email" placeholder="Correo electrónico" />
+                            {{ Form::email('email' , '', ['placeholder' => 'Correo electrónico']) }}
                         </div>
+
                         <div class="field">
-                          <textarea name="message" id="message" placeholder="Mensaje" rows="4"></textarea>
+                            {{ Form::textarea('message' , '', ['placeholder' => 'Mensaje']) }}
                         </div>
-                        <ul class="actions">
-                          <li><input type="submit" value="Enviar" /></li>
-                        </ul>
-                      </form>
+                        <div class="field half first">
+                            {{ Form::select('subject', [0 => 'Pedir presupuesto',  1 => 'Pedir información', 2 => 'Reportar incidencia' , 3 => 'Otros'], null , ['placeholder' => 'Selecciona un motivo']) }}
+                        </div>
+                        <div class="field half">
+                            {{ Form::submit('Enviar') }}
+                        </div>
+                      {!! Form::close() !!}
                     </section>
                   </div>
                   <div class="copyright">

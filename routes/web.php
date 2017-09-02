@@ -36,6 +36,6 @@ Route::get('/contactar', function () {
     return view('contact.contactUs');
 })->name('contactUs');
 
-Route::get('/contactar/{category}/{itemShortName?}/{itemId?}', function () {
-    return view('contact.itemRequest');
-})->name('itemRequest');
+Route::post('/contacto/correo','Entity\Email\EmailController@send')->name('persistEmail');
+
+Route::get('/contacto/presupuesto/{itemShortName}','Entity\Email\EmailController@send')->name('persistEmail');
