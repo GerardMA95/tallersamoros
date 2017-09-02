@@ -37,8 +37,8 @@
                       </li>
                     </ul>
                   </li>
-                  <li><a href="generic.html">¿Quienes somos?</a></li>
-                  <li><a href="elements.html">Contacto</a></li>
+                  <li><a href="#">¿Quienes somos?</a></li>
+                  <li><a href="#">Contacto</a></li>
                 </ul>
               </nav>
             </header>
