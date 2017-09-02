@@ -1130,6 +1130,231 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '22',
                 'id_patent' => '1'
                 ],
+                /* NOTE Biotrituradoras */
+                [
+                'id' => '157' ,
+                'name' => 'BIO 3000' ,
+                'short_name' => 'BIO3000' ,
+                'short_description' => 'Con la biotrituradora eléctrica BIO 3000 aprenderás a reciclar. Con su sistema de corte de piñón dentado y contracuchilla, acepta cualquier tipo de resto vegetal.' ,
+                'description' => 'Con la biotrituradora eléctrica BIO 3000 aprenderás a reciclar. Con su sistema de corte de piñón dentado y contracuchilla, acepta cualquier tipo de resto vegetal.' ,
+                'price' => 299,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '158' ,
+                'name' => 'BIO 175 E' ,
+                'short_name' => 'BIO175E' ,
+                'short_description' => 'Biotrituradora eléctrica BIO175E, con su sistema de corte con cuchilla fija y flotante, es la solución definitiva a tus problemas de reciclaje.' ,
+                'description' => 'Desde el particular hasta el profesional, cualquier usuario encontrará soluciones en la gama de biotrituradoras Honda. Ahora este modelo incorpora propulsor eléctrico.' ,
+                'price' => 1159 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '159' ,
+                'name' => 'BIO 180' ,
+                'short_name' => 'BIO180' ,
+                'short_description' => 'La biotrituradora BIO180 con motor Honda te ayuda a reciclar. Ideal para triturar cualquier resto de poda de un jardín o huerta particular.' ,
+                'description' => 'La biotrituradora BIO180 con motor Honda te ayuda a reciclar. Ideal para triturar cualquier resto de poda de un jardín o huerta particular.' ,
+                'price' => 1475 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '160' ,
+                'name' => 'BIO 320' ,
+                'short_name' => 'BIO320' ,
+                'short_description' => 'Colabora con el medio ambiente y ahorra tiempo y dinero con la biotrituradora con motor Honda más ligera de la gama profesional, la BIO 320.' ,
+                'description' => 'Colabora con el medio ambiente y ahorra tiempo y dinero con la biotrituradora con motor Honda más ligera de la gama profesional, la BIO 320.' ,
+                'price' => 2995 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '161' ,
+                'name' => 'BIO 375' ,
+                'short_name' => 'BIO375' ,
+                'short_description' => 'La biotrituradora BIO 375 es la ideal para jardineros que trabajan en distintos jardines. Manejable y potente, siempre a punto cuando la necesitas.' ,
+                'description' => 'El aprovechamiento de los restos de poda ha aumentado la demanda de equipos apropiados para el desmenuzado del material leñoso, la biotrituradora BIO 375 es la ideal para estas necesidades.' ,
+                'price' => 4750 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '162' ,
+                'name' => 'BIO 375 FE' ,
+                'short_name' => 'BIO375FE' ,
+                'short_description' => 'Biotrituradora con remolque BIO 375FE, la ideal para jardineros que trabajan en distintos jardines. Manejable y potente, siempre a punto cuando la necesitas.' ,
+                'description' => 'El aprovechamiento de los restos de poda ha aumentado la demanda de equipos apropiados para el desmenuzado del material leñoso y la biotrituradora BIO 375 FE es la ideal para estas necesidades. Con remolque homologado para circular por carretera.' ,
+                'price' => 5975 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '163' ,
+                'name' => 'BIO 510' ,
+                'short_name' => 'BIO510' ,
+                'short_description' => 'Biotrituradora astilladora BIO 510, con motor Honda GX390, incorpora remolque de serie para fácil transporte.' ,
+                'description' => 'Biotrituradora astilladora BIO 510, con motor Honda GX390, incorpora remolque de serie para fácil transporte.' ,
+                'price' => 8395 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '164' ,
+                'name' => 'BIO 525' ,
+                'short_name' => 'BIO525' ,
+                'short_description' => 'La biotrituradora BIO 525 incorpora el revolucionario motor i-GX 440 de 15 hp, el primero gobernado electrónicamente de su categoría.' ,
+                'description' => 'Esta biotrituradora incorpora el revolucionario motor i-GX 440 de 15 hp, el primero gobernado electrónicamente de su categoría.' ,
+                'price' => 12050 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '165' ,
+                'name' => 'BIO 650' ,
+                'short_name' => 'BIO650' ,
+                'short_description' => 'La biotrituradora BIO650 consigue la viruta perfecta y para reutilizar como nutriente natural. Incorpora Motor Honda GX620 y remolque de serie.' ,
+                'description' => 'Biotrituradora para conseguir la viruta perfecta y reutilizarla como nutriente natural. Una forma natural de alimentar los árboles, así como un gran ahorro.' ,
+                'price' => 15990 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '166' ,
+                'name' => 'BIO 750' ,
+                'short_name' => 'BIO750' ,
+                'short_description' => 'La biotrituradora BIO750 KAS con motor Honda monta dos cuchillas fijas en un volante. Lo tiene todo: alto rendimiento, seguridad en el manejo y facilidad de transporte.' ,
+                'description' => 'La biotrituradora BIO 750 pro monta dos cuchillas fijas en un volante y se caracteriza por su gran rendimiento de trabajo al triturar restos de poda. Da seguridad en el manejo y facilidad de transporte.' ,
+                'price' => 22210 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '167' ,
+                'name' => 'BIO 310 TDF' ,
+                'short_name' => 'BIO310TDF' ,
+                'short_description' => 'Su capacidad de trabajo no te dejará indiferente. Pequeña biotrituradora con toma de fuerza y de alimentación manual, con 2 cuchillas fijas y una capacidad de trabajo de 3 m3/h. Ideal para pequeños tractores tipo “Pasquali”.' ,
+                'description' => 'Pequeña biotrituradora con toma de fuerza y de alimentación manual, con 2 cuchillas fijas y una capacidad de trabajo de 3 m3/h. Ideal para pequeños tractores tipo “Pasquali”.' ,
+                'price' => 2995 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '168' ,
+                'name' => 'BIO 510 TDF' ,
+                'short_name' => 'BIO510TDF' ,
+                'short_description' => 'La biotrituradora que ahorra tiempo y dinero. El modelo de biotrituradora profesional con toma de fuerza.' ,
+                'description' => 'La biotrituradora que ahorra tiempo y dinero. El modelo de biotrituradora profesional con toma de fuerza.' ,
+                'price' => 8195 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '169' ,
+                'name' => 'BIO 630 TDF' ,
+                'short_name' => 'BIO630TDF' ,
+                'short_description' => 'Especialmente diseñada para utilizarla en el olivar. Biotrituradora Honda de toma de fuerza, especialmente diseñada para utilizarla en el olivar por su boca amplia y alta. Con alimentación hidráulica, 10 martillos y 10 cuchillas, con gran capacidad de trabajo de 8 m3/h.' ,
+                'description' => 'Biotrituradora Honda de toma de fuerza, especialmente diseñada para utilizarla en el olivar por su boca amplia y alta. Con alimentación hidráulica, 10 martillos y 10 cuchillas, con gran capacidad de trabajo de 8 m3/h.' ,
+                'price' => 11700 ,
+                'id_category' => '21' ,
+                'id_patent' => '1'
+                ],
+                /* NOTE Carretillas */
+                [
+                'id' => '170' ,
+                'name' => 'HP 310' ,
+                'short_name' => 'HP310' ,
+                'short_description' => 'Carretilla todo terreno HP310, motor Honda GP160, uso profesional, ruedas tipo oruga, descarga tipo volquete, uso profesional en construcción, agricultura y forestal.' ,
+                'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad.' ,
+                'price' => 3275 ,
+                'id_category' => '23' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '171' ,
+                'name' => 'HP 350' ,
+                'short_name' => 'HP350' ,
+                'short_description' => 'Carretilla todo terreno HP 350, uso profesional, ruedas tipo oruga, descarga tipo volquete, uso profesional en construcción, agricultura y forestal. Sin vibraciones.' ,
+                'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad. La carretilla todo terreno HP350 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad.' ,
+                'price' => 4390 ,
+                'id_category' => '23' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '172' ,
+                'name' => 'HP 490' ,
+                'short_name' => 'HP490' ,
+                'short_description' => 'Carretilla todo terreno HP 490, motor Honda GP200, profesional, ruedas oruga, descarga volquete, uso profesional en construcción, agricultura y forestal. Sin vibraciones. Bomba hidráulica.' ,
+                'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad. La carretilla todo terreno HP490 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad. Este modelo incluye transmisión hidrostática que permite ajustar la velocidad de forma variable, adaptándola a tus necesidades.' ,
+                'price' => 4268 ,
+                'id_category' => '23' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '173' ,
+                'name' => 'HP 500' ,
+                'short_name' => 'HP500' ,
+                'short_description' => 'Carretilla todo terreno HP500, profesional, ruedas oruga, descarga volquete, uso profesional en construcción, agricultura y forestal. Sin vibraciones. Transmisión hidrostática.' ,
+                'description' => 'La carretilla todo terreno HP 500 está también pensada para el transporte de distintos materiales en la agricultura, como leña, fruta o restos de poda. Dispone de una plataforma de carga muy polivalente, ya que puede extenderse tanto en anchura como en longitud para adaptarse a las diferentes necesidades de carga. La carretilla todo terreno HP 500 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad. Este modelo incluye transmisión hidrostática que permite ajustar la velocidad de forma variable, adaptándola a tus necesidades.' ,
+                'price' => 6225 ,
+                'id_category' => '23' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '174' ,
+                'name' => 'CPH 55' ,
+                'short_name' => 'CPH55' ,
+                'short_description' => 'Carretilla pulverizadora CPH55, depósito 55 litros, ruedas de transporte, manguera de 10 metros, potente, fiable y manejable.' ,
+                'description' => 'La carretilla pulverizadora CPH55 ofrece total versatilidad y comodidad para su uso en las tareas de eliminación y prevención de plagas en el huerto y el jardín durante todo el año, a un precio muy competitivo. Está equipada con un motor Honda GX25, potente y silencioso. Incluye ruedas de transporte, para su fácil maniobrabilidad.' ,
+                'price' => 796 ,
+                'id_category' => '23' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '175' ,
+                'name' => 'CPH 100' ,
+                'short_name' => 'CPH100' ,
+                'short_description' => 'Carretilla pulverizadora CPH100, uso profesional, depósito 100 litros, ruedas de transporte, manguera de 10 metros, potente, fiable y manejable.' ,
+                'description' => 'La carretilla pulverizadora CPH 100 ofrece total versatilidad y comodidad para su uso en las tareas de eliminación y prevención de plagas en el huerto y el jardín durante todo el año. Está equipada con un motor Honda GX35, potente y silencioso. Incluye ruedas de transporte, para su fácil maniobrabilidad. Como cualquier máquina Honda, la carretilla pulverizadora CPH100 cuenta con todos los elementos de seguridad característicos de la marca. Igualmente, ha sido diseñada para la mayor comodidad de uso, gracias a sus ruedas de transporte, su depósito de polietileno traslúcido de fácil llenado, su manguera de 10 metros de serie y su boquilla especial para un mayor rendimiento.' ,
+                'price' => 979 ,
+                'id_category' => '23' ,
+                'id_patent' => '1'
+                ],
+                /* NOTE Hidrolimpiadores */
+                [
+                'id' => '176' ,
+                'name' => 'EPH 180' ,
+                'short_name' => 'EPH180' ,
+                'short_description' => 'Hidrolimpiadora industrial autónoma de agua fría EPH180 con motor Honda GX200, bomba profesional, manguera de alta presión y lanza desmontable.' ,
+                'description' => 'Las hidrolimpiadoras de alta presión de agua fría autónomas con motor de combustión son la elección más acertada cuando no se disponga de red eléctrica. Sus altas prestaciones de presión y caudal convierten a estos equipos en una herramienta ideal para el profesional. Apropiada para trabajos prolongados e intensivos, la hidrolimpiadora de alta presión EPH 180 asegura unos máximos niveles de flexibilidad y autonomía. Este modelo está especialmente indicado en los sectores agrario, ganadero, construcción, limpiezas, etc. Con estructura tubular de acero pintada con polvo epoxi, viene equipada de serie con bomba de alta presión con tres pistones cerámicos y cabezal de bronce, filtro de agua, válvula by-pass automática y manómetro.' ,
+                'price' => 1965 ,
+                'id_category' => '24' ,
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '177' ,
+                'name' => 'EPH 200' ,
+                'short_name' => 'EPH200' ,
+                'short_description' => 'Hidrolimpiadora industrial autónoma de agua fría EPH200, con motor Honda GX390, bomba profesional con reductora, manguera de alta presión y lanza desmontable.' ,
+                'description' => 'Las hidrolimpiadoras de alta presión de agua fría autónomas con motor de combustión son la elección más acertada cuando no se disponga de red eléctrica. Sus altas prestaciones de presión y caudal convierten a estos equipos en una herramienta ideal para el profesional.
+                Apropiada para trabajos prolongados e intensivos, la hidrolimpiadora de alta presión EPH 180 asegura unos máximos niveles de flexibilidad y autonomía. Este modelo está especialmente indicado en los sectores agrario, ganadero, construcción, limpiezas, etc. Con estructura tubular de acero pintada con polvo epoxi, viene equipada de serie con bomba de alta presión con tres pistones cerámicos y cabezal de bronce, con reductora, filtro de agua, válvula by-pass automática y manómetro.',
+                'price' => 2740 ,
+                'id_category' => '24' ,
+                'id_patent' => '1'
+                ],
+                /* NOTE Scooter */
+                [
+                'id' => '178' ,
+                'name' => 'EPH 200' ,
+                'short_name' => 'EPH200' ,
+                'short_description' => 'Honda ha ideado este scooter eléctrico innovador y moderno que te proporciona movilidad y te ayuda en tus desplazamientos diarios para salir a pasear y disfrutar del aire libre de forma independiente y divertida. Las actividades cotidianas nunca más serán un problema para ti.' ,
+                'description' => 'Honda ha ideado este scooter eléctrico innovador y moderno que te proporciona movilidad y te ayuda en tus desplazamientos diarios para salir a pasear y disfrutar del aire libre de forma independiente y divertida. Las actividades cotidianas nunca más serán un problema para ti. Limpio, seguro, fiable, fácil de utilizar y de mantener, el scooter eléctrico Honda Monpal disfruta de toda la tecnología de un líder. Un amplio espacio para los pies, un cómodo asiento, un fácil acceso a los mandos, una cómoda posición de los brazos durante la conducción o el mando del acelerador adaptable para zurdos son algunos de los puntos más sobresalientes del vehículo. Dispone también de un cesto frontal con gran capacidad de carga para que siempre puedas llevar contigo tus cosas.',
+                'price' => 3602 ,
+                'id_category' => '25' ,
+                'id_patent' => '1'
+                ],
                 /* ECHO */
                 /* NOTE Sopladores */
                 [

@@ -167,21 +167,27 @@ class CategoryTableSeeder extends Seeder
                     'short_description' => 'short description',
                     'description' => 'Description',
                 ],
-                // [
-                //     'name' => 'Calentadores',
-                //     'short_description' => 'short description',
-                //     'description' => 'Description',
-                // ],
-                // [
-                //     'name' => 'Carretillas motorizadas',
-                //     'short_description' => 'short description',
-                //     'description' => 'Description',
-                // ],
-                // [
-                //     'name' => 'Electrobombas',
-                //     'short_description' => 'short description',
-                //     'description' => 'Description',
-                // ],
+                [
+                    'id' => '23',
+                    'name' => 'Carretillas',
+                    'short_name' => 'carretillas',
+                    'short_description' => 'short description',
+                    'description' => 'Description',
+                ],
+                [
+                    'id' => '24',
+                    'name' => 'Hidrolimpiadores',
+                    'short_name' => 'hidrolimpiadores',
+                    'short_description' => 'short description',
+                    'description' => 'Description',
+                ],
+                [
+                    'id' => '25',
+                    'name' => 'Scooter',
+                    'short_name' => 'scooter',
+                    'short_description' => 'short description',
+                    'description' => 'Description',
+                ],
                 // [
                 //     'name' => 'Escarificadores',
                 //     'short_description' => 'short description',
