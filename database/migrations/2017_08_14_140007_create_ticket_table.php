@@ -23,7 +23,8 @@ class CreateTicketTable extends Migration
             $table->foreign('id_ticket_type')
                 ->references('id')->on('ticket_type')
                 ->onDelete('cascade');
-            $table->string('email', 70);
+            $table->string('email_address', 70);
+            $table->timestamps();
         });
     }
 

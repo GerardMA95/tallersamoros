@@ -17,11 +17,11 @@ class CreateFeatureTable extends Migration
             $table->increments('id');
             $table->string('name', 100);
             $table->text('description');
-            $table->timestamp('created_at');
             $table->integer('id_feature_category')->unsigned();
             $table->foreign('id_feature_category')
                 ->references('id')->on('feature_category')
                 ->onDelete('cascade');
+            $table->timestamps();
         });
     }
 

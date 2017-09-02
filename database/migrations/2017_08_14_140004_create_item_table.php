@@ -20,7 +20,6 @@ class CreateItemTable extends Migration
             $table->text('short_description');
             $table->text('description');
             $table->integer('price');
-            $table->timestamp('created_at');
             $table->integer('id_category')->unsigned();
             $table->integer('id_patent')->unsigned();
             $table->foreign('id_category')
@@ -29,6 +28,7 @@ class CreateItemTable extends Migration
             $table->foreign('id_patent')
                 ->references('id')->on('patent')
                 ->onDelete('cascade');
+            $table->timestamps();
         });
     }
 

@@ -15,7 +15,6 @@ class CreateItemFeatureTable extends Migration
     {
         Schema::create('item_feature', function (Blueprint $table) {
             $table->increments('id');
-            $table->timestamp('created_at');
             $table->integer('id_item')->unsigned();
             $table->integer('id_feature')->unsigned();
             $table->foreign('id_item')
@@ -24,6 +23,7 @@ class CreateItemFeatureTable extends Migration
             $table->foreign('id_feature')
                 ->references('id')->on('feature')
                 ->onDelete('cascade');
+            $table->timestamps();
         });
     }
 
@@ -34,6 +34,6 @@ class CreateItemFeatureTable extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('item_feature');
     }
 }

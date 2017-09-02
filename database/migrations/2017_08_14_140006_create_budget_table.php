@@ -19,7 +19,8 @@ class CreateBudgetTable extends Migration
             $table->foreign('id_item')
                 ->references('id')->on('item')
                 ->onDelete('cascade');
-            $table->string('email', 70);
+            $table->string('email_address', 70);
+            $table->timestamps();
         });
     }
     /**

@@ -19,7 +19,7 @@ class CreatePatentTable extends Migration
             $table->string('short_name');
             $table->string('short_description');
             $table->text('description');
-            $table->timestamp('created_at');
+            $table->timestamps();
         });
     }
 
