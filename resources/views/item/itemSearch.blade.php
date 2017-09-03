@@ -50,7 +50,7 @@
                       <article class="style1">
                           <span class="image">
                               {{-- <img src="{!! asset('images/logo/'.$patent->short_name.'Logo.png') !!}" alt="" /> --}}
-                              <img src="{!! asset('images/main/Push-Rotary-Lawn-Mower.jpg') !!}" alt="" />
+                              <img src="{!! asset('images/logo/'.$patent->short_name.'Logo.jpg') !!}" alt="" />
                           </span>
                           <a href="{{ route('itemList', ['patent' => $patent->short_name, 'category' => 'none']) }}">
                               <h2 class="color-white">{{ $patent->name }}</h2>
@@ -77,7 +77,7 @@
               @else
                   <article class="style1">
                       <span class="image">
-                          <img src="{!! asset('images/main/Push-Rotary-Lawn-Mower.jpg') !!}" alt="" />
+                          <img src="{!! asset('images/main/patentItem.jpg') !!}" alt="" />
                       </span>
                       <a href="{{ route('itemSearch', ['patent' => 'all', 'category' => 'none']) }}">
                           <h2 class="color-white">MARCAS</h2>
@@ -88,7 +88,7 @@
                   </article>
                   <article class="style2">
                       <span class="image">
-                          <img src="{!! asset('images/main/Push-Rotary-Lawn-Mower.jpg') !!}" alt="" />
+                          <img src="{!! asset('images/main/categoryItem.jpg') !!}" alt="" />
                       </span>
                       <a href="{{ route('itemSearch', ['patent' => 'none', 'category' => 'all']) }}">
                           <h2 class="color-white">CATEGORIAS</h2>
@@ -99,7 +99,7 @@
                   </article>
                   <article class="style7">
                       <span class="image">
-                          <img src="{!! asset('images/main/Push-Rotary-Lawn-Mower.jpg') !!}" alt="" />
+                          <img src="{!! asset('images/main/anyItem.jpg') !!}" alt="" />
                       </span>
                       <a href="{{ route('itemList', ['patent' => 'all', 'category' => 'all']) }}">
                           <h2 class="color-white">Todos los productos</h2>

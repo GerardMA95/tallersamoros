@@ -886,7 +886,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'WMP20X',
                     'short_description' => 'Motobomba Honda WMP20X para agua salada y líquidos especiales utilizados en agricultura e industria, gracias a su carcasa de termoplástico reforzado.',
                     'description' => 'Motobomba Honda WMP20X para agua salada y líquidos especiales utilizados en agricultura e industria, gracias a su carcasa de termoplástico reforzado.' ,
-                    'price' => 0,
+                    'price' => 1225,
                     'id_category' => '20',
                     'id_patent' => '1'
                 ],
