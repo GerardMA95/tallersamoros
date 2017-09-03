@@ -103,8 +103,8 @@
           {!! Html::script('js/jquery.min.js') !!}
           {!! Html::script('js/jquery.dropotron.min.js') !!}
           {!! Html::script('js/skel.min.js') !!}
-          {!! Html::script('js/util.js') !!}
-          {!! Html::script('js/main.js') !!}
+          {!! Html::script('js/util.min.js') !!}
+          {!! Html::script('js/main.min.js') !!}
         @show
     </body>
 </html>
