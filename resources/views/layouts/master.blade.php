@@ -1,5 +1,6 @@
 <html>
     <head>
+        <meta http-equiv="Cache-Control" content="max-age=3600">
         <title>@yield('title')</title>
         <link rel="icon" href="{!! asset('images/logo/amoros/favicon.ico') !!}"/>
         <meta charset="utf-8" />
