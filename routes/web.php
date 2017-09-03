@@ -32,9 +32,9 @@ Route::get('/busqueda/{patent}/{category}/listado/{itemId}','Entity\Item\ItemCon
 | Contact Routes
 |--------------------------------------------------------------------------
 */
-Route::get('/contactar', function () {
-    return view('contact.contactUs');
-})->name('contactUs');
+Route::get('/contacto', function () {
+    return view('modules.contact.contactMap');
+})->name('contactMap');
 
 Route::post('/contacto/correo','Entity\Email\EmailController@send')->name('persistEmail');
 

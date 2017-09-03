@@ -2002,8 +2002,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: rgba(144, 144, 144, 0.075);
-			color: inherit !important;
+			background-color: #e66666;
+			color: #fff !important;
 		}
 
 		input[type="submit"]:active,
@@ -4889,61 +4889,16 @@
 		}
 
 	}
-
-
-	/* #banner */
-	/*
-	#banner article:before {
-		-moz-transition: opacity 0.5s ease;
-		-webkit-transition: opacity 0.5s ease;
-		-ms-transition: opacity 0.5s ease;
-		transition: opacity 0.5s ease;
-		bottom: 0;
-		content: '';
-		display: block;
-		height: 100%;
-		left: 0;
-		opacity: 0.85;
-		position: absolute;
-		width: 100%;
-		z-index: 2;
-	}
-
-	#banner article:hover:before {
-		opacity: 0;
-	}
-
-	.#banner article:nth-child(4n - 1), .#banner article:nth-child(4n - 2) {
-		width: 60%;
-	}
-
-	.#banner article:nth-child(6n - 5):before {
-		background-color: #6fc3df;
-	}
-
-	.#banner article:nth-child(6n - 4):before {
-		background-color: #8d82c4;
-	}
-
-	.#banner article:nth-child(6n - 3):before {
-		background-color: #ec8d81;
-	}
-
-	.#banner article:nth-child(6n - 2):before {
-		background-color: #e7b788;
-	}
-
-	.#banner article:nth-child(6n - 1):before {
-		background-color: #8ea9e8;
-	}
-
-	.#banner article:nth-child(6n):before {
-		background-color: #87c5a4;
-	}
-	*/
-
 	/* Personalizado */
 
 	.color-white{
 		color: #fff !important;
+	}
+
+	.bottom-right {
+		position: fixed;
+		right: 20px;
+		bottom: 20px;
+		color: #e66666 !important;
+		background: #fff;
 	}

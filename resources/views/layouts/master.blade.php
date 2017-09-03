@@ -38,7 +38,7 @@
                     </ul>
                   </li>
                   <li><a href="#">¿Quienes somos?</a></li>
-                  <li><a href="#">Contacto</a></li>
+                  <li><a href="{{ route('contactMap') }}">Contacto</a></li>
                 </ul>
               </nav>
             </header>
@@ -66,7 +66,7 @@
                       </ul>
                     </section>
                     <section>
-                      <h2>¡Contacta con nosotros!</h2>
+                      <h2 id="contact-section">¡Contacta con nosotros!</h2>
                       {!! Form::open(['url' => '/contacto/correo']) !!}
                         <div class="field half first">
                             {{ Form::text('name' , '', ['placeholder' => 'Nombre']) }}
@@ -91,6 +91,9 @@
                     <p>&copy; 2017 Tallers Amoros</p>
                   </div>
                 </footer>
+              @show
+              @section('contactUs')
+                  <a href="#contact-section" class="button small bottom-right"><i class="fa fa-envelope-o contact-icon fa-5" aria-hidden="true"></i>Contacto</a>
               @show
             </div>
         </div>
