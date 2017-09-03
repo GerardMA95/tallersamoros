@@ -9,7 +9,7 @@
           <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
 
           <!-- Styles -->
-          {!! Html::style('css/main.css') !!}
+          {!! Html::style('css/main.min.css') !!}
           <script src="https://use.fontawesome.com/5879b99bb3.js"></script>
         @show
     </head>
