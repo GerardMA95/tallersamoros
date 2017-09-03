@@ -61,7 +61,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'IZY41S',
                     'short_description' => 'Cortacésped Honda IZY41S muy fácil de usar, autopropulsado, mulching opcional, estárter automático, chasis de acero, la mejor calidad de corte y recogida.',
                     'description' => 'El cortacésped Honda IZY41S cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla.',
-                    'price' => 414,
+                    'price' => 495,
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
@@ -107,8 +107,8 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '10',
-                    'name' => 'HRX 476 VYE',
-                    'short_name' => 'HRX476VYE_2',
+                    'name' => 'HRX 476 HYE',
+                    'short_name' => 'HRX476HYE',
                     'short_description' => 'Cortacésped Honda HRX476HYE, estárter automático, jardines medios o grandes, sistema de corte Versamow® y transmisión hidrostática.',
                     'description' => 'El cortacésped Honda HRX476VYE incorpora el innovador sistema Smart Drive® de Honda para el cambio de velocidades. Este exclusivo sistema permite regular la velocidad de manera progresiva y precisa simplemente apoyando las manos en el manillar. El cortacésped es realmente autopropulsado, no es necesario empujarlo, avanza por sí solo y resulta extraordinariamente fácil y confortable para el usuario.',
                     'price' => 1449,
@@ -127,8 +127,8 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '12',
-                    'name' => 'HRX 537 VYE',
-                    'short_name' => 'HRX537VYE_2',
+                    'name' => 'HRX 537 HYE',
+                    'short_name' => 'HRX537HYE',
                     'short_description' => 'Cortacésped Honda HRX 537 VYE, estárter automático, jardines medios o grandes, sistema de corte Versamow® y avance automático Smart Drive®.',
                     'description' => 'El cortacésped HRX537VYE está equipado con chasis de Xenoy®. Se trata de una resina de alta resistencia utilizada en la fabricación de los parachoques de automóviles de gama alta. Es un material de extrema durabilidad y presenta una resistencia frente a los golpes muy superior a las carcasas de polipropileno estándar.',
                     'price' => 1590,
@@ -137,8 +137,8 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '13',
-                    'name' => 'HRD 536 TXE',
-                    'short_name' => 'HRD536TXE',
+                    'name' => 'HRD 536 CTX',
+                    'short_name' => 'HRD536CTX',
                     'short_description' => 'Cortacésped Honda HRD536CTX, fiabilidad profesional para el particular, autopropulsado, carcasa aluminio, jardines medianos y grandes, Rotostop®, mulching opcional.',
                     'description' => 'El cortacésped Honda HRD536CTX incorpora el exclusivo sistema de seguridad Rotostop BBC®, que detiene el giro de la cuchilla del cortacésped sin necesidad de parar el motor y evita accidentes por proyección de piedras o manipulación indebida. Es un sistema que aporta seguridad a la vez que comodidad, ya que como usuario no tendrás que parar y arrancar el motor cada vez que te detengas a vaciar el recogedor.',
                     'price' => 1399,
@@ -1347,8 +1347,8 @@ class ItemTableSeeder extends Seeder
                 /* NOTE Scooter */
                 [
                 'id' => '178' ,
-                'name' => 'EPH 200' ,
-                'short_name' => 'EPH200' ,
+                'name' => 'Monpal ML 100' ,
+                'short_name' => 'MonpalML100' ,
                 'short_description' => 'Honda ha ideado este scooter eléctrico innovador y moderno que te proporciona movilidad y te ayuda en tus desplazamientos diarios para salir a pasear y disfrutar del aire libre de forma independiente y divertida. Las actividades cotidianas nunca más serán un problema para ti.' ,
                 'description' => 'Honda ha ideado este scooter eléctrico innovador y moderno que te proporciona movilidad y te ayuda en tus desplazamientos diarios para salir a pasear y disfrutar del aire libre de forma independiente y divertida. Las actividades cotidianas nunca más serán un problema para ti. Limpio, seguro, fiable, fácil de utilizar y de mantener, el scooter eléctrico Honda Monpal disfruta de toda la tecnología de un líder. Un amplio espacio para los pies, un cómodo asiento, un fácil acceso a los mandos, una cómoda posición de los brazos durante la conducción o el mando del acelerador adaptable para zurdos son algunos de los puntos más sobresalientes del vehículo. Dispone también de un cesto frontal con gran capacidad de carga para que siempre puedas llevar contigo tus cosas.',
                 'price' => 3602 ,
@@ -1375,7 +1375,7 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
                     'price' => 299,
                     'id_category' => '12',
-                    'id_patent' => '1'
+                    'id_patent' => '2'
                 ],
                 /* NOTE Motosierra */
                 [
