@@ -24,7 +24,7 @@
         </header>
         <footer>
           <ul class="actions">
-            <li><a href="#" class="button">Pedir presupuesto</a></li>
+            <li><a href="#" class="button disabled">Pedir presupuesto</a></li>
           </ul>
         </footer>
       </div>
@@ -32,7 +32,11 @@
     <section id="two" class="spotlights">
 		<section>
 			<a class="image">
-				<img src="{!! asset('images/item/list/'.$item->id_category.'/'.$item->short_name.'.jpg') !!}" alt="" data-position="center center">
+            @if (File::exists(public_path('images/item/list/'.$item->id_category.'/'.$item->short_name.'.jpg')))
+                <img src="{!! asset('images/item/list/'.$item->id_category.'/'.$item->short_name.'.jpg') !!}" alt="{{ $item->name }}" data-position="center center">
+            @else
+                <img src="{{ asset('images/item/list/item_default.jpg') }}" alt="{{ $item->name }}" data-position="center center" />
+            @endif
 			</a>
 			<div class="content">
 				<div class="inner">

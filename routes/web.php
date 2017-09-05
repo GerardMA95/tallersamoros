@@ -38,4 +38,4 @@ Route::get('/contacto', function () {
 
 Route::post('/contacto/correo','Entity\Email\EmailController@send')->name('persistEmail');
 
-Route::get('/contacto/presupuesto/{itemShortName}','Entity\Email\EmailController@send')->name('persistEmail');
+Route::get('/contacto/presupuesto/{itemShortName}','Entity\Email\EmailController@send')->name('persistBudget');

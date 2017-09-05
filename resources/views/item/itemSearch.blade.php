@@ -34,23 +34,22 @@
           {{-- <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p> --}}
           <footer>
             <ul class="actions">
-              <li><a href="#" class="button">Búsqueda avanzada</a></li>
+              <li><a href="#" class="button disabled">Búsqueda avanzada</a></li>
             </ul>
           </footer>
         </div>
       </section>
       <div class="inner">
           <section class="tiles">
-              @php
-                    // var_dump($patents);
-                    // die;
-                @endphp
               @if ($patents !== 'none' && count($patents) > 0)
                   @foreach ($patents as $patent)
                       <article class="style1">
                           <span class="image">
-                              {{-- <img src="{!! asset('images/logo/'.$patent->short_name.'Logo.png') !!}" alt="" /> --}}
-                              <img src="{!! asset('images/logo/'.$patent->short_name.'Logo.jpg') !!}" alt="" />
+                              @if (File::exists(public_path('images/logo/'.$patent->short_name.'Logo.jpg')))
+                                  <img src="{!! asset('images/logo/'.$patent->short_name.'Logo.jpg') !!}" alt="{{ $patent->name }}" />
+                              @else
+                                  <img src="{{ asset('images/item/list/item_default.jpg') }}" alt="{{ $patent->name }}"/>
+                              @endif
                           </span>
                           <a href="{{ route('itemList', ['patent' => $patent->short_name, 'category' => 'none']) }}">
                               <h2 class="color-white">{{ $patent->name }}</h2>
@@ -64,7 +63,11 @@
                   @foreach ($categories as $category)
                       <article class="style2">
                           <span class="image">
-                              <img src="{!! asset('images/item/category/'.strtoupper($category->name).'_EN_TARRAGONA_CAT.jpg') !!}" alt="" />
+                              @if (File::exists(public_path('images/item/category/'.strtoupper($category->name).'_EN_TARRAGONA_CAT.jpg')))
+                                  <img src="{!! asset('images/item/category/'.strtoupper($category->name).'_EN_TARRAGONA_CAT.jpg') !!}" alt="{{ $category->name }}" />
+                              @else
+                                  <img src="{{ asset('images/item/list/item_default.jpg') }}" alt="{{ $category->name }}"/>
+                              @endif
                           </span>
                           <a href="{{ route('itemList', ['patent' => 'none', 'category' => $category->short_name]) }}">
                               <h2 class="color-white">{{ $category->name }}</h2>
@@ -111,6 +114,15 @@
               @endif
 
           </section>
+          <footer class="major">
+              @if ($patents !== 'none' && count($patents) > 0)
+                  {{ $patents->links() }}
+              @elseif ($categories !== 'none' && count($categories) > 0)
+                  {{ $categories->links() }}
+              @else
+
+              @endif
+    	 </footer>
       </div>
   @endsection
 

@@ -188,16 +188,20 @@ class CategoryTableSeeder extends Seeder
                     'short_description' => '',
                     'description' => '',
                 ],
-                // [
-                //     'name' => 'Escarificadores',
-                //     'short_description' => '',
-                //     'description' => '',
-                // ],
-                // [
-                //     'name' => 'Herramientas',
-                //     'short_description' => '',
-                //     'description' => '',
-                // ]
+                [
+                    'id' => '26',
+                    'name' => 'Podadoras',
+                    'short_name' => 'podadoras',
+                    'short_description' => '',
+                    'description' => '',
+                ],
+                [
+                    'id' => '27',
+                    'name' => 'Ropa',
+                    'short_name' => 'ropa',
+                    'short_description' => '',
+                    'description' => '',
+                ],
             ]);
         } else { echo "\e[31mTable category is not empty, therefore NOT "; }
 

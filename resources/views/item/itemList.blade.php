@@ -40,7 +40,7 @@
               {{-- <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p> --}}
               <footer>
                 <ul class="actions">
-                  <li><a href="#" class="button">Búsqueda avanzada</a></li>
+                  <li><a href="#" class="button disabled">Búsqueda avanzada</a></li>
                 </ul>
               </footer>
             </div>
@@ -50,7 +50,11 @@
                   @foreach ($itemList as $item)
                       <article>
                           <a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}" class="image">
-                              <img src="{!! asset('images/item/list/'.$item->id_category.'/'.$item->short_name.'.jpg') !!}" alt="" />
+                              @if (File::exists(public_path('images/item/list/'.$item->id_category.'/'.$item->short_name.'.jpg')))
+                                  <img src="{!! asset('images/item/list/'.$item->id_category.'/'.$item->short_name.'.jpg') !!}" alt="{{ $item->name }}" />
+                              @else
+                                  <img src="{{ asset('images/item/list/item_default.jpg') }}" alt="{{ $item->name }}" />
+                              @endif
                           </a>
                           <header>
                               <h2><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}">{{ $item->name }}</a></h2>
@@ -70,6 +74,9 @@
                   @endforeach
               </div>
           </section>
+          <footer class="major">
+              {{ $itemList->links() }}
+    	 </footer>
       @endif
   @endsection
 

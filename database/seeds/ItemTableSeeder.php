@@ -13,8 +13,8 @@ class ItemTableSeeder extends Seeder
     {
         if(DB::table('item')->get()->count() == 0){
             DB::table('item')->insert([
-                /* HONDA */
-                /* Cortacesped */
+                /* TODO HONDA */
+                /* NOTE Cortacesped */
                 [
                     'id' => '1',
                     'name' => 'HRE 330',
@@ -1355,7 +1355,7 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '25' ,
                 'id_patent' => '1'
                 ],
-                /* ECHO */
+                /* TODO ECHO */
                 /* NOTE Sopladores */
                 [
                     'id' => '26',
@@ -1376,6 +1376,76 @@ class ItemTableSeeder extends Seeder
                     'price' => 299,
                     'id_category' => '12',
                     'id_patent' => '2'
+                ],
+                [
+                'id' => '179' ,
+                'name' => 'PB 255 ES (EUST2)' ,
+                'short_name' => 'PB255ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 369 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '180' ,
+                'name' => 'ES 250 ES (EUST2)' ,
+                'short_name' => 'ES250ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 475 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '181' ,
+                'name' => 'PB 580 (EUST2)' ,
+                'short_name' => 'PB580' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 679 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '182' ,
+                'name' => 'PB 760 (EUST2)' ,
+                'short_name' => 'PB760' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 769 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '183' ,
+                'name' => 'PB 770 (EUST2)' ,
+                'short_name' => 'PB770' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 749 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '184' ,
+                'name' => 'DPB 600' ,
+                'short_name' => 'DPB600' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 295 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '185' ,
+                'name' => 'KIT DPB 600 + BATERIA 200 + CARGADOR' ,
+                'short_name' => 'KITDPB600_BATERIA200_CARGADOR' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 620 ,
+                'id_category' => '4' ,
+                'id_patent' => '2'
                 ],
                 /* NOTE Motosierra */
                 [
@@ -1588,6 +1658,26 @@ class ItemTableSeeder extends Seeder
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
+                [
+                    'id' => '201',
+                    'name' => 'CS 2000',
+                    'short_name' => 'CS2000',
+                    'short_description' => 'short_description' ,
+                    'description' => 'description' ,
+                    'price' => 158,
+                    'id_category' => '1',
+                    'id_patent' => '2'
+                ],
+                [
+                    'id' => '202',
+                    'name' => 'CS 2400',
+                    'short_name' => 'CS2400',
+                    'short_description' => 'short_description' ,
+                    'description' => 'description' ,
+                    'price' => 206,
+                    'id_category' => '1',
+                    'id_patent' => '2'
+                ],
                 /* DESBROZADORA */
                 [
                     'id' => '62',
@@ -1725,8 +1815,233 @@ class ItemTableSeeder extends Seeder
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
+                [
+                    'id' => '186' ,
+                    'name' => 'DSRM 300' ,
+                    'short_name' => 'DSRM 300' ,
+                    'short_description' => 'short_description' ,
+                    'description' => 'description' ,
+                    'price' => 310 ,
+                    'id_category' => '3' ,
+                    'id_patent' => '2'
+                ],
+                [
+                    'id' => '187' ,
+                    'name' => 'KIT DSRM 300 + BATERIA 100 + CARGADOR' ,
+                    'short_name' => 'KITDSRM300_BATERIA100_CARGADOR' ,
+                    'short_description' => 'short_description' ,
+                    'description' => 'description' ,
+                    'price' => 585 ,
+                    'id_category' => '3' ,
+                    'id_patent' => '2'
+                ],
+                [
+                    'id' => '199' ,
+                    'name' => 'EGT 350' ,
+                    'short_name' => 'EGT350' ,
+                    'short_description' => 'short_description' ,
+                    'description' => 'description' ,
+                    'price' => 85 ,
+                    'id_category' => '3' ,
+                    'id_patent' => '2'
+                ],
+                [
+                    'id' => '200' ,
+                    'name' => 'EGT 520' ,
+                    'short_name' => 'EGT520' ,
+                    'short_description' => 'short_description' ,
+                    'description' => 'description' ,
+                    'price' => 109 ,
+                    'id_category' => '3' ,
+                    'id_patent' => '2'
+                ],
+                /* NOTE Cortasetos */
+                [
+                'id' => '188' ,
+                'name' => 'HC 1501 (EUST2)' ,
+                'short_name' => 'HC1501' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 339 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '189' ,
+                'name' => 'HCR 165 ES (EUST2)' ,
+                'short_name' => 'HCR165ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 565 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '190' ,
+                'name' => 'HCR 185 ES (EUST2)' ,
+                'short_name' => 'HCR185ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 630 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '191' ,
+                'name' => 'HC 331 ES (EUST2)' ,
+                'short_name' => 'HC331ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 799 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '192' ,
+                'name' => 'HCA 265 ES (EUST2)' ,
+                'short_name' => 'HCA265ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 723 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '193' ,
+                'name' => 'PAS 265 ES (EUST2)' ,
+                'short_name' => 'PAS265ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 944 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '194' ,
+                'name' => 'DHC 200' ,
+                'short_name' => 'DHC200' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 355 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '195' ,
+                'name' => 'KIT DHC200 + BATERIA 100 + CARGADOR' ,
+                'short_name' => 'KITDHC200_BATERIA100_CARGADOR' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 625 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '196' ,
+                'name' => 'HC 560' ,
+                'short_name' => 'HC560' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 172 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '197' ,
+                'name' => 'HCR 610' ,
+                'short_name' => 'HCR610' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 215 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '198' ,
+                'name' => 'DHC 30' ,
+                'short_name' => 'DHC30' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 359 ,
+                'id_category' => '2' ,
+                'id_patent' => '2'
+                ],
+                /* NOTE Podadoras */
+                [
+                'id' => '203' ,
+                'name' => 'PPF 236 ES (EUST2)' ,
+                'short_name' => 'PPF236ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 659 ,
+                'id_category' => '26' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '204' ,
+                'name' => 'PPT 265 ES (EUST2)' ,
+                'short_name' => 'PPT265ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 878 ,
+                'id_category' => '26' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '205' ,
+                'name' => 'PAS 265 ES (EUST2)' ,
+                'short_name' => 'PAS265ES' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 797 ,
+                'id_category' => '26' ,
+                'id_patent' => '2'
+                ],
+                /* NOTE Baterias */
+                [
+                'id' => '206' ,
+                'name' => 'BATERIA 100' ,
+                'short_name' => 'BATERIA100' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 209 ,
+                'id_category' => '7' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '207' ,
+                'name' => 'BATERIA 200' ,
+                'short_name' => 'BATERIA200' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 265 ,
+                'id_category' => '7' ,
+                'id_patent' => '2'
+                ],
+                [
+                'id' => '208' ,
+                'name' => 'LBP 560-900' ,
+                'short_name' => 'LBL560900' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 1199 ,
+                'id_category' => '7' ,
+                'id_patent' => '2'
+                ],
 
-                /* PELLENC */
+                /* NOTE Cargadores */
+                [
+                'id' => '209' ,
+                'name' => 'CARGADOR RAPIDO' ,
+                'short_name' => 'CARGADORRAPIDO' ,
+                'short_description' => 'short_description' ,
+                'description' => 'description' ,
+                'price' => 130 ,
+                'id_category' => '18' ,
+                'id_patent' => '2'
+                ],
+
+                /* TODO PELLENC */
                 [
                     'id' => '48',
                     'name' => 'FIXION',
@@ -1861,7 +2176,39 @@ class ItemTableSeeder extends Seeder
                     'price' => 1803,
                     'id_category' => '7',
                     'id_patent' => '3'
-                ]
+                ],
+                /* TODO Husqvarna */
+                /* NOTE Cortasetos */
+                [
+                'id' => '210' ,
+                'name' => '122HD60' ,
+                'short_name' => '122HD60' ,
+                'short_description' => 'El 122 HD60 es un cortasetos ligero y poco ruidoso para uso particular. Muy sencillo de manejar gracias a sus funciones como Smart Start® y su empuñadura trasera girable.' ,
+                'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
+                'price' => 449 ,
+                'id_category' => '2' ,
+                'id_patent' => '13'
+                ],
+                [
+                'id' => '211' ,
+                'name' => '536LiHD60X' ,
+                'short_name' => '536LiHD60X' ,
+                'short_description' => 'Cortasetos de batería ligero y silencioso para uso profesional con barra de corte de doble cara de 60cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
+                'description' => 'La batería Li-ion proporciona una potencia de larga duración y rendimiento óptimo. El panel de control es fácil de operar. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos.' ,
+                'price' => 849 ,
+                'id_category' => '2' ,
+                'id_patent' => '13'
+                ],
+                [
+                'id' => '212' ,
+                'name' => '536LiHD70X' ,
+                'short_name' => '536LiHD70X' ,
+                'short_description' => 'Potente pero ligero, un cortasetos a batería para uso profesional con barra de corte de doble cara de 70cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
+                'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
+                'price' => 499 ,
+                'id_category' => '2' ,
+                'id_patent' => '13'
+                ],
             ]);
         } else { echo "\e[31mTable item is not empty, therefore NOT "; }
     }

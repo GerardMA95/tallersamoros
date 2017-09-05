@@ -23,7 +23,7 @@ class CategoryController extends Controller
             if($category !== 'all'){
                 $category = DB::table('category')->where('short_name', $category)->first();
             }else{
-                $category = DB::table('category')->get();
+                $category = DB::table('category')->paginate(9);
             }
             // var_dump("category");
             //
@@ -32,7 +32,7 @@ class CategoryController extends Controller
             if($patent !== 'all'){
                 $patent = DB::table('patent')->where('short_name', $patent)->first();
             }else{
-                $patent = DB::table('patent')->get();
+                $patent = DB::table('patent')->paginate(9);
             }
         }
         return view('item.itemSearch', ['patents' => $patent, 'categories' => $category]);
