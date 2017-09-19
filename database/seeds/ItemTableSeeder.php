@@ -2047,7 +2047,11 @@ class ItemTableSeeder extends Seeder
                     'name' => 'FIXION',
                     'short_name' => 'FIXION',
                     'short_description' => 'La atadora PELLENC simplifica el trabajo gracias a la rapidez de atados: hasta 12 000 atados al día, sin esfuerzo. Permite realizar fácil y rápidamente un trabajo que suele ser largo y difícil.',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                    'description' => 'La atadora FIXION es la nueva atadora de Pellenc, especialmente diseñada para recibir la nueva cinta extensible.
+                        Funciona del mismo modo y ata todos los tipos de cintas de la gama Pellenc.
+                        Los diferentes tipos de cintas se encuentran adaptadas a los distintos sistemas de atado: Estándar, extensible, inoxidable, bio y papel.
+                        La tecnología de esta atadora le permitirá atar sarmientos y ramas en general al sistema de conducción de forma rápida y sencilla.
+                        La cinta se degrada con el tiempo según las condiciones meteorológicas. El tipo de cinta “estándar” compuesta de hilo de acero de 0,44mm con una resistencia media al atado de 14 Kg, se degrada después de unos 10-12 meses de utilización, pero como mencionamos anteriormente, esto último depende de las condiciones meteorológicas de la zona.',
                     'price' => 1083,
                     'id_category' => '8',
                     'id_patent' => '3'
@@ -2056,8 +2060,24 @@ class ItemTableSeeder extends Seeder
                     'id' => '49',
                     'name' => 'CULTIVION',
                     'short_name' => 'CULTIVION',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                    'short_description' => 'El cultivador de arriates CULTIVION es único en el mundo y permite una gran variedad
+                        de aplicaciones para el cultivo de la tierra y el desherbado. Por su ligereza y su estabilidad,
+                        CULTIVION es muy manejable y se puede utilizar entre las plantas con total facilidad.
+                        CULTIVION permite trabajar perfectamente en profundidad y en superficie.',
+                    'description' => 'Las cuchillas CULTIVION funcionan
+                        en un movimiento oscilatorio. Este
+                        movimiento es muy rápido (hasta
+                        885 golpes/minuto) y proporciona
+                        a la herramienta una potencia y
+                        eficacia que facilitan la penetración
+                        en la tierra. Al contrario de lo que ocurre con las motobobinadoras, la CULTIVION
+                        resulta muy estable durante el trabajo, y no es necesario ejercer fuerza
+                        en la máquina. CULTIVION se ha sido diseñado para realizar el trabajo
+                        caminando hacia atrás, lo que evita pisar la zona trabajada. Con las distintas cuchillas, podrá
+                        adaptarse fácilmente a cualquier
+                        entorno de trabajo. El cambio
+                        rápido de cuchillas permite pasar
+                        de una aplicación a otra.',
                     'price' => 908,
                     'id_category' => '9',
                     'id_patent' => '3'
@@ -2068,147 +2088,201 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'SELIONM12',
                     'short_description' => 'Selion M12 es la sierra podadora de cadena más ligera del mercado, con una calidad de corte y una facilidad de manejo excepcionales.',
                     'description' => 'Cero consumo de combustible.
-                    Motor eléctrico Brushless PELLENC sin fricción, de alto rendimiento, sin mantenimiento.
-                    Vida útil excepcional: el motor Brushless PELLENC gira a 5400 rpm, sin desgaste ni chispa y desarrolla una potencia máxima con las dimensiones mínimas.
-                    Consume un 30 % de aceite menos que una herramienta térmica.',
+                        Motor eléctrico Brushless PELLENC sin fricción, de alto rendimiento, sin mantenimiento.
+                        Vida útil excepcional: el motor Brushless PELLENC gira a 5400 rpm, sin desgaste ni chispa y desarrolla una potencia máxima con las dimensiones mínimas.
+                        Consume un 30 % de aceite menos que una herramienta térmica.',
                     'price' => 908,
                     'id_category' => '1',
                     'id_patent' => '3'
                 ],
                 // [
-                        // 'id' => '51',
+                //     'id' => '51',
                 //     'name' => 'SELION C21',
                 //     'short_name' => 'PB251',
                 //     'short_description' => 'Sopladora de gran capacidad',
                 //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => SIN PRECIO?,
+                //     'price' => 0,
                 //     'id_category' => '12',
                 //     'id_patent' => '1'
-                // ]
-                //PODADORA??
+                // ],
                 // [
                 //     'id' => '52',
                 //     'name' => 'SELION PERTIGA T220-300',
                 //     'short_name' => 'SELIONPERTIGAT220-300',
                 //     'short_description' => 'Sopladora de gran capacidad',
                 //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 1234,
+                //     'price' => 0,
                 //     'id_category' => '4',
                 //     'id_patent' => '3'
                 // ],
-                [
-                    'id' => '53',
-                    'name' => 'OLIVION 230',
-                    'short_name' => 'OLIVION230',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                    'price' => 1060,
-                    'id_category' => '6',
-                    'id_patent' => '3'
-                ]
-                ,
                 // [
-                //     'id' => '54',
-                //     'name' => 'EXCELION 2000',
-                //     'short_name' => 'EXCELION2000',
+                //     'id' => '53',
+                //     'name' => 'OLIVION 230',
+                //     'short_name' => 'OLIVION230',
                 //     'short_description' => 'Sopladora de gran capacidad',
                 //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => SIN PRECIO,
-                //     'id_category' => '3',
+                //     'price' => 1060,
+                //     'id_category' => '6',
+                //     'id_patent' => '3'
+                // ]
+                // ,
+                [
+                    'id' => '54',
+                    'name' => 'EXCELION 2000',
+                    'short_name' => 'EXCELION2000',
+                    'short_description' => 'Diseñada para el mantenimiento diario o para el desbrozado intensivo, la EXCELION 2000 Professional
+                        responderá a las expectativas de los usuarios más exigentes. Esta desbrozadora ligera, robusta y potente
+                        elimina a la perfección las hierbas altas y densas, hierbas leñosas, zarzas e incluso arbustos.
+                        Gracias a su alimentación por batería PELLENC ULiB 1100, funciona de forma totalmente silenciosa, sin
+                        emisiones contaminantes y con un bajo nivel de vibraciones que mejoran la comodidad del usuario. Hay
+                        varios cabezales de corte compatibles con la EXCELION 2000, para permitir distintas posibilidades de trabajo.',
+                    'description' => 'El piñón cónico diseñado por
+                        PELLENC está fabricado en magnesio, es ligero y resistente
+                        y permite equilibrar perfectamente
+                        la máquina. En su fabricación se ha hecho un esfuerzo especial para reducir al máximo el ruido del
+                        mecanismo. Además, la tornillería
+                        está integrada para evitar que se pierda ningún tornillo de fijación. El hilo en espiral PELLENC mejora considerablemente el rendimiento
+                        de la desbrozadora, tanto en lo que
+                        se refiere al consumo energético como en la emisión de ruido. La desbrozadora dispone de
+                        un modo ECO. Tiene la doble ventaja de permitir la utilización prolongada de la máquina
+                        y un trabajo a baja velocidad,
+                        limitando la proyecciones, lo que
+                        es especialmente importante en entornos urbanos',
+                    'price' => 0,
+                    'id_category' => '3',
+                    'id_patent' => '3'
+                ],
+                // [
+                //     'id' => '55',
+                //     'name' => 'VINION 150',
+                //     'short_name' => 'VINION150',
+                //     'short_description' => 'Sopladora de gran capacidad',
+                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                //     'price' => 956,
+                //     'id_category' => '5',
                 //     'id_patent' => '3'
                 // ],
                 [
-                    'id' => '55',
-                    'name' => 'VINION 150',
-                    'short_name' => 'VINION150',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                    'price' => 956,
-                    'id_category' => '5',
-                    'id_patent' => '3'
-                ],
-                [
                     'id' => '56',
-                    'name' => 'PRUNION 250',
-                    'short_name' => 'PRUNION250',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                    'name' => 'PRUNION',
+                    'short_name' => 'PRUNION',
+                    'short_description' => 'Con un peso inferior a los 900 gramos, la tijera de podar PRUNION ofrece a los usuarios una
+                        potencia de corte y una calidad de trabajo irreprochables. Su sujeción adaptada a todos los usuarios
+                        y su amplio diámetro de corte aseguran una poda muy cómoda. Las distintas innovaciones
+                        de esta tijera de podar hacen que sea indispensable para cualquier podador. La batería 250 permite
+                        una mayor productividad, porque se puede conectar al mismo tiempo a dos herramientas PELLENC.',
+                    'description' => 'La podadora PRUNION es ideal para los agricultores que buscan en el mercado la más potente, más ligera y la más innovadora. Gracias a su ergonomía y  su diámetro de corte permite una gran comodidad de trabajo. Las numerosas innovaciones de esta tijera de poda lo hacen indispensable para todos los agricultores que poseen árboles frutales, buscando una comodidad y facilidad alternativa gracias a la batería 250 que conecta PELLENC dos herramientas          simultáneamente. La batería 250 es capaz de conectarse a la tijera de poda Prunion y Selion a la vez y poder trabajar continuamente sin tener que parar para cambiar de máquina, pudiendo llevarlas encima y utilizar la que más te convenga en el momento.',
                     'price' => 1150,
                     'id_category' => '5',
                     'id_patent' => '3'
                 ],
+                // [
+                //     'id' => '57',
+                //     'name' => 'BATERIA LITIO 200',
+                //     'short_name' => 'BATERIALITIO200',
+                //     'short_description' => 'Sopladora de gran capacidad',
+                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                //     'price' => 956,
+                //     'id_category' => '7',
+                //     'id_patent' => '3'
+                // ],
+                // [
+                //     'id' => '58',
+                //     'name' => 'KIT BATERIA 400',
+                //     'short_name' => 'KITBATERIA400',
+                //     'short_description' => 'Sopladora de gran capacidad',
+                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                //     'price' => 956,
+                //     'id_category' => '7',
+                //     'id_patent' => '3'
+                // ],
+                // [
+                //     'id' => '59',
+                //     'name' => 'KIT BATERIA 700',
+                //     'short_name' => 'KITBATERIA700',
+                //     'short_description' => 'Sopladora de gran capacidad',
+                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                //     'price' => 956,
+                //     'id_category' => '7',
+                //     'id_patent' => '3'
+                // ],
+                // [
+                //     'id' => '60',
+                //     'name' => 'KIT BATERIA 1100',
+                //     'short_name' => 'KITBATERIA1100',
+                //     'short_description' => 'Sopladora de gran capacidad',
+                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                //     'price' => 1803,
+                //     'id_category' => '7',
+                //     'id_patent' => '3'
+                // ],
                 [
-                    'id' => '57',
-                    'name' => 'BATERIA LITIO 200',
-                    'short_name' => 'BATERIALITIO200',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                    'price' => 956,
-                    'id_category' => '7',
-                    'id_patent' => '3'
+                'id' => '213' ,
+                'name' => 'RASION BASIC' ,
+                'short_name' => 'RASIONBASIC' ,
+                'short_description' => 'Con menos de 25Kg, el cortacésped RASION BASIC revoluciona las condiciones de trabajo de los profesionales de los espacios verdes. Ultramanejable, fácilmente transportable y con una potencia inigualada, RASION BASIC ofrece una calidad de corte inmejorable para todos los tipos de trabajos de corte realizados por paisajistas y jardineros.' ,
+                'description' => 'Las cuchillas dobles aseguran un corte fino en menos tiempo.Ofrecen un corte regulare inmejorable. Ajuste electrónico de la velocidad de las cuchillas de 3000 a 5000 revoluciones/minuto. La velocidad puede ajustarse durante el trabajo de corte. Posición para almacenamiento con poco espacio El cortacésped puede volcarse con total seguridad para limpiar el cárter.' ,
+                'price' => 0 ,
+                'id_category' => '10' ,
+                'id_patent' => '3'
                 ],
                 [
-                    'id' => '58',
-                    'name' => 'KIT BATERIA 400',
-                    'short_name' => 'KITBATERIA400',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                    'price' => 956,
-                    'id_category' => '7',
-                    'id_patent' => '3'
-                ],
-                [
-                    'id' => '59',
-                    'name' => 'KIT BATERIA 700',
-                    'short_name' => 'KITBATERIA700',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                    'price' => 956,
-                    'id_category' => '7',
-                    'id_patent' => '3'
-                ],
-                [
-                    'id' => '60',
-                    'name' => 'KIT BATERIA 1100',
-                    'short_name' => 'KITBATERIA1100',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                    'price' => 1803,
-                    'id_category' => '7',
-                    'id_patent' => '3'
+                'id' => '214' ,
+                'name' => 'AIRION 2' ,
+                'short_name' => 'AIRION2' ,
+                'short_description' => 'La AIRION 2 se caracteriza por su diseño a prueba de inclemencias, por sus protecciones contra el polvo y
+                    la humedad y una estanqueidad total. La AIRION se caracteriza por su perfecto equilibrio de funcionamiento
+                    y permite un uso continuado de varias horas sin efecto de fatiga o tensión especial en la muñeca.
+                    Con un peso de 2.550Kg y un empike efectivo de 17,5N, la AIRION 2 sabe responder a las necesidades de
+                    los profesionales en todo tipo de circunstancias climáticas. Funciona con la misma eficacia en entornos
+                    urbanos, en zonas delicadas y en parques y jardines.' ,
+                'description' => 'Por efecto de la salida de aire, las sopladoras tienden a
+                    bajar el morro. Este efecto se debe contrarrestar con la
+                    tensión de la muñeca. Sin embargo, la sopladora AIRION 2
+                    compensa este fenómeno gracias a su admisión con coda
+                    a 90°, contrariamente a lo que ocurre en los sopladores
+                    rectos, que agravan el problema. El selector de velocidad de AIRION 2
+                    permite gestionar la potencia del soplido en función de la superficie que haya que limpiar. La función boost ofrece un caudal máximo de aire y está
+                    disponible en todas las velocidades, simplemente manteniendo
+                    la presión. La potencia de soplido de AIRION 2 permite soplar
+                    objetos pesados, como masas considerables de hojas empapadas
+                    y pegadas al suelo.' ,
+                'price' => 0 ,
+                'id_category' => '4' ,
+                'id_patent' => '3'
                 ],
                 /* TODO Husqvarna */
                 /* NOTE Cortasetos */
-                [
-                'id' => '210' ,
-                'name' => '122HD60' ,
-                'short_name' => '122HD60' ,
-                'short_description' => 'El 122 HD60 es un cortasetos ligero y poco ruidoso para uso particular. Muy sencillo de manejar gracias a sus funciones como Smart Start® y su empuñadura trasera girable.' ,
-                'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
-                'price' => 449 ,
-                'id_category' => '2' ,
-                'id_patent' => '13'
-                ],
-                [
-                'id' => '211' ,
-                'name' => '536LiHD60X' ,
-                'short_name' => '536LiHD60X' ,
-                'short_description' => 'Cortasetos de batería ligero y silencioso para uso profesional con barra de corte de doble cara de 60cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
-                'description' => 'La batería Li-ion proporciona una potencia de larga duración y rendimiento óptimo. El panel de control es fácil de operar. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos.' ,
-                'price' => 849 ,
-                'id_category' => '2' ,
-                'id_patent' => '13'
-                ],
-                [
-                'id' => '212' ,
-                'name' => '536LiHD70X' ,
-                'short_name' => '536LiHD70X' ,
-                'short_description' => 'Potente pero ligero, un cortasetos a batería para uso profesional con barra de corte de doble cara de 70cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
-                'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
-                'price' => 499 ,
-                'id_category' => '2' ,
-                'id_patent' => '13'
-                ],
+                // [
+                // 'id' => '210' ,
+                // 'name' => '122HD60' ,
+                // 'short_name' => '122HD60' ,
+                // 'short_description' => 'El 122 HD60 es un cortasetos ligero y poco ruidoso para uso particular. Muy sencillo de manejar gracias a sus funciones como Smart Start® y su empuñadura trasera girable.' ,
+                // 'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
+                // 'price' => 449 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '13'
+                // ],
+                // [
+                // 'id' => '211' ,
+                // 'name' => '536LiHD60X' ,
+                // 'short_name' => '536LiHD60X' ,
+                // 'short_description' => 'Cortasetos de batería ligero y silencioso para uso profesional con barra de corte de doble cara de 60cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
+                // 'description' => 'La batería Li-ion proporciona una potencia de larga duración y rendimiento óptimo. El panel de control es fácil de operar. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos.' ,
+                // 'price' => 849 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '13'
+                // ],
+                // [
+                // 'id' => '212' ,
+                // 'name' => '536LiHD70X' ,
+                // 'short_name' => '536LiHD70X' ,
+                // 'short_description' => 'Potente pero ligero, un cortasetos a batería para uso profesional con barra de corte de doble cara de 70cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
+                // 'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
+                // 'price' => 499 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '13'
+                // ],
             ]);
         } else { echo "\e[31mTable item is not empty, therefore NOT "; }
     }
