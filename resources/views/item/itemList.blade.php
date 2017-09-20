@@ -22,22 +22,18 @@
                 {{-- <h1>Contacto - {{request()->route('itemShortName')}}</h1> --}}
                 <h2>
                   <a>
-                    @if (request()->route('category') === 'none')
-                        {{ request()->route('patent') }}
-                    @elseif (request()->route('patent') === 'none')
-                        {{ request()->route('category') }}
+                    @if (isset($category) && $category === 'none')
+                        {{ $patent }}
+                    @elseif (isset($patent) && $patent === 'none')
+                        $category
+                    @elseif(!$category && !$patent)
+                        Zona Outlet
                     @else
                         Todos nuestros productos
                     @endif
                   </a>
                 </h2>
-                {{-- <ul class="meta">
-                  <li>3 days ago</li>
-                  <li><a href="#" class="favorites">2,174</a></li>
-                  <li><a href="#" class="comments">1,423</a></li>
-                </ul> --}}
               </header>
-              {{-- <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p> --}}
               <footer>
                 <ul class="actions">
                   <li><a href="#" class="button disabled">Búsqueda avanzada</a></li>

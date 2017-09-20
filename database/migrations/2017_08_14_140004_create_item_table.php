@@ -19,6 +19,7 @@ class CreateItemTable extends Migration
             $table->string('short_name' , 70);
             $table->text('short_description');
             $table->text('description');
+            $table->boolean('outlet')->default(false);
             $table->integer('price');
             $table->integer('id_category')->unsigned();
             $table->integer('id_patent')->unsigned();

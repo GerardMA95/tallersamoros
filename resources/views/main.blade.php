@@ -45,6 +45,16 @@
           </ul>
         </div>
       </article>
+      <article class="full">
+        <img src="{!! asset('images/main/outletLogo.jpg') !!}" alt="" data-position="center" />
+        <div class="content">
+          <h2><a href="{{ route('itemOutlet') }}">Outlet</a></h2>
+          <p><b>Todos nuestros productos OUTLET.</b></p>
+          <ul class="actions">
+            <li><a href="{{ route('itemOutlet') }}" class="button">Descubrir</a></li>
+          </ul>
+        </div>
+      </article>
     </section>
   @endsection
 

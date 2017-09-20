@@ -19,6 +19,8 @@ class CreatePatentTable extends Migration
             $table->string('short_name');
             $table->string('short_description');
             $table->text('description');
+            $table->string('video_url', 150)->nullable()->default(NULL);
+            $table->boolean('repair_service')->default(false);
             $table->timestamps();
         });
     }

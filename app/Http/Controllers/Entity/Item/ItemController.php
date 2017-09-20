@@ -96,4 +96,15 @@ class ItemController extends Controller
 
         return view('item.itemDescription', ['item' => $item, 'features' => $features, 'patents' => $patent, 'categories' => $category]);
     }
+
+    /**
+     * Show every outlet Item
+     *
+     * @return Response
+     */
+    public function outlet()
+    {
+        $itemList = DB::table('item')->where('outlet', true)->paginate(9);
+        return view('item.itemList', ['itemList' => $itemList, 'patent' => null, 'category' => null]);
+    }
 }
