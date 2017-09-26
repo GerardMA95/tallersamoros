@@ -25,7 +25,7 @@
                     @if (isset($category) && $category === 'none')
                         {{ $patent }}
                     @elseif (isset($patent) && $patent === 'none')
-                        $category
+                        {{ $category }}
                     @elseif(!$category && !$patent)
                         Zona Outlet
                     @else
@@ -36,7 +36,7 @@
               </header>
               <footer>
                 <ul class="actions">
-                  <li><a href="#" class="button disabled">Búsqueda avanzada</a></li>
+                  <li><a href="{{ route('itemSearch') }}" class="button">Volver al buscador</a></li>
                 </ul>
               </footer>
             </div>
@@ -60,7 +60,7 @@
                                   <li><a href="#" class="comments">0</a></li>
                               </ul>
                           </header>
-                          <p>{{ $item->short_description }}.</p>
+                          <p>{{ $item->short_description }}</p>
                           <footer>
                               <ul class="actions">
                                   <li><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}" class="button">Ver detalles</a></li>

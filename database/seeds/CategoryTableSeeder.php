@@ -83,13 +83,13 @@ class CategoryTableSeeder extends Seeder
                     'short_description' => '',
                     'description' => '',
                 ],
-                [
-                    'id' => '11',
-                    'name' => 'Ahoyadores',
-                    'short_name' => 'ahoyadores',
-                    'short_description' => '',
-                    'description' => '',
-                ],
+                // [
+                //     'id' => '11',
+                //     'name' => 'Ahoyadores',
+                //     'short_name' => 'ahoyadores',
+                //     'short_description' => '',
+                //     'description' => '',
+                // ],
                 [
                     'id' => '12',
                     'name' => 'Aspiradores',
@@ -97,20 +97,20 @@ class CategoryTableSeeder extends Seeder
                     'short_description' => '',
                     'description' => '',
                 ],
-                [
-                    'id' => '13',
-                    'name' => 'Astilladoras',
-                    'short_name' => 'astilladoras',
-                    'short_description' => '',
-                    'description' => '',
-                ],
-                [
-                    'id' => '14',
-                    'name' => 'Atomizadores',
-                    'short_name' => 'atomizadores',
-                    'short_description' => '',
-                    'description' => '',
-                ],
+                // [
+                //     'id' => '13',
+                //     'name' => 'Astilladoras',
+                //     'short_name' => 'astilladoras',
+                //     'short_description' => '',
+                //     'description' => '',
+                // ],
+                // [
+                //     'id' => '14',
+                //     'name' => 'Atomizadores',
+                //     'short_name' => 'atomizadores',
+                //     'short_description' => '',
+                //     'description' => '',
+                // ],
                 [
                     'id' => '15',
                     'name' => 'Barredoras',
@@ -195,13 +195,13 @@ class CategoryTableSeeder extends Seeder
                     'short_description' => '',
                     'description' => '',
                 ],
-                [
-                    'id' => '27',
-                    'name' => 'Ropa',
-                    'short_name' => 'ropa',
-                    'short_description' => '',
-                    'description' => '',
-                ],
+                // [
+                //     'id' => '27',
+                //     'name' => 'Ropa',
+                //     'short_name' => 'ropa',
+                //     'short_description' => '',
+                //     'description' => '',
+                // ],
             ]);
         } else { echo "\e[31mTable category is not empty, therefore NOT "; }
 

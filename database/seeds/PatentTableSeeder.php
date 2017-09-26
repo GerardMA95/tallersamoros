@@ -41,27 +41,13 @@ class PatentTableSeeder extends Seeder
                 //     'short_description' => 'Maquinaria agrícola',
                 //     'description' => 'Maquinaria agrícola',
                 // ],
-                [
-                    'id' => '5',
-                    'name' => 'Benza',
-                    'short_name' => 'benza',
-                    'short_description' => 'Benza',
-                    'description' => 'Benza',
-                ],
-                [
-                    'id' => '6',
-                    'name' => 'Briggs & Stratton',
-                    'short_name' => 'briggsStratton',
-                    'short_description' => 'BriggsStratton',
-                    'description' => 'BriggsStratton',
-                ],
-                [
-                    'id' => '7',
-                    'name' => 'Cifarelli',
-                    'short_name' => 'cifarelli',
-                    'short_description' => 'Cifarelli',
-                    'description' => 'Cifarelli',
-                ],
+                // [ TODO ACTIVAR
+                //     'id' => '7',
+                //     'name' => 'Cifarelli',
+                //     'short_name' => 'cifarelli',
+                //     'short_description' => 'Cifarelli',
+                //     'description' => 'Cifarelli',
+                // ],
                 // [
                 //     'id' => '8',
                 //     'name' => 'Comanche',
@@ -90,19 +76,41 @@ class PatentTableSeeder extends Seeder
                 //     'short_description' => 'Grillo',
                 //     'description' => 'Grillo',
                 // ],
+
+                [
+                    'id' => '17',
+                    'name' => 'Oleo-Mac',
+                    'short_name' => 'oleoMac',
+                    'short_description' => 'OleoMac',
+                    'description' => 'OleoMac',
+                ]
+            ]);
+
+            // Repair service
+            DB::table('patent')->insert([
+                [
+                    'id' => '5',
+                    'name' => 'Benza',
+                    'short_name' => 'benza',
+                    'short_description' => 'Benza',
+                    'description' => 'Benza',
+                    'repair_service' => true
+                ],
+                [
+                    'id' => '6',
+                    'name' => 'Briggs & Stratton',
+                    'short_name' => 'briggsStratton',
+                    'short_description' => 'BriggsStratton',
+                    'description' => 'BriggsStratton',
+                    'repair_service' => true
+                ],
                 [
                     'id' => '12',
                     'name' => 'Hitachi',
                     'short_name' => 'hitachi',
                     'short_description' => 'Hitachi',
                     'description' => 'Hitachi',
-                ],
-                [
-                    'id' => '13',
-                    'name' => 'Husqvarna',
-                    'short_name' => 'husqvarna',
-                    'short_description' => 'Husqvarna',
-                    'description' => 'Husqvarna',
+                    'repair_service' => true
                 ],
                 [
                     'id' => '14',
@@ -110,22 +118,37 @@ class PatentTableSeeder extends Seeder
                     'short_name' => 'outilsWolf',
                     'short_description' => 'Outils Wolf',
                     'description' => 'Outils Wolf',
+                    'repair_service' => true
                 ],
-                [
-                    'id' => '15',
-                    'name' => 'Saher',
-                    'short_name' => 'saher',
-                    'short_description' => 'Saher',
-                    'description' => 'Saher',
-                ],
+                // [
+                //     'id' => '15',
+                //     'name' => 'Saher',
+                //     'short_name' => 'saher',
+                //     'short_description' => 'Saher',
+                //     'description' => 'Saher',
+                //     'repair_service' => true
+                // ],
                 [
                     'id' => '16',
                     'name' => 'Zanon',
                     'short_name' => 'zanon',
                     'short_description' => 'Zanon',
                     'description' => 'Zanon',
+                    'repair_service' => true
+                ],
+            ]);
+
+            DB::table('patent')->insert([
+                [
+                    'id' => '13',
+                    'name' => 'Husqvarna',
+                    'short_name' => 'husqvarna',
+                    'short_description' => 'Husqvarna',
+                    'description' => 'Husqvarna',
+                    'active' => false
                 ]
             ]);
+
         } else { echo "\e[31mTable patent is not empty, therefore NOT "; }
     }
 }

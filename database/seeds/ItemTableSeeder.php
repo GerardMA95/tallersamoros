@@ -2040,7 +2040,272 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '18' ,
                 'id_patent' => '2'
                 ],
+                /* TODO Oleo-Mac */
+                /* NOTE Tractor desbrozador */
+                [
+                    'id' => '215' ,
+                    'name' => 'Apache 92 EVO' ,
+                    'short_name' => 'APACHE92EVO' ,
+                    'short_description' => '' ,
+                    'description' => '' ,
+                    'price' => 6999 ,
+                    'id_category' => '3' ,
+                    'id_patent' => '17'
+                ],
+                [
+                    'id' => '216' ,
+                    'name' => 'Apache 92 EVO 4x4' ,
+                    'short_name' => 'APACHE92EVO4X4' ,
+                    'short_description' => '' ,
+                    'description' => '' ,
+                    'price' => 9999 ,
+                    'id_category' => '3' ,
+                    'id_patent' => '17'
+                ],
+                /* NOTE Motosierra */
+                [
+                    'id' => '217' ,
+                    'name' => 'GS 350 C' ,
+                    'short_name' => 'GS350C' ,
+                    'short_description' => 'Motosierra con motor de gasolina con una potencia de 2 CV, una cilindrada de 35 cc y una longitud de la espada de 41 cm. Soporta usos frecuentes y se recomienda para el corte de maderas duras de hasta 35 cm de diámetro' ,
+                    'description' => 'Motosierra con motor de gasolina con una potencia de 2 CV, una cilindrada de 35 cc y una longitud de la espada de 41 cm. Soporta usos frecuentes y se recomienda para el corte de maderas duras de hasta 35 cm de diámetro.' ,
+                    'price' => 189 ,
+                    'id_category' => '1' ,
+                    'id_patent' => '17'
+                ],
+                [
+                    'id' => '218' ,
+                    'name' => 'GS 440' ,
+                    'short_name' => 'GS440' ,
+                    'short_description' => 'Motosierra de gasolina con 2,9 CV de potencia, 42,9 cc de cilindrada y con una longitud de espada de 41 cm. Se recomienda para maderas duras de hasta 35 cm de diámetro y soporta usos intensivos.' ,
+                    'description' => 'Motosierra de gasolina con 2,9 CV de potencia, 42,9 cc de cilindrada y con una longitud de espada de 41 cm. Se recomienda para maderas duras de hasta 35 cm de diámetro y soporta usos intensivos.' ,
+                    'price' => 379 ,
+                    'id_category' => '1' ,
+                    'id_patent' => '17'
+                ],
+                [
+                    'id' => '219' ,
+                    'name' => 'GS 650' ,
+                    'short_name' => 'GS650' ,
+                    'short_description' => 'Motosierra de gasolina con una potencia de 4,7 CV y una cilindrada de 63,4 cc. Tiene una longitud de la espada de 46 cm. Admite un uso intensivo. Recomendado para maderas blandas de más de 35 cm de diámetro.' ,
+                    'description' => 'Motosierra de gasolina con una potencia de 4,7 CV y una cilindrada de 63,4 cc. Tiene una longitud de la espada de 46 cm. Admite un uso intensivo. Recomendado para maderas blandas de más de 35 cm de diámetro.' ,
+                    'price' => 579 ,
+                    'id_category' => '1' ,
+                    'id_patent' => '17'
+                ],
+                /* NOTE Hidrolimpiadora */
+                [
+                    'id' => '220' ,
+                    'name' => 'PW 110 C' ,
+                    'short_name' => 'PW110C' ,
+                    'short_description' => 'Diseñadas para limpiar sin esfuerzo los espacios exteriores de la casa, el jardín o el garaje.
+                        Numerosos dispositivos pensados para facilitar el uso, como las grandes ruedas y los amplios soportes que alojan los accesorios y el cable de alimentación.
+                        Dispositivo "Easy Start" que garantiza el arranque de la máquina en cualquier condición de suministro eléctrico.
+                        Máxima economía de utilización gracias al sistema "Total Stop", que para el motor cuando se cierra la lanza de lavado.
+                        Protección térmica del motor.
+                        120 bares de presión. 360 litros/hora. Bomba de aluminio. peso 10 kilos. 1600 w.
+                        Equipada con lanza con regulación de chorro, 6 mts. manguera.' ,
+                    'description' => 'Diseñadas para limpiar sin esfuerzo los espacios exteriores de la casa, el jardín o el garaje.
+                        Numerosos dispositivos pensados para facilitar el uso, como las grandes ruedas y los amplios soportes que alojan los accesorios y el cable de alimentación.
+                        Dispositivo "Easy Start" que garantiza el arranque de la máquina en cualquier condición de suministro eléctrico.
+                        Máxima economía de utilización gracias al sistema "Total Stop", que para el motor cuando se cierra la lanza de lavado.
+                        Protección térmica del motor.
+                        120 bares de presión. 360 litros/hora. Bomba de aluminio. peso 10 kilos. 1600 w.
+                        Equipada con lanza con regulación de chorro, 6 mts. manguera.',
+                    'price' => 125 ,
+                    'id_category' => '24' ,
+                    'id_patent' => '17'
+                ],
+                [
+                    'id' => '221' ,
+                    'name' => 'PW 175 C' ,
+                    'short_name' => 'PW175C' ,
+                    'short_description' => 'Estructura robusta y fiable en cualquier condición de uso, gracias a los componentes interiores de acero inoxidable y latón, y a la sólida bomba de tres pistones axiales con válvula de regulación y manómetro.' ,
+                    'description' => 'Hidrolimpiadora ideal para trabajos domésticos. Su gran fuerza de lavado y su diseño moderno la convierten en la herramienta perfecta para limpiar los espacios exteriores, el jardín o el garaje.
+Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina en cualquier condición de suministro eléctrico. Proporciona altas prestaciones y duración gracias a la bomba de latón resistente a las heladas. ' ,
+                    'price' => 369 ,
+                    'id_category' => '24' ,
+                    'id_patent' => '17'
+                ],
+                /* NOTE Desbrozadora */
+                [
+                    'id' => '222' ,
+                    'name' => 'WB 51 S6' ,
+                    'short_name' => 'WB51S6' ,
+                    'short_description' => 'Regulación de la altura de corte centralizada con mando ergonómico en la empuñadura. Dotados de tres ruedas, la frontal pivotante (metálica en el modelo WB 51 VB6) para disminuir el radio de giro y asegurar la máxima agilidad de estas desbrozadoras en medio de la espesura.' ,
+                    'description' => 'Desbrozadora de ruedas Oleo-mac WB 51 S6 muy robustas y al mismo tiempo son compactas y maniobrables, estos modelos de desbrozadoras son la mejor solución para limpiar terrenos agrícolas de mediana extensión invadidos por malezas u otros tipos de plantas indeseadas. Regulación de la altura de corte centralizada con mando ergonómico en la empuñadura. Dotados de tres ruedas, la frontal pivotante (metálica en el modelo WB 51 VB6) para disminuir el radio de giro y asegurar la máxima agilidad de estas desbrozadoras en medio de la espesura. Ruedas traseras de amplias dimensiones que permiten un desplazamiento seguro de las desbrozadoras incluso en presencia de hoyos y salientes. Equipados con tracción para reducir al mínimo en esfuerzo en terrenos accidentados o en pendiente; las desbrozadoras modelo WB 51 VB6 vienen provistas de variador de velocidad para adecuar el avance al tipo de suelo y de vegetación.' ,
+                    'price' => 979 ,
+                    'id_category' => '24' ,
+                    'id_patent' => '17'
+                ],
 
+            ]);
+
+            // outlet
+            DB::table('item')->insert([
+                /* TODO Husqvarna */
+                /* NOTE Cortasetos */
+                [
+                'id' => '210' ,
+                'name' => '122HD60' ,
+                'short_name' => '122HD60' ,
+                'short_description' => 'El 122 HD60 es un cortasetos ligero y poco ruidoso para uso particular. Muy sencillo de manejar gracias a sus funciones como Smart Start® y su empuñadura trasera girable.' ,
+                'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
+                'price' => 425 ,
+                'id_category' => '2' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '211' ,
+                'name' => '136LiHD50X' ,
+                'short_name' => '136LiHD50X' ,
+                'short_description' => 'Un cortasetos, silencioso, ligero, bien equilibrado y fácil de utilizar con excelente ergonomía y rendimiento óptimo para usuarios exigentes, jardineros y paisajistas' ,
+                'description' => 'La batería Li-ion proporciona una potencia de larga duración y rendimiento óptimo. El panel de control es fácil de operar. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos.' ,
+                'price' => 399 ,
+                'id_category' => '2' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '232' ,
+                'name' => '580HD 56EL' ,
+                'short_name' => '580HD56EL' ,
+                'short_description' => 'Husqvarna 555FRM es una desbrozadora muy potente desarrollada para mulching en condiciones dificiles.Su motor X-Torq® aporta potencia, acceleración rápida y ahorro de combustible. Incluye una cuchilla trituradora que simplifica el mulching y el arnés Balance XT.' ,
+                'description' => 'Husqvarna 555FRM es una desbrozadora muy potente desarrollada para mulching en condiciones dificiles.Su motor X-Torq® aporta potencia, acceleración rápida y ahorro de combustible. Incluye una cuchilla trituradora que simplifica el mulching y el arnés Balance XT.' ,
+                'price' => 209 ,
+                'id_category' => '3' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                /* NOTE motosierra */
+                [
+                'id' => '212' ,
+                'name' => '135' ,
+                'short_name' => '135' ,
+                'short_description' => 'Nueva motosierra ligera para particulares, ideal para aquellos que busquen una motosierra que sea fácil de arrancar y operar. Con motor X-Torq® para un menor consumo de combustible y reducción de nivel de emisiones. Equipado con una bomba de combustible y botón automático para un arranque más fácil.' ,
+                'description' => 'Nueva motosierra ligera para particulares, ideal para aquellos que busquen una motosierra que sea fácil de arrancar y operar. Con motor X-Torq® para un menor consumo de combustible y reducción de nivel de emisiones. Equipado con una bomba de combustible y botón automático para un arranque más fácil. Su bajo consumo de combustible y emisiones de gases le permite cumplir con las normativas medioambientales más exigentes. Sistema de limpieza de aire centrifugado para uso reducido. Facilita la limpieza y sustitución del filtro de aire. Mayor confort gracias a sus suaves incrustaciones, gatillo ergonómico y asa asimétrica.' ,
+                'price' => 299 ,
+                'id_category' => '1' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '223' ,
+                'name' => '140e Triobrake' ,
+                'short_name' => '140eTriobrake' ,
+                'short_description' => 'Motosierra 140 e-series trobrake de Husqvarna, de tamaño reducido, siendo ligera e ideal para un uso particular. Cuenta con motor X-Torq, que reduce tanto el consumo de combustible como las emisiones de gases, y de tecnología Triobrake de frenado automático de la cadena. ' ,
+                'description' => 'Motosierra 140 e-series trobrake de Husqvarna, de tamaño reducido, siendo ligera e ideal para un uso particular. Cuenta con motor X-Torq, que reduce tanto el consumo de combustible como las emisiones de gases, y de tecnología Triobrake de frenado automático de la cadena. ' ,
+                'price' => 399 ,
+                'id_category' => '1' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '224' ,
+                'name' => '440 e-series' ,
+                'short_name' => '440e-series' ,
+                'short_description' => 'Nueva motosierra ligera y multifuncional, ideal para los que buscan una máquina excepcionalmente sencilla de arrancar y manejar. Equipada con motor X-Torq® que reduce el consumo y las emisiones de gases, cuenta además con el sistema Smart Start®, bomba de combustible, mando de estrangulador/parada combinado para un arranque más fácil y tensor de cadena sin herramientas.' ,
+                'description' => 'Nueva motosierra ligera y multifuncional, ideal para los que buscan una máquina excepcionalmente sencilla de arrancar y manejar. Equipada con motor X-Torq® que reduce el consumo y las emisiones de gases, cuenta además con el sistema Smart Start®, bomba de combustible, mando de estrangulador/parada combinado para un arranque más fácil y tensor de cadena sin herramientas. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. Sistema de limpieza de aire centrifugado para uso reducido. Su bajo consumo de combustible y emisiones de gases le permite cumplir con las normativas medioambientales más exigentes.' ,
+                'price' => 445 ,
+                'id_category' => '1' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '225' ,
+                'name' => '365 X-Torq' ,
+                'short_name' => '365X-Torq' ,
+                'short_description' => 'Husqvarna 365 es una motosierra profesional. Ha sido desarrollada junto con usuarios profesionales que trabajan en las condiciones más adversas. La combinación de su ligereza y alta potencia con la resistencia del motor convierten a esta motosierra en excepcionalmente vesátil e indicada para una variedad de aplicaciones. El motor X-TORQ convierte a esta motosierra en una de las más medioambientales reduciendo emisiones y consumo de combustible.' ,
+                'description' => 'Husqvarna 365 es una motosierra profesional. Ha sido desarrollada junto con usuarios profesionales que trabajan en las condiciones más adversas. La combinación de su ligereza y alta potencia con la resistencia del motor convierten a esta motosierra en excepcionalmente vesátil e indicada para una variedad de aplicaciones. El motor X-TORQ convierte a esta motosierra en una de las más medioambientales reduciendo emisiones y consumo de combustible. Su bajo consumo de combustible y emisiones de gases le permite cumplir con las normativas medioambientales más exigentes. Sistema de limpieza de aire centrifugado para uso reducido.' ,
+                'price' => 895 ,
+                'id_category' => '1' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '226' ,
+                'name' => 'T435' ,
+                'short_name' => 'T435' ,
+                'short_description' => 'Nueva motosierra de poda X-Torq®. Ligera y potente para podar tanto desde el suelo como en posiciones elevadas. Su bajo peso y su alto equilibrado la hace muy sencilla de utilizar.' ,
+                'description' => 'Nueva motosierra de poda X-Torq®. Ligera y potente para podar tanto desde el suelo como en posiciones elevadas. Su bajo peso y su alto equilibrado la hace muy sencilla de utilizar. Su bajo consumo de combustible y emisiones de gases le permite cumplir con las normativas medioambientales más exigentes. La bomba de aceite regulable facilita el lubricado de cadena de acuerdo a sus necesidades.' ,
+                'price' => 449 ,
+                'id_category' => '1' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '227' ,
+                'name' => 'T425' ,
+                'short_name' => 'T425' ,
+                'short_description' => 'La T425 es una motosierra compacta y ligera. Equipada con un potente motor de dos tiempos, bomba de combustible y tensor de cadena lateral.' ,
+                'description' => 'La T425 es una motosierra compacta y ligera. Equipada con un potente motor de dos tiempos, bomba de combustible y tensor de cadena lateral. La bomba de aceite regulable facilita el lubricado de cadena de acuerdo a sus necesidades. Facilita la limpieza y sustitución del filtro de aire. Ligero, carcasa con forma de lágrima y parte inferior plana para facilitar la maniobrabilidad' ,
+                'price' => 499 ,
+                'id_category' => '1' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                /* NOTE Desbrozadora */
+                [
+                'id' => '228' ,
+                'name' => '128LDX' ,
+                'short_name' => '128LDX' ,
+                'short_description' => 'Recortadora combinada ligera ideal para particulares. Fácil arranque gracias al sistema Smart Start® y a su bomba de combustible. Resistente, cable de conexión trenzado, se suministra con cabezal de corte semiautomático T25.' ,
+                'description' => 'Recortadora combinada ligera ideal para particulares. Fácil arranque gracias al sistema Smart Start® y a su bomba de combustible. Resistente, cable de conexión trenzado, se suministra con cabezal de corte semiautomático T25.' ,
+                'price' => 349 ,
+                'id_category' => '3' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '229' ,
+                'name' => '128R' ,
+                'short_name' => '128R' ,
+                'short_description' => 'Desbrozadora ligera, perfecta para particulares. Fácil arranque gracias al sistema Smart Start® y a la bomba de combustible. Cabezal muy resistente. Arnés doble, trimmy semiautomático y cuchilla para hierba incluidos.' ,
+                'description' => 'Desbrozadora ligera, perfecta para particulares. Fácil arranque gracias al sistema Smart Start® y a la bomba de combustible. Cabezal muy resistente. Arnés doble, trimmy semiautomático y cuchilla para hierba incluidos.' ,
+                'price' => 349 ,
+                'id_category' => '3' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '230' ,
+                'name' => '553RS' ,
+                'short_name' => '553RS' ,
+                'short_description' => 'Máquina productiva y versátil para recortar hierba y maleza densa con frecuencia. La 553RS es ideal para particulares que necesiten una desbrozadora robusta, fiable y fácil de manejar. Equipada con un motor X-torq de bajo consumo y filtro de aire eficaz que proporciona un menor desgaste al mismo. Cabezal de corte, cuchilla y protector Combi vienen incluidos.' ,
+                'description' => 'Máquina productiva y versátil para recortar hierba y maleza densa con frecuencia. La 553RS es ideal para particulares que necesiten una desbrozadora robusta, fiable y fácil de manejar. Equipada con un motor X-torq de bajo consumo y filtro de aire eficaz que proporciona un menor desgaste al mismo. Cabezal de corte, cuchilla y protector Combi vienen incluidos.' ,
+                'price' => 749 ,
+                'id_category' => '3' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                [
+                'id' => '231' ,
+                'name' => '555FRM' ,
+                'short_name' => '555FRM' ,
+                'short_description' => 'Husqvarna 555FRM es una desbrozadora muy potente desarrollada para mulching en condiciones dificiles.Su motor X-Torq® aporta potencia, acceleración rápida y ahorro de combustible. Incluye una cuchilla trituradora que simplifica el mulching y el arnés Balance XT.' ,
+                'description' => 'Husqvarna 555FRM es una desbrozadora muy potente desarrollada para mulching en condiciones dificiles.Su motor X-Torq® aporta potencia, acceleración rápida y ahorro de combustible. Incluye una cuchilla trituradora que simplifica el mulching y el arnés Balance XT.' ,
+                'price' => 1249 ,
+                'id_category' => '3' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+                /* NOTE Cortacesped */
+                [
+                'id' => '233' ,
+                'name' => 'LB 553S' ,
+                'short_name' => 'LB553S' ,
+                'short_description' => 'El LB 553S es una máquina BioClip® fiable, diseñada para uso profesional duro. El diseño se ha concentrado en alcanzar las mejores condiciones ergonómicas para el operador, y un buen corte hasta en condiciones complicadas. El manillar y mecanismo de manejo disponen de muy bajas vibraciones y la altura de corte central dispone de un muelle que facilita su ajuste lo máximo posible. El LB 553S es auto-propulsado, con tracción delantera para un manejo óptimo. Las ruedas son de aluminio y ligeras.' ,
+                'description' => 'El LB 553S es una máquina BioClip® fiable, diseñada para uso profesional duro. El diseño se ha concentrado en alcanzar las mejores condiciones ergonómicas para el operador, y un buen corte hasta en condiciones complicadas. El manillar y mecanismo de manejo disponen de muy bajas vibraciones y la altura de corte central dispone de un muelle que facilita su ajuste lo máximo posible. El LB 553S es auto-propulsado, con tracción delantera para un manejo óptimo. Las ruedas son de aluminio y ligeras.' ,
+                'price' => 1299 ,
+                'id_category' => '10' ,
+                'id_patent' => '13',
+                'outlet' => true
+                ],
+            ]);
+
+
+            DB::table('item')->insert([
                 /* TODO PELLENC */
                 [
                     'id' => '48',
@@ -2054,7 +2319,8 @@ class ItemTableSeeder extends Seeder
                         La cinta se degrada con el tiempo según las condiciones meteorológicas. El tipo de cinta “estándar” compuesta de hilo de acero de 0,44mm con una resistencia media al atado de 14 Kg, se degrada después de unos 10-12 meses de utilización, pero como mencionamos anteriormente, esto último depende de las condiciones meteorológicas de la zona.',
                     'price' => 1083,
                     'id_category' => '8',
-                    'id_patent' => '3'
+                    'id_patent' => '3',
+                    'priority' => 10
                 ],
                 [
                     'id' => '49',
@@ -2080,7 +2346,8 @@ class ItemTableSeeder extends Seeder
                         de una aplicación a otra.',
                     'price' => 908,
                     'id_category' => '9',
-                    'id_patent' => '3'
+                    'id_patent' => '3',
+                    'priority' => 10
                 ],
                 [
                     'id' => '50',
@@ -2093,7 +2360,8 @@ class ItemTableSeeder extends Seeder
                         Consume un 30 % de aceite menos que una herramienta térmica.',
                     'price' => 908,
                     'id_category' => '1',
-                    'id_patent' => '3'
+                    'id_patent' => '3',
+                    'priority' => 10
                 ],
                 // [
                 //     'id' => '51',
@@ -2150,7 +2418,8 @@ class ItemTableSeeder extends Seeder
                         es especialmente importante en entornos urbanos',
                     'price' => 0,
                     'id_category' => '3',
-                    'id_patent' => '3'
+                    'id_patent' => '3',
+                    'priority' => 10
                 ],
                 // [
                 //     'id' => '55',
@@ -2174,7 +2443,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La podadora PRUNION es ideal para los agricultores que buscan en el mercado la más potente, más ligera y la más innovadora. Gracias a su ergonomía y  su diámetro de corte permite una gran comodidad de trabajo. Las numerosas innovaciones de esta tijera de poda lo hacen indispensable para todos los agricultores que poseen árboles frutales, buscando una comodidad y facilidad alternativa gracias a la batería 250 que conecta PELLENC dos herramientas          simultáneamente. La batería 250 es capaz de conectarse a la tijera de poda Prunion y Selion a la vez y poder trabajar continuamente sin tener que parar para cambiar de máquina, pudiendo llevarlas encima y utilizar la que más te convenga en el momento.',
                     'price' => 1150,
                     'id_category' => '5',
-                    'id_patent' => '3'
+                    'id_patent' => '3',
+                    'priority' => 5
                 ],
                 // [
                 //     'id' => '57',
@@ -2224,7 +2494,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Las cuchillas dobles aseguran un corte fino en menos tiempo.Ofrecen un corte regulare inmejorable. Ajuste electrónico de la velocidad de las cuchillas de 3000 a 5000 revoluciones/minuto. La velocidad puede ajustarse durante el trabajo de corte. Posición para almacenamiento con poco espacio El cortacésped puede volcarse con total seguridad para limpiar el cárter.' ,
                 'price' => 0 ,
                 'id_category' => '10' ,
-                'id_patent' => '3'
+                'id_patent' => '3',
+                'priority' => 10
                 ],
                 [
                 'id' => '214' ,
@@ -2249,40 +2520,9 @@ class ItemTableSeeder extends Seeder
                     y pegadas al suelo.' ,
                 'price' => 0 ,
                 'id_category' => '4' ,
-                'id_patent' => '3'
+                'id_patent' => '3',
+                'priority' => 10
                 ],
-                /* TODO Husqvarna */
-                /* NOTE Cortasetos */
-                // [
-                // 'id' => '210' ,
-                // 'name' => '122HD60' ,
-                // 'short_name' => '122HD60' ,
-                // 'short_description' => 'El 122 HD60 es un cortasetos ligero y poco ruidoso para uso particular. Muy sencillo de manejar gracias a sus funciones como Smart Start® y su empuñadura trasera girable.' ,
-                // 'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
-                // 'price' => 449 ,
-                // 'id_category' => '2' ,
-                // 'id_patent' => '13'
-                // ],
-                // [
-                // 'id' => '211' ,
-                // 'name' => '536LiHD60X' ,
-                // 'short_name' => '536LiHD60X' ,
-                // 'short_description' => 'Cortasetos de batería ligero y silencioso para uso profesional con barra de corte de doble cara de 60cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
-                // 'description' => 'La batería Li-ion proporciona una potencia de larga duración y rendimiento óptimo. El panel de control es fácil de operar. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos.' ,
-                // 'price' => 849 ,
-                // 'id_category' => '2' ,
-                // 'id_patent' => '13'
-                // ],
-                // [
-                // 'id' => '212' ,
-                // 'name' => '536LiHD70X' ,
-                // 'short_name' => '536LiHD70X' ,
-                // 'short_description' => 'Potente pero ligero, un cortasetos a batería para uso profesional con barra de corte de doble cara de 70cm de largo. El nuevo motor y potente batería significa que podrá maximizar su tiempo de trabajo. El manillar trasero pivotante facilita el corte vertical y horizontal.' ,
-                // 'description' => 'La tecnología del motor de bajo ruido y el diseño especial hacen que nuestros cortasetos sean silenciosos y de fácil manejo. Muy importante para trabajos en zonas residenciales. El diseño del motor y el starter permiten a la máquina arrancar rapidamente y con el mínimo esfuerzo. La resistencia en el cordón de arranque se ha reducido hasta un 40%. La empuñadura es ajustable para facilitar el corte lateral y superior de los setos. Amortiguadores antivibración para mayor protección de manos y brazos.' ,
-                // 'price' => 499 ,
-                // 'id_category' => '2' ,
-                // 'id_patent' => '13'
-                // ],
             ]);
         } else { echo "\e[31mTable item is not empty, therefore NOT "; }
     }

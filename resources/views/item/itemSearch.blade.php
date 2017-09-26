@@ -32,11 +32,11 @@
             </ul> --}}
           </header>
           {{-- <p>In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non. Phasellus libero nibh, erat blandit, aliquet volutpat purus. Nullam pretium sed turpis lorem, ac congue orci. Donec pulvinar sagittis pellentesque. In ut odio eu quam consectetur tristique nec non nisl. Maecenas porttitor vestibulum augue, nec sodales eros blandit non.</p> --}}
-          <footer>
+          {{-- <footer>
             <ul class="actions">
               <li><a href="#" class="button disabled">Búsqueda avanzada</a></li>
             </ul>
-          </footer>
+          </footer> --}}
         </div>
       </section>
       <div class="inner">

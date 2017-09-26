@@ -18,13 +18,13 @@
           <h2>
             <a>
                 {{-- {{ request()->route('itemId') }} --}}
-                {{ $item->name }}
+                {{ $item->name }} - {{ $item->price }}€
             </a>
           </h2>
         </header>
         <footer>
           <ul class="actions">
-            <li><a href="#" class="button disabled">Pedir presupuesto</a></li>
+            <li><a href="#contact-section" class="button">Pedir presupuesto</a></li>
           </ul>
         </footer>
       </div>
@@ -41,7 +41,7 @@
 			<div class="content">
 				<div class="inner">
 					<header class="major2">
-						<h3 style="color: white !important;">{{ $item->name }}</h3>
+						<h3 style="color: white !important;">{{ $item->name }} - {{ $item->price }}€</h3>
 					</header>
 					<p>{{ $item->description }}</p>
 				</div>

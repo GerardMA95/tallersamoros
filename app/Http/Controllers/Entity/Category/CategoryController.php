@@ -32,7 +32,7 @@ class CategoryController extends Controller
             if($patent !== 'all'){
                 $patent = DB::table('patent')->where('short_name', $patent)->first();
             }else{
-                $patent = DB::table('patent')->paginate(9);
+                $patent = DB::table('patent')->where('active', true)->where('repair_service', false)->paginate(9);
             }
         }
         return view('item.itemSearch', ['patents' => $patent, 'categories' => $category]);

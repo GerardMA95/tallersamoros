@@ -375,6 +375,14 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_feature' => '108'
                 ]
             ]);
+            /* Pellenc */
+            DB::table('item_feature')->insert([
+                /* PRUNION */
+                [
+                    'id_item' => '56',
+                    'id_feature' => '8'
+                ]
+            ]);
         } else { echo "\e[31mTable item_feature is not empty, therefore NOT "; }
     }
 }
