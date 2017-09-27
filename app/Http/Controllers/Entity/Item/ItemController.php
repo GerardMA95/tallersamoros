@@ -22,7 +22,7 @@ class ItemController extends Controller
         if ($category !== 'none' && $patent !== 'none') {
             //Si se busca por cualquier marca/categoria
             if($category === 'all' && $patent === 'all'){
-                $itemList = DB::table('item')->where('outlet', false)->paginate(9);
+                $itemList = DB::table('item')->where('outlet', false)->get();
             }else{
                 //Si se busca una marca y una categoria en concreto
             }
