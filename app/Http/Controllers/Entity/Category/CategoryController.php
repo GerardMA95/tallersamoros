@@ -17,17 +17,12 @@ class CategoryController extends Controller
      */
     public function list($patent = null, $category = null)
     {
-        // @if (request()->route('category') === 'none')
-        // $user = DB::table('users')->where('name', 'John')->first();
         if($category !== 'none' && !is_null($category)){
             if($category !== 'all'){
                 $category = DB::table('category')->where('short_name', $category)->first();
             }else{
                 $category = DB::table('category')->paginate(9);
             }
-            // var_dump("category");
-            //
-            // var_dump($category);
         }else if($patent !== 'none' && !is_null($patent)){
             if($patent !== 'all'){
                 $patent = DB::table('patent')->where('short_name', $patent)->first();

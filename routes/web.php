@@ -25,9 +25,11 @@ Route::get('/busqueda/{patent?}/{category?}', 'Entity\Category\CategoryControlle
 
 Route::get('/busqueda/{patent}/{category}/listado', 'Entity\Item\ItemController@list')->name('itemList');
 
+Route::get('/busqueda/{patent}/{category}/listado/{itemId}','Entity\Item\ItemController@description')->name('itemDescription');
+
 Route::get('/outlet', 'Entity\Item\ItemController@outlet')->name('itemOutlet');
 
-Route::get('/busqueda/{patent}/{category}/listado/{itemId}','Entity\Item\ItemController@description')->name('itemDescription');
+Route::get('/outlet/{itemId}', 'Entity\Item\ItemController@outletDescription')->name('itemDescriptionOutlet');
 
 /*
 |--------------------------------------------------------------------------

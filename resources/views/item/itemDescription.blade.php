@@ -41,7 +41,7 @@
 			<div class="content">
 				<div class="inner">
 					<header class="major2">
-						<h3 style="color: white !important;">{{ $item->name }} - {{ $item->price }}€</h3>
+						<h3 style="color: white !important;">{{ $item->name }} - {{ $itemPatent->name }}</h3>
 					</header>
 					<p>{{ $item->description }}</p>
 				</div>

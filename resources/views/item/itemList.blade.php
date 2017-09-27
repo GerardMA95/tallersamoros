@@ -26,8 +26,6 @@
                         {{ $patent }}
                     @elseif (isset($patent) && $patent === 'none')
                         {{ $category }}
-                    @elseif(!$category && !$patent)
-                        Zona Outlet
                     @else
                         Todos nuestros productos
                     @endif

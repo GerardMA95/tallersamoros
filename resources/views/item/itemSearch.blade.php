@@ -13,7 +13,6 @@
         <div class="inner">
           <header class="major">
             <span class="category">Nuestros productos</span>
-            {{-- <h1>Contacto - {{request()->route('itemShortName')}}</h1> --}}
             <h2>
               <a>
                 @if (request()->route('patent') && request()->route('patent') !== 'none')

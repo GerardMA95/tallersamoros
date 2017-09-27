@@ -75,6 +75,8 @@ class ItemController extends Controller
 
         //Si se ha encontrado el item
         if(!is_null($item)){
+            $patent = DB::table('patent')->where('id', $item->id_patent)->first();
+
             $itemFeatures = DB::table('item_feature')->where('id_item', $item->id)->get();
             if($itemFeatures->isNotEmpty()){
                 $features = collect();
@@ -94,7 +96,7 @@ class ItemController extends Controller
             }
         }
 
-        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'patents' => $patent, 'categories' => $category]);
+        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'itemPatent' => $patent]);
     }
 
     /**
@@ -105,6 +107,45 @@ class ItemController extends Controller
     public function outlet()
     {
         $itemList = DB::table('item')->where('outlet', true)->paginate(9);
-        return view('item.itemList', ['itemList' => $itemList, 'patent' => null, 'category' => null]);
+        return view('item.itemListOutlet', ['itemList' => $itemList]);
+    }
+
+    /**
+     * Show the profile for the given user.
+     *
+     * @param  string  $itemShortName
+     * @return Response
+     */
+    public function outletDescription($itemShortName)
+    {
+        //Si no se encuentra el item deseado devolvemos null.
+        $features = null;
+
+        $item = DB::table('item')->where('short_name', $itemShortName)->first();
+
+        //Si se ha encontrado el item
+        if(!is_null($item)){
+            $patent = DB::table('patent')->where('id', $item->id_patent)->first();
+
+            $itemFeatures = DB::table('item_feature')->where('id_item', $item->id)->get();
+            if($itemFeatures->isNotEmpty()){
+                $features = collect();
+                foreach ($itemFeatures as $itemFeature) {
+                    $arrayAux = array();
+
+                    $feature = DB::table('feature')->where('id', $itemFeature->id_feature)->first();
+
+                    $featureCategory = DB::table('feature_category')->where('id', $feature->id_feature_category)->first();
+
+                    $arrayAux['featureName'] = $feature->name;
+                    $arrayAux['featureDescription'] = $feature->description;
+                    $arrayAux['featureCategory'] = $featureCategory->name;
+
+                    $features->push($arrayAux);
+                }
+            }
+        }
+
+        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'itemPatent' => $patent]);
     }
 }
