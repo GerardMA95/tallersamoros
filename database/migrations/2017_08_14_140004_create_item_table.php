@@ -22,6 +22,7 @@ class CreateItemTable extends Migration
             $table->boolean('active')->default(true);
             $table->boolean('outlet')->default(false);
             $table->integer('priority')->default(10);
+            $table->string('video_url')->nullable()->default(null);
             $table->integer('price');
             $table->integer('id_category')->unsigned();
             $table->integer('id_patent')->unsigned();

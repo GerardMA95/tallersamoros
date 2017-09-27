@@ -320,8 +320,8 @@ class ItemTableSeeder extends Seeder
                     'id' => '75',
                     'name' => 'UMS 425 E1 LE',
                     'short_name' => 'UMS425E1LE',
-                    'short_description' => 'Desbrozadora',
-                    'description' => 'Desbrozadora de gran capacidadCortacesped de gran capacidad',
+                    'short_description' => 'El cortabordes Honda UMS425 es el ideal para tu jardín. Si te gusta el trabajo bien hecho, no olvides repasar los bordes de tu césped. Te sorprenderá su corte limpio y eficaz. FICHA TÉCNICA Tipo de motor GX 25 Cilindrada 25 cm³ Potencia nominal 0,72 kW (0,98 cv) Depósito de gasolina Euro 95 0,58 litros Arranque Manual Sistema antivibración Doble Embrague Centrífugo Manillar Simple Diámetro del tubo 24 mm Peso (en seco) 5,4 Kg (sin accesorio)',
+                    'description' => 'El cortabordes Honda UMS425 es el ideal para tu jardín. Si te gusta el trabajo bien hecho, no olvides repasar los bordes de tu césped. Te sorprenderá su corte limpio y eficaz. FICHA TÉCNICA Tipo de motor GX 25 Cilindrada 25 cm³ Potencia nominal 0,72 kW (0,98 cv) Depósito de gasolina Euro 95 0,58 litros Arranque Manual Sistema antivibración Doble Embrague Centrífugo Manillar Simple Diámetro del tubo 24 mm Peso (en seco) 5,4 Kg (sin accesorio)',
                     'price' => 349,
                     'id_category' => '3',
                     'id_patent' => '1'
@@ -1361,8 +1361,8 @@ class ItemTableSeeder extends Seeder
                     'id' => '26',
                     'name' => 'PB 250 (EUST2)',
                     'short_name' => 'PB250',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                    'short_description' => 'Soplador de mano ECHO PB 250 económico, potente, ligero, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, CDI, certificación EUST2.',
+                    'description' => 'Su potente motor asegura al soplador de mano ECHO PB 250 la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.',
                     'price' => 279,
                     'id_category' => '4',
                     'id_patent' => '2'
@@ -1371,18 +1371,18 @@ class ItemTableSeeder extends Seeder
                     'id' => '27',
                     'name' => 'PB 251 (EUST2)',
                     'short_name' => 'PB251',
-                    'short_description' => 'Sopladora de gran capacidad',
-                    'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
+                    'short_description' => 'Soplador de mano ECHO PB 251, potente, ligero, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, CDI, certificación EUST2.',
+                    'description' => 'Su potente motor asegura al soplador de mano ECHO PB 251 la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.',
                     'price' => 299,
-                    'id_category' => '12',
+                    'id_category' => '4',
                     'id_patent' => '2'
                 ],
                 [
                 'id' => '179' ,
                 'name' => 'PB 255 ES (EUST2)' ,
                 'short_name' => 'PB255ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Soplador de mano ECHO PB 255 ES, ligero, silencioso, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, arranque fácil ES Start, EUST2.' ,
+                'description' => 'Su potente motor asegura al soplador de mano ECHO PB 255 ES la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Nuevo y revolucionario sistema de arranque fácil ES Start que permite la puesta en marcha de los motores de 2 tiempos de la manera más fácil y con el mínimo esfuerzo.' ,
                 'price' => 369 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1391,8 +1391,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '180' ,
                 'name' => 'ES 250 ES (EUST2)' ,
                 'short_name' => 'ES250ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Aspirador-soplador-triturador de mano ECHO ES 250 ES, ligero, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, arranque fácil ES Start, EUST2.' ,
+                'description' => 'El aspirador-soplador de mano ECHO ES 250 ES es un pequeño y práctico aspirador con función de triturado, para todo tipo de usos de limpieza en exteriores. Sin la bolsa de aspiración, puedes convertirlo fácilmente en un útil soplador. Su potente motor asegura al soplador de mano ECHO ES 250 ES la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Nuevo y revolucionario sistema de arranque fácil ES Start que permite la puesta en marcha de los motores de 2 tiempos de la manera más fácil y con el mínimo esfuerzo.' ,
                 'price' => 475 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1401,8 +1401,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '181' ,
                 'name' => 'PB 580 (EUST2)' ,
                 'short_name' => 'PB580' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Soplador de mochila ECHO PB 580, potente, ligero, ergonómico, tubo recto y curvado, sistema antivibración, bloqueo del acelerador, anti hielo, CDI, EUST2.' ,
+                'description' => 'Su potente motor asegura al soplador de mochila ECHO PB 580 la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.' ,
                 'price' => 679 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1411,8 +1411,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '182' ,
                 'name' => 'PB 760 (EUST2)' ,
                 'short_name' => 'PB760' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Soplador de mochila ECHO PB 760 LN, potente, ligero, ergonómico, tubo recto y curvado, sistema antivibración, bloqueo del acelerador, anti hielo, CDI, EUST2.' ,
+                'description' => 'Su potente motor asegura al soplador de mochila ECHO PB 760 LN la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.' ,
                 'price' => 769 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1421,8 +1421,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '183' ,
                 'name' => 'PB 770 (EUST2)' ,
                 'short_name' => 'PB770' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Soplador de mochila ECHO PB 770, especial olivar, potente, tubo recto y curvado, sistema antivibración, bloqueo del acelerador, CDI, EUST2.' ,
+                'description' => 'El soplador de mochila ECHO PB 770 ofrece una capacidad de soplado sin competencia. Es el modelo preferido de los agricultores para las tareas de recolección en el olivar y su rendimiento profesional está más que contrastado. Su sistema de refrigeración de la espalda incluye una toma de aire integrada en el acolchado de la espalda para mayor comodidad del usuario cuando trabaja en ambientes cálidos. Viene equipado con sistema anti vibración para mayor comodidad del usuario que lo emplea en largas jornadas.' ,
                 'price' => 749 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1431,8 +1431,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '184' ,
                 'name' => 'DPB 600' ,
                 'short_name' => 'DPB600' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Soplador de batería ECHO DPB 600. Potencia 50V. Silencioso, sin vibraciones ni emisiones, económico y fácil de usar. También en versión kit que incluye cargador y batería' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 295 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1441,8 +1441,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '185' ,
                 'name' => 'KIT DPB 600 + BATERIA 200 + CARGADOR' ,
                 'short_name' => 'KITDPB600_BATERIA200_CARGADOR' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Soplador de batería ECHO DPB 600 con cargador rápido LCQJ 600 y batería de 4 Ah LBP 560-200. Potencia 50V. Silencioso, sin vibraciones ni emisiones, económico y fácil de usar.' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 620 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
@@ -1818,9 +1818,9 @@ class ItemTableSeeder extends Seeder
                 [
                     'id' => '186' ,
                     'name' => 'DSRM 300' ,
-                    'short_name' => 'DSRM 300' ,
-                    'short_description' => 'short_description' ,
-                    'description' => 'description' ,
+                    'short_name' => 'DSRM300' ,
+                    'short_description' => 'Desbrozadora de batería ECHO DHC 200. Potencia 50V. Silenciosa, sin vibraciones ni emisiones, económica y fácil de usar. También en versión kit que incluye cargador y batería.' ,
+                    'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                     'price' => 310 ,
                     'id_category' => '3' ,
                     'id_patent' => '2'
@@ -1829,8 +1829,8 @@ class ItemTableSeeder extends Seeder
                     'id' => '187' ,
                     'name' => 'KIT DSRM 300 + BATERIA 100 + CARGADOR' ,
                     'short_name' => 'KITDSRM300_BATERIA100_CARGADOR' ,
-                    'short_description' => 'short_description' ,
-                    'description' => 'description' ,
+                    'short_description' => 'Desbrozadora de batería ECHO DHC 200 con cargador rápido LCQJ 600 y batería de 2Ah LBP 560-200. Potencia 50V. Silenciosa, sin vibraciones ni emisiones, económica y fácil de usar.' ,
+                    'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                     'price' => 585 ,
                     'id_category' => '3' ,
                     'id_patent' => '2'
@@ -1880,8 +1880,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '190' ,
                 'name' => 'HCR 185 ES (EUST2)' ,
                 'short_name' => 'HCR185ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Cortasetos doble corte ECHO HCR 165 ES, manillar giratorio, cuchilla desplazable 64 cm largo, corte ajustable japonés, anti vibraciones, arranque fácil, EUST2.' ,
+                'description' => 'Fabricado con la solidez y robustez que caracteriza a los productos ECHO, el cortasetos HCR 165 ES, por su potencia y comodidad, puede ser utilizado tanto por empresas de mantenimiento y jardineros, como usuarios particulares. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de arranque asistido por muelle ES-Start que requiere el mínimo esfuerzo. El motor de arranque sólo requiere un corto tirón del cable.' ,
                 'price' => 630 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
@@ -1890,8 +1890,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '191' ,
                 'name' => 'HC 331 ES (EUST2)' ,
                 'short_name' => 'HC331ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Cortasetos corte simple ECHO HC 331 ES, manillar fijo, cuchilla desplazable 72 cm largo, corte ajustable japonés, uso profesional, arranque fácil, EUST2.' ,
+                'description' => 'Fabricado con la solidez y robustez que caracteriza a los productos ECHO, el cortasetos HC 331 ES, por su diseño especial de corte simple, está indicado para el uso profesional de jardineros y empresas de mantenimiento. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de arranque asistido por muelle ES-Start que requiere el mínimo esfuerzo. El motor de arranque sólo requiere un corto tirón del cable.' ,
                 'price' => 799 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
@@ -1900,8 +1900,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '192' ,
                 'name' => 'HCA 265 ES (EUST2)' ,
                 'short_name' => 'HCA265ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Cortasetos de altura ECHO HCA 265 ESLW con cuchilla doble articulada, ligero, corte ajustable japonés, uso profesional, arranque fácil, EUST2.' ,
+                'description' => 'Fabricado con la solidez y robustez que caracteriza a los productos ECHO, el cortasetos de altura HCA 265 ESLW, permite llegar a los setos más altos con comodidad, o a las partes inferiores sin agacharse. Su motor de alto rendimiento diseñado y fabricado en Japón, presenta un menor desgaste y una mayor vida útil. Cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Con catalizador y sistema de arranque asistido por muelle ES-Start que requiere el mínimo esfuerzo. El motor de arranque sólo requiere un corto tirón del cable.' ,
                 'price' => 723 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
@@ -1920,8 +1920,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '194' ,
                 'name' => 'DHC 200' ,
                 'short_name' => 'DHC200' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Cortasetos de batería ECHO DHC 200 con cargador rápido y batería de 2Ah. Potencia 50V. Silencioso, sin vibraciones ni emisiones, económico y fácil de usar. También en versión kit que incluye cargador y batería.' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 355 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
@@ -1930,8 +1930,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '195' ,
                 'name' => 'KIT DHC200 + BATERIA 100 + CARGADOR' ,
                 'short_name' => 'KITDHC200_BATERIA100_CARGADOR' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Cortasetos de batería ECHO DHC 200 con cargador rápido LCQJ 600 y batería de 2Ah LBP 560-100. Potencia 50V. Silencioso, sin vibraciones ni emisiones, económico y fácil de usar.' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 625 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
@@ -2046,8 +2046,11 @@ class ItemTableSeeder extends Seeder
                     'id' => '215' ,
                     'name' => 'Apache 92 EVO' ,
                     'short_name' => 'APACHE92EVO' ,
-                    'short_description' => '' ,
-                    'description' => '' ,
+                    'short_description' => 'El Tractor Cortacésped profesionales Oleo Mac APACHE 92 EVO, robusto y seguro, es ideal para segar y limpiar zonas incultas con vegetación espesa y suelos irregulares o en pendientes.' ,
+                    'description' => 'El potente grupo de corte está formado por una sola cuchillas con extremos flotantes.
+Las bandas de rodadura anchas y el centro de gravedad bajo aseguran la máxima estabilidad incluso en terrenos accidentados o en proximidad de orillas y cunetas.
+Numerosos dispositivos simplifican el trabajo del conductor, por ejemplo, por ejemplo el accionamiento electromagnético del embrague, la transmisión hidrostática, la regulación centralizada de la altura de corte y el diferencial bloqueable que permite superar dificultades en cualquier tipo de terreno.
+Máxima protección para el conductor mediante el arco, las protecciones laterales y el cinturón de seguridad.' ,
                     'price' => 6999 ,
                     'id_category' => '3' ,
                     'id_patent' => '17'
@@ -2056,8 +2059,14 @@ class ItemTableSeeder extends Seeder
                     'id' => '216' ,
                     'name' => 'Apache 92 EVO 4x4' ,
                     'short_name' => 'APACHE92EVO4X4' ,
-                    'short_description' => '' ,
-                    'description' => '' ,
+                    'short_description' => 'El Tractor Cortacésped profesionales Oleo Mac APACHE 92 EVO, robusto y seguro, es ideal para segar y limpiar zonas incultas con vegetación espesa y suelos irregulares o en pendientes.' ,
+                    'description' => 'El Tractor Cortacésped profesionales Oleo Mac APACHE 92 EVO, robusto y seguro, es ideal para segar y limpiar zonas incultas con vegetación espesa y suelos irregulares o en pendientes.' ,
+                    'description' => 'El potente grupo de corte está formado por una sola cuchillas con extremos flotantes.
+Las bandas de rodadura anchas y el centro de gravedad bajo aseguran la máxima estabilidad incluso en terrenos accidentados o en proximidad de orillas y cunetas.
+Numerosos dispositivos simplifican el trabajo del conductor, por ejemplo, por ejemplo el accionamiento electromagnético del embrague, la transmisión hidrostática, la regulación centralizada de la altura de corte y el diferencial bloqueable que permite superar dificultades en cualquier tipo de terreno.
+Máxima protección para el conductor mediante el arco, las protecciones laterales y el cinturón de seguridad.
+La gama incluye modelos con tracción integral 4×4, ideales para terrenos abruptos o empinados.
+Cruise Control de serie en todos los modelos.' ,
                     'price' => 9999 ,
                     'id_category' => '3' ,
                     'id_patent' => '17'
