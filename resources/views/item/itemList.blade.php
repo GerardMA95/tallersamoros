@@ -69,7 +69,7 @@
               </div>
           </section>
           <footer class="major">
-              {{-- {{ $itemList->links() }} --}}
+              {{ $itemList->links() }}
     	 </footer>
       @endif
   @endsection
