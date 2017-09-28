@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTablePertigaAndLongitudSeeder extends Seeder
+class FeaturePertigaAndLongitudTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

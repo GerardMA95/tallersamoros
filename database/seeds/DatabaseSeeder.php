@@ -15,13 +15,13 @@ class DatabaseSeeder extends Seeder
         $this->call(PatentTableSeeder::class);
         $this->call(FeatureCategoryTableSeeder::class);
         $this->call(ItemTableSeeder::class);
-        $this->call(FeatureTablePesoSeeder::class);
-        $this->call(FeatureTableAnchCorteAndLongEspadaSeeder::class);
-        $this->call(FeatureTableCilindradaSeeder::class);
-        $this->call(FeatureTableAperturaCuchillaSeeder::class);
-        $this->call(FeatureTableVelMotorSeeder::class);
-        $this->call(FeatureTablePotenciaMaxSeeder::class);
-        $this->call(FeatureTablePertigaAndLongitudSeeder::class);
+        $this->call(FeaturePesoTableSeeder::class);
+        $this->call(FeatureAnchCorteAndLongEspadaTableSeeder::class);
+        $this->call(FeatureCilindradaTableSeeder::class);
+        $this->call(FeatureAperturaCuchillaTableSeeder::class);
+        $this->call(FeatureVelMotorTableSeeder::class);
+        $this->call(FeaturePotenciaMaxTableSeeder::class);
+        $this->call(FeaturePertigaAndLongitudTableSeeder::class);
         $this->call(ItemFeatureTableSeeder::class);
     }
 }

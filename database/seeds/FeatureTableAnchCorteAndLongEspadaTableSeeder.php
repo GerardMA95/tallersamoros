@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTableAnchCorteAndLongEspadaSeeder extends Seeder
+class FeatureAnchCorteAndLongEspadaTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

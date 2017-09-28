@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTableVelMotorSeeder extends Seeder
+class FeatureVelMotorTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

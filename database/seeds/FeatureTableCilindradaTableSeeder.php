@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTableCilindradaSeeder extends Seeder
+class FeatureCilindradaTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

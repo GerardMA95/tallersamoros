@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTablePotenciaMaxSeeder extends Seeder
+class FeaturePotenciaMaxTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

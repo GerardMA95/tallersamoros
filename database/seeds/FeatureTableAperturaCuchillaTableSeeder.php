@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTableAperturaCuchillaSeeder extends Seeder
+class FeatureAperturaCuchillaTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.

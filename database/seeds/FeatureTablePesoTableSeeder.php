@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
-class FeatureTablePesoSeeder extends Seeder
+class FeaturePesoTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
