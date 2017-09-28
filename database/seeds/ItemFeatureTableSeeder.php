@@ -377,10 +377,236 @@ class ItemFeatureTableSeeder extends Seeder
             ]);
             /* Pellenc */
             DB::table('item_feature')->insert([
-                /* PRUNION */
+                /* NOTE PRUNION */
+                // Peso
                 [
                     'id_item' => '56',
                     'id_feature' => '8'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '56',
+                    'id_feature' => '3835'
+                ],
+                // Apertura cuchilla
+                [
+                    'id_item' => '56',
+                    'id_feature' => '3151'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '56',
+                    'id_feature' => '3403'
+                ],
+                /* NOTE VINION */
+                // Peso
+                [
+                    'id_item' => '55',
+                    'id_feature' => '7'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '55',
+                    'id_feature' => '3749'
+                ],
+                // Apertura cuchilla
+                [
+                    'id_item' => '55',
+                    'id_feature' => '3141'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '55',
+                    'id_feature' => '3403'
+                ],
+                /* NOTE FIXION */
+                // Peso
+                [
+                    'id_item' => '48',
+                    'id_feature' => '9'
+                ],
+
+                /* NOTE CULTIVION */
+                // Peso
+                [
+                    'id_item' => '49',
+                    'id_feature' => '31'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '49',
+                    'id_feature' => '3700'
+                ],
+                /* NOTE SELION M12 */
+                // Peso
+                [
+                    'id_item' => '50',
+                    'id_feature' => '17'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '50',
+                    'id_feature' => '3782'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '50',
+                    'id_feature' => '3247'
+                ],
+                /* NOTE SELION C21 */
+                // Peso
+                [
+                    'id_item' => '51',
+                    'id_feature' => '20'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '51',
+                    'id_feature' => '3862'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '51',
+                    'id_feature' => '3255'
+                ],
+                // Long. guia
+                [
+                    'id_item' => '51',
+                    'id_feature' => '3044'
+                ],
+                /* NOTE SELION P220/300 */
+                // Peso
+                [
+                    'id_item' => '52',
+                    'id_feature' => '34'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '52',
+                    'id_feature' => '3782'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '52',
+                    'id_feature' => '3247'
+                ],
+                // Long. guia
+                [
+                    'id_item' => '52',
+                    'id_feature' => '3039'
+                ],
+                [
+                    'id_item' => '52',
+                    'id_feature' => '4082'
+                ],
+                /* NOTE SELION P130 */
+                // Peso
+                [
+                    'id_item' => '234',
+                    'id_feature' => '28'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '234',
+                    'id_feature' => '3782'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '234',
+                    'id_feature' => '3247'
+                ],
+                // Long. guia
+                [
+                    'id_item' => '234',
+                    'id_feature' => '3039'
+                ],
+                [
+                    'id_item' => '234',
+                    'id_feature' => '4065'
+                ],
+                /* NOTE SELION P180 */
+                // Peso
+                [
+                    'id_item' => '235',
+                    'id_feature' => '28'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '235',
+                    'id_feature' => '3782'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '235',
+                    'id_feature' => '3247'
+                ],
+                // Long. guia
+                [
+                    'id_item' => '235',
+                    'id_feature' => '3039'
+                ],
+                [
+                    'id_item' => '235',
+                    'id_feature' => '4070'
+                ],
+                /* NOTE OLIVION P230 */
+                // Peso
+                [
+                    'id_item' => '53',
+                    'id_feature' => '25'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '53',
+                    'id_feature' => '3700'
+                ],
+                // Long.
+                [
+                    'id_item' => '53',
+                    'id_feature' => '4075'
+                ],
+                /* NOTE EXCELION2000 */
+                // Peso
+                [
+                    'id_item' => '54',
+                    'id_feature' => '54'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '54',
+                    'id_feature' => '3862'
+                ],
+                // Long.
+                [
+                    'id_item' => '54',
+                    'id_feature' => '3255'
+                ],
+                /* NOTE RASIONBASIC */
+                // Peso
+                [
+                    'id_item' => '213',
+                    'id_feature' => '250'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '213',
+                    'id_feature' => '3772'
+                ],
+                // Anch corte
+                [
+                    'id_item' => '213',
+                    'id_feature' => '2893'
+                ],
+                /* NOTE AIRION2 */
+                // Peso
+                [
+                    'id_item' => '214',
+                    'id_feature' => '25'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '214',
+                    'id_feature' => '3756'
                 ]
             ]);
         } else { echo "\e[31mTable item_feature is not empty, therefore NOT "; }

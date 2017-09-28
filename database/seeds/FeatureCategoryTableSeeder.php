@@ -76,6 +76,42 @@ class FeatureCategoryTableSeeder extends Seeder
                     'short_description' => 'short_description',
                     'description' => 'Description',
                 ],
+                [
+                    'id' => '10',
+                    'name' => 'Apertura de cuchilla',
+                    'short_name' => 'aperturaCuchilla',
+                    'short_description' => 'short_description',
+                    'description' => 'Description',
+                ],
+                [
+                    'id' => '11',
+                    'name' => 'Vel. Motor',
+                    'short_name' => 'velMotor',
+                    'short_description' => 'short_description',
+                    'description' => 'Description',
+                ],
+                [
+                    'id' => '12',
+                    'name' => 'Potencia Máx.',
+                    'short_name' => 'potenciaMax',
+                    'short_description' => 'short_description',
+                    'description' => 'Description',
+                ],
+                [
+                    'id' => '13',
+                    'name' => 'Pértiga',
+                    'short_name' => 'pertiga',
+                    'short_description' => 'short_description',
+                    'description' => 'Description',
+                ]
+                ,
+                [
+                    'id' => '14',
+                    'name' => 'Longitud',
+                    'short_name' => 'longitud',
+                    'short_description' => 'short_description',
+                    'description' => 'Description',
+                ]
             ]);
         } else { echo "\e[31mTable feature_category is not empty, therefore NOT "; }
     }

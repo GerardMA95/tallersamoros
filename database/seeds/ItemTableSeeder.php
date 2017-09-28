@@ -2372,37 +2372,83 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'id_patent' => '3',
                     'priority' => 10
                 ],
-                // [
-                //     'id' => '51',
-                //     'name' => 'SELION C21',
-                //     'short_name' => 'PB251',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 0,
-                //     'id_category' => '12',
-                //     'id_patent' => '1'
-                // ],
-                // [
-                //     'id' => '52',
-                //     'name' => 'SELION PERTIGA T220-300',
-                //     'short_name' => 'SELIONPERTIGAT220-300',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 0,
-                //     'id_category' => '4',
-                //     'id_patent' => '3'
-                // ],
-                // [
-                //     'id' => '53',
-                //     'name' => 'OLIVION 230',
-                //     'short_name' => 'OLIVION230',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 1060,
-                //     'id_category' => '6',
-                //     'id_patent' => '3'
-                // ]
-                // ,
+                [
+                    'id' => '51',
+                    'name' => 'SELION C21',
+                    'short_name' => 'SELIONC21',
+                    'short_description' => 'La poda requiere un conocimiento avanzado y el uso del equipo adecuado. PELLENC ofrece a los
+podadores un modelo nuevo de podadora que responde a sus expectativas en cuanto a ligereza,
+equilibrio, facilidad de maniobra y potencia. La nueva podadora SELION C21 HD tiene muchas
+novedades, un par motor superior y sigue siendo la más ligera del mercado',
+                    'description' => 'La seguridad es primordial y PELLENC ha desarrollado 4 innovaciones para proteger al usuario: Captor de rebote con accionamiento: este mecanismo acciona instantáneamente un freno de cadena eléctrica en caso de caída o rebote, de modo que es 8 veces más sensible que un freno de cadena de motosierra térmica. El segundo elemento de seguridad es aportado por el sistema de autodiagnóstico de la herramienta: SELION. Que verifica durante el primer uso, que el captor electrónico de rebote esté operativo y, si es así, ¡la máquina puede funcionar! El tercer elemento de seguridad es el gatillo de encendido de doble impulso: esto evita que la motosierra funcione en forma accidental. Por último, el cuarto elemento de seguridad está dado por el uso de cadenas OREGON que limita el efecto de rebote: el fenómeno de rebote, si ocurre, será menos violento que con una motosierra clásica.',
+                    'price' => 956,
+                    'id_category' => '1',
+                    'id_patent' => '3',
+                    'priority' => 10
+                ],
+                [
+                    'id' => '52',
+                    'name' => 'SELION PERTIGA TELESCOPICA T220-300',
+                    'short_name' => 'SELIONPERTIGATELESCOPICAT220-300',
+                    'short_description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'price' => 1234,
+                    'id_category' => '1',
+                    'id_patent' => '3',
+                    'priority' => 10
+                ],
+                [
+                    'id' => '234',
+                    'name' => 'SELION PERTIGA FIJA T130',
+                    'short_name' => 'SELIONPERTIGAFIJAT130',
+                    'short_description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'price' => 968,
+                    'id_category' => '1',
+                    'id_patent' => '3',
+                    'priority' => 10
+                ],
+                [
+                    'id' => '235',
+                    'name' => 'SELION PERTIGA FIJA T180',
+                    'short_name' => 'SELIONPERTIGATFIJAT180',
+                    'short_description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'price' => 1029,
+                    'id_category' => '1',
+                    'id_patent' => '3',
+                    'priority' => 10
+                ],
+                [
+                    'id' => '53',
+                    'name' => 'OLIVION FIJA 230',
+                    'short_name' => 'OLIVIONFIJA230',
+                    'short_description' => 'Producto profesional muy rentable, ultraligero y de una maniobrabilidad excepcional. Funciona con una batería multifunción de la gama PELLENC o con un transformador para una batería de 12 V (tipo automóvil).',
+                    'description' => 'Producto profesional muy rentable, ultraligero y de una maniobrabilidad excepcional. Funciona con una batería multifunción de la gama PELLENC o con un transformador para una batería de 12 V (tipo automóvil). Dos posiciones diferentes en función de la variedad de las aceitunas. El peine en versión recta será el recomendado para las variedades de uva de recolección más compleja. Interruptor único que puede funcionar en modo continuo.
+Una sola pulsación en el interruptor basta para encenderlo.',
+                    'price' => 1060,
+                    'id_category' => '6',
+                    'id_patent' => '3',
+                    'priority' => 5
+                ],
                 [
                     'id' => '54',
                     'name' => 'EXCELION 2000',
@@ -2425,21 +2471,22 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                         y un trabajo a baja velocidad,
                         limitando la proyecciones, lo que
                         es especialmente importante en entornos urbanos',
-                    'price' => 0,
+                    'price' => 1077,
                     'id_category' => '3',
                     'id_patent' => '3',
                     'priority' => 10
                 ],
-                // [
-                //     'id' => '55',
-                //     'name' => 'VINION 150',
-                //     'short_name' => 'VINION150',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 956,
-                //     'id_category' => '5',
-                //     'id_patent' => '3'
-                // ],
+                [
+                    'id' => '55',
+                    'name' => 'VINION 150',
+                    'short_name' => 'VINION150',
+                    'short_description' => 'PELLENC ha diseñado las tijeras vitícolas más innovadoras del mercado, adaptadas a los viticultores que buscan ligereza, ergonomía, manejabilidad y precisión. La VINION es, a fecha de hoy, una revolución de tecnología punta. Las tijeras VINION se han diseñado para responder a todas las expectativas y funcionan igual de bien con una batería de bolsillo 150, ligera y compacta, como con una batería de 250 que permite conectar dos herramientas PELLENC al mismo tiempo, para realizar un trabajo alterno.',
+                    'description' => 'PELLENC ha diseñado las tijeras vitícolas más innovadoras del mercado, adaptadas a los viticultores que buscan ligereza, ergonomía, manejabilidad y precisión. La VINION es, a fecha de hoy, una revolución de tecnología punta. Las tijeras VINION se han diseñado para responder a todas las expectativas y funcionan igual de bien con una batería de bolsillo 150, ligera y compacta, como con una batería de 250 que permite conectar dos herramientas PELLENC al mismo tiempo, para realizar un trabajo alterno.',
+                    'price' => 956,
+                    'id_category' => '5',
+                    'id_patent' => '3',
+                    'priority' => 5
+                ],
                 [
                     'id' => '56',
                     'name' => 'PRUNION',
@@ -2527,7 +2574,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     la presión. La potencia de soplido de AIRION 2 permite soplar
                     objetos pesados, como masas considerables de hojas empapadas
                     y pegadas al suelo.' ,
-                'price' => 0 ,
+                'price' => 908 ,
                 'id_category' => '4' ,
                 'id_patent' => '3',
                 'priority' => 10
