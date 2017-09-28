@@ -2490,7 +2490,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 [
                     'id' => '56',
                     'name' => 'PRUNION 150',
-                    'short_name' => 'PRUNION',
+                    'short_name' => 'PRUNION150',
                     'short_description' => 'Con un peso inferior a los 900 gramos, la tijera de podar PRUNION ofrece a los usuarios una
                         potencia de corte y una calidad de trabajo irreprochables. Su sujeción adaptada a todos los usuarios
                         y su amplio diámetro de corte aseguran una poda muy cómoda. Las distintas innovaciones
@@ -2505,7 +2505,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 [
                     'id' => '236',
                     'name' => 'PRUNION 250',
-                    'short_name' => 'PRUNION',
+                    'short_name' => 'PRUNION250',
                     'short_description' => 'Con un peso inferior a los 900 gramos, la tijera de podar PRUNION ofrece a los usuarios una
                         potencia de corte y una calidad de trabajo irreprochables. Su sujeción adaptada a todos los usuarios
                         y su amplio diámetro de corte aseguran una poda muy cómoda. Las distintas innovaciones

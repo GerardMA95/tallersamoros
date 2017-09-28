@@ -377,7 +377,7 @@ class ItemFeatureTableSeeder extends Seeder
             ]);
             /* Pellenc */
             DB::table('item_feature')->insert([
-                /* NOTE PRUNION */
+                /* NOTE PRUNION150 */
                 // Peso
                 [
                     'id_item' => '56',
@@ -396,6 +396,27 @@ class ItemFeatureTableSeeder extends Seeder
                 // Vel. Motor
                 [
                     'id_item' => '56',
+                    'id_feature' => '3403'
+                ],
+                /* NOTE PRUNION250 */
+                // Peso
+                [
+                    'id_item' => '236',
+                    'id_feature' => '8'
+                ],
+                // Pot Max
+                [
+                    'id_item' => '236',
+                    'id_feature' => '3835'
+                ],
+                // Apertura cuchilla
+                [
+                    'id_item' => '236',
+                    'id_feature' => '3151'
+                ],
+                // Vel. Motor
+                [
+                    'id_item' => '236',
                     'id_feature' => '3403'
                 ],
                 /* NOTE VINION */
