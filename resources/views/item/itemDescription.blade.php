@@ -19,6 +19,9 @@
             <a>
                 {{-- {{ request()->route('itemId') }} --}}
                 {{ $item->name }} - {{ $item->price }}€
+                @if ($itemPatent->id == 3)
+                    + IVA
+                @endif
             </a>
           </h2>
         </header>

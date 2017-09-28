@@ -53,7 +53,10 @@
                           <header>
                               <h2><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}">{{ $item->name }}</a></h2>
                               <ul class="meta">
-                                  <li style="color: #e66666;">{{ $item->price }} €</li>
+                                  <li style="color: #e66666;">{{ $item->price }} €
+                                  @if ($patent == 'pellenc')
+                                      + IVA
+                                  @endif</li>
                                   <li><a href="#" class="favorites">0</a></li>
                                   <li><a href="#" class="comments">0</a></li>
                               </ul>
