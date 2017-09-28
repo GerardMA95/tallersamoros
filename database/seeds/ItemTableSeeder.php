@@ -2326,7 +2326,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                         Los diferentes tipos de cintas se encuentran adaptadas a los distintos sistemas de atado: Estándar, extensible, inoxidable, bio y papel.
                         La tecnología de esta atadora le permitirá atar sarmientos y ramas en general al sistema de conducción de forma rápida y sencilla.
                         La cinta se degrada con el tiempo según las condiciones meteorológicas. El tipo de cinta “estándar” compuesta de hilo de acero de 0,44mm con una resistencia media al atado de 14 Kg, se degrada después de unos 10-12 meses de utilización, pero como mencionamos anteriormente, esto último depende de las condiciones meteorológicas de la zona.',
-                    'price' => 1083,
+                    'price' => 895,
                     'id_category' => '8',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2353,7 +2353,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                         entorno de trabajo. El cambio
                         rápido de cuchillas permite pasar
                         de una aplicación a otra.',
-                    'price' => 908,
+                    'price' => 750,
                     'id_category' => '9',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2367,7 +2367,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                         Motor eléctrico Brushless PELLENC sin fricción, de alto rendimiento, sin mantenimiento.
                         Vida útil excepcional: el motor Brushless PELLENC gira a 5400 rpm, sin desgaste ni chispa y desarrolla una potencia máxima con las dimensiones mínimas.
                         Consume un 30 % de aceite menos que una herramienta térmica.',
-                    'price' => 908,
+                    'price' => 750,
                     'id_category' => '1',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2381,7 +2381,7 @@ podadores un modelo nuevo de podadora que responde a sus expectativas en cuanto 
 equilibrio, facilidad de maniobra y potencia. La nueva podadora SELION C21 HD tiene muchas
 novedades, un par motor superior y sigue siendo la más ligera del mercado',
                     'description' => 'La seguridad es primordial y PELLENC ha desarrollado 4 innovaciones para proteger al usuario: Captor de rebote con accionamiento: este mecanismo acciona instantáneamente un freno de cadena eléctrica en caso de caída o rebote, de modo que es 8 veces más sensible que un freno de cadena de motosierra térmica. El segundo elemento de seguridad es aportado por el sistema de autodiagnóstico de la herramienta: SELION. Que verifica durante el primer uso, que el captor electrónico de rebote esté operativo y, si es así, ¡la máquina puede funcionar! El tercer elemento de seguridad es el gatillo de encendido de doble impulso: esto evita que la motosierra funcione en forma accidental. Por último, el cuarto elemento de seguridad está dado por el uso de cadenas OREGON que limita el efecto de rebote: el fenómeno de rebote, si ocurre, será menos violento que con una motosierra clásica.',
-                    'price' => 956,
+                    'price' => 800,
                     'id_category' => '1',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2398,7 +2398,7 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
 ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
 arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
 donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
-                    'price' => 1234,
+                    'price' => 1020,
                     'id_category' => '1',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2418,7 +2418,7 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'price' => 968,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 800
                 ],
                 [
                     'id' => '235',
@@ -2432,7 +2432,7 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
 ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
 arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
 donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
-                    'price' => 1029,
+                    'price' => 850,
                     'id_category' => '1',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2444,7 +2444,7 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'short_description' => 'Producto profesional muy rentable, ultraligero y de una maniobrabilidad excepcional. Funciona con una batería multifunción de la gama PELLENC o con un transformador para una batería de 12 V (tipo automóvil).',
                     'description' => 'Producto profesional muy rentable, ultraligero y de una maniobrabilidad excepcional. Funciona con una batería multifunción de la gama PELLENC o con un transformador para una batería de 12 V (tipo automóvil). Dos posiciones diferentes en función de la variedad de las aceitunas. El peine en versión recta será el recomendado para las variedades de uva de recolección más compleja. Interruptor único que puede funcionar en modo continuo.
 Una sola pulsación en el interruptor basta para encenderlo.',
-                    'price' => 1060,
+                    'price' => 905,
                     'id_category' => '6',
                     'id_patent' => '3',
                     'priority' => 5
@@ -2471,7 +2471,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                         y un trabajo a baja velocidad,
                         limitando la proyecciones, lo que
                         es especialmente importante en entornos urbanos',
-                    'price' => 1077,
+                    'price' => 890,
                     'id_category' => '3',
                     'id_patent' => '3',
                     'priority' => 10
@@ -2482,14 +2482,14 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'short_name' => 'VINION150',
                     'short_description' => 'PELLENC ha diseñado las tijeras vitícolas más innovadoras del mercado, adaptadas a los viticultores que buscan ligereza, ergonomía, manejabilidad y precisión. La VINION es, a fecha de hoy, una revolución de tecnología punta. Las tijeras VINION se han diseñado para responder a todas las expectativas y funcionan igual de bien con una batería de bolsillo 150, ligera y compacta, como con una batería de 250 que permite conectar dos herramientas PELLENC al mismo tiempo, para realizar un trabajo alterno.',
                     'description' => 'PELLENC ha diseñado las tijeras vitícolas más innovadoras del mercado, adaptadas a los viticultores que buscan ligereza, ergonomía, manejabilidad y precisión. La VINION es, a fecha de hoy, una revolución de tecnología punta. Las tijeras VINION se han diseñado para responder a todas las expectativas y funcionan igual de bien con una batería de bolsillo 150, ligera y compacta, como con una batería de 250 que permite conectar dos herramientas PELLENC al mismo tiempo, para realizar un trabajo alterno.',
-                    'price' => 956,
+                    'price' => 790,
                     'id_category' => '5',
                     'id_patent' => '3',
                     'priority' => 5
                 ],
                 [
                     'id' => '56',
-                    'name' => 'PRUNION',
+                    'name' => 'PRUNION 150',
                     'short_name' => 'PRUNION',
                     'short_description' => 'Con un peso inferior a los 900 gramos, la tijera de podar PRUNION ofrece a los usuarios una
                         potencia de corte y una calidad de trabajo irreprochables. Su sujeción adaptada a todos los usuarios
@@ -2497,7 +2497,22 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                         de esta tijera de podar hacen que sea indispensable para cualquier podador. La batería 250 permite
                         una mayor productividad, porque se puede conectar al mismo tiempo a dos herramientas PELLENC.',
                     'description' => 'La podadora PRUNION es ideal para los agricultores que buscan en el mercado la más potente, más ligera y la más innovadora. Gracias a su ergonomía y  su diámetro de corte permite una gran comodidad de trabajo. Las numerosas innovaciones de esta tijera de poda lo hacen indispensable para todos los agricultores que poseen árboles frutales, buscando una comodidad y facilidad alternativa gracias a la batería 250 que conecta PELLENC dos herramientas          simultáneamente. La batería 250 es capaz de conectarse a la tijera de poda Prunion y Selion a la vez y poder trabajar continuamente sin tener que parar para cambiar de máquina, pudiendo llevarlas encima y utilizar la que más te convenga en el momento.',
-                    'price' => 1150,
+                    'price' => 890,
+                    'id_category' => '5',
+                    'id_patent' => '3',
+                    'priority' => 5
+                ],
+                [
+                    'id' => '236',
+                    'name' => 'PRUNION 250',
+                    'short_name' => 'PRUNION',
+                    'short_description' => 'Con un peso inferior a los 900 gramos, la tijera de podar PRUNION ofrece a los usuarios una
+                        potencia de corte y una calidad de trabajo irreprochables. Su sujeción adaptada a todos los usuarios
+                        y su amplio diámetro de corte aseguran una poda muy cómoda. Las distintas innovaciones
+                        de esta tijera de podar hacen que sea indispensable para cualquier podador. La batería 250 permite
+                        una mayor productividad, porque se puede conectar al mismo tiempo a dos herramientas PELLENC.',
+                    'description' => 'La podadora PRUNION es ideal para los agricultores que buscan en el mercado la más potente, más ligera y la más innovadora. Gracias a su ergonomía y  su diámetro de corte permite una gran comodidad de trabajo. Las numerosas innovaciones de esta tijera de poda lo hacen indispensable para todos los agricultores que poseen árboles frutales, buscando una comodidad y facilidad alternativa gracias a la batería 250 que conecta PELLENC dos herramientas          simultáneamente. La batería 250 es capaz de conectarse a la tijera de poda Prunion y Selion a la vez y poder trabajar continuamente sin tener que parar para cambiar de máquina, pudiendo llevarlas encima y utilizar la que más te convenga en el momento.',
+                    'price' => 990,
                     'id_category' => '5',
                     'id_patent' => '3',
                     'priority' => 5
@@ -2548,7 +2563,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'short_name' => 'RASIONBASIC' ,
                 'short_description' => 'Con menos de 25Kg, el cortacésped RASION BASIC revoluciona las condiciones de trabajo de los profesionales de los espacios verdes. Ultramanejable, fácilmente transportable y con una potencia inigualada, RASION BASIC ofrece una calidad de corte inmejorable para todos los tipos de trabajos de corte realizados por paisajistas y jardineros.' ,
                 'description' => 'Las cuchillas dobles aseguran un corte fino en menos tiempo.Ofrecen un corte regulare inmejorable. Ajuste electrónico de la velocidad de las cuchillas de 3000 a 5000 revoluciones/minuto. La velocidad puede ajustarse durante el trabajo de corte. Posición para almacenamiento con poco espacio El cortacésped puede volcarse con total seguridad para limpiar el cárter.' ,
-                'price' => 0 ,
+                'price' => 1700 ,
                 'id_category' => '10' ,
                 'id_patent' => '3',
                 'priority' => 10
@@ -2574,7 +2589,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     la presión. La potencia de soplido de AIRION 2 permite soplar
                     objetos pesados, como masas considerables de hojas empapadas
                     y pegadas al suelo.' ,
-                'price' => 908 ,
+                'price' => 650 ,
                 'id_category' => '4' ,
                 'id_patent' => '3',
                 'priority' => 10
