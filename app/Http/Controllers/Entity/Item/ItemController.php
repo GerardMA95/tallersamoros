@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Entity\Item;
 use App\User;
 use Illuminate\Support\Facades\DB;
 use App\Http\Controllers\Controller;
+use App\Services\Entity\Item\RelatedItemsService;
 
 class ItemController extends Controller
 {
@@ -54,7 +55,7 @@ class ItemController extends Controller
                 $itemList = DB::table('item')->paginate(9);
             }
         }
-        // var_dump($itemList);
+
         return view('item.itemList', ['itemList' => $itemList, 'category' => $category , 'patent' => $patent]);
     }
 
@@ -76,6 +77,7 @@ class ItemController extends Controller
         //Si se ha encontrado el item
         if(!is_null($item)){
             $patent = DB::table('patent')->where('id', $item->id_patent)->first();
+            $category = DB::table('category')->where('id', $item->id_category)->first();
 
             $itemFeatures = DB::table('item_feature')->where('id_item', $item->id)->get();
             if($itemFeatures->isNotEmpty()){
@@ -96,7 +98,10 @@ class ItemController extends Controller
             }
         }
 
-        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'itemPatent' => $patent]);
+        $relatedItemsService = new RelatedItemsService();
+        $relatedItems = $relatedItemsService->getRelatedItems($item);
+
+        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'itemCategory' => $category, 'itemPatent' => $patent, 'relatedItems' => $relatedItems]);
     }
 
     /**

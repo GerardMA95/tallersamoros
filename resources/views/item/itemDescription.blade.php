@@ -75,6 +75,9 @@
             @endif
   		</section>
   	</div>
+        @if ($relatedItems)
+            @include('modules.item.relatedItems')
+        @endif
     @else
         @include('error.itemSearchError')
     @endif
