@@ -4,7 +4,12 @@
         <title>@yield('title')</title>
         <link rel="icon" href="{!! asset('images/logo/amoros/favicon.ico') !!}"/>
         <meta charset="utf-8" />
-    		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta http-equiv="imagetoolbar" content="false"/>
+        <meta property="og:image" content="{!! asset('images/logo/amoros/talleres-amoros-logo.image.jpg') !!}" />
+    	<meta name="description" content="Talleres Amorós es una empresa de maquinaria agrícola situada en Reus con amplia experiencia en el sector." />
+
         @section('style')
           <!-- Fonts -->
           <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
