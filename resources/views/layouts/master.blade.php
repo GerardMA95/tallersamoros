@@ -63,7 +63,7 @@
                         <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
                         <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
                         <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
-                        <li><a href="#" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCJMkOz-eX4hYYICJ6JwhjsQ/videos" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
                       </ul>
                     </section>
                     <section>

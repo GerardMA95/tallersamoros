@@ -17,7 +17,6 @@
           <span class="category">Detalles del producto</span>
           <h2>
             <a>
-                {{-- {{ request()->route('itemId') }} --}}
                 {{ $item->name }} - {{ $item->price }}€
                 @if ($itemPatent->id == 3)
                     + IVA
@@ -28,6 +27,7 @@
         <footer>
           <ul class="actions">
             <li><a href="#contact-section" class="button">Pedir presupuesto</a></li>
+            <li><a href="{{ route('itemSearch') }}" class="button">Volver al buscador</a></li>
           </ul>
         </footer>
       </div>
@@ -75,6 +75,9 @@
             @endif
   		</section>
   	</div>
+        @if ($item->video_url)
+            @include('modules.item.youtubeVideo')
+        @endif
         @if ($relatedItems)
             @include('modules.item.relatedItems')
         @endif

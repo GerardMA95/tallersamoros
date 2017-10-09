@@ -1,17 +1,10 @@
-<section class="main special">
+<section class="envelope style2" style="background:#e66666;">
   <div class="inner">
     <header class="major">
-      <h2>
-        <a>
-          Articulos relacionados
-        </a>
+      <h2 style="color:#fff !important;">
+      Articulos relacionados
       </h2>
     </header>
-    <footer>
-      <ul class="actions">
-        <li><a href="{{ route('itemSearch') }}" class="button">Volver al buscador</a></li>
-      </ul>
-    </footer>
   </div>
 </section>
 <section class="main">

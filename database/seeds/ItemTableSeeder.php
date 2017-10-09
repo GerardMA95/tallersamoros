@@ -2329,7 +2329,8 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'price' => 895,
                     'id_category' => '8',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '49',
@@ -2356,7 +2357,8 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'price' => 750,
                     'id_category' => '9',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => 'ZO83M7tRenY'
                 ],
                 [
                     'id' => '50',
@@ -2370,7 +2372,8 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'price' => 750,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '51',
@@ -2384,7 +2387,8 @@ novedades, un par motor superior y sigue siendo la más ligera del mercado',
                     'price' => 800,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '52',
@@ -2401,7 +2405,8 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'price' => 1020,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '234',
@@ -2418,7 +2423,8 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'price' => 968,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 800
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '235',
@@ -2435,7 +2441,8 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'price' => 850,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '53',
@@ -2447,7 +2454,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'price' => 905,
                     'id_category' => '6',
                     'id_patent' => '3',
-                    'priority' => 5
+                    'priority' => 5,
+                    'video_url' => null
                 ],
                 [
                     'id' => '54',
@@ -2474,7 +2482,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'price' => 890,
                     'id_category' => '3',
                     'id_patent' => '3',
-                    'priority' => 10
+                    'priority' => 10,
+                    'video_url' => null
                 ],
                 [
                     'id' => '55',
@@ -2485,7 +2494,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'price' => 790,
                     'id_category' => '5',
                     'id_patent' => '3',
-                    'priority' => 5
+                    'priority' => 5,
+                    'video_url' => null
                 ],
                 [
                     'id' => '56',
@@ -2500,7 +2510,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'price' => 890,
                     'id_category' => '5',
                     'id_patent' => '3',
-                    'priority' => 5
+                    'priority' => 5,
+                    'video_url' => 'mKW3n4iKqfw'
                 ],
                 [
                     'id' => '236',
@@ -2515,7 +2526,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'price' => 990,
                     'id_category' => '5',
                     'id_patent' => '3',
-                    'priority' => 5
+                    'priority' => 5,
+                    'video_url' => 'mKW3n4iKqfw'
                 ],
                 // [
                 //     'id' => '57',
@@ -2566,7 +2578,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'price' => 1700 ,
                 'id_category' => '10' ,
                 'id_patent' => '3',
-                'priority' => 10
+                'priority' => 10,
+                'video_url' => null
                 ],
                 [
                 'id' => '214' ,
@@ -2592,7 +2605,8 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'price' => 650 ,
                 'id_category' => '4' ,
                 'id_patent' => '3',
-                'priority' => 10
+                'priority' => 10,
+                'video_url' => 'ERg4egZE0zE'
                 ],
             ]);
         } else { echo "\e[31mTable item is not empty, therefore NOT "; }
