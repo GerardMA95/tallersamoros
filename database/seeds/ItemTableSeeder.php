@@ -1936,43 +1936,43 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '2' ,
                 'id_patent' => '2'
                 ],
-                [
-                'id' => '196' ,
-                'name' => 'HC 560' ,
-                'short_name' => 'HC560' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 172 ,
-                'id_category' => '2' ,
-                'id_patent' => '2'
-                ],
-                [
-                'id' => '197' ,
-                'name' => 'HCR 610' ,
-                'short_name' => 'HCR610' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 215 ,
-                'id_category' => '2' ,
-                'id_patent' => '2'
-                ],
-                [
-                'id' => '198' ,
-                'name' => 'DHC 30' ,
-                'short_name' => 'DHC30' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 359 ,
-                'id_category' => '2' ,
-                'id_patent' => '2'
-                ],
+                // [
+                // 'id' => '196' ,
+                // 'name' => 'HC 560' ,
+                // 'short_name' => 'HC560' ,
+                // 'short_description' => 'short_description' ,
+                // 'description' => 'description' ,
+                // 'price' => 172 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '2'
+                // ],
+                // [
+                // 'id' => '197' ,
+                // 'name' => 'HCR 610' ,
+                // 'short_name' => 'HCR610' ,
+                // 'short_description' => 'short_description' ,
+                // 'description' => 'description' ,
+                // 'price' => 215 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '2'
+                // ],
+                // [
+                // 'id' => '198' ,
+                // 'name' => 'DHC 30' ,
+                // 'short_name' => 'DHC30' ,
+                // 'short_description' => 'short_description' ,
+                // 'description' => 'description' ,
+                // 'price' => 359 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '2'
+                // ],
                 /* NOTE Podadoras */
                 [
                 'id' => '203' ,
                 'name' => 'PPF 236 ES (EUST2)' ,
                 'short_name' => 'PPF236ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Motosierra de poda de altura ECHO PPF236 ES, barra fija de acero, sin vibraciones, arranque fácil ES-Start, encendido digital, certificación EUST2.' ,
+                'description' => 'Motosierra de poda de altura ECHO PPF236 ES, para los trabajos de precisión en altura. Su barra de longitud fija, protegida de las vibraciones, te permitirá realizar con precisión las tareas de poda desde el nivel del suelo. Su sistema de arranque fácil ES-Start y encendido Digitized Magneto, combinado con la bomba de cebado, permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.' ,
                 'price' => 659 ,
                 'id_category' => '26' ,
                 'id_patent' => '2'
@@ -1981,29 +1981,29 @@ class ItemTableSeeder extends Seeder
                 'id' => '204' ,
                 'name' => 'PPT 265 ES (EUST2)' ,
                 'short_name' => 'PPT265ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Motosierra de poda de altura ECHO PPT265 ES, barra telescópica de fibra de vidrio, arranque fácil ES-Start, encendido digital, catalizador, EUST2.' ,
+                'description' => 'Motosierra de poda de altura ECHO PPT265 ES, para los trabajos de precisión en altura. Su barra telescópica ajustable en altura hasta 5.2m, protegida de las vibraciones, te permitirá realizar con precisión las tareas de poda desde el nivel del suelo. Protección de fibra de vidrio en la barra para lograr un agarre seguro. Su sistema de arranque fácil ES-Start y encendido Digitized Magneto, combinado con la bomba de cebado, permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.' ,
                 'price' => 878 ,
                 'id_category' => '26' ,
                 'id_patent' => '2'
                 ],
-                [
-                'id' => '205' ,
-                'name' => 'PAS 265 ES (EUST2)' ,
-                'short_name' => 'PAS265ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 797 ,
-                'id_category' => '26' ,
-                'id_patent' => '2'
-                ],
+                // [
+                // 'id' => '205' ,
+                // 'name' => 'PAS 265 ES (EUST2)' ,
+                // 'short_name' => 'PAS265ES' ,
+                // 'short_description' => 'short_description' ,
+                // 'description' => 'description' ,
+                // 'price' => 797 ,
+                // 'id_category' => '26' ,
+                // 'id_patent' => '2'
+                // ],
                 /* NOTE Baterias */
                 [
                 'id' => '206' ,
                 'name' => 'BATERIA 100' ,
                 'short_name' => 'BATERIA100' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Batería ECHO LBP 560 100 de 2 Ah, compatible con toda la gama ECHO battery series. Potencia y autonomía para trabajos duros. 80% de carga en 24 minutos.' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 209 ,
                 'id_category' => '7' ,
                 'id_patent' => '2'
@@ -2012,8 +2012,8 @@ class ItemTableSeeder extends Seeder
                 'id' => '207' ,
                 'name' => 'BATERIA 200' ,
                 'short_name' => 'BATERIA200' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Batería ECHO LBP 560 200 de 4 Ah, compatible con toda la gama ECHO battery series. Potencia y autonomía para trabajos duros. 80% de carga en 48 minutos.' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 265 ,
                 'id_category' => '7' ,
                 'id_patent' => '2'
@@ -2022,8 +2022,9 @@ class ItemTableSeeder extends Seeder
                 'id' => '208' ,
                 'name' => 'LBP 560-900' ,
                 'short_name' => 'LBL560900' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Batería de mochila ECHO LBP-560-900 de 16Ah. Compatible con toda la gama ECHO Battery series. Aumenta la autonomía y reduce el peso de la máquina.' ,
+                'description' => '
+Con la batería de mochila ECHO LBP-560-900 podrás trabajar tanto tiempo como necesites y sin cansarte, ya que, al llevarla colgada en un cómoda mochila, la tarea se hará mucho más llevadera. Viene equipada con un arnés ergonómico totalmente ajustable, para adaptarlo perfectamente a tu espalda, y con un cinturón acolchado. Incluye un asa de transporte superior, logo reflectante para seguridad del usuario, e indicador del nivel de carga de 4 leds.' ,
                 'price' => 1199 ,
                 'id_category' => '7' ,
                 'id_patent' => '2'
@@ -2635,7 +2636,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'price' => 250 ,
                 'id_category' => '28' ,
                 'id_patent' => '18',
-                'priority' => 10,
+                'priority' => 9,
                 'video_url' => 'dCzgFC2QfsY'
                 ],
             ]);

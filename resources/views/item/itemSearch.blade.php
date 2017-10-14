@@ -62,10 +62,10 @@
                   @foreach ($categories as $category)
                       <article class="style2">
                           <span class="image">
-                              @if (File::exists(public_path('images/item/category/'.strtoupper($category->name).'_EN_TARRAGONA_CAT.jpg')))
-                                  <img src="{!! asset('images/item/category/'.strtoupper($category->name).'_EN_TARRAGONA_CAT.jpg') !!}" alt="{{ $category->name }}" />
+                              @if (File::exists(public_path('images/item/category/'.strtoupper($category->short_name).'_EN_TARRAGONA_CAT.jpg')))
+                                  <img src="{!! asset('images/item/category/'.strtoupper($category->short_name).'_EN_TARRAGONA_CAT.jpg') !!}" alt="{{ $category->name }}" />
                               @else
-                                  <img src="{{ asset('images/item/list/item_default.jpg') }}" alt="{{ $category->name }}"/>
+                                  <img src="{{ asset('images/item/list/item_default.jpg') }}" alt="{{ $category->short_name }}"/>
                               @endif
                           </span>
                           <a href="{{ route('itemList', ['patent' => 'none', 'category' => $category->short_name]) }}">
