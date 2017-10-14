@@ -2608,6 +2608,36 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'priority' => 10,
                 'video_url' => 'ERg4egZE0zE'
                 ],
+                /* TODO CECOTEC */
+                // [
+                // 'id' => '237' ,
+                // 'name' => 'Conga Excellence' ,
+                // 'short_name' => 'CONGAEXCELLENCE' ,
+                // 'short_description' => 'Olvídate de limpiar: Conga Excellence barre, aspira, pasa la mopa y friega el suelo por ti.
+                //     Emplea tu tiempo en lo que más te guste y deja las tareas del hogar a los profesionales. El robot aspirador Conga Excellence limpia por ti gracias a su limpieza en 4 tiempos. Barre gracias a su cepillo rotativo que funciona como una escoba en movimiento. Aspira el suelo sin dejar ni rastro gracias a su elevada potencia de succión. Pasa la mopa seca para atrapar hasta las partículas del suelo más pequeñas. Por si fuera poco, hemos dado un paso más en la innovación, Conga Excellence friega el suelo a través de su depósito de goteo que empapa la mopa y deja tu casa reluciente.' ,
+                // 'description' => 'Conga Excellence permite mantener el suelo perfectamente limpio, cada día y sin esfuerzo. Gracias a su sistema de navegación iTech 2.0 se adapta al entorno y limpia cada rincón del hogar: debajo de los muebles, encima de alfombras y evitando desniveles. Además, con su diseño ultra fino llega a los espacios más complicados. Consta de un conjunto de sensores de proximidad, distancia y de caída que lo sitúan en su entorno y hacen que se adapte a cada hogar, respetando los muebles y evitando los obstáculos, sabiendo siempre qué y cómo limpiar. Nos gustan las mascotas, por ello, hemos diseñado un aspirador silencioso que tiene un modo de succión sin enredos. Mantén la casa limpia de pelos con la boquilla de succión de alta potencia, evitando los enredos y posibles problemas que ocasionan en otras máquinas. El robot no se estropeará y al llegar a casa podrás disfrutar siempre de tu mascota jugando en un suelo limpio y sin pelos.' ,
+                // 'price' => 200 ,
+                // 'id_category' => '28' ,
+                // 'id_patent' => '18',
+                // 'priority' => 10,
+                // 'video_url' => 'O_tPnjwi5Qc'
+                // ],
+                [
+                'id' => '238' ,
+                'name' => 'Conga Excellence 990' ,
+                'short_name' => 'CONGAEXCELLENCE990' ,
+                'short_description' => 'Olvídate de limpiar: Conga Excellence barre, aspira, pasa la mopa y friega el suelo por ti.
+                    Emplea tu tiempo en lo que más te guste y deja las tareas del hogar a los profesionales. El robot aspirador Conga Excellence limpia por ti gracias a su limpieza en 4 tiempos. Barre gracias a su cepillo rotativo que funciona como una escoba en movimiento. Aspira el suelo sin dejar ni rastro gracias a su elevada potencia de succión. Pasa la mopa seca para atrapar hasta las partículas del suelo más pequeñas. Por si fuera poco, hemos dado un paso más en la innovación, Conga Excellence friega el suelo a través de su depósito de goteo que empapa la mopa y deja tu casa reluciente.' ,
+                'description' => 'Robot aspirador profesional 4 en 1: Barre, aspira, pasa la mopa y friega el suelo. Navegación iTech 3.0 inteligente milímetro a milímetro gracias a sus sensores de proximidad, distancia y anticaída. Se adapta a tu hogar: Limpia bajo los muebles, detecta obstáculos y no se cae por las escaleras.
+                    Extrapower Suction Pro: Modo de limpieza que maximiza la gran potencia de succión para garantizar un suelo siempre limpio, tenga la suciedad que tenga. TurboBoost: Sistema avanzado con una turbina potente que maximiza la succión.
+                    Motorized Power Brush: Cepillo rotativo que limpia a fondo arrastrando la suciedad en alfombras y moquetas. Intelligent Battery Pro: consigue un tiempo de autonomía de 130 minutos. AutoBack Home: Vuelta automática a la base al finalizar la limpieza.
+                    5 modos de limpieza: Auto, Bordes, Habitación, espiral y vuelta a casa. Programmable memory: Programable 24 horas al día 7 días a la semana controlado por un mando a distancia con pantalla LCD, sencillo y intuitivo' ,
+                'price' => 250 ,
+                'id_category' => '28' ,
+                'id_patent' => '18',
+                'priority' => 10,
+                'video_url' => 'dCzgFC2QfsY'
+                ],
             ]);
         } else { echo "\e[31mTable item is not empty, therefore NOT "; }
     }

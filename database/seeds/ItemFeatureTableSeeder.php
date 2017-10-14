@@ -630,6 +630,22 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_feature' => '3756'
                 ]
             ]);
+
+            /* Cecotec */
+            DB::table('item_feature')->insert([
+                /* NOTE CONGAEXCELLENCE */
+                // Peso
+                // [
+                //     'id_item' => '237',
+                //     'id_feature' => '45'
+                // ],
+                /* NOTE CONGAEXCELLENCE990 */
+                // Peso
+                [
+                    'id_item' => '238',
+                    'id_feature' => '45'
+                ]
+            ]);
         } else { echo "\e[31mTable item_feature is not empty, therefore NOT "; }
     }
 }

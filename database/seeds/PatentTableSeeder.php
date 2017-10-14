@@ -83,6 +83,13 @@ class PatentTableSeeder extends Seeder
                     'short_name' => 'oleoMac',
                     'short_description' => 'OleoMac',
                     'description' => 'OleoMac',
+                ],
+                [
+                    'id' => '18',
+                    'name' => 'Cecotec',
+                    'short_name' => 'cecotec',
+                    'short_description' => 'Cecotec',
+                    'description' => 'Cecotec',
                 ]
             ]);
 

@@ -202,6 +202,13 @@ class CategoryTableSeeder extends Seeder
                 //     'short_description' => '',
                 //     'description' => '',
                 // ],
+                [
+                    'id' => '28',
+                    'name' => 'Robots aspiradores',
+                    'short_name' => 'Robots',
+                    'short_description' => '',
+                    'description' => '',
+                ],
             ]);
         } else { echo "\e[31mTable category is not empty, therefore NOT "; }
 
