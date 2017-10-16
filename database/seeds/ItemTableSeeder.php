@@ -2331,7 +2331,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'id_category' => '8',
                     'id_patent' => '3',
                     'priority' => 10,
-                    'video_url' => null
+                    'video_url' => 'OvpQP-PhpWU'
                 ],
                 [
                     'id' => '49',
@@ -2389,7 +2389,7 @@ novedades, un par motor superior y sigue siendo la más ligera del mercado',
                     'id_category' => '1',
                     'id_patent' => '3',
                     'priority' => 10,
-                    'video_url' => null
+                    'video_url' => '6fVr23ZuscU'
                 ],
                 [
                     'id' => '52',
@@ -2456,7 +2456,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'id_category' => '6',
                     'id_patent' => '3',
                     'priority' => 5,
-                    'video_url' => null
+                    'video_url' => '53nkuJlXy-A'
                 ],
                 [
                     'id' => '54',
@@ -2484,7 +2484,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'id_category' => '3',
                     'id_patent' => '3',
                     'priority' => 10,
-                    'video_url' => null
+                    'video_url' => 'BbheTkAFzKw'
                 ],
                 [
                     'id' => '55',
@@ -2496,7 +2496,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'id_category' => '5',
                     'id_patent' => '3',
                     'priority' => 5,
-                    'video_url' => null
+                    'video_url' => 'onmVdCTcH80'
                 ],
                 [
                     'id' => '56',
@@ -2580,7 +2580,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'id_category' => '10' ,
                 'id_patent' => '3',
                 'priority' => 10,
-                'video_url' => null
+                'video_url' => 'hJV_3qO3H04'
                 ],
                 [
                 'id' => '214' ,
