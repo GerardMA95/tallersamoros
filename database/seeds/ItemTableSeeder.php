@@ -675,7 +675,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'FJ500DLX',
                     'short_description' => 'Motoazada Honda FJ500 DLX, versión de luxe, para huertos medianos, compacta, robusta, fácil de usar. Precio competitivo. Variedad de accesorios.',
                     'description' => 'La motoazada Honda FJ500 DLX ofrece total versatilidad y comodidad para su uso en una amplia variedad de tareas del huerto y el jardín durante todo el año, a un precio muy competitivo. Está equipada con un motor Honda GX160, de especificación profesional. Incluye robustas fresas de eje hexagonal, de 3 coronas más disco por cada lado, que permiten el desmontaje de la última corona para disminuir el ancho de trabajo si fuera necesario.' ,
-                    'price' => 1425,
+                    'price' => 1280,
                     'id_category' => '19',
                     'id_patent' => '1'
                 ],
@@ -705,7 +705,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'F560',
                     'short_description' => 'Motoazada Honda F560 para huertos grandes. Potente y profesional, caja de cambios y manillar desplazable. Desbloqueo de ruedas. Gran variedad de accesorios.',
                     'description' => 'La motoazada Honda F560 ofrece total versatilidad y comodidad para su uso en una amplia variedad de tareas del huerto y el jardín durante todo el año. Está equipada con un motor Honda GX160, de especificación profesional. Incluye robustas fresas de eje hexagonal, de 3 coronas más disco por cada lado, que permiten el desmontaje de la última corona para disminuir el ancho de trabajo si fuera necesario.' ,
-                    'price' => 3220,
+                    'price' => 2899,
                     'id_category' => '19',
                     'id_patent' => '1'
                 ],
@@ -745,7 +745,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'F560M',
                     'short_description' => 'Motocultor Honda F560 M potentes, con fresa trasera y frenos de ruedas. Comodidad sin vibraciones. Gran diversidad de accesorios.',
                     'description' => 'El motocultor Honda F560 M es una máquina de gran maniobrabilidad y que ofrece un trabajo de calidad. Es altamente robusta y fiable, perfecta para grandes extensiones. Dispone de una exclusiva fresa trasera de 2 velocidades que le permite dar un acabado esponjoso y fino a la tierra, dejándola a punto para la siembra.' ,
-                    'price' => 4525,
+                    'price' => 4840,
                     'id_category' => '19',
                     'id_patent' => '1'
                 ],

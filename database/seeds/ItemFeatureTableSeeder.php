@@ -373,7 +373,165 @@ class ItemFeatureTableSeeder extends Seeder
                 [
                     'id_item' => '80',
                     'id_feature' => '108'
-                ]
+                ],
+                /* MOTOAIXADES */
+                /* FG205 */
+                [
+                    'id_item' => '109',
+                    'id_feature' => '4090'
+                ],
+                [
+                    'id_item' => '109',
+                    'id_feature' => '1601'
+                ],
+                [
+                    'id_item' => '109',
+                    'id_feature' => '205'
+                ],
+                /* F220 */
+                [
+                    'id_item' => '110',
+                    'id_feature' => '4091'
+                ],
+                [
+                    'id_item' => '110',
+                    'id_feature' => '1681'
+                ],
+                [
+                    'id_item' => '110',
+                    'id_feature' => '300'
+                ],
+                /* FG320 */
+                [
+                    'id_item' => '111',
+                    'id_feature' => '4094'
+                ],
+                [
+                    'id_item' => '111',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '111',
+                    'id_feature' => '550'
+                ],
+                /* FJ500STD */
+                [
+                    'id_item' => '112',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '112',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '112',
+                    'id_feature' => '450'
+                ],
+                /* FJ500DLX */
+                [
+                    'id_item' => '113',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '113',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '113',
+                    'id_feature' => '500'
+                ],
+                /* F506 */
+                [
+                    'id_item' => '114',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '114',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '114',
+                    'id_feature' => '530'
+                ],
+                /* F510 */
+                [
+                    'id_item' => '115',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '115',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '115',
+                    'id_feature' => '540'
+                ],
+                /* F560 */
+                [
+                    'id_item' => '116',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '116',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '116',
+                    'id_feature' => '580'
+                ],
+                /* FF300 */
+                [
+                    'id_item' => '117',
+                    'id_feature' => '4091'
+                ],
+                [
+                    'id_item' => '117',
+                    'id_feature' => '1681'
+                ],
+                [
+                    'id_item' => '117',
+                    'id_feature' => '510'
+                ],
+                /* FF500 */
+                [
+                    'id_item' => '118',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '118',
+                    'id_feature' => '1901'
+                ],
+                [
+                    'id_item' => '118',
+                    'id_feature' => '714'
+                ],
+                /* FR750 */
+                [
+                    'id_item' => '119',
+                    'id_feature' => '4090'
+                ],
+                [
+                    'id_item' => '119',
+                    'id_feature' => '1937'
+                ],
+                [
+                    'id_item' => '119',
+                    'id_feature' => '754'
+                ],
+                /* F560M */
+                [
+                    'id_item' => '120',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '120',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '120',
+                    'id_feature' => '882'
+                ],
+
             ]);
             /* Pellenc */
             DB::table('item_feature')->insert([

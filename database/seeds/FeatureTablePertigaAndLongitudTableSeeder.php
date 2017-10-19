@@ -164,8 +164,55 @@ class FeaturePertigaAndLongitudTableSeeder extends Seeder
             'description' => '350 cm',
             'id_feature_category' => '14'
             ],
-
-
+            /* MOTOR */
+            [
+            'id' => 4088,
+            'name' => 'GX 25',
+            'description' => 'GX25',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4089,
+            'name' => 'GX 35',
+            'description' => 'GX35',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4090,
+            'name' => 'GXV 50',
+            'description' => 'GXV50',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4091,
+            'name' => 'GXV 57',
+            'description' => 'GXV57',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4092,
+            'name' => 'GX H50',
+            'description' => 'GXH50',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4093,
+            'name' => 'GX 160',
+            'description' => 'GX160',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4094,
+            'name' => 'GP 160',
+            'description' => 'GP160',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4095,
+            'name' => 'GCV 160',
+            'description' => 'GCV160',
+            'id_feature_category' => '1'
+            ]
         ]);
     }
 }
