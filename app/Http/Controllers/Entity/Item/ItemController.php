@@ -131,6 +131,7 @@ class ItemController extends Controller
         //Si se ha encontrado el item
         if(!is_null($item)){
             $patent = DB::table('patent')->where('id', $item->id_patent)->first();
+            $category = DB::table('category')->where('id', $item->id_category)->first();
 
             $itemFeatures = DB::table('item_feature')->where('id_item', $item->id)->get();
             if($itemFeatures->isNotEmpty()){
@@ -151,6 +152,9 @@ class ItemController extends Controller
             }
         }
 
-        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'itemPatent' => $patent]);
+        $relatedItemsService = new RelatedItemsService();
+        $relatedItems = $relatedItemsService->getRelatedItems($item);
+
+        return view('item.itemDescription', ['item' => $item, 'features' => $features, 'itemPatent' => $patent, 'itemCategory' => $category, 'relatedItems' => $relatedItems]);
     }
 }
