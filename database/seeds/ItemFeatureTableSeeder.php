@@ -531,7 +531,215 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_item' => '120',
                     'id_feature' => '882'
                 ],
-
+                /* CORTACESPED */
+                /* HRE330 */
+                [
+                    'id_item' => '1',
+                    'id_feature' => '110'
+                ],
+                [
+                    'id_item' => '1',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '1',
+                    'id_feature' => '1901'
+                ],
+                /* HRE370 */
+                [
+                    'id_item' => '2',
+                    'id_feature' => '150'
+                ],
+                [
+                    'id_item' => '2',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '2',
+                    'id_feature' => '1901'
+                ],
+                /* IZY41P */
+                [
+                    'id_item' => '3',
+                    'id_feature' => '290'
+                ],
+                [
+                    'id_item' => '3',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '3',
+                    'id_feature' => '1901'
+                ],
+                /* IZY46P */
+                [
+                    'id_item' => '4',
+                    'id_feature' => '300'
+                ],
+                [
+                    'id_item' => '4',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '4',
+                    'id_feature' => '1901'
+                ],
+                /* IZY41S */
+                [
+                    'id_item' => '5',
+                    'id_feature' => '310'
+                ],
+                [
+                    'id_item' => '5',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '5',
+                    'id_feature' => '1901'
+                ],
+                /* IZY46S */
+                [
+                    'id_item' => '6',
+                    'id_feature' => '320'
+                ],
+                [
+                    'id_item' => '6',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '6',
+                    'id_feature' => '1901'
+                ],
+                /* IZY53S */
+                [
+                    'id_item' => '7',
+                    'id_feature' => '362'
+                ],
+                [
+                    'id_item' => '7',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '7',
+                    'id_feature' => '1901'
+                ],
+                /* IZY53VYE */
+                [
+                    'id_item' => '8',
+                    'id_feature' => '413'
+                ],
+                [
+                    'id_item' => '8',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '8',
+                    'id_feature' => '1901'
+                ],
+                /* HRX476HYE */
+                [
+                    'id_item' => '10',
+                    'id_feature' => '440'
+                ],
+                [
+                    'id_item' => '10',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '10',
+                    'id_feature' => '1901'
+                ],
+                /* HRX476VYE */
+                [
+                    'id_item' => '9',
+                    'id_feature' => '420'
+                ],
+                [
+                    'id_item' => '9',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '9',
+                    'id_feature' => '1901'
+                ],
+                /* HRX537HYE */
+                [
+                    'id_item' => '12',
+                    'id_feature' => '448'
+                ],
+                [
+                    'id_item' => '12',
+                    'id_feature' => '4097'
+                ],
+                [
+                    'id_item' => '12',
+                    'id_feature' => '1928'
+                ],
+                /* HRX537VYE */
+                [
+                    'id_item' => '11',
+                    'id_feature' => '439'
+                ],
+                [
+                    'id_item' => '11',
+                    'id_feature' => '4097'
+                ],
+                [
+                    'id_item' => '11',
+                    'id_feature' => '1928'
+                ],
+                /* HRD536HXE */
+                [
+                    'id_item' => '14',
+                    'id_feature' => '493'
+                ],
+                [
+                    'id_item' => '14',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '14',
+                    'id_feature' => '1904'
+                ],
+                /* HRH536HXE */
+                [
+                    'id_item' => '15',
+                    'id_feature' => '602'
+                ],
+                [
+                    'id_item' => '15',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '15',
+                    'id_feature' => '1904'
+                ],
+                /* HRH536QXE */
+                [
+                    'id_item' => '16',
+                    'id_feature' => '581'
+                ],
+                [
+                    'id_item' => '16',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '16',
+                    'id_feature' => '1904'
+                ],
+                /* HRS536SKEA */
+                [
+                    'id_item' => '81',
+                    'id_feature' => '311'
+                ],
+                [
+                    'id_item' => '81',
+                    'id_feature' => '4095'
+                ],
+                [
+                    'id_item' => '81',
+                    'id_feature' => '1901'
+                ],
             ]);
             /* Pellenc */
             DB::table('item_feature')->insert([

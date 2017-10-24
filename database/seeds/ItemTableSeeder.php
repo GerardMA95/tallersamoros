@@ -21,7 +21,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'HRE330',
                     'short_description' => 'Cortacésped eléctrico Honda HRE330, económico, fácil y ligero, para jardines pequeños. Con portacables, cuchilla inteligente y protección contra sobre calentamiento.',
                     'description' => 'El cortacésped Honda IZY41P cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla',
-                    'price' => 189,
+                    'price' => 209,
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
@@ -57,11 +57,11 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '5',
-                    'name' => 'IZI 41 S',
+                    'name' => 'IZY 41 S',
                     'short_name' => 'IZY41S',
                     'short_description' => 'Cortacésped Honda IZY41S muy fácil de usar, autopropulsado, mulching opcional, estárter automático, chasis de acero, la mejor calidad de corte y recogida.',
                     'description' => 'El cortacésped Honda IZY41S cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla.',
-                    'price' => 495,
+                    'price' => 548,
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
@@ -87,10 +87,10 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '8',
-                    'name' => 'IZY 53 PREMIUM',
+                    'name' => 'IZY 53 VYE',
                     'short_name' => 'IZY53PREMIUM',
-                    'short_description' => 'Cortacésped Honda IZY41P muy fácil de usar, avance manual, estárter automático, chasis de acero, potente y silencioso, la mejor calidad de corte y recogida.',
-                    'description' => 'El cortacésped Honda IZY41P cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla.',
+                    'short_description' => 'Cortacésped Honda IZY53VYE Premium muy fácil de usar, estárter automático, sistema de avance Smart Drive, Rotostop BBC, Mulching Versamow Selective.',
+                    'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente.',
                     'price' => 1075,
                     'id_category' => '10',
                     'id_patent' => '1'
@@ -101,7 +101,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'HRX476VYE',
                     'short_description' => 'Cortacésped Honda HRX476VYE, estárter automático, jardines medios o grandes, sistema de corte Versamow® y avance automático Smart Drive®.',
                     'description' => 'El cortacésped Honda HRX476VYE incorpora el innovador sistema Smart Drive® de Honda para el cambio de velocidades. Este exclusivo sistema permite regular la velocidad de manera progresiva y precisa simplemente apoyando las manos en el manillar. El cortacésped es realmente autopropulsado, no es necesario empujarlo, avanza por sí solo y resulta extraordinariamente fácil y confortable para el usuario.',
-                    'price' => 1199,
+                    'price' => 1330,
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
@@ -135,16 +135,16 @@ class ItemTableSeeder extends Seeder
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
-                [
-                    'id' => '13',
-                    'name' => 'HRD 536 CTX',
-                    'short_name' => 'HRD536CTX',
-                    'short_description' => 'Cortacésped Honda HRD536CTX, fiabilidad profesional para el particular, autopropulsado, carcasa aluminio, jardines medianos y grandes, Rotostop®, mulching opcional.',
-                    'description' => 'El cortacésped Honda HRD536CTX incorpora el exclusivo sistema de seguridad Rotostop BBC®, que detiene el giro de la cuchilla del cortacésped sin necesidad de parar el motor y evita accidentes por proyección de piedras o manipulación indebida. Es un sistema que aporta seguridad a la vez que comodidad, ya que como usuario no tendrás que parar y arrancar el motor cada vez que te detengas a vaciar el recogedor.',
-                    'price' => 1399,
-                    'id_category' => '10',
-                    'id_patent' => '1'
-                ],
+                // [
+                //     'id' => '13',
+                //     'name' => 'HRD 536 CTX',
+                //     'short_name' => 'HRD536CTX',
+                //     'short_description' => 'Cortacésped Honda HRD536CTX, fiabilidad profesional para el particular, autopropulsado, carcasa aluminio, jardines medianos y grandes, Rotostop®, mulching opcional.',
+                //     'description' => 'El cortacésped Honda HRD536CTX incorpora el exclusivo sistema de seguridad Rotostop BBC®, que detiene el giro de la cuchilla del cortacésped sin necesidad de parar el motor y evita accidentes por proyección de piedras o manipulación indebida. Es un sistema que aporta seguridad a la vez que comodidad, ya que como usuario no tendrás que parar y arrancar el motor cada vez que te detengas a vaciar el recogedor.',
+                //     'price' => 1399,
+                //     'id_category' => '10',
+                //     'id_patent' => '1'
+                // ],
                 [
                     'id' => '14',
                     'name' => 'HRD 536 HXE',
@@ -181,8 +181,8 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '81',
-                    'name' => 'HRS 536 CSD',
-                    'short_name' => 'HRS536CSD',
+                    'name' => 'HRS 536 SKEA',
+                    'short_name' => 'HRS536SKEA',
                     'short_description' => 'Cortacésped Honda HRS536C, profesional, expulsión lateral o corte mulching, sin bolsa de recogida, autopropulsado, chasis acero, ligero y manejable.',
                     'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente.',
                     'price' => 890,
@@ -199,23 +199,23 @@ class ItemTableSeeder extends Seeder
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
-                [
-                    'id' => '85' ,
-                    'name' => 'HF 2315 SB',
-                    'short_name' => 'HF2315SB',
-                    'short_description' => 'Cortacésped de asiento Honda HF2315SB, transmisión mecánica, deflector y mulching opcional, Optiflow, comodidad y seguridad.',
-                    'description' => 'Si optas por recoger, debes saber que el cortacésped de asiento HF2315SB incorpora el exclusivo sistema “OptiFlow", que ofrece el mejor rendimiento de recogida de Honda incluso en las condiciones más exigentes. “OptiFlow” combina una potente aspiración con el control de la turbulencia, para reducir la pérdida de potencia, el ruido y los atascos.' ,
-                    'price' => 4175,
-                    'id_category' => '10',
-                    'id_patent' => '1'
-                ],
+                // [
+                //     'id' => '85' ,
+                //     'name' => 'HF 2315 SB',
+                //     'short_name' => 'HF2315SB',
+                //     'short_description' => 'Cortacésped de asiento Honda HF2315SB, transmisión mecánica, deflector y mulching opcional, Optiflow, comodidad y seguridad.',
+                //     'description' => 'Si optas por recoger, debes saber que el cortacésped de asiento HF2315SB incorpora el exclusivo sistema “OptiFlow", que ofrece el mejor rendimiento de recogida de Honda incluso en las condiciones más exigentes. “OptiFlow” combina una potente aspiración con el control de la turbulencia, para reducir la pérdida de potencia, el ruido y los atascos.' ,
+                //     'price' => 4175,
+                //     'id_category' => '10',
+                //     'id_patent' => '1'
+                // ],
                 [
                     'id' => '86' ,
                     'name' => 'HF 2315 HM',
                     'short_name' => 'HF2315HM',
                     'short_description' => 'Cortacésped de asiento Honda HF2315HM, transmisión hidrostática, deflector y mulching opcional, Optiflow, comodidad y seguridad.',
                     'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente.' ,
-                    'price' => 4495,
+                    'price' => 4995,
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
