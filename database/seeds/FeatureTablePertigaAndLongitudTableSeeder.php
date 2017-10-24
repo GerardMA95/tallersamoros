@@ -227,26 +227,26 @@ class FeaturePertigaAndLongitudTableSeeder extends Seeder
             ],
             [
             'id' => 4098,
-            'name' => 'ELECTRICO',
-            'description' => 'ELECTRICO',
+            'name' => 'GXV 340',
+            'description' => 'GXV340',
             'id_feature_category' => '1'
             ],
             [
             'id' => 4099,
-            'name' => 'ELECTRICO',
-            'description' => 'ELECTRICO',
+            'name' => 'GCV520',
+            'description' => 'GCV 520',
             'id_feature_category' => '1'
             ],
             [
             'id' => 4100,
-            'name' => 'ELECTRICO',
-            'description' => 'ELECTRICO',
+            'name' => 'GCV530',
+            'description' => 'GCV 530',
             'id_feature_category' => '1'
             ],
             [
             'id' => 4101,
-            'name' => 'ELECTRICO',
-            'description' => 'ELECTRICO',
+            'name' => 'GXV660',
+            'description' => 'GXV 660',
             'id_feature_category' => '1'
             ],
             [

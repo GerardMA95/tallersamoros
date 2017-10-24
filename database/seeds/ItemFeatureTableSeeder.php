@@ -256,32 +256,8 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_item' => '20',
                     'id_feature' => '2078'
                 ],
-                [
-                    'id_item' => '75',
-                    'id_feature' => '1361'
-                ],
-                [
-                    'id_item' => '76',
-                    'id_feature' => '1361'
-                ],
-                [
-                    'id_item' => '77',
-                    'id_feature' => '1361'
-                ],
-                [
-                    'id_item' => '78',
-                    'id_feature' => '1461'
-                ],
-                [
-                    'id_item' => '79',
-                    'id_feature' => '1461'
-                ],
-                [
-                    'id_item' => '80',
-                    'id_feature' => '1461'
-                ]
                 /* DESBROZADORA - PESO */
-                ,[
+                [
                     'id_item' => '62',
                     'id_feature' => '47'
                 ],
@@ -349,30 +325,6 @@ class ItemFeatureTableSeeder extends Seeder
                 [
                     'id_item' => '20',
                     'id_feature' => '846'
-                ],
-                [
-                    'id_item' => '75',
-                    'id_feature' => '54'
-                ],
-                [
-                    'id_item' => '76',
-                    'id_feature' => '65'
-                ],
-                [
-                    'id_item' => '77',
-                    'id_feature' => '62'
-                ],
-                [
-                    'id_item' => '78',
-                    'id_feature' => '76'
-                ],
-                [
-                    'id_item' => '79',
-                    'id_feature' => '73'
-                ],
-                [
-                    'id_item' => '80',
-                    'id_feature' => '108'
                 ],
                 /* MOTOAIXADES */
                 /* FG205 */
@@ -543,7 +495,7 @@ class ItemFeatureTableSeeder extends Seeder
                 ],
                 [
                     'id_item' => '1',
-                    'id_feature' => '1901'
+                    'id_feature' => '3772'
                 ],
                 /* HRE370 */
                 [
@@ -556,7 +508,7 @@ class ItemFeatureTableSeeder extends Seeder
                 ],
                 [
                     'id_item' => '2',
-                    'id_feature' => '1901'
+                    'id_feature' => '3792'
                 ],
                 /* IZY41P */
                 [
@@ -739,6 +691,184 @@ class ItemFeatureTableSeeder extends Seeder
                 [
                     'id_item' => '81',
                     'id_feature' => '1901'
+                ],
+                /* HF1211H */
+                [
+                    'id_item' => '84',
+                    'id_feature' => '887'
+                ],
+                [
+                    'id_item' => '84',
+                    'id_feature' => '4098'
+                ],
+                [
+                    'id_item' => '84',
+                    'id_feature' => '2078'
+                ],
+                /* HF2315HM */
+                [
+                    'id_item' => '86',
+                    'id_feature' => '925'
+                ],
+                [
+                    'id_item' => '86',
+                    'id_feature' => '4099'
+                ],
+                [
+                    'id_item' => '86',
+                    'id_feature' => '2271'
+                ],
+                /* HF2417HM */
+                [
+                    'id_item' => '87',
+                    'id_feature' => '944'
+                ],
+                [
+                    'id_item' => '87',
+                    'id_feature' => '4100'
+                ],
+                [
+                    'id_item' => '87',
+                    'id_feature' => '2271'
+                ],
+                /* HF2622HM */
+                [
+                    'id_item' => '88',
+                    'id_feature' => '965'
+                ],
+                [
+                    'id_item' => '88',
+                    'id_feature' => '4101'
+                ],
+                [
+                    'id_item' => '88',
+                    'id_feature' => '2429'
+                ],
+                /* MiimoHRM310 */
+                [
+                    'id_item' => '89',
+                    'id_feature' => '116'
+                ],
+                [
+                    'id_item' => '89',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '89',
+                    'id_feature' => '2855'
+                ],
+                [
+                    'id_item' => '89',
+                    'id_feature' => '3218'
+                ],
+                /* MiimoHRM520 */
+                [
+                    'id_item' => '90',
+                    'id_feature' => '119'
+                ],
+                [
+                    'id_item' => '90',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '90',
+                    'id_feature' => '2855'
+                ],
+                [
+                    'id_item' => '90',
+                    'id_feature' => '3218'
+                ],
+                /* MiimoHRM3000 */
+                [
+                    'id_item' => '91',
+                    'id_feature' => '138'
+                ],
+                [
+                    'id_item' => '91',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '91',
+                    'id_feature' => '2858'
+                ],
+                [
+                    'id_item' => '91',
+                    'id_feature' => '3218'
+                ],
+                /* DESBROZADORA */
+                /* UMK425LE */
+                [
+                    'id_item' => '75',
+                    'id_feature' => '62'
+                ],
+                [
+                    'id_item' => '75',
+                    'id_feature' => '1361'
+                ],
+                [
+                    'id_item' => '75',
+                    'id_feature' => '4088'
+                ],
+                /* UMK425UE */
+                [
+                    'id_item' => '76',
+                    'id_feature' => '65'
+                ],
+                [
+                    'id_item' => '76',
+                    'id_feature' => '1361'
+                ],
+                [
+                    'id_item' => '76',
+                    'id_feature' => '4088'
+                ],
+                /* UMK435LE */
+                [
+                    'id_item' => '79',
+                    'id_feature' => '73'
+                ],
+                [
+                    'id_item' => '79',
+                    'id_feature' => '1469'
+                ],
+                [
+                    'id_item' => '79',
+                    'id_feature' => '4089'
+                ],
+                /* UMK435UE */
+                [
+                    'id_item' => '78',
+                    'id_feature' => '76'
+                ],
+                [
+                    'id_item' => '78',
+                    'id_feature' => '1469'
+                ],
+                [
+                    'id_item' => '78',
+                    'id_feature' => '4089'
+                ],
+                /* UMR435LE */
+                [
+                    'id_item' => '80',
+                    'id_feature' => '108'
+                ],
+                [
+                    'id_item' => '80',
+                    'id_feature' => '1469'
+                ],
+                [
+                    'id_item' => '80',
+                    'id_feature' => '4089'
+                ],
+                /* HHTE38BE */
+                [
+                    'id_item' => '102',
+                    'id_feature' => '30'
+                ],
+                [
+                    'id_item' => '102',
+                    'id_feature' => '4096'
                 ],
             ]);
             /* Pellenc */

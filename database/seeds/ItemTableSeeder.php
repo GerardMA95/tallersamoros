@@ -247,7 +247,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'MiimoHRM310',
                     'short_description' => 'Si lo que quieres es un césped perfecto sin preocuparte de nada, el Honda Miimo 310 es la solución ideal. Para jardines de cualquier medida, hasta un máximo de 2.000 m2. Instalación no incluida en el precio.',
                     'description' => 'Miimo es nuestro robot cortacésped, inteligente y completamente autónomo que puede cuidar tu césped sin ninguna ayuda. Alimentado con baterías, Miimo es capaz de recargarse y adaptar sus sesiones de trabajo a conveniencia. Desde jardines simples hasta zonas complejas con parterres,  irregulares  o con pendientes,  Miimo te ayudará a conseguir un césped perfecto mientras tú disfrutas de tu tiempo libre haciendo las cosas que más te gustan. Encuentra el Honda Miimo adecuado para tu jardín.' ,
-                    'price' => 2395,
+                    'price' => 1999,
                     'id_category' => '10',
                     'id_patent' => '1'
                 ],
@@ -280,7 +280,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'UM526',
                     'short_description' => 'Desbrozadora de ruedas Honda UM526, profesional, velocidad variable, manillar ajustable y desplazable, chasis de acero, rueda frontal giratoria.',
                     'description' => 'La desbrozadora de ruedas Honda UM526 es la más pequeña de la gama, pero no por ello deja de ofrecer un rendimiento profesional. Es muy fácil de usar y permite cortar sin dificultad hierba o maleza alta.',
-                    'price' => 1368,
+                    'price' => 1520,
                     'id_category' => '3',
                     'id_patent' => '1'
                 ],
@@ -322,7 +322,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'UMS425E1LE',
                     'short_description' => 'El cortabordes Honda UMS425 es el ideal para tu jardín. Si te gusta el trabajo bien hecho, no olvides repasar los bordes de tu césped. Te sorprenderá su corte limpio y eficaz. FICHA TÉCNICA Tipo de motor GX 25 Cilindrada 25 cm³ Potencia nominal 0,72 kW (0,98 cv) Depósito de gasolina Euro 95 0,58 litros Arranque Manual Sistema antivibración Doble Embrague Centrífugo Manillar Simple Diámetro del tubo 24 mm Peso (en seco) 5,4 Kg (sin accesorio)',
                     'description' => 'El cortabordes Honda UMS425 es el ideal para tu jardín. Si te gusta el trabajo bien hecho, no olvides repasar los bordes de tu césped. Te sorprenderá su corte limpio y eficaz. FICHA TÉCNICA Tipo de motor GX 25 Cilindrada 25 cm³ Potencia nominal 0,72 kW (0,98 cv) Depósito de gasolina Euro 95 0,58 litros Arranque Manual Sistema antivibración Doble Embrague Centrífugo Manillar Simple Diámetro del tubo 24 mm Peso (en seco) 5,4 Kg (sin accesorio)',
-                    'price' => 349,
+                    'price' => 399,
                     'id_category' => '3',
                     'id_patent' => '1'
                 ],
@@ -336,16 +336,16 @@ class ItemTableSeeder extends Seeder
                     'id_category' => '3',
                     'id_patent' => '1'
                 ],
-                [
-                    'id' => '77',
-                    'name' => 'UMK 425 LE',
-                    'short_name' => 'UMK425LE',
-                    'short_description' => 'Desbrozadora Honda UMK 425 LE con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Corte limpio, fácil y eficaz. Manillar simple.',
-                    'description' => 'La desbrozadora Honda UMK 425 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
-                    'price' => 365,
-                    'id_category' => '3',
-                    'id_patent' => '1'
-                ],
+                // [
+                //     'id' => '77',
+                //     'name' => 'UMK 425 LE',
+                //     'short_name' => 'UMK425LE',
+                //     'short_description' => 'Desbrozadora Honda UMK 425 LE con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Corte limpio, fácil y eficaz. Manillar simple.',
+                //     'description' => 'La desbrozadora Honda UMK 425 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
+                //     'price' => 365,
+                //     'id_category' => '3',
+                //     'id_patent' => '1'
+                // ],
                 [
                     'id' => '78',
                     'name' => 'UMK 435 UE',
@@ -369,11 +369,11 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                     'id' => '80',
-                    'name' => 'UMR 435 LG',
-                    'short_name' => 'UMR435LG',
-                    'short_description' => 'Desbrozadora de mochila Honda UMK 435 LG con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Ligera y cómoda. Especial trabajo en pendientes.',
-                    'description' => 'La desbrozadora Honda UMR 435 LG incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.
-                    La desbrozadora de mochila Honda UMR425 LG resulta ideal para zonas complicadas, de difícil acceso o con pendientes pronunciadas, así como en espacios reducidos del jardín. Ha sido diseñada pensando en la comodidad del usuario y para una óptima maniobrabilidad y confort. Su montura anti vibraciones, su mochila ergonómica y su reducido peso hacen de esta máquina la estrella del mercado.',
+                    'name' => 'UMR 435 LE',
+                    'short_name' => 'UMR435LE',
+                    'short_description' => 'Desbrozadora de mochila Honda UMK 435 LE con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Ligera y cómoda. Especial trabajo en pendientes.',
+                    'description' => 'La desbrozadora Honda UMR 435 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.
+                    La desbrozadora de mochila Honda UMR425 LE resulta ideal para zonas complicadas, de difícil acceso o con pendientes pronunciadas, así como en espacios reducidos del jardín. Ha sido diseñada pensando en la comodidad del usuario y para una óptima maniobrabilidad y confort. Su montura anti vibraciones, su mochila ergonómica y su reducido peso hacen de esta máquina la estrella del mercado.',
                     'price' => 894,
                     'id_category' => '3',
                     'id_patent' => '1'
