@@ -245,16 +245,32 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_feature' => '1904'
                 ],
                 [
+                    'id_item' => '17',
+                    'id_feature' => '4102'
+                ],
+                [
                     'id_item' => '18',
                     'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '18',
+                    'id_feature' => '4102'
                 ],
                 [
                     'id_item' => '19',
                     'id_feature' => '1904'
                 ],
                 [
+                    'id_item' => '19',
+                    'id_feature' => '4102'
+                ],
+                [
                     'id_item' => '20',
                     'id_feature' => '2078'
+                ],
+                [
+                    'id_item' => '20',
+                    'id_feature' => '4098'
                 ],
                 /* DESBROZADORA - PESO */
                 [
@@ -870,6 +886,265 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_item' => '102',
                     'id_feature' => '4096'
                 ],
+                /* KITHHTE38BE_HBP20AH_HBC210WE */
+                [
+                    'id_item' => '103',
+                    'id_feature' => '30'
+                ],
+                [
+                    'id_item' => '103',
+                    'id_feature' => '4096'
+                ],
+                /* KITHHTE38BE_HBP20AH_HBC550WE */
+                [
+                    'id_item' => '104',
+                    'id_feature' => '30'
+                ],
+                [
+                    'id_item' => '104',
+                    'id_feature' => '4096'
+                ],
+                /* REGENERADOR */
+                /* RH370 */
+                [
+                    'id_item' => '82',
+                    'id_feature' => '350'
+                ],
+                [
+                    'id_item' => '82',
+                    'id_feature' => '4094'
+                ],
+                [
+                    'id_item' => '82',
+                    'id_feature' => '1904'
+                ],
+                /* RH390 */
+                [
+                    'id_item' => '23',
+                    'id_feature' => '435'
+                ],
+                [
+                    'id_item' => '23',
+                    'id_feature' => '4094'
+                ],
+                [
+                    'id_item' => '23',
+                    'id_feature' => '1904'
+                ],
+                /* RH480 */
+                [
+                    'id_item' => '24',
+                    'id_feature' => '470'
+                ],
+                [
+                    'id_item' => '24',
+                    'id_feature' => '4093'
+                ],
+                [
+                    'id_item' => '24',
+                    'id_feature' => '1904'
+                ],
+                /* RH700 */
+                [
+                    'id_item' => '25',
+                    'id_feature' => '650'
+                ],
+                [
+                    'id_item' => '25',
+                    'id_feature' => '4103'
+                ],
+                [
+                    'id_item' => '25',
+                    'id_feature' => '1937'
+                ],
+                /* NOTE BARREDORA */
+                /* FG201B */
+                [
+                    'id_item' => '22',
+                    'id_feature' => '435'
+                ],
+                [
+                    'id_item' => '22',
+                    'id_feature' => '4090'
+                ],
+                [
+                    'id_item' => '22',
+                    'id_feature' => '1601'
+                ],
+                /* NOTE ASPIRADOR */
+                /* AS100 */
+                [
+                    'id_item' => '83',
+                    'id_feature' => '680'
+                ],
+                [
+                    'id_item' => '83',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '83',
+                    'id_feature' => '4093'
+                ],
+                /* NOTE CORTASETO */
+                /* HHH25S75E */
+                [
+                    'id_item' => '92',
+                    'id_feature' => '58'
+                ],
+                [
+                    'id_item' => '92',
+                    'id_feature' => '4088'
+                ],
+                [
+                    'id_item' => '92',
+                    'id_feature' => '1361'
+                ],
+                /* HHH25D60E */
+                [
+                    'id_item' => '93',
+                    'id_feature' => '63'
+                ],
+                [
+                    'id_item' => '93',
+                    'id_feature' => '4088'
+                ],
+                [
+                    'id_item' => '93',
+                    'id_feature' => '1361'
+                ],
+                /* HHH25D75E */
+                [
+                    'id_item' => '94',
+                    'id_feature' => '66'
+                ],
+                [
+                    'id_item' => '94',
+                    'id_feature' => '4088'
+                ],
+                [
+                    'id_item' => '94',
+                    'id_feature' => '1361'
+                ],
+                /* HHHE61LE */
+                [
+                    'id_item' => '99' ,
+                    'id_feature' => '28',
+                ],
+                [
+                    'id_item' => '99',
+                    'id_feature' => '4096'
+                ],
+                /* KITHHHE61LE_HBP20AH_HBC210WE */
+                [
+                    'id_item' => '100' ,
+                    'id_feature' => '28',
+                ],
+                [
+                    'id_item' => '100',
+                    'id_feature' => '4096'
+                ],
+                /* KITHHHE61LE_HBP20AH_HBC550WE */
+                [
+                    'id_item' => '101' ,
+                    'id_feature' => '28',
+                ],
+                [
+                    'id_item' => '101',
+                    'id_feature' => '4096'
+                ],
+                /* NOTE SOPLADOR */
+                /* HHB25 */
+                [
+                    'id_item' => '95' ,
+                    'id_feature' => '45',
+                ],
+                [
+                    'id_item' => '95',
+                    'id_feature' => '4088'
+                ],
+                [
+                    'id_item' => '95',
+                    'id_feature' => '1361'
+                ],
+                /* HHBE81BE */
+                [
+                    'id_item' => '96' ,
+                    'id_feature' => '23',
+                ],
+                [
+                    'id_item' => '96',
+                    'id_feature' => '4096'
+                ],
+                /* KITHHBE81BE_HBP40AH_HBC210WE */
+                [
+                    'id_item' => '97' ,
+                    'id_feature' => '23',
+                ],
+                [
+                    'id_item' => '97',
+                    'id_feature' => '4096'
+                ],
+                /* KITHHBE81BE_HBP40AH_HBC550WE */
+                [
+                    'id_item' => '98' ,
+                    'id_feature' => '23',
+                ],
+                [
+                    'id_item' => '98',
+                    'id_feature' => '4096'
+                ],
+                /* NOTE Baterias */
+                /* HBP20AH */
+                [
+                    'id_item' => '105' ,
+                    'id_feature' => '12',
+                ],
+                /* HBP40AH */
+                [
+                    'id_item' => '106' ,
+                    'id_feature' => '22',
+                ],
+                /* NOTE CARRETILLA */
+                /* HP310 */
+                [
+                    'id_item' => '170' ,
+                    'id_feature' => '890',
+                ],
+                [
+                    'id_item' => '170' ,
+                    'id_feature' => '4094',
+                ],
+                [
+                    'id_item' => '170' ,
+                    'id_feature' => '1904',
+                ],
+                /* HP490 */
+                [
+                    'id_item' => '172' ,
+                    'id_feature' => '950',
+                ],
+                [
+                    'id_item' => '172' ,
+                    'id_feature' => '4104',
+                ],
+                [
+                    'id_item' => '172' ,
+                    'id_feature' => '1937',
+                ],
+                /* HP500 */
+                [
+                    'id_item' => '173' ,
+                    'id_feature' => '907',
+                ],
+                [
+                    'id_item' => '173' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '173' ,
+                    'id_feature' => '1904',
+                ],
+
             ]);
             /* Pellenc */
             DB::table('item_feature')->insert([

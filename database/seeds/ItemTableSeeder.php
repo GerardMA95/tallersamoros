@@ -336,16 +336,16 @@ class ItemTableSeeder extends Seeder
                     'id_category' => '3',
                     'id_patent' => '1'
                 ],
-                // [
-                //     'id' => '77',
-                //     'name' => 'UMK 425 LE',
-                //     'short_name' => 'UMK425LE',
-                //     'short_description' => 'Desbrozadora Honda UMK 425 LE con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Corte limpio, fácil y eficaz. Manillar simple.',
-                //     'description' => 'La desbrozadora Honda UMK 425 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
-                //     'price' => 365,
-                //     'id_category' => '3',
-                //     'id_patent' => '1'
-                // ],
+                [
+                    'id' => '77',
+                    'name' => 'UMK 425 LE',
+                    'short_name' => 'UMK425LE',
+                    'short_description' => 'Desbrozadora Honda UMK 425 LE con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Corte limpio, fácil y eficaz. Manillar simple.',
+                    'description' => 'La desbrozadora Honda UMK 425 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
+                    'price' => 399,
+                    'id_category' => '3',
+                    'id_patent' => '1'
+                ],
                 [
                     'id' => '78',
                     'name' => 'UMK 435 UE',
@@ -363,7 +363,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'UMK435LE',
                     'short_description' => 'Desbrozadora Honda UMK 435 LE con mini motor Honda 4 tiempos de menor consumo, ruido y emisiones. Corte limpio, fácil y eficaz. Manillar simple.',
                     'description' => 'La desbrozadora Honda UMK 435 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
-                    'price' => 510,
+                    'price' => 568,
                     'id_category' => '3',
                     'id_patent' => '1'
                 ],
@@ -405,7 +405,7 @@ class ItemTableSeeder extends Seeder
                     'short_description' => 'La desbrozadora de batería Honda HHTE38BE es ideal para el mantenimiento de espacios con vegetación densa, hierba alta y maleza persistente (batería y cargador incluidos).',
                     'description' => 'Las nuevas herramientas de jardinería Honda son máquinas robustas, potentes y de alta tecnología. Con todo, son increíblemente ligeras, silenciosas y fáciles de manejar, ofreciendo al usuario un mayor control y una importante reducción de la fatiga.
                     Las baterías de alta calidad Honda HPB20AH son de iones de litio y se caracterizan por su alta densidad energética. Gozan de una tecnología patentada de enfriamiento de las celdas que garantiza una mayor autonomía y miles de ciclos de carga/descarga sin sufrir ninguna alteración en su rendimiento. Cada batería incluye un indicador de autonomía.' ,
-                    'price' => 529,
+                    'price' => 554,
                     'id_category' => '3',
                     'id_patent' => '1'
                 ],
@@ -430,7 +430,7 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Consigue un jardín sano gracias al regenerador RH390 y no permitas que nada estropee tu bonito césped. Recuerda regenerarlo una o dos veces al año: los momentos idóneos son entre febrero-marzo y septiembre-octubre.
                     La regeneración del césped consiste en pasar el regenerador, el cual gracias a sus 27 cuchillas flotantes va sacando las hojas muertas y el fieltro que se ha ido acumulando debido a los restos vegetales (tierra, restos de raíces y de hojas) y que impiden que el agua y el abono se filtren correctamente y que el césped se airee
                     Superficie aconsejable de trabajo: 5.000 m2.',
-                    'price' => 990,
+                    'price' => 1098,
                     'id_category' => '16',
                     'id_patent' => '1'
                 ],
@@ -442,7 +442,7 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Consiguirás un jardín sano y bonito gracias al regenerador RH480 . Recuerda regenerarlo una o dos veces al año: los momentos idóneos son entre febrero-marzo y septiembre-octubre.
                     La regeneración del césped consiste en pasar el regenerador, el cual gracias a sus 33 cuchillas flotantes va sacando las hojas muertas y el fieltro que se ha ido acumulando debido a los restos vegetales (tierra, restos de raíces y de hojas) y que impiden que el agua y el abono se filtren correctamente y que el césped se airee.
                     Superficie aconsejable de trabajo: 5.000 m2.',
-                    'price' => 1465,
+                    'price' => 1495,
                     'id_category' => '16',
                     'id_patent' => '1'
                 ],
@@ -453,7 +453,7 @@ class ItemTableSeeder extends Seeder
                     'short_description' => 'El regenerador ideal para el regenerado de grandes áreas. Las cuchillas flotantes del Honda RH700 consiguen eliminar de una sola pasada las raíces, hierba, malezas y musgo.',
                     'description' => 'Las cuchillas flotantes consiguen eliminar de una sola pasada las raíces, hierba, malezas y musgo que pueden estropear tu césped.Esta es la única forma de asegurar un césped sano y cuidado.El regenerador RH 700, por su ancho de trabajo de 60 cm, sus 38 cuchillas flotantes y su potencia es ideal para el regenerado de grandes áreas (hasta 8.000 m2).
                     La regeneración del césped consiste en pasar el regenerador , el cual gracias a sus cuchillas flotantes va sacando las hojas muertas y el fieltro que se ha ido acumulando debido a los restos vegetales (tierra, restos de raíces y de hojas) y que impiden que el agua y el abono se filtren correctamente y que el césped se airee.',
-                    'price' => 1720,
+                    'price' => 1795,
                     'id_category' => '16',
                     'id_patent' => '1'
                 ],
@@ -486,7 +486,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'HHH25S75E',
                     'short_description' => 'El cortasetos de corte simple Honda HHH25 S75E: el más fiable del mercado. La potencia de su motor de 4 tiempos te permite trabajar en las más duras condiciones.',
                     'description' => 'El cortasetos de cuchilla simple para un acabado preciso que todos los competidores querrán imitar. La potencia de un motor de 4 tiempos para trabajar en las más duras condiciones.' ,
-                    'price' => 649,
+                    'price' => 725,
                     'id_category' => '2',
                     'id_patent' => '1'
                 ],
@@ -549,7 +549,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'HHB25',
                     'short_description' => 'Utilizar el soplador Honda HHB 25, con sólo 4.5 Kg y motor de 4 tiempos, es la manera más cómoda y eficaz de mantener limpio tu jardín',
                     'description' => 'No renuncies a disponer de más tiempo libre durante el fin de semana con el sistema más cómodo para mantener limpio tu jardín, el soplador HHB 25. Además, pesa tan sólo 4,5 kg gracias al nuevo motor Honda GX25 de 4 tiempos.' ,
-                    'price' => 650,
+                    'price' => 586,
                     'id_category' => '4',
                     'id_patent' => '1'
                 ],
@@ -1272,16 +1272,16 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '23' ,
                 'id_patent' => '1'
                 ],
-                [
-                'id' => '171' ,
-                'name' => 'HP 350' ,
-                'short_name' => 'HP350' ,
-                'short_description' => 'Carretilla todo terreno HP 350, uso profesional, ruedas tipo oruga, descarga tipo volquete, uso profesional en construcción, agricultura y forestal. Sin vibraciones.' ,
-                'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad. La carretilla todo terreno HP350 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad.' ,
-                'price' => 4390 ,
-                'id_category' => '23' ,
-                'id_patent' => '1'
-                ],
+                // [
+                // 'id' => '171' ,
+                // 'name' => 'HP 350' ,
+                // 'short_name' => 'HP350' ,
+                // 'short_description' => 'Carretilla todo terreno HP 350, uso profesional, ruedas tipo oruga, descarga tipo volquete, uso profesional en construcción, agricultura y forestal. Sin vibraciones.' ,
+                // 'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad. La carretilla todo terreno HP350 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad.' ,
+                // 'price' => 4390 ,
+                // 'id_category' => '23' ,
+                // 'id_patent' => '1'
+                // ],
                 [
                 'id' => '172' ,
                 'name' => 'HP 490' ,
@@ -1839,8 +1839,8 @@ class ItemTableSeeder extends Seeder
                     'id' => '199' ,
                     'name' => 'EGT 350' ,
                     'short_name' => 'EGT350' ,
-                    'short_description' => 'short_description' ,
-                    'description' => 'description' ,
+                    'short_description' => 'Desbrozadora eléctrica ECHO EGT 350, con cable, manillar telescópico ajustable en altura, cabezal de corte semiautomático.' ,
+                    'description' => 'El cortabordes eléctrico ECHO EGT 350 es pequeño, ligero y manejable, perfecto para cortar hierbas en lugares donde un cortacésped no puede llegar. Es el complemento ideal para todo tipo de jardín. Permite perfilar bordes fácil y rápidamente, así como recortar espacios de hierba difícilmente accesibles con una máquina más grande.' ,
                     'price' => 85 ,
                     'id_category' => '3' ,
                     'id_patent' => '2'
@@ -1849,8 +1849,8 @@ class ItemTableSeeder extends Seeder
                     'id' => '200' ,
                     'name' => 'EGT 520' ,
                     'short_name' => 'EGT520' ,
-                    'short_description' => 'short_description' ,
-                    'description' => 'description' ,
+                    'short_description' => 'Desbrozadora eléctrica ECHO EGT 520, con cable, manillar telescópico ajustable en altura, cabezal de corte semiautomático, rueda perfiladora.' ,
+                    'description' => 'El cortabordes eléctrico ECHO EGT 520 es pequeño, ligero y manejable, perfecto para cortar hierbas en lugares donde un cortacésped no puede llegar. Es el complemento ideal para todo tipo de jardín. Permite perfilar bordes fácil y rápidamente, así como recortar espacios de hierba difícilmente accesibles con una máquina más grande.' ,
                     'price' => 109 ,
                     'id_category' => '3' ,
                     'id_patent' => '2'
@@ -1860,9 +1860,9 @@ class ItemTableSeeder extends Seeder
                 'id' => '188' ,
                 'name' => 'HC 1501 (EUST2)' ,
                 'short_name' => 'HC1501' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 339 ,
+                'short_description' => 'Cortasetos de doble corte ECHO HC 1501, ligero, manillar fijo, cuchilla desplazable de 50 cm largo, corte ajustable japonés, para poda y perfilado, EUST2.' ,
+                'description' => 'El cortasetos ECHO HC 1501 de doble corte es el modelo más popular entre nuestros usuarios, con manillar fijo y doble cuchilla desplazable, ahora con un nuevo chasis. Con la fiabilidad que espera encontrar todo usuario ECHO. Incorpora funda protectora de la cuchilla, que previene al usuario de posibles accidentes por contacto con la cuchilla.' ,
+                'price' => 399 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
                 ],
@@ -1870,9 +1870,9 @@ class ItemTableSeeder extends Seeder
                 'id' => '189' ,
                 'name' => 'HCR 165 ES (EUST2)' ,
                 'short_name' => 'HCR165ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 565 ,
+                'short_description' => 'Cortasetos doble corte ECHO HCR 165 ES, manillar giratorio, cuchilla desplazable 64 cm largo, corte ajustable japonés, anti vibraciones, arranque fácil, EUST2.' ,
+                'description' => 'Fabricado con la solidez y robustez que caracteriza a los productos ECHO, el cortasetos HCR 165 ES, por su potencia y comodidad, puede ser utilizado tanto por empresas de mantenimiento y jardineros, como usuarios particulares. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de arranque asistido por muelle ES-Start que requiere el mínimo esfuerzo. El motor de arranque sólo requiere un corto tirón del cable.' ,
+                'price' => 590 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
                 ],
@@ -1880,9 +1880,9 @@ class ItemTableSeeder extends Seeder
                 'id' => '190' ,
                 'name' => 'HCR 185 ES (EUST2)' ,
                 'short_name' => 'HCR185ES' ,
-                'short_description' => 'Cortasetos doble corte ECHO HCR 165 ES, manillar giratorio, cuchilla desplazable 64 cm largo, corte ajustable japonés, anti vibraciones, arranque fácil, EUST2.' ,
-                'description' => 'Fabricado con la solidez y robustez que caracteriza a los productos ECHO, el cortasetos HCR 165 ES, por su potencia y comodidad, puede ser utilizado tanto por empresas de mantenimiento y jardineros, como usuarios particulares. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de arranque asistido por muelle ES-Start que requiere el mínimo esfuerzo. El motor de arranque sólo requiere un corto tirón del cable.' ,
-                'price' => 630 ,
+                'short_description' => 'Cortasetos doble corte ECHO HCR 185 ES, manillar giratorio, cuchilla desplazable 74 cm largo, corte ajustable japonés, anti vibraciones, arranque fácil, EUST2.' ,
+                'description' => 'Fabricado con la solidez y robustez que caracteriza a los productos ECHO, el cortasetos HCR 185 ES, por su potencia y comodidad, puede ser utilizado tanto por empresas de mantenimiento y jardineros, como usuarios particulares. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de arranque asistido por muelle ES-Start que requiere el mínimo esfuerzo. El motor de arranque sólo requiere un corto tirón del cable.' ,
+                'price' => 659 ,
                 'id_category' => '2' ,
                 'id_patent' => '2'
                 ],
@@ -2636,7 +2636,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                 'price' => 250 ,
                 'id_category' => '28' ,
                 'id_patent' => '18',
-                'priority' => 9,
+                'priority' => 1,
                 'video_url' => 'dCzgFC2QfsY'
                 ],
             ]);
