@@ -267,6 +267,54 @@ class FeaturePertigaAndLongitudTableSeeder extends Seeder
             'description' => 'GP200',
             'id_feature_category' => '1'
             ],
+            [
+            'id' => 4105,
+            'name' => 'GX 270',
+            'description' => 'GX270',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4106,
+            'name' => 'GX 390',
+            'description' => 'GX390',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4107,
+            'name' => 'GX 100',
+            'description' => 'GX100',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4108,
+            'name' => 'i-GX 390',
+            'description' => 'iGX390',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4109,
+            'name' => 'GX 630',
+            'description' => 'GX630',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4110,
+            'name' => 'GX 690',
+            'description' => 'GX690',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4111,
+            'name' => 'GX 120',
+            'description' => 'GX120',
+            'id_feature_category' => '1'
+            ],
+            [
+            'id' => 4112,
+            'name' => 'GX 240',
+            'description' => 'GX240',
+            'id_feature_category' => '1'
+            ],
         ]);
     }
 }

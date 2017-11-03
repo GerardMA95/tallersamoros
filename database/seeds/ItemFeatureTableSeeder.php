@@ -1144,7 +1144,610 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_item' => '173' ,
                     'id_feature' => '1904',
                 ],
-
+                /* NOTE MOTOSOLDADORA */
+                /* EW120 */
+                [
+                    'id_item' => '149' ,
+                    'id_feature' => '400',
+                ],
+                [
+                    'id_item' => '149' ,
+                    'id_feature' => '4103',
+                ],
+                [
+                    'id_item' => '149' ,
+                    'id_feature' => '1937',
+                ],
+                /* EW170 */
+                [
+                    'id_item' => '150' ,
+                    'id_feature' => '710',
+                ],
+                [
+                    'id_item' => '150' ,
+                    'id_feature' => '4105',
+                ],
+                [
+                    'id_item' => '150' ,
+                    'id_feature' => '2011',
+                ],
+                /* EW200 */
+                [
+                    'id_item' => '151' ,
+                    'id_feature' => '710',
+                ],
+                [
+                    'id_item' => '151' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '151' ,
+                    'id_feature' => '2130',
+                ],
+                /* NOTE GENERADORES */
+                /* EU10 */
+                [
+                    'id_item' => '152' ,
+                    'id_feature' => '130',
+                ],
+                [
+                    'id_item' => '152' ,
+                    'id_feature' => '4092',
+                ],
+                [
+                    'id_item' => '152' ,
+                    'id_feature' => '1601',
+                ],
+                /* EU20 */
+                [
+                    'id_item' => '153' ,
+                    'id_feature' => '207',
+                ],
+                [
+                    'id_item' => '153' ,
+                    'id_feature' => '4107',
+                ],
+                [
+                    'id_item' => '153' ,
+                    'id_feature' => '1839',
+                ],
+                /* EU30iFHandy */
+                [
+                    'id_item' => '154' ,
+                    'id_feature' => '352',
+                ],
+                [
+                    'id_item' => '154' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '154' ,
+                    'id_feature' => '1904',
+                ],
+                /* EU30isF */
+                [
+                    'id_item' => '155' ,
+                    'id_feature' => '590',
+                ],
+                [
+                    'id_item' => '155' ,
+                    'id_feature' => '4103',
+                ],
+                [
+                    'id_item' => '155' ,
+                    'id_feature' => '1937',
+                ],
+                /* EU70isF */
+                [
+                    'id_item' => '156' ,
+                    'id_feature' => '796',
+                ],
+                [
+                    'id_item' => '156' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '156' ,
+                    'id_feature' => '2130',
+                ],
+                /* EM30 */
+                [
+                    'id_item' => '135' ,
+                    'id_feature' => '340',
+                ],
+                [
+                    'id_item' => '135' ,
+                    'id_feature' => '4103',
+                ],
+                [
+                    'id_item' => '135' ,
+                    'id_feature' => '1937',
+                ],
+                /* EG4500CL */
+                [
+                    'id_item' => '136' ,
+                    'id_feature' => '719',
+                ],
+                [
+                    'id_item' => '136' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '136' ,
+                    'id_feature' => '2130',
+                ],
+                /* EG5500CL */
+                [
+                    'id_item' => '137' ,
+                    'id_feature' => '725',
+                ],
+                [
+                    'id_item' => '137' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '137' ,
+                    'id_feature' => '2130',
+                ],
+                /* EM5500AE */
+                [
+                    'id_item' => '138' ,
+                    'id_feature' => '752',
+                ],
+                [
+                    'id_item' => '138' ,
+                    'id_feature' => '4108',
+                ],
+                [
+                    'id_item' => '138' ,
+                    'id_feature' => '2130',
+                ],
+                /* EP3000 */
+                [
+                    'id_item' => '139' ,
+                    'id_feature' => '380',
+                ],
+                [
+                    'id_item' => '139' ,
+                    'id_feature' => '4104',
+                ],
+                [
+                    'id_item' => '139' ,
+                    'id_feature' => '1937',
+                ],
+                /* EC3000 */
+                [
+                    'id_item' => '140' ,
+                    'id_feature' => '380',
+                ],
+                [
+                    'id_item' => '140' ,
+                    'id_feature' => '4103',
+                ],
+                [
+                    'id_item' => '140' ,
+                    'id_feature' => '2011',
+                ],
+                /* EC3600 */
+                [
+                    'id_item' => '141' ,
+                    'id_feature' => '580',
+                ],
+                [
+                    'id_item' => '141' ,
+                    'id_feature' => '4105',
+                ],
+                [
+                    'id_item' => '141' ,
+                    'id_feature' => '2011',
+                ],
+                /* EC3600AE */
+                [
+                    'id_item' => '142' ,
+                    'id_feature' => '650',
+                ],
+                [
+                    'id_item' => '142' ,
+                    'id_feature' => '4105',
+                ],
+                [
+                    'id_item' => '142' ,
+                    'id_feature' => '2130',
+                ],
+                /* EC5000 */
+                [
+                    'id_item' => '143' ,
+                    'id_feature' => '710',
+                ],
+                [
+                    'id_item' => '143' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '143' ,
+                    'id_feature' => '2130',
+                ],
+                /* EC5000AE */
+                [
+                    'id_item' => '144' ,
+                    'id_feature' => '722',
+                ],
+                [
+                    'id_item' => '144' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '144' ,
+                    'id_feature' => '2130',
+                ],
+                /* ECT7000 */
+                [
+                    'id_item' => '145' ,
+                    'id_feature' => '714',
+                ],
+                [
+                    'id_item' => '145' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '145' ,
+                    'id_feature' => '2130',
+                ],
+                /* ECT7000AE */
+                [
+                    'id_item' => '146' ,
+                    'id_feature' => '726',
+                ],
+                [
+                    'id_item' => '146' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '146' ,
+                    'id_feature' => '2130',
+                ],
+                /* ECT7000P */
+                [
+                    'id_item' => '147' ,
+                    'id_feature' => '732',
+                ],
+                [
+                    'id_item' => '147' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '147' ,
+                    'id_feature' => '2130',
+                ],
+                /* ECMT7000 */
+                [
+                    'id_item' => '148' ,
+                    'id_feature' => '768',
+                ],
+                [
+                    'id_item' => '148' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '148' ,
+                    'id_feature' => '2130',
+                ],
+                /* NOTE Biotrituradoras */
+                /* BIO3000 */
+                [
+                    'id_item' => '157' ,
+                    'id_feature' => '235',
+                ],
+                [
+                    'id_item' => '157' ,
+                    'id_feature' => '4096',
+                ],
+                [
+                    'id_item' => '157' ,
+                    'id_feature' => '3962',
+                ],
+                /* BIO175E */
+                [
+                    'id_item' => '158' ,
+                    'id_feature' => '530',
+                ],
+                [
+                    'id_item' => '158' ,
+                    'id_feature' => '4096',
+                ],
+                [
+                    'id_item' => '158' ,
+                    'id_feature' => '3882',
+                ],
+                /* BIO180 */
+                [
+                    'id_item' => '159' ,
+                    'id_feature' => '600',
+                ],
+                [
+                    'id_item' => '159' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '159' ,
+                    'id_feature' => '1904',
+                ],
+                /* BIO320 */
+                [
+                    'id_item' => '160' ,
+                    'id_feature' => '816',
+                ],
+                [
+                    'id_item' => '160' ,
+                    'id_feature' => '4105',
+                ],
+                [
+                    'id_item' => '160' ,
+                    'id_feature' => '2011',
+                ],
+                /* BIO375 */
+                [
+                    'id_item' => '161' ,
+                    'id_feature' => '935',
+                ],
+                [
+                    'id_item' => '161' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '161' ,
+                    'id_feature' => '2130',
+                ],
+                /* BIO375FE */
+                [
+                    'id_item' => '162' ,
+                    'id_feature' => '971',
+                ],
+                [
+                    'id_item' => '162' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '162' ,
+                    'id_feature' => '2130',
+                ],
+                /* BIO510 */
+                [
+                    'id_item' => '163' ,
+                    'id_feature' => '1060',
+                ],
+                [
+                    'id_item' => '163' ,
+                    'id_feature' => '4106',
+                ],
+                [
+                    'id_item' => '163' ,
+                    'id_feature' => '2130',
+                ],
+                /* BIO650 */
+                [
+                    'id_item' => '165' ,
+                    'id_feature' => '1170',
+                ],
+                [
+                    'id_item' => '165' ,
+                    'id_feature' => '4109',
+                ],
+                [
+                    'id_item' => '165' ,
+                    'id_feature' => '2429',
+                ],
+                /* BIO7505 */
+                [
+                    'id_item' => '166' ,
+                    'id_feature' => '1280',
+                ],
+                [
+                    'id_item' => '166' ,
+                    'id_feature' => '4110',
+                ],
+                [
+                    'id_item' => '166' ,
+                    'id_feature' => '2429',
+                ],
+                /* BIO310TDF */
+                [
+                    'id_item' => '167' ,
+                    'id_feature' => '1060',
+                ],
+                /* BIO510TDF */
+                [
+                    'id_item' => '168' ,
+                    'id_feature' => '1060',
+                ],
+                /* BIO630TDF */
+                [
+                    'id_item' => '169' ,
+                    'id_feature' => '1306',
+                ],
+                /* NOTE Motobombas */
+                /* WX10 */
+                [
+                    'id_item' => '121' ,
+                    'id_feature' => '61',
+                ],
+                [
+                    'id_item' => '121' ,
+                    'id_feature' => '4088',
+                ],
+                [
+                    'id_item' => '121' ,
+                    'id_feature' => '1361',
+                ],
+                /* WX15 */
+                [
+                    'id_item' => '122' ,
+                    'id_feature' => '90',
+                ],
+                [
+                    'id_item' => '122' ,
+                    'id_feature' => '4092',
+                ],
+                [
+                    'id_item' => '122' ,
+                    'id_feature' => '1601',
+                ],
+                /* WB20XT */
+                [
+                    'id_item' => '123' ,
+                    'id_feature' => '210',
+                ],
+                [
+                    'id_item' => '123' ,
+                    'id_feature' => '4111',
+                ],
+                [
+                    'id_item' => '123' ,
+                    'id_feature' => '1859',
+                ],
+                /* WB30XT */
+                [
+                    'id_item' => '124' ,
+                    'id_feature' => '270',
+                ],
+                [
+                    'id_item' => '124' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '124' ,
+                    'id_feature' => '1904',
+                ],
+                /* WT20X */
+                [
+                    'id_item' => '125' ,
+                    'id_feature' => '470',
+                ],
+                [
+                    'id_item' => '125' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '125' ,
+                    'id_feature' => '1904',
+                ],
+                /* WT30X */
+                [
+                    'id_item' => '126' ,
+                    'id_feature' => '610',
+                ],
+                [
+                    'id_item' => '126' ,
+                    'id_feature' => '4112',
+                ],
+                [
+                    'id_item' => '126' ,
+                    'id_feature' => '2011',
+                ],
+                /* WT40X */
+                [
+                    'id_item' => '127' ,
+                    'id_feature' => '716',
+                ],
+                [
+                    'id_item' => '127' ,
+                    'id_feature' => '4098',
+                ],
+                [
+                    'id_item' => '127' ,
+                    'id_feature' => '2130',
+                ],
+                /* WH5 */
+                [
+                    'id_item' => '128' ,
+                    'id_feature' => '55',
+                ],
+                [
+                    'id_item' => '128' ,
+                    'id_feature' => '4088',
+                ],
+                [
+                    'id_item' => '128' ,
+                    'id_feature' => '1361',
+                ],
+                /* WH10X */
+                [
+                    'id_item' => '129' ,
+                    'id_feature' => '108',
+                ],
+                [
+                    'id_item' => '129' ,
+                    'id_feature' => '4092',
+                ],
+                [
+                    'id_item' => '129' ,
+                    'id_feature' => '1601',
+                ],
+                /* WH20X */
+                [
+                    'id_item' => '130' ,
+                    'id_feature' => '235',
+                ],
+                [
+                    'id_item' => '130' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '130' ,
+                    'id_feature' => '1904',
+                ],
+                /* WH75 */
+                [
+                    'id_item' => '131' ,
+                    'id_feature' => '270',
+                ],
+                [
+                    'id_item' => '131' ,
+                    'id_feature' => '4094',
+                ],
+                [
+                    'id_item' => '131' ,
+                    'id_feature' => '1904',
+                ],
+                /* WH90X */
+                [
+                    'id_item' => '132' ,
+                    'id_feature' => '270',
+                ],
+                [
+                    'id_item' => '132' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '132' ,
+                    'id_feature' => '1904',
+                ],
+                /* WH100X */
+                [
+                    'id_item' => '133' ,
+                    'id_feature' => '510',
+                ],
+                [
+                    'id_item' => '133' ,
+                    'id_feature' => '4105',
+                ],
+                [
+                    'id_item' => '133' ,
+                    'id_feature' => '2011',
+                ],
+                /* WMP20X */
+                [
+                    'id_item' => '134' ,
+                    'id_feature' => '256',
+                ],
+                [
+                    'id_item' => '134' ,
+                    'id_feature' => '4093',
+                ],
+                [
+                    'id_item' => '134' ,
+                    'id_feature' => '1904',
+                ],
             ]);
             /* Pellenc */
             DB::table('item_feature')->insert([

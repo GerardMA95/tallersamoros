@@ -756,7 +756,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'WX10',
                     'short_description' => 'Motobomba de caudal Honda WX 10, la menor de la familia. Pequeña, económica y de fácil arranque que te sacará de cualquier apuro sin apenas ocupar espacio.',
                     'description' => 'Motobomba de caudal Honda WX 10, la menor de la familia. Pequeña, económica y de fácil arranque que te sacará de cualquier apuro sin apenas ocupar espacio.' ,
-                    'price' => 565,
+                    'price' => 499,
                     'id_category' => '20',
                     'id_patent' => '1'
                 ],
@@ -826,7 +826,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'WH5',
                     'short_description' => 'La motobomba Honda de presión WH5, la más pequeña del mercado de motobombas de presión con motor de 4 tiempos. Nunca te fallará.',
                     'description' => 'La motobomba Honda de presión WH5, la más pequeña del mercado de motobombas de presión con motor de 4 tiempos. Nunca te fallará.',
-                    'price' => 438,
+                    'price' => 445,
                     'id_category' => '20',
                     'id_patent' => '1'
                 ],
@@ -866,7 +866,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'WH90X',
                     'short_description' => 'Motobomba de alta presión WH90 X con motor Honda de 4 tiempos. Una motobomba de fiabilidad a toda prueba, ideal para trasvasar agua en situaciones extremas.',
                     'description' => 'Motobomba de alta presión WH90 X con motor Honda de 4 tiempos. Una motobomba de fiabilidad a toda prueba, ideal para trasvasar agua en situaciones extremas.' ,
-                    'price' => 1247,
+                    'price' => 1130,
                     'id_category' => '20',
                     'id_patent' => '1'
                 ],
@@ -950,7 +950,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'EC3000',
                 'short_description' => 'Generador monofásico EC3000 con motor Honda, para disfrutar de toda la potencia a un buen precio. Robustez y resistencia.',
                 'description' => 'Generador monofásico EC3000 con motor Honda, para disfrutar de toda la potencia a un buen precio. Robustez y resistencia. Un generador para que dispongas de 3 KVA. Honda a un buen precio.Kit de ruedas disponible.' ,
-                'price' => 875,
+                'price' => 765,
                 'id_category' => '22',
                 'id_patent' => '1'
                 ],
@@ -970,7 +970,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'EC3600AE',
                 'short_description' => 'Generador monofásico EC3600 AE con motor Honda y arranque eléctrico. Económico, potente. Consulta sus múltiples opciones y kits.',
                 'description' => 'Generador monofásico EC3600 AE con motor Honda y arranque eléctrico. Económico, potente. Consulta sus múltiples opciones y kits.' ,
-                'price' => 1450,
+                'price' => 1460,
                 'id_category' => '22',
                 'id_patent' => '1'
                 ],
@@ -1035,38 +1035,8 @@ class ItemTableSeeder extends Seeder
                 'id_patent' => '1'
                 ],
                 [
-                'id' => '149' ,
-                'name' => 'EW 120',
-                'short_name' => 'EW120',
-                'short_description' => 'Motosoldadora EW120 con motor Honda pensada para el particular. Potente y económica. Para soldar sin contratiempos.',
-                'description' => 'Motosoldadora EW120 con motor Honda pensada para el particular. Potente y económica. Para soldar sin contratiempos.' ,
-                'price' => 1178,
-                'id_category' => '22',
-                'id_patent' => '1'
-                ],
-                [
-                'id' => '150' ,
-                'name' => 'EW 170',
-                'short_name' => 'EW170',
-                'short_description' => 'Motosoldadora EW170 con motor Honda de corriente alterna pensada para el particular. Podrás emplear electrodos de 1,5 a 3,25 mm. Kit de ruedas opcional.',
-                'description' => 'Honda te ofrece una motosoldadora de corriente alterna pensada para el particular, en la que podrás emplear electrodos de 1,5 a 3,25 mm, y disponer de corriente monofásica.. Kit de ruedas de transporte opcional.' ,
-                'price' => 1770,
-                'id_category' => '22',
-                'id_patent' => '1'
-                ],
-                [
-                'id' => '151' ,
-                'name' => 'EW 200',
-                'short_name' => 'EW200',
-                'short_description' => 'Tu profesionalidad te agradecerá esta motosoldadora EW200 con motor Honda: corriente continua que aporta corriente monofásica y trifásica de alta calidad.',
-                'description' => 'Una motosoldadora profesional de corriente continua que aporta corriente monofásica y trifásica de alta calidad. para soldar sin problemas con electrodos de 1,5 hasta 4 mm. Ruedas de transporte opcionales.' ,
-                'price' => 2298,
-                'id_category' => '22',
-                'id_patent' => '1'
-                ],
-                [
                 'id' => '152' ,
-                'name' => 'EU 10',
+                'name' => 'EU 10i',
                 'short_name' => 'EU10',
                 'short_description' => 'Generador Honda EU10 INVERTER, portátil, insonorizado y con la calidad de corriente de la compañía eléctrica. Aconsejable para instrumentos de alta precisión.',
                 'description' => 'Generador Honda EU10 INVERTER, portátil, insonorizado y con la calidad de corriente de la compañía eléctrica. Aconsejable para instrumentos de alta precisión. Ideal para iluminación, ventiladores, TV, ordenadores y pequeñas herramientas eléctricas.
@@ -1079,7 +1049,7 @@ class ItemTableSeeder extends Seeder
                 ],
                 [
                 'id' => '153' ,
-                'name' => 'EU 20',
+                'name' => 'EU 20i',
                 'short_name' => 'EU20',
                 'short_description' => 'Generador Honda EU20 INVERTER, portátil, insonorizado y con la calidad de corriente de la compañía eléctrica. Aconsejable para instrumentos de alta precisión.',
                 'description' => 'Generador Honda EU20 INVERTER, portatil e insonorizadoportátil, insonorizado y con la calidad de corriente de la compañía eléctrica. Todo son ventajas para el profesional o el usuario que necesita corriente sin fluctuaciones. Aconsejable para instrumentos de alta precisión. Perfecto para funcionar hornos microondas, cafeteras, secadores de pelo, neveras y equipos electrónicos.
@@ -1099,7 +1069,7 @@ class ItemTableSeeder extends Seeder
                     Además, su chasis principal de magnesio en forma de T, que separa la zona caliente (escape motor) de la refrigerada (combustible y electrónica), le confiere una estructura robusta y segura, a la vez que ligera.
                     El generador Honda EU30 handy está especialmente indicado para su uso en aplicaciones de ocio en el aire libre, como la acampada, el camping o el caravaning. Los usuarios profesionales dedicados a la industria o construcción, que trabajen con herramientas electrónicas que precisan de una excelente calidad de corriente, también lo agradecerán, por su calidad, fácil transporte y bajo consumo.
                     Insonorizado: la normativa sobre el nivel de ruido es cada vez más severa. Los generadores insonorizados Honda de altas prestaciones responden perfectamente a estas exigencias, además de proporcionar toda la potencia necesaria para el funcionamiento de tus aparatos eléctricos.' ,
-                'price' => 3524,
+                'price' => 3195,
                 'id_category' => '22',
                 'id_patent' => '1'
                 ],
@@ -1130,6 +1100,37 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '22',
                 'id_patent' => '1'
                 ],
+                /* NOTE Motosoldadoras */
+                [
+                'id' => '149' ,
+                'name' => 'EW 120',
+                'short_name' => 'EW120',
+                'short_description' => 'Motosoldadora EW120 con motor Honda pensada para el particular. Potente y económica. Para soldar sin contratiempos.',
+                'description' => 'Motosoldadora EW120 con motor Honda pensada para el particular. Potente y económica. Para soldar sin contratiempos.' ,
+                'price' => 1178,
+                'id_category' => '22',
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '150' ,
+                'name' => 'EW 170',
+                'short_name' => 'EW170',
+                'short_description' => 'Motosoldadora EW170 con motor Honda de corriente alterna pensada para el particular. Podrás emplear electrodos de 1,5 a 3,25 mm. Kit de ruedas opcional.',
+                'description' => 'Honda te ofrece una motosoldadora de corriente alterna pensada para el particular, en la que podrás emplear electrodos de 1,5 a 3,25 mm, y disponer de corriente monofásica.. Kit de ruedas de transporte opcional.' ,
+                'price' => 1580,
+                'id_category' => '22',
+                'id_patent' => '1'
+                ],
+                [
+                'id' => '151' ,
+                'name' => 'EW 200',
+                'short_name' => 'EW200',
+                'short_description' => 'Tu profesionalidad te agradecerá esta motosoldadora EW200 con motor Honda: corriente continua que aporta corriente monofásica y trifásica de alta calidad.',
+                'description' => 'Una motosoldadora profesional de corriente continua que aporta corriente monofásica y trifásica de alta calidad. para soldar sin problemas con electrodos de 1,5 hasta 4 mm. Ruedas de transporte opcionales.' ,
+                'price' => 2298,
+                'id_category' => '22',
+                'id_patent' => '1'
+                ],
                 /* NOTE Biotrituradoras */
                 [
                 'id' => '157' ,
@@ -1147,7 +1148,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO175E' ,
                 'short_description' => 'Biotrituradora eléctrica BIO175E, con su sistema de corte con cuchilla fija y flotante, es la solución definitiva a tus problemas de reciclaje.' ,
                 'description' => 'Desde el particular hasta el profesional, cualquier usuario encontrará soluciones en la gama de biotrituradoras Honda. Ahora este modelo incorpora propulsor eléctrico.' ,
-                'price' => 1159 ,
+                'price' => 1218 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1157,7 +1158,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO180' ,
                 'short_description' => 'La biotrituradora BIO180 con motor Honda te ayuda a reciclar. Ideal para triturar cualquier resto de poda de un jardín o huerta particular.' ,
                 'description' => 'La biotrituradora BIO180 con motor Honda te ayuda a reciclar. Ideal para triturar cualquier resto de poda de un jardín o huerta particular.' ,
-                'price' => 1475 ,
+                'price' => 1375 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1167,7 +1168,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO320' ,
                 'short_description' => 'Colabora con el medio ambiente y ahorra tiempo y dinero con la biotrituradora con motor Honda más ligera de la gama profesional, la BIO 320.' ,
                 'description' => 'Colabora con el medio ambiente y ahorra tiempo y dinero con la biotrituradora con motor Honda más ligera de la gama profesional, la BIO 320.' ,
-                'price' => 2995 ,
+                'price' => 3180 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1177,7 +1178,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO375' ,
                 'short_description' => 'La biotrituradora BIO 375 es la ideal para jardineros que trabajan en distintos jardines. Manejable y potente, siempre a punto cuando la necesitas.' ,
                 'description' => 'El aprovechamiento de los restos de poda ha aumentado la demanda de equipos apropiados para el desmenuzado del material leñoso, la biotrituradora BIO 375 es la ideal para estas necesidades.' ,
-                'price' => 4750 ,
+                'price' => 5095 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1187,7 +1188,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO375FE' ,
                 'short_description' => 'Biotrituradora con remolque BIO 375FE, la ideal para jardineros que trabajan en distintos jardines. Manejable y potente, siempre a punto cuando la necesitas.' ,
                 'description' => 'El aprovechamiento de los restos de poda ha aumentado la demanda de equipos apropiados para el desmenuzado del material leñoso y la biotrituradora BIO 375 FE es la ideal para estas necesidades. Con remolque homologado para circular por carretera.' ,
-                'price' => 5975 ,
+                'price' => 6370 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1197,27 +1198,27 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO510' ,
                 'short_description' => 'Biotrituradora astilladora BIO 510, con motor Honda GX390, incorpora remolque de serie para fácil transporte.' ,
                 'description' => 'Biotrituradora astilladora BIO 510, con motor Honda GX390, incorpora remolque de serie para fácil transporte.' ,
-                'price' => 8395 ,
+                'price' => 8898 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
-                [
-                'id' => '164' ,
-                'name' => 'BIO 525' ,
-                'short_name' => 'BIO525' ,
-                'short_description' => 'La biotrituradora BIO 525 incorpora el revolucionario motor i-GX 440 de 15 hp, el primero gobernado electrónicamente de su categoría.' ,
-                'description' => 'Esta biotrituradora incorpora el revolucionario motor i-GX 440 de 15 hp, el primero gobernado electrónicamente de su categoría.' ,
-                'price' => 12050 ,
-                'id_category' => '21' ,
-                'id_patent' => '1'
-                ],
+                // [
+                // 'id' => '164' ,
+                // 'name' => 'BIO 525' ,
+                // 'short_name' => 'BIO525' ,
+                // 'short_description' => 'La biotrituradora BIO 525 incorpora el revolucionario motor i-GX 440 de 15 hp, el primero gobernado electrónicamente de su categoría.' ,
+                // 'description' => 'Esta biotrituradora incorpora el revolucionario motor i-GX 440 de 15 hp, el primero gobernado electrónicamente de su categoría.' ,
+                // 'price' => 12050 ,
+                // 'id_category' => '21' ,
+                // 'id_patent' => '1'
+                // ],
                 [
                 'id' => '165' ,
                 'name' => 'BIO 650' ,
                 'short_name' => 'BIO650' ,
                 'short_description' => 'La biotrituradora BIO650 consigue la viruta perfecta y para reutilizar como nutriente natural. Incorpora Motor Honda GX620 y remolque de serie.' ,
                 'description' => 'Biotrituradora para conseguir la viruta perfecta y reutilizarla como nutriente natural. Una forma natural de alimentar los árboles, así como un gran ahorro.' ,
-                'price' => 15990 ,
+                'price' => 16870 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1227,7 +1228,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO750' ,
                 'short_description' => 'La biotrituradora BIO750 KAS con motor Honda monta dos cuchillas fijas en un volante. Lo tiene todo: alto rendimiento, seguridad en el manejo y facilidad de transporte.' ,
                 'description' => 'La biotrituradora BIO 750 pro monta dos cuchillas fijas en un volante y se caracteriza por su gran rendimiento de trabajo al triturar restos de poda. Da seguridad en el manejo y facilidad de transporte.' ,
-                'price' => 22210 ,
+                'price' => 23460 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1237,7 +1238,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO310TDF' ,
                 'short_description' => 'Su capacidad de trabajo no te dejará indiferente. Pequeña biotrituradora con toma de fuerza y de alimentación manual, con 2 cuchillas fijas y una capacidad de trabajo de 3 m3/h. Ideal para pequeños tractores tipo “Pasquali”.' ,
                 'description' => 'Pequeña biotrituradora con toma de fuerza y de alimentación manual, con 2 cuchillas fijas y una capacidad de trabajo de 3 m3/h. Ideal para pequeños tractores tipo “Pasquali”.' ,
-                'price' => 2995 ,
+                'price' => 3325 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -1247,7 +1248,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'BIO510TDF' ,
                 'short_description' => 'La biotrituradora que ahorra tiempo y dinero. El modelo de biotrituradora profesional con toma de fuerza.' ,
                 'description' => 'La biotrituradora que ahorra tiempo y dinero. El modelo de biotrituradora profesional con toma de fuerza.' ,
-                'price' => 8195 ,
+                'price' => 8770 ,
                 'id_category' => '21' ,
                 'id_patent' => '1'
                 ],
@@ -2633,7 +2634,7 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     Extrapower Suction Pro: Modo de limpieza que maximiza la gran potencia de succión para garantizar un suelo siempre limpio, tenga la suciedad que tenga. TurboBoost: Sistema avanzado con una turbina potente que maximiza la succión.
                     Motorized Power Brush: Cepillo rotativo que limpia a fondo arrastrando la suciedad en alfombras y moquetas. Intelligent Battery Pro: consigue un tiempo de autonomía de 130 minutos. AutoBack Home: Vuelta automática a la base al finalizar la limpieza.
                     5 modos de limpieza: Auto, Bordes, Habitación, espiral y vuelta a casa. Programmable memory: Programable 24 horas al día 7 días a la semana controlado por un mando a distancia con pantalla LCD, sencillo y intuitivo' ,
-                'price' => 250 ,
+                'price' => 249 ,
                 'id_category' => '28' ,
                 'id_patent' => '18',
                 'priority' => 1,
