@@ -1324,27 +1324,27 @@ class ItemTableSeeder extends Seeder
                 'id_patent' => '1'
                 ],
                 /* NOTE Hidrolimpiadores */
-                [
-                'id' => '176' ,
-                'name' => 'EPH 180' ,
-                'short_name' => 'EPH180' ,
-                'short_description' => 'Hidrolimpiadora industrial autónoma de agua fría EPH180 con motor Honda GX200, bomba profesional, manguera de alta presión y lanza desmontable.' ,
-                'description' => 'Las hidrolimpiadoras de alta presión de agua fría autónomas con motor de combustión son la elección más acertada cuando no se disponga de red eléctrica. Sus altas prestaciones de presión y caudal convierten a estos equipos en una herramienta ideal para el profesional. Apropiada para trabajos prolongados e intensivos, la hidrolimpiadora de alta presión EPH 180 asegura unos máximos niveles de flexibilidad y autonomía. Este modelo está especialmente indicado en los sectores agrario, ganadero, construcción, limpiezas, etc. Con estructura tubular de acero pintada con polvo epoxi, viene equipada de serie con bomba de alta presión con tres pistones cerámicos y cabezal de bronce, filtro de agua, válvula by-pass automática y manómetro.' ,
-                'price' => 1965 ,
-                'id_category' => '24' ,
-                'id_patent' => '1'
-                ],
-                [
-                'id' => '177' ,
-                'name' => 'EPH 200' ,
-                'short_name' => 'EPH200' ,
-                'short_description' => 'Hidrolimpiadora industrial autónoma de agua fría EPH200, con motor Honda GX390, bomba profesional con reductora, manguera de alta presión y lanza desmontable.' ,
-                'description' => 'Las hidrolimpiadoras de alta presión de agua fría autónomas con motor de combustión son la elección más acertada cuando no se disponga de red eléctrica. Sus altas prestaciones de presión y caudal convierten a estos equipos en una herramienta ideal para el profesional.
-                Apropiada para trabajos prolongados e intensivos, la hidrolimpiadora de alta presión EPH 180 asegura unos máximos niveles de flexibilidad y autonomía. Este modelo está especialmente indicado en los sectores agrario, ganadero, construcción, limpiezas, etc. Con estructura tubular de acero pintada con polvo epoxi, viene equipada de serie con bomba de alta presión con tres pistones cerámicos y cabezal de bronce, con reductora, filtro de agua, válvula by-pass automática y manómetro.',
-                'price' => 2740 ,
-                'id_category' => '24' ,
-                'id_patent' => '1'
-                ],
+                // [
+                // 'id' => '176' ,
+                // 'name' => 'EPH 180' ,
+                // 'short_name' => 'EPH180' ,
+                // 'short_description' => 'Hidrolimpiadora industrial autónoma de agua fría EPH180 con motor Honda GX200, bomba profesional, manguera de alta presión y lanza desmontable.' ,
+                // 'description' => 'Las hidrolimpiadoras de alta presión de agua fría autónomas con motor de combustión son la elección más acertada cuando no se disponga de red eléctrica. Sus altas prestaciones de presión y caudal convierten a estos equipos en una herramienta ideal para el profesional. Apropiada para trabajos prolongados e intensivos, la hidrolimpiadora de alta presión EPH 180 asegura unos máximos niveles de flexibilidad y autonomía. Este modelo está especialmente indicado en los sectores agrario, ganadero, construcción, limpiezas, etc. Con estructura tubular de acero pintada con polvo epoxi, viene equipada de serie con bomba de alta presión con tres pistones cerámicos y cabezal de bronce, filtro de agua, válvula by-pass automática y manómetro.' ,
+                // 'price' => 1965 ,
+                // 'id_category' => '24' ,
+                // 'id_patent' => '1'
+                // ],
+                // [
+                // 'id' => '177' ,
+                // 'name' => 'EPH 200' ,
+                // 'short_name' => 'EPH200' ,
+                // 'short_description' => 'Hidrolimpiadora industrial autónoma de agua fría EPH200, con motor Honda GX390, bomba profesional con reductora, manguera de alta presión y lanza desmontable.' ,
+                // 'description' => 'Las hidrolimpiadoras de alta presión de agua fría autónomas con motor de combustión son la elección más acertada cuando no se disponga de red eléctrica. Sus altas prestaciones de presión y caudal convierten a estos equipos en una herramienta ideal para el profesional.
+                // Apropiada para trabajos prolongados e intensivos, la hidrolimpiadora de alta presión EPH 180 asegura unos máximos niveles de flexibilidad y autonomía. Este modelo está especialmente indicado en los sectores agrario, ganadero, construcción, limpiezas, etc. Con estructura tubular de acero pintada con polvo epoxi, viene equipada de serie con bomba de alta presión con tres pistones cerámicos y cabezal de bronce, con reductora, filtro de agua, válvula by-pass automática y manómetro.',
+                // 'price' => 2740 ,
+                // 'id_category' => '24' ,
+                // 'id_patent' => '1'
+                // ],
                 /* NOTE Scooter */
                 [
                 'id' => '178' ,
@@ -2146,7 +2146,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'short_description' => 'Regulación de la altura de corte centralizada con mando ergonómico en la empuñadura. Dotados de tres ruedas, la frontal pivotante (metálica en el modelo WB 51 VB6) para disminuir el radio de giro y asegurar la máxima agilidad de estas desbrozadoras en medio de la espesura.' ,
                     'description' => 'Desbrozadora de ruedas Oleo-mac WB 51 S6 muy robustas y al mismo tiempo son compactas y maniobrables, estos modelos de desbrozadoras son la mejor solución para limpiar terrenos agrícolas de mediana extensión invadidos por malezas u otros tipos de plantas indeseadas. Regulación de la altura de corte centralizada con mando ergonómico en la empuñadura. Dotados de tres ruedas, la frontal pivotante (metálica en el modelo WB 51 VB6) para disminuir el radio de giro y asegurar la máxima agilidad de estas desbrozadoras en medio de la espesura. Ruedas traseras de amplias dimensiones que permiten un desplazamiento seguro de las desbrozadoras incluso en presencia de hoyos y salientes. Equipados con tracción para reducir al mínimo en esfuerzo en terrenos accidentados o en pendiente; las desbrozadoras modelo WB 51 VB6 vienen provistas de variador de velocidad para adecuar el avance al tipo de suelo y de vegetación.' ,
                     'price' => 979 ,
-                    'id_category' => '24' ,
+                    'id_category' => '3' ,
                     'id_patent' => '17'
                 ],
 
