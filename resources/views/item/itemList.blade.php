@@ -57,8 +57,8 @@
                                   @if ($patent == 'pellenc')
                                       + IVA
                                   @endif</li>
-                                  <li><a href="#" class="favorites">0</a></li>
-                                  <li><a href="#" class="comments">0</a></li>
+                                  <li><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}" class="favorites">0</a></li>
+                                  <li><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}" class="comments">0</a></li>
                               </ul>
                           </header>
                           <p>{{ $item->short_description }}</p>

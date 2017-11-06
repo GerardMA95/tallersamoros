@@ -41,9 +41,11 @@
                       <li>
                         <a href="{{ route('itemSearch', ['patent' => 'none', 'category' => 'all']) }}">Categorias</a>
                       </li>
+                      <li>
+                        <a href="{{ route('itemList', ['patent' => 'all', 'category' => 'all']) }}">Todos los productos</a>
+                      </li>
                     </ul>
                   </li>
-                  <li><a href="#">¿Quienes somos?</a></li>
                   <li><a href="{{ route('contactMap') }}">Contacto</a></li>
                 </ul>
               </nav>
