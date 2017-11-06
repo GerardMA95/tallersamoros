@@ -35,8 +35,14 @@ class ItemController extends Controller
             if($category !== 'all'){
                 $categoryId = DB::table('category')->where('short_name', $category)->first();
                 //Si la categoria es correcta
+
                 if(!is_null($categoryId)){
-                    $itemList = DB::table('item')->where('id_category', $categoryId->id)->orderBy('priority', 'asc')->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
+                    $itemList = DB::table('item')
+                        ->where('id_category', $categoryId->id)
+                        ->where('outlet', false)
+                        ->orderBy('priority', 'asc')
+                        ->orderBy('short_name', 'asc')
+                        ->paginate(self::NUM_ITEMS_SEARCH);
                 }else{
                     //Si la categoria buscada no existe $itemList estará vacío
                 }
@@ -48,7 +54,12 @@ class ItemController extends Controller
             if($patent !== 'all'){
                 $patentId = DB::table('patent')->where('short_name', $patent)->first();
                 if(!is_null($patentId)){
-                    $itemList = DB::table('item')->where('id_patent', $patentId->id)->orderBy('priority', 'asc')->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
+                    $itemList = DB::table('item')
+                    ->where('id_patent', $patentId->id)
+                    ->where('outlet', false)
+                    ->orderBy('priority', 'asc')
+                    ->orderBy('short_name', 'asc'
+                    )->paginate(self::NUM_ITEMS_SEARCH);
                 }else{
                     //Si la marca buscada no existe $itemList estará vacío
                 }

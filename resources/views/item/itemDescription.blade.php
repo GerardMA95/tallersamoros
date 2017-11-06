@@ -70,7 +70,7 @@
       			</div>
             @else
                 <header class="major">
-      				<h2>Este objeto aún no tiene especificaciones :(</h2>
+      				<h2>Este artículo aún no tiene especificaciones</h2>
       			</header>
             @endif
   		</section>
@@ -78,7 +78,7 @@
         @if ($item->video_url)
             @include('modules.item.youtubeVideo')
         @endif
-        @if ($relatedItems)
+        @if (!$relatedItems->isEmpty())
             @include('modules.item.relatedItems')
         @endif
     @else
