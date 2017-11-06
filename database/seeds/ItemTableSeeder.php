@@ -1364,7 +1364,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'PB250',
                     'short_description' => 'Soplador de mano ECHO PB 250 económico, potente, ligero, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, CDI, certificación EUST2.',
                     'description' => 'Su potente motor asegura al soplador de mano ECHO PB 250 la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.',
-                    'price' => 279,
+                    'price' => 249,
                     'id_category' => '4',
                     'id_patent' => '2'
                 ],
@@ -1374,7 +1374,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'PB251',
                     'short_description' => 'Soplador de mano ECHO PB 251, potente, ligero, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, CDI, certificación EUST2.',
                     'description' => 'Su potente motor asegura al soplador de mano ECHO PB 251 la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.',
-                    'price' => 299,
+                    'price' => 309,
                     'id_category' => '4',
                     'id_patent' => '2'
                 ],
@@ -1384,7 +1384,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'PB255ES' ,
                 'short_description' => 'Soplador de mano ECHO PB 255 ES, ligero, silencioso, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, arranque fácil ES Start, EUST2.' ,
                 'description' => 'Su potente motor asegura al soplador de mano ECHO PB 255 ES la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Nuevo y revolucionario sistema de arranque fácil ES Start que permite la puesta en marcha de los motores de 2 tiempos de la manera más fácil y con el mínimo esfuerzo.' ,
-                'price' => 369 ,
+                'price' => 394 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
                 ],
@@ -1394,7 +1394,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'ES250ES' ,
                 'short_description' => 'Aspirador-soplador-triturador de mano ECHO ES 250 ES, ligero, tubo excéntrico anti giro, anclaje seguro, bloqueo del acelerador, arranque fácil ES Start, EUST2.' ,
                 'description' => 'El aspirador-soplador de mano ECHO ES 250 ES es un pequeño y práctico aspirador con función de triturado, para todo tipo de usos de limpieza en exteriores. Sin la bolsa de aspiración, puedes convertirlo fácilmente en un útil soplador. Su potente motor asegura al soplador de mano ECHO ES 250 ES la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Nuevo y revolucionario sistema de arranque fácil ES Start que permite la puesta en marcha de los motores de 2 tiempos de la manera más fácil y con el mínimo esfuerzo.' ,
-                'price' => 475 ,
+                'price' => 499 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
                 ],
@@ -1404,7 +1404,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'PB580' ,
                 'short_description' => 'Soplador de mochila ECHO PB 580, potente, ligero, ergonómico, tubo recto y curvado, sistema antivibración, bloqueo del acelerador, anti hielo, CDI, EUST2.' ,
                 'description' => 'Su potente motor asegura al soplador de mochila ECHO PB 580 la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.' ,
-                'price' => 679 ,
+                'price' => 549 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
                 ],
@@ -1414,7 +1414,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'PB760' ,
                 'short_description' => 'Soplador de mochila ECHO PB 760 LN, potente, ligero, ergonómico, tubo recto y curvado, sistema antivibración, bloqueo del acelerador, anti hielo, CDI, EUST2.' ,
                 'description' => 'Su potente motor asegura al soplador de mochila ECHO PB 760 LN la energía suficiente para trabajar sin contratiempos, con un excelente ratio peso-potencia, funcionamiento a altas revoluciones y capacidad de funcionamiento en cualquier posición. Se trata de un motor de alto rendimiento Euro Stage II, con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Sistema de encendido electrónico CDI. Su menor desgaste significa mayor vida útil del motor, mayor durabilidad y fácil mantenimiento. Más potente que un motor eléctrico.' ,
-                'price' => 769 ,
+                'price' => 737 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
                 ],
@@ -1424,7 +1424,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'PB770' ,
                 'short_description' => 'Soplador de mochila ECHO PB 770, especial olivar, potente, tubo recto y curvado, sistema antivibración, bloqueo del acelerador, CDI, EUST2.' ,
                 'description' => 'El soplador de mochila ECHO PB 770 ofrece una capacidad de soplado sin competencia. Es el modelo preferido de los agricultores para las tareas de recolección en el olivar y su rendimiento profesional está más que contrastado. Su sistema de refrigeración de la espalda incluye una toma de aire integrada en el acolchado de la espalda para mayor comodidad del usuario cuando trabaja en ambientes cálidos. Viene equipado con sistema anti vibración para mayor comodidad del usuario que lo emplea en largas jornadas.' ,
-                'price' => 749 ,
+                'price' => 759 ,
                 'id_category' => '4' ,
                 'id_patent' => '2'
                 ],
@@ -1455,7 +1455,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS2511TES',
                     'short_description' => 'Motosierra de poda ECHO CS 2511 TES profesional ultraligera y con una inmejorable relación peso/potencia. Certificación EUST2. Arranque fácil ES-Start.',
                     'description' => 'El excelente diseño de la motosierra CS 2511 TES ha permitido a ECHO realizar una máquina profesional ligera sin tener que renunciar a especificaciones y equipamiento. De este modo, monta espada sólida, cadena estándar profesional OREGON con un diente grande que puede afilarse más veces, retenedor de cadena rotativo profesional, púas de tope de metal, protector metálico para proteger el cárter de la máquina, estarter de retorno automático y bomba de engrase profesional ajustable que accionada por el embrague, permite al usuario el control del flujo de aceite mediante un tornillo situado en la parte superior para un funcionamiento óptimo. De este modo reduce de forma considerable el consumo de aceite y mantiene la cadena perfectamente lubricada.',
-                    'price' => 459,
+                    'price' => 465,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1475,7 +1475,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS280T',
                     'short_description' => 'Motosierra de poda ECHO CS 280 T profesional, ligera y potente. Filtro de aire G-Force, encendido digital CDI, Certificación EUST2',
                     'description' => 'La motosierra ECHO CS 280 TES es un modelo de poda muy ligero y manejable, con solo 3Kg de peso, con una inmejorable relación peso/potencia. Arranque fácil ES-Start y sistema de encendido digital CDI, que mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante. Con sistema de encendido digital y un eficaz sistema de reducción de vibraciones, dispone también de estárter integrado y ralentí rápido de fácil liberación, tan solo apretando el gatillo, que permite arrancar la máquina con menos esfuerzo.',
-                    'price' => 383,
+                    'price' => 410,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1485,7 +1485,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS280TES',
                     'short_description' => 'Motosierra de poda ECHO CS 280 TES profesional, ligera y potente. Filtro de aire G-Force, encendido digital CDI, Certificación EUST2, arranque fácil ES-Start.',
                     'description' => 'La motosierra ECHO CS 280 TES es un modelo de poda muy ligero y manejable, con solo 3Kg de peso, con una inmejorable relación peso/potencia. Arranque fácil ES-Start y sistema de encendido digital CDI, que mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante. Con sistema de encendido digital y un eficaz sistema de reducción de vibraciones, dispone también de estárter integrado y ralentí rápido de fácil liberación, tan solo apretando el gatillo, que permite arrancar la máquina con menos esfuerzo.',
-                    'price' => 430,
+                    'price' => 450,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1495,7 +1495,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS280TESC',
                     'short_description' => 'Motosierra de poda ECHO CS 280 T profesional, ligera y potente. Filtro de aire G-Force, encendido digital CDI, Certificación EUST2.',
                     'description' => 'La motosierra ECHO CS 280 TES es un modelo de poda muy ligero y manejable, con solo 3Kg de peso, con una inmejorable relación peso/potencia. Arranque fácil ES-Start y sistema de encendido digital CDI, que mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante. Con sistema de encendido digital y un eficaz sistema de reducción de vibraciones, dispone también de estárter integrado y ralentí rápido de fácil liberación, tan solo apretando el gatillo, que permite arrancar la máquina con menos esfuerzo.',
-                    'price' => 470,
+                    'price' => 495,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1505,7 +1505,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS281WES',
                     'short_description' => 'Motosierra de poda ECHO CS 281 WES profesional, ligera y potente. Filtro aire G-Force, encendido digital, catalizador, certificación EUST2, ES-Start.',
                     'description' => 'La motosierra ECHO CS 281 WES es un modelo de poda capaz de cumplir con las estrictas normativas de regulación de emisiones EUST2 (Directiva 2012/46/EC) mediante el uso de catalizador, con lo que se disminuye el nivel de emisiones, conservando toda su potencia. La Certificación EUST2 supone además de la reducción de emisiones, un importante ahorro en la factura de carburante. Arranque fácil ES-Start y sistema de encendido digital CDI, que mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. Dispone también de estárter integrado y ralentí rápido de fácil liberación, tan solo apretando el gatillo, que permite arrancar la máquina con menos esfuerzo.',
-                    'price' => 425,
+                    'price' => 449,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1515,7 +1515,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS320TES',
                     'short_description' => 'Motosierra de poda ECHO CS 320 TES profesional, ligera y potente. Filtro aire G-Force, encendido digital CDI, arranque fácil ES-Start.',
                     'description' => 'La motosierra de poda ECHO CS 320 TES presenta una excelente relación peso/potencia para una máxima manejabilidad y confort. Arranque fácil con el mínimo esfuerzo gracias al sistema ES-Start. Encendido digital CDI, que mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. Dispone también de estárter integrado y ralentí rápido de fácil liberación, tan solo apretando el gatillo, que permite arrancar la máquina con menos esfuerzo. La bomba de cebado también facilita el arranque del motor.',
-                    'price' => 410,
+                    'price' => 430,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1525,7 +1525,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS360TES',
                     'short_description' => 'Motosierra de poda ECHO CS 360 TES profesional, ligera y potente. Filtro aire G-Force, encendido digital CDI, certificación EUST2, arranque fácil ES-Start.',
                     'description' => 'La motosierra ECHO CS 360 TES es el modelo de poda más potente, con una excelente relación peso/potencia para una máxima manejabilidad y confort. Arranque fácil con el mínimo esfuerzo gracias al sistema ES-Start. Encendido digital CDI, que mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. Dispone también de estárter integrado y ralentí rápido de fácil liberación, tan solo apretando el gatillo, que permite arrancar la máquina con menos esfuerzo. La bomba de cebado también facilita el arranque del motor.',
-                    'price' => 479,
+                    'price' => 499,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1555,7 +1555,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS361WES',
                     'short_description' => 'Motosierra ECHO CS 361 WES para la poda a dos manos, sistema encendido digital, arranque fácil ES-Start, EUST2.',
                     'description' => 'La motosierra CS 361 WES es una máquina ligera y muy maniobrable gracias a su cuerpo delgado, una excelente distribución de pesos y la localización de los controles. Ideal para poda a dos manos, junto a su hermana pequeña, la motosierra ECHO CS 281 WES, son las máquinas de referencia en la poda del olivar. Con motor arranque fácil ES-Start y encendido Digitized Magneto. Este sistema desarrollado por ECHO, combinado con el cebador de combustible, facilita en gran forma la puesta en marcha del motor porque permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.',
-                    'price' => 464,
+                    'price' => 493,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1565,7 +1565,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS420ES',
                     'short_description' => 'Motosierra ECHO CS 420 ES equilibrada y manejable, sistema encendido digital, arranque fácil ES-Start, catalizador, filtro aire G-Force, EUST2.',
                     'description' => 'La motosierra CS 420 ES es una máquina equilibrada y manejable, que permite trabajar sin esfuerzo con la máxima calidad. Con motor arranque fácil ES-Start y encendido Digitized Magneto. Combinado con el cebador de combustible, permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra. Con catalizador para conseguir un motor mucho más limpio que reduce considerablemente las emisiones de CO y Nox a la atmósfera.',
-                    'price' => 475,
+                    'price' => 499,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1575,7 +1575,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS490ES38',
                     'short_description' => 'Motosierra ECHO CS 490 ES para uso profesional en agricultura y forestal, sistema encendido digital, arranque fácil ES-Start, filtro aire G-Force, EUST2.',
                     'description' => 'La motosierra CS 490 ES es una máquina equilibrada y manejable, que permite trabajar sin esfuerzo con la máxima calidad. Con motor arranque fácil ES-Start y encendido Digitized Magneto. Este sistema desarrollado por ECHO, combinado con el cebador de combustible, facilita en gran forma la puesta en marcha del motor porque permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.',
-                    'price' => 599,
+                    'price' => 630,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1585,7 +1585,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS490ES45',
                     'short_description' => 'Motosierra ECHO CS 490 ES para uso profesional en agricultura y forestal, sistema encendido digital, arranque fácil ES-Start, filtro aire G-Force, EUST2.',
                     'description' => 'La motosierra CS 490 ES es una máquina equilibrada y manejable, que permite trabajar sin esfuerzo con la máxima calidad. Con motor arranque fácil ES-Start y encendido Digitized Magneto. Este sistema desarrollado por ECHO, combinado con el cebador de combustible, facilita en gran forma la puesta en marcha del motor porque permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.',
-                    'price' => 635,
+                    'price' => 664,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1595,7 +1595,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS59045',
                     'short_description' => 'Motosierra ECHO CS 590 para uso profesional en agricultura y forestal, sistema encendido digital, filtro aire G-Force, corte de alto rendimiento, EUST2.',
                     'description' => 'La motosierra CS 590 es una máquina potente y profesional, que ofrece el máximo rendimiento para el cuidado forestal y la agricultura. Su motor incorpora encendido Digitized Magneto. Este sistema desarrollado por ECHO, combinado con la válvula de descompresión, contribuye a un arranque mucho más fácil y a un funcionamiento mucho más suave. La potencia de la motosierra CS 590 permite a ECHO ofrecerla en dos versiones, con espadas de 45 cm y 50 cm.',
-                    'price' => 735,
+                    'price' => 770,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1605,7 +1605,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS59050',
                     'short_description' => 'Motosierra ECHO CS 590 para uso profesional en agricultura y forestal, sistema encendido digital, filtro aire G-Force, corte de alto rendimiento, EUST2.',
                     'description' => 'La motosierra CS 590 es una máquina potente y profesional, que ofrece el máximo rendimiento para el cuidado forestal y la agricultura. Su motor incorpora encendido Digitized Magneto. Este sistema desarrollado por ECHO, combinado con la válvula de descompresión, contribuye a un arranque mucho más fácil y a un funcionamiento mucho más suave. La potencia de la motosierra CS 590 permite a ECHO ofrecerla en dos versiones, con espadas de 45 cm y 50 cm.',
-                    'price' => 749,
+                    'price' => 784,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1615,7 +1615,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS390ESX',
                     'short_description' => 'Motosierra forestal ECHO CS 390 ESX, uso profesional agricultura y forestal. Potente, ligera, sistema anti-hielo, arranque fácil y barra profesional Sugihara.',
                     'description' => 'Las máquinas ECHO se construyen siempre bajo normas profesionales y la motosierra forestal CS 390 ESX no es una excepción. Su motor profesional de 2 tiempos ofrece una impresionante potencia y un rendimiento de corte excepcional. Su sistema de encendido digital CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante.',
-                    'price' => 698,
+                    'price' => 739,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1625,7 +1625,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS501SX40',
                     'short_description' => 'Motosierra forestal ECHO CS 501 SX, uso profesional agricultura y forestal. Potente, ligera, anti-vibraciones, CDI, filtro G-Force y espada Sugihara 40 cm.',
                     'description' => 'Las máquinas ECHO se construyen siempre bajo normas profesionales y la motosierra forestal CS 501 SX no es una excepción. Su motor profesional de 2 tiempos ofrece una impresionante potencia y un rendimiento de corte excepcional. Su sistema de encendido digital CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante.',
-                    'price' => 799,
+                    'price' => 839,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1635,7 +1635,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS420ES',
                     'short_description' => 'Motosierra forestal ECHO CS 501 SX, uso profesional agricultura y forestal. Potente, ligera, anti-vibraciones, CDI, filtro G-Force y espada Sugihara 45 cm.',
                     'description' => 'Las máquinas ECHO se construyen siempre bajo normas profesionales y la motosierra forestal CS 501 SX no es una excepción. Su motor profesional de 2 tiempos ofrece una impresionante potencia y un rendimiento de corte excepcional. Su sistema de encendido digital CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante.',
-                    'price' => 810,
+                    'price' => 850,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1645,7 +1645,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS620SX45',
                     'short_description' => 'Motosierra forestal ECHO CS 620 SX, uso profesional agricultura y forestal. Potente, ligera, alto par motor, CDI, filtro G-Force y espada Sugihara de 45 cm.',
                     'description' => 'Las máquinas ECHO se construyen siempre bajo normas profesionales y la motosierra forestal CS 620 SX no es una excepción. Su motor profesional de 2 tiempos ofrece una impresionante potencia y un rendimiento de corte excepcional. Su sistema de encendido digital CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. El motor ha sido diseñado para ofrecer el máximo par a las revoluciones de trabajo, lo que disminuye el tiempo de corte en más de un 30% respecto de otros modelos similares.',
-                    'price' => 928,
+                    'price' => 994,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1655,7 +1655,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'CS620SX50',
                     'short_description' => 'Motosierra forestal ECHO CS 501 SX, uso profesional agricultura y forestal. Potente, ligera, anti-vibraciones, CDI, filtro G-Force y espada Sugihara 45 cm.',
                     'description' => 'Las máquinas ECHO se construyen siempre bajo normas profesionales y la motosierra forestal CS 501 SX no es una excepción. Su motor profesional de 2 tiempos ofrece una impresionante potencia y un rendimiento de corte excepcional. Su sistema de encendido digital CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo. La Certificación EUST2 (Directiva 2012/46/EC) supone además de la reducción de emisiones, un importante ahorro en la factura de carburante.',
-                    'price' => 950,
+                    'price' => 1018,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1663,9 +1663,9 @@ class ItemTableSeeder extends Seeder
                     'id' => '201',
                     'name' => 'CS 2000',
                     'short_name' => 'CS2000',
-                    'short_description' => 'short_description' ,
-                    'description' => 'description' ,
-                    'price' => 158,
+                    'short_description' => 'Motosierra eléctrica ECHO CS 2000, con cable, freno automático de cadena y bajas vibraciones. Ligera y manejable.' ,
+                    'description' => 'La motosierra eléctrica ECHO CS 2000 es ideal para cualquier tarea de corte o tala si dispones de corriente eléctrica. Para usar en la construcción, en tareas de bricolaje o hacer leña para la chimenea. Su motor eléctrico silencioso, limpio y ligero, ofrece mayor potencia que los modelos equivalentes en el mercado. Responde a la normativa más exigente para trabajos en ambientes sensibles. Excelente relación peso/potencia para una máxima manejabilidad y confort.' ,
+                    'price' => 172,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1673,9 +1673,9 @@ class ItemTableSeeder extends Seeder
                     'id' => '202',
                     'name' => 'CS 2400',
                     'short_name' => 'CS2400',
-                    'short_description' => 'short_description' ,
-                    'description' => 'description' ,
-                    'price' => 206,
+                    'short_description' => 'Motosierra eléctrica ECHO CS 2400, con cable, freno automático de cadena y bajas vibraciones. Ligera y manejable.' ,
+                    'description' => 'La motosierra eléctrica ECHO CS 2400 es ideal para cualquier tarea de corte o tala si dispones de corriente eléctrica. Para usar en la construcción, en tareas de bricolaje o hacer leña para la chimenea. Su motor eléctrico silencioso, limpio y ligero, ofrece mayor potencia que los modelos equivalentes en el mercado. Responde a la normativa más exigente para trabajos en ambientes sensibles. Excelente relación peso/potencia para una máxima manejabilidad y confort.' ,
+                    'price' => 217,
                     'id_category' => '1',
                     'id_patent' => '2'
                 ],
@@ -1709,7 +1709,7 @@ class ItemTableSeeder extends Seeder
                     'short_description' => 'Desbrozadora ligera ECHO SRM 2620 ESL, manillar simple, compacta y manejable, arranque fácil ES-Start, catalizador, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM 2620 ESL, ligera, robusta y compacta, es el modelo más potente de su categoría. Su nuevo motor con catalizador, que reduce las emisiones de CO2, y de alto rendimiento la convierte en la desbrozadora profesional ligera más potente del mercado. El exclusivo sistema de arranque fácil ES-Start permite un rápido encendido con el mínimo esfuerzo.
                     Su motor de alta resistencia presenta un menor desgaste, lo que significa una mayor vida útil del mismo y durabilidad extendida. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Su sistema de encendido electrónico CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo.',
-                    'price' => 448,
+                    'price' => 410,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1720,7 +1720,7 @@ class ItemTableSeeder extends Seeder
                     'short_description' => 'Desbrozadora ligera ECHO SRM 2620 ESU, manillar doble, compacta y manejable, arranque fácil ES-Start, catalizador, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM 2620 ESU, ligera, robusta y compacta, es el modelo más potente de su categoría. Su nuevo motor con catalizador, que reduce las emisiones de CO2, y de alto rendimiento la convierte en la desbrozadora profesional ligera más potente del mercado. El exclusivo sistema de arranque fácil ES-Start permite un rápido encendido con el mínimo esfuerzo.
                     Su motor de alta resistencia presenta un menor desgaste, lo que significa una mayor vida útil del mismo y durabilidad extendida. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Su sistema de encendido electrónico CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo.',
-                    'price' => 478,
+                    'price' => 430,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1730,7 +1730,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'SRM2620TESL',
                     'short_description' => 'Desbrozadora High-Torque ECHO SRM 2620 T ESL con reductora, manillar simple, ligera y potente, arranque fácil ES-Start, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM 2620 T ESL con reductora es el modelo más potente de su categoría. Su nuevo motor de alto rendimiento la convierte en la desbrozadora profesional ligera más potente del mercado. Gracias a su reductora “High-Torque” de alto par ofrece un 50% más de fuerza y permite trabajar con una superficie de corte hasta 4 veces mayor, con una desbrozadora de poco peso y bajo consumo. Permite realizar cualquier tipo de trabajo profesional de limpieza y mantenimiento en jardines. Es la máquina ideal para los jardineros profesionales y las brigadas de mantenimiento.',
-                    'price' => 498,
+                    'price' => 523,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1740,7 +1740,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'SRM2620TESU',
                     'short_description' => 'Desbrozadora High-Torque ECHO SRM 2620 T ESU con reductora, manillar doble, ligera y potente, arranque fácil ES-Start, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM 2620 T ESU con reductora es el modelo más potente de su categoría. Su nuevo motor de alto rendimiento la convierte en la desbrozadora profesional ligera más potente del mercado. Gracias a su reductora “High-Torque” de alto par ofrece un 50% más de fuerza y permite trabajar con una superficie de corte hasta 4 veces mayor, con una desbrozadora de poco peso y bajo consumo. Permite realizar cualquier tipo de trabajo profesional de limpieza y mantenimiento en jardines. Es la máquina ideal para los jardineros profesionales y las brigadas de mantenimiento.',
-                    'price' => 528,
+                    'price' => 554,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1750,7 +1750,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'SRM420TESU',
                     'short_description' => 'Desbrozadora High-Torque ECHO SRM 420 T ESU con reductora, manillar doble, ligera y potente, arranque fácil ES-Start, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM 420 T ESU con reductora es el modelo más potente de su categoría. Su nuevo motor de alto rendimiento la convierte en la desbrozadora profesional ligera más potente del mercado. Gracias a su reductora “High-Torque” de alto par ofrece un 50% más de fuerza y permite trabajar con una superficie de corte hasta 4 veces mayor, con una desbrozadora de poco peso y bajo consumo. Permite realizar cualquier tipo de trabajo profesional de limpieza y mantenimiento en jardines. Es la máquina ideal para los jardineros profesionales y las brigadas de mantenimiento.',
-                    'price' => 870,
+                    'price' => 914,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1761,7 +1761,7 @@ class ItemTableSeeder extends Seeder
                     'short_description' => 'Desbrozadora potente ECHO SRM 350 ESU, manillar doble, robusta y económica, arranque fácil ES-Start, nivel sonoro Low Tone, encendido electrónico CDI.',
                     'description' => 'La desbrozadora ECHO SRM 350 ESU hace fáciles los trabajos más duros y al mejor precio. Ligera, robusta y potente, incorpora un motor de alta resistencia y sistema de bajo nivel sonoro Low Tone. El exclusivo sistema de arranque fácil ES-Start permite un rápido encendido con el mínimo esfuerzo.
                     u motor de alta resistencia presenta un menor desgaste, lo que significa una mayor vida útil del mismo y durabilidad extendida. Su motor diseñado y fabricado en Japón cumple con la primera fase de la estricta directiva comunitaria de emisiones (EUST1). Su sistema de encendido electrónico CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo.',
-                    'price' => 489,
+                    'price' => 499,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1772,7 +1772,7 @@ class ItemTableSeeder extends Seeder
                     'short_description' => 'Desbrozadora forestal ECHO SRM 420 ESU, manillar doble, profesional, robusta, potente y resistente, arranque fácil ES-Start, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM420 ESU ha sido especialmente diseñada para trabajos forestales de envergadura por su gran capacidad de trabajo. Su ligereza, combinada con la potencia de su nuevo motor le confieren las características que todo profesional busca en una desbrozadora. Incorpora el sistema de arranque fácil ES Start exclusivo de ECHO, gracias al cual arranca a la primera y sin esfuerzo.
                     La desbrozadora ECHO SRM420 ESU equipa el nuevo motor profesional de cilindro cromado que consigue, con sólo 42cc, un 11% más de potencia y una reducción del 20% en el consumo comparada con los modelos tradicionales. Además reduce las emisiones en un 70%. Su motor diseñado y fabricado en Japón cumple con la segunda fase de la estricta directiva comunitaria de emisiones (EUST2), con menor consumo de carburante, bajo nivel de ruidos y menos emisiones de escape. Su sistema de encendido electrónico CDI mejora el comportamiento de la máquina a cualquier régimen del motor y se ajusta perfectamente a cada condición de trabajo.',
-                    'price' => 732,
+                    'price' => 849,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1782,7 +1782,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'SRM520ESU',
                     'short_description' => 'Desbrozadora forestal ECHO SRM 520 ESU, manillar doble, profesional, robusta, olivar, ES-Start, bajo nivel sonoro Low-Tone, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora ECHO SRM 520 ESU tiene la potencia necesaria para desbrozar en los sitios más difíciles. Incorpora sistema Low-Tone de bajo nivel sonoro. Arranque fácil ES-Start. Su elevada potencia le permite incorporar cabezales de 4 y 8 hilos, especialmente útiles para el desbroce de plantas resistentes sin correr riesgo de dañar el pie del olivo. Incorpora el sistema de arranque fácil ES Start exclusivo de ECHO, gracias al cual arranca a la primera y sin esfuerzo.',
-                    'price' => 910,
+                    'price' => 955,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1792,7 +1792,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'BCLS510ES',
                     'short_description' => 'Desbrozadora forestal ECHO BCLS 510 ES, manillar doble, profesional, robusta, ES-Start, bajo nivel sonoro Low-Tone, antivibración, encendido electrónico CDI, EUST2.',
                     'description' => 'La desbrozadora forestal ECHO BCLS 510 ES tiene la potencia necesaria para desbrozar en los sitios más complicados y permite limpiar como nadie el sotobosque más difícil. Incorpora sistema Low-Tone de bajo nivel sonoro. Arranque fácil ES-Start. El diseño especial de su eje, más corto y con un diámetro más grueso, junto a su sistema anti vibración profesional, la convierten en un modelo especial para limpieza forestal intensiva. Incorpora el sistema de arranque fácil ES Start exclusivo de ECHO, gracias al cual arranca a la primera y sin esfuerzo.',
-                    'price' => 860,
+                    'price' => 925,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1802,7 +1802,7 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'BCLS580',
                     'short_description' => 'Desbrozadora forestal ECHO BCLS 580, manillar doble, profesional, robusta, bajo nivel sonoro Low-Tone, antivibración, encendido electrónico CDI.',
                     'description' => 'La desbrozadora forestal ECHO BCLS 580 tiene la potencia necesaria para desbrozar en los sitios más complicados y permite limpiar como nadie el sotobosque más difícil. Incorpora sistema Low-Tone de bajo nivel sonoro. Arranque fácil ES-Start. El diseño especial de su eje, más corto y con un diámetro más grueso, junto a su sistema anti vibración profesional, la convierten en un modelo especial para limpieza forestal intensiva. Incorpora el sistema de arranque fácil ES Start exclusivo de ECHO, gracias al cual arranca a la primera y sin esfuerzo.',
-                    'price' => 1140,
+                    'price' => 1210,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
@@ -1812,30 +1812,30 @@ class ItemTableSeeder extends Seeder
                     'short_name' => 'RM520ES',
                     'short_description' => 'Desbrozadora de mochila ECHO RM 520 ES, manillar flexible, bajo nivel sonoro Low-Tone, antivibración, encendido electrónico CDI, arranque fácil ES-Start.',
                     'description' => 'La desbrozadora de mochila ECHO RM 520 ES permite llegar a los sitios más inaccesibles gracias a su manillar flexible. El peso del motor recae en la cintura para mayor comodidad y a fin de evitar daños en la columna vertebral. El centro de gravedad está más cerca de la espalda del usuario y el motor está fijado con un ángulo de 35º. Incorpora sistema Low-Tone de bajo nivel sonoro. Incorpora el sistema de arranque fácil ES Start exclusivo de ECHO, gracias al cual arranca a la primera y sin esfuerzo.',
-                    'price' => 1080,
+                    'price' => 1134,
                     'id_category' => '3',
                     'id_patent' => '2'
                 ],
-                [
-                    'id' => '186' ,
-                    'name' => 'DSRM 300' ,
-                    'short_name' => 'DSRM300' ,
-                    'short_description' => 'Desbrozadora de batería ECHO DHC 200. Potencia 50V. Silenciosa, sin vibraciones ni emisiones, económica y fácil de usar. También en versión kit que incluye cargador y batería.' ,
-                    'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
-                    'price' => 310 ,
-                    'id_category' => '3' ,
-                    'id_patent' => '2'
-                ],
-                [
-                    'id' => '187' ,
-                    'name' => 'KIT DSRM 300 + BATERIA 100 + CARGADOR' ,
-                    'short_name' => 'KITDSRM300_BATERIA100_CARGADOR' ,
-                    'short_description' => 'Desbrozadora de batería ECHO DHC 200 con cargador rápido LCQJ 600 y batería de 2Ah LBP 560-200. Potencia 50V. Silenciosa, sin vibraciones ni emisiones, económica y fácil de usar.' ,
-                    'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
-                    'price' => 585 ,
-                    'id_category' => '3' ,
-                    'id_patent' => '2'
-                ],
+                // [
+                //     'id' => '186' ,
+                //     'name' => 'DSRM 300' ,
+                //     'short_name' => 'DSRM300' ,
+                //     'short_description' => 'Desbrozadora de batería ECHO DHC 200. Potencia 50V. Silenciosa, sin vibraciones ni emisiones, económica y fácil de usar. También en versión kit que incluye cargador y batería.' ,
+                //     'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
+                //     'price' => 310 ,
+                //     'id_category' => '3' ,
+                //     'id_patent' => '2'
+                // ],
+                // [
+                //     'id' => '187' ,
+                //     'name' => 'KIT DSRM 300 + BATERIA 100 + CARGADOR' ,
+                //     'short_name' => 'KITDSRM300_BATERIA100_CARGADOR' ,
+                //     'short_description' => 'Desbrozadora de batería ECHO DHC 200 con cargador rápido LCQJ 600 y batería de 2Ah LBP 560-200. Potencia 50V. Silenciosa, sin vibraciones ni emisiones, económica y fácil de usar.' ,
+                //     'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
+                //     'price' => 585 ,
+                //     'id_category' => '3' ,
+                //     'id_patent' => '2'
+                // ],
                 [
                     'id' => '199' ,
                     'name' => 'EGT 350' ,
@@ -1974,7 +1974,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'PPF236ES' ,
                 'short_description' => 'Motosierra de poda de altura ECHO PPF236 ES, barra fija de acero, sin vibraciones, arranque fácil ES-Start, encendido digital, certificación EUST2.' ,
                 'description' => 'Motosierra de poda de altura ECHO PPF236 ES, para los trabajos de precisión en altura. Su barra de longitud fija, protegida de las vibraciones, te permitirá realizar con precisión las tareas de poda desde el nivel del suelo. Su sistema de arranque fácil ES-Start y encendido Digitized Magneto, combinado con la bomba de cebado, permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.' ,
-                'price' => 659 ,
+                'price' => 645 ,
                 'id_category' => '26' ,
                 'id_patent' => '2'
                 ],
@@ -1984,7 +1984,7 @@ class ItemTableSeeder extends Seeder
                 'short_name' => 'PPT265ES' ,
                 'short_description' => 'Motosierra de poda de altura ECHO PPT265 ES, barra telescópica de fibra de vidrio, arranque fácil ES-Start, encendido digital, catalizador, EUST2.' ,
                 'description' => 'Motosierra de poda de altura ECHO PPT265 ES, para los trabajos de precisión en altura. Su barra telescópica ajustable en altura hasta 5.2m, protegida de las vibraciones, te permitirá realizar con precisión las tareas de poda desde el nivel del suelo. Protección de fibra de vidrio en la barra para lograr un agarre seguro. Su sistema de arranque fácil ES-Start y encendido Digitized Magneto, combinado con la bomba de cebado, permite arrancar la máquina sin esfuerzo, de una forma sencilla y segura, para que resulte más cómodo trabajar con la motosierra.' ,
-                'price' => 878 ,
+                'price' => 948 ,
                 'id_category' => '26' ,
                 'id_patent' => '2'
                 ],

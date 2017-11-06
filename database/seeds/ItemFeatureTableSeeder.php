@@ -184,10 +184,27 @@ class ItemFeatureTableSeeder extends Seeder
                 [
                     'id_item' => '61',
                     'id_feature' => '1709'
-                ]
+                ],
+                /* MOTOR */
+                [
+                    'id_item' => '201',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '201',
+                    'id_feature' => '3049'
+                ],
+                [
+                    'id_item' => '202',
+                    'id_feature' => '4096'
+                ],
+                [
+                    'id_item' => '202',
+                    'id_feature' => '3054'
+                ],
                 /* DESBROZADORA - CILINDRADA */
                 /* ECHO */
-                ,[
+                [
                     'id_item' => '62',
                     'id_feature' => '1332'
                 ],
@@ -234,6 +251,207 @@ class ItemFeatureTableSeeder extends Seeder
                 [
                     'id_item' => '73',
                     'id_feature' => '1693'
+                ],
+                [
+                    'id_item' => '74',
+                    'id_feature' => '1613'
+                ],
+                /* NOTE SOPLADOR */
+                /* PB250 */
+                [
+                    'id_item' => '26' ,
+                    'id_feature' => '43',
+                ],
+                [
+                    'id_item' => '26' ,
+                    'id_feature' => '1365',
+                ],
+                /* PB251 */
+                [
+                    'id_item' => '27' ,
+                    'id_feature' => '45',
+                ],
+                [
+                    'id_item' => '27' ,
+                    'id_feature' => '1365',
+                ],
+                /* PB255ES */
+                [
+                    'id_item' => '179' ,
+                    'id_feature' => '48',
+                ],
+                [
+                    'id_item' => '179' ,
+                    'id_feature' => '1365',
+                ],
+                /* ES250ES */
+                [
+                    'id_item' => '180' ,
+                    'id_feature' => '57',
+                ],
+                [
+                    'id_item' => '180' ,
+                    'id_feature' => '1365',
+                ],
+                /* PB580 */
+                [
+                    'id_item' => '181' ,
+                    'id_feature' => '103',
+                ],
+                [
+                    'id_item' => '181' ,
+                    'id_feature' => '1693',
+                ],
+                /* PB760 */
+                [
+                    'id_item' => '182' ,
+                    'id_feature' => '119',
+                ],
+                [
+                    'id_item' => '182' ,
+                    'id_feature' => '1744',
+                ],
+                /* PB770 */
+                [
+                    'id_item' => '183' ,
+                    'id_feature' => '110',
+                ],
+                [
+                    'id_item' => '183' ,
+                    'id_feature' => '1744',
+                ],
+                /* NOTE PODRADORA */
+                /* PPF236ES */
+                [
+                    'id_item' => '203',
+                    'id_feature' => '58'
+                ],
+                [
+                    'id_item' => '203',
+                    'id_feature' => '3039'
+                ],
+                /* PPT265ES */
+                [
+                    'id_item' => '204',
+                    'id_feature' => '80'
+                ],
+                [
+                    'id_item' => '204',
+                    'id_feature' => '3044'
+                ],
+                /* NOTE DESBROZADORA */
+                /* SRM222ESL */
+                [
+                    'id_item' => '62',
+                    'id_feature' => '47'
+                ],
+                [
+                    'id_item' => '62',
+                    'id_feature' => '1323'
+                ],
+                /* SRM222ESU */
+                [
+                    'id_item' => '63',
+                    'id_feature' => '49'
+                ],
+                [
+                    'id_item' => '63',
+                    'id_feature' => '1365'
+                ],
+                /* SRM2620ESL */
+                [
+                    'id_item' => '64',
+                    'id_feature' => '56'
+                ],
+                [
+                    'id_item' => '64',
+                    'id_feature' => '1365'
+                ],
+                /* SRM2620ESU */
+                [
+                    'id_item' => '65',
+                    'id_feature' => '58'
+                ],
+                [
+                    'id_item' => '65',
+                    'id_feature' => '1365'
+                ],
+                /* SRM2620TESL */
+                [
+                    'id_item' => '66',
+                    'id_feature' => '58'
+                ],
+                [
+                    'id_item' => '66',
+                    'id_feature' => '1365'
+                ],
+                /* SRM2620TESU */
+                [
+                    'id_item' => '67',
+                    'id_feature' => '60'
+                ],
+                [
+                    'id_item' => '67',
+                    'id_feature' => '1365'
+                ],
+                /* SRM420TESU */
+                [
+                    'id_item' => '68',
+                    'id_feature' => '87'
+                ],
+                [
+                    'id_item' => '68',
+                    'id_feature' => '1526'
+                ],
+                /* SRM350ESU */
+                [
+                    'id_item' => '69',
+                    'id_feature' => '69'
+                ],
+                [
+                    'id_item' => '69',
+                    'id_feature' => '1454'
+                ],
+                /* SRM420ESU */
+                [
+                    'id_item' => '70',
+                    'id_feature' => '85'
+                ],
+                [
+                    'id_item' => '70',
+                    'id_feature' => '1526'
+                ],
+                /* SRM520ESU */
+                [
+                    'id_item' => '71',
+                    'id_feature' => '90'
+                ],
+                [
+                    'id_item' => '71',
+                    'id_feature' => '1613'
+                ],
+                /* BCLS510ES */
+                [
+                    'id_item' => '72',
+                    'id_feature' => '101'
+                ],
+                [
+                    'id_item' => '72',
+                    'id_feature' => '1628'
+                ],
+                /* BCLS580 */
+                [
+                    'id_item' => '73',
+                    'id_feature' => '104'
+                ],
+                [
+                    'id_item' => '73',
+                    'id_feature' => '1693'
+                ],
+                /* RM520ES */
+                [
+                    'id_item' => '74',
+                    'id_feature' => '120'
                 ],
                 [
                     'id_item' => '74',
