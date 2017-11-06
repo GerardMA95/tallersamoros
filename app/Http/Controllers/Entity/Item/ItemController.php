@@ -9,6 +9,8 @@ use App\Services\Entity\Item\RelatedItemsService;
 
 class ItemController extends Controller
 {
+    CONST NUM_ITEMS_ALL = 30;
+    CONST NUM_ITEMS_SEARCH = 18;
     /**
      * Show the profile for the given user.
      *
@@ -23,7 +25,7 @@ class ItemController extends Controller
         if ($category !== 'none' && $patent !== 'none') {
             //Si se busca por cualquier marca/categoria
             if($category === 'all' && $patent === 'all'){
-                $itemList = DB::table('item')->where('outlet', false)->orderBy('priority')->paginate(9);
+                $itemList = DB::table('item')->where('outlet', false)->orderBy('priority')->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_ALL);
             }else{
                 //Si se busca una marca y una categoria en concreto
             }
@@ -34,7 +36,7 @@ class ItemController extends Controller
                 $categoryId = DB::table('category')->where('short_name', $category)->first();
                 //Si la categoria es correcta
                 if(!is_null($categoryId)){
-                    $itemList = DB::table('item')->where('id_category', $categoryId->id)->orderBy('priority', 'asc')->paginate(9);
+                    $itemList = DB::table('item')->where('id_category', $categoryId->id)->orderBy('priority', 'asc')->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
                 }else{
                     //Si la categoria buscada no existe $itemList estará vacío
                 }
@@ -46,7 +48,7 @@ class ItemController extends Controller
             if($patent !== 'all'){
                 $patentId = DB::table('patent')->where('short_name', $patent)->first();
                 if(!is_null($patentId)){
-                    $itemList = DB::table('item')->where('id_patent', $patentId->id)->orderBy('priority', 'asc')->paginate(9);
+                    $itemList = DB::table('item')->where('id_patent', $patentId->id)->orderBy('priority', 'asc')->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
                 }else{
                     //Si la marca buscada no existe $itemList estará vacío
                 }
@@ -111,7 +113,7 @@ class ItemController extends Controller
      */
     public function outlet()
     {
-        $itemList = DB::table('item')->where('outlet', true)->paginate(9);
+        $itemList = DB::table('item')->where('outlet', true)->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
         return view('item.itemListOutlet', ['itemList' => $itemList]);
     }
 

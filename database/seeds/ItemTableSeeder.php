@@ -1907,16 +1907,16 @@ class ItemTableSeeder extends Seeder
                 'id_category' => '2' ,
                 'id_patent' => '2'
                 ],
-                [
-                'id' => '193' ,
-                'name' => 'PAS 265 ES (EUST2)' ,
-                'short_name' => 'PAS265ES' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
-                'price' => 944 ,
-                'id_category' => '2' ,
-                'id_patent' => '2'
-                ],
+                // [
+                // 'id' => '193' ,
+                // 'name' => 'PAS 265 ES (EUST2)' ,
+                // 'short_name' => 'PAS265ES' ,
+                // 'short_description' => 'short_description' ,
+                // 'description' => 'description' ,
+                // 'price' => 944 ,
+                // 'id_category' => '2' ,
+                // 'id_patent' => '2'
+                // ],
                 [
                 'id' => '194' ,
                 'name' => 'DHC 200' ,
@@ -2034,10 +2034,10 @@ Con la batería de mochila ECHO LBP-560-900 podrás trabajar tanto tiempo como n
                 /* NOTE Cargadores */
                 [
                 'id' => '209' ,
-                'name' => 'CARGADOR RAPIDO' ,
+                'name' => 'LCJQ 560' ,
                 'short_name' => 'CARGADORRAPIDO' ,
-                'short_description' => 'short_description' ,
-                'description' => 'description' ,
+                'short_description' => 'Cargador de batería rápido ECHO LCJQ 560 para baterías ECHO de 2, 4 y 16 Ah. Compatible con toda la gama ECHO battery series. Potencia y autonomía.' ,
+                'description' => 'El sistema de 50V de ECHO utiliza la última tecnología de iones de litio y proporciona energía de más alta densidad, en comparación con la tecnología de baterías tradicionales menos potentes y pesadas. Hemos puesto toda nuestra experiencia en la nueva gama de maquinaria de batería de 50V, creando una gama de potentes herramientas aptas tanto para el usuario doméstico como para el profesional.' ,
                 'price' => 130 ,
                 'id_category' => '18' ,
                 'id_patent' => '2'

@@ -202,60 +202,6 @@ class ItemFeatureTableSeeder extends Seeder
                     'id_item' => '202',
                     'id_feature' => '3054'
                 ],
-                /* DESBROZADORA - CILINDRADA */
-                /* ECHO */
-                [
-                    'id_item' => '62',
-                    'id_feature' => '1332'
-                ],
-                [
-                    'id_item' => '63',
-                    'id_feature' => '1332'
-                ],
-                [
-                    'id_item' => '64',
-                    'id_feature' => '1365'
-                ],
-                [
-                    'id_item' => '65',
-                    'id_feature' => '1365'
-                ],
-                [
-                    'id_item' => '66',
-                    'id_feature' => '1365'
-                ],
-                [
-                    'id_item' => '67',
-                    'id_feature' => '1365'
-                ],
-                [
-                    'id_item' => '68',
-                    'id_feature' => '1526'
-                ],
-                [
-                    'id_item' => '69',
-                    'id_feature' => '1454'
-                ],
-                [
-                    'id_item' => '70',
-                    'id_feature' => '1526'
-                ],
-                [
-                    'id_item' => '71',
-                    'id_feature' => '1613'
-                ],
-                [
-                    'id_item' => '72',
-                    'id_feature' => '1628'
-                ],
-                [
-                    'id_item' => '73',
-                    'id_feature' => '1693'
-                ],
-                [
-                    'id_item' => '74',
-                    'id_feature' => '1613'
-                ],
                 /* NOTE SOPLADOR */
                 /* PB250 */
                 [
@@ -489,59 +435,6 @@ class ItemFeatureTableSeeder extends Seeder
                 [
                     'id_item' => '20',
                     'id_feature' => '4098'
-                ],
-                /* DESBROZADORA - PESO */
-                [
-                    'id_item' => '62',
-                    'id_feature' => '47'
-                ],
-                [
-                    'id_item' => '63',
-                    'id_feature' => '49'
-                ],
-                [
-                    'id_item' => '64',
-                    'id_feature' => '55'
-                ],
-                [
-                    'id_item' => '65',
-                    'id_feature' => '58'
-                ],
-                [
-                    'id_item' => '66',
-                    'id_feature' => '57'
-                ],
-                [
-                    'id_item' => '67',
-                    'id_feature' => '60'
-                ],
-                [
-                    'id_item' => '68',
-                    'id_feature' => '87'
-                ],
-                [
-                    'id_item' => '69',
-                    'id_feature' => '69'
-                ],
-                [
-                    'id_item' => '70',
-                    'id_feature' => '85'
-                ],
-                [
-                    'id_item' => '71',
-                    'id_feature' => '90'
-                ],
-                [
-                    'id_item' => '72',
-                    'id_feature' => '101'
-                ],
-                [
-                    'id_item' => '73',
-                    'id_feature' => '104'
-                ],
-                [
-                    'id_item' => '74',
-                    'id_feature' => '120'
                 ],
                 /* HONDA */
                 [
