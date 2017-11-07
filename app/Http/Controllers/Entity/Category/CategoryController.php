@@ -21,13 +21,13 @@ class CategoryController extends Controller
             if($category !== 'all'){
                 $category = DB::table('category')->where('short_name', $category)->first();
             }else{
-                $category = DB::table('category')->paginate(9);
+                $category = DB::table('category')->orderBy('short_name', 'asc')->paginate(12);
             }
         }else if($patent !== 'none' && !is_null($patent)){
             if($patent !== 'all'){
                 $patent = DB::table('patent')->where('short_name', $patent)->first();
             }else{
-                $patent = DB::table('patent')->where('active', true)->where('repair_service', false)->paginate(9);
+                $patent = DB::table('patent')->where('active', true)->where('repair_service', false)->paginate(12);
             }
         }
         return view('item.itemSearch', ['patents' => $patent, 'categories' => $category]);

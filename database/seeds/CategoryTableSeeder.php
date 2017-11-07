@@ -90,13 +90,13 @@ class CategoryTableSeeder extends Seeder
                 //     'short_description' => '',
                 //     'description' => '',
                 // ],
-                [
-                    'id' => '12',
-                    'name' => 'Aspiradores',
-                    'short_name' => 'aspiradores',
-                    'short_description' => '',
-                    'description' => '',
-                ],
+                // [
+                //     'id' => '12',
+                //     'name' => 'Aspiradores',
+                //     'short_name' => 'aspiradores',
+                //     'short_description' => '',
+                //     'description' => '',
+                // ],
                 // [
                 //     'id' => '13',
                 //     'name' => 'Astilladoras',
@@ -125,13 +125,13 @@ class CategoryTableSeeder extends Seeder
                     'short_description' => '',
                     'description' => '',
                 ],
-                [
-                    'id' => '17',
-                    'name' => 'Aspiradores',
-                    'short_name' => 'aspiradores',
-                    'short_description' => '',
-                    'description' => '',
-                ],
+                // [
+                //     'id' => '17',
+                //     'name' => 'Aspiradores',
+                //     'short_name' => 'aspiradores',
+                //     'short_description' => '',
+                //     'description' => '',
+                // ],
                 [
                     'id' => '18',
                     'name' => 'Cargadores',

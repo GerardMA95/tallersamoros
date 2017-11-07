@@ -468,17 +468,17 @@ class ItemTableSeeder extends Seeder
                     'id_patent' => '1'
                 ],
                 /* NOTE Aspiradores */
-                [
-                    'id' => '83',
-                    'name' => 'AS 100',
-                    'short_name' => 'AS100',
-                    'short_description' => 'Aspirador autopropulsado de hojas AS 100 de gran capacidad, ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas, etc.',
-                    'description' => 'El aspirador de hojas autopropulsado de gran capacidad AS 100 es ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas.Kit tubo aspiración adicional disponible, particularmente interesante para la aspiración en parterres de difícil acceso.
-                    Bolsas desechables disponibles.También es posible convertirlo en soplador con el accesorio soplador lateral o el accesorio soplador con manguera de 4 metros.',
-                    'price' => 2125,
-                    'id_category' => '17',
-                    'id_patent' => '1'
-                ],
+                // [
+                //     'id' => '83',
+                //     'name' => 'AS 100',
+                //     'short_name' => 'AS100',
+                //     'short_description' => 'Aspirador autopropulsado de hojas AS 100 de gran capacidad, ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas, etc.',
+                //     'description' => 'El aspirador de hojas autopropulsado de gran capacidad AS 100 es ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas.Kit tubo aspiración adicional disponible, particularmente interesante para la aspiración en parterres de difícil acceso.
+                //     Bolsas desechables disponibles.También es posible convertirlo en soplador con el accesorio soplador lateral o el accesorio soplador con manguera de 4 metros.',
+                //     'price' => 2125,
+                //     'id_category' => '17',
+                //     'id_patent' => '1'
+                // ],
                 /* NOTE Cortasetos */
                 [
                     'id' => '92' ,
