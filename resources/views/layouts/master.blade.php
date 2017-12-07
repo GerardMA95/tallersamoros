@@ -18,6 +18,7 @@
           {!! Html::style('css/main.min.css') !!}
           <script src="https://use.fontawesome.com/5879b99bb3.js"></script>
         @show
+        <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
     </head>
     <body>
       <!-- Wrapper -->
@@ -86,9 +87,13 @@
                         <div class="field">
                             {{ Form::textarea('message' , '', ['placeholder' => 'Mensaje']) }}
                         </div>
+                        <div class="field">
+                            <div class="g-recaptcha" data-sitekey="6LeGyDsUAAAAANJQ2J9muCUoGbIrFQDOLZcq69gn"></div>
+                        </div>
                         <div class="field half first">
                             {{ Form::select('subject', [0 => 'Pedir presupuesto',  1 => 'Pedir información', 2 => 'Reportar incidencia' , 3 => 'Otros'], null , ['placeholder' => 'Selecciona un motivo']) }}
                         </div>
+
                         <div class="field half">
                             {{ Form::submit('Enviar') }}
                         </div>
