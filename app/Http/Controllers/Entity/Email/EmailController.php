@@ -73,6 +73,8 @@ class EmailController extends Controller
 
     public function send(Request $request)
     {
+        return view('main');
+        die;
         $emailsToSend = DB::table('email')
             ->leftJoin('email_send', 'email.id', '=', 'email_send.email_id')
             ->whereNull('email_send.send_date')
