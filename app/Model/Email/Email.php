@@ -12,4 +12,12 @@ class Email extends Model
      * @var string
      */
     protected $table = 'email';
+
+    /**
+     * Get the EmailSend record associated with the user.
+     */
+    public function emailSend()
+    {
+        return $this->hasOne('App\Model\Email\EmailSend');
+    }
 }
