@@ -15,10 +15,11 @@ class CreateEmailSendTable extends Migration
     {
         Schema::create('email_send', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('id_email')->unsigned();
-            $table->foreign('id_email')
+            $table->integer('email_id')->unsigned();
+            $table->foreign('email_id')
                 ->references('id')->on('email')
                 ->onDelete('cascade');
+            $table->timestamp('send_date')->nullable()->default(null);
             $table->timestamps();
         });
     }

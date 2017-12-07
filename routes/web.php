@@ -40,6 +40,8 @@ Route::get('/contacto', function () {
     return view('modules.contact.contactMap');
 })->name('contactMap');
 
-Route::post('/contacto/correo','Entity\Email\EmailController@send')->name('persistEmail');
+Route::post('/contacto/correo','Entity\Email\EmailController@persist')->name('persistEmail');
 
-Route::get('/contacto/presupuesto/{itemShortName}','Entity\Email\EmailController@send')->name('persistBudget');
+Route::get('/contacto/presupuesto/{itemShortName}','Entity\Email\EmailController@persist')->name('persistBudget');
+
+Route::get('/contacto/correo/enviar','Entity\Email\EmailController@send')->name('sendEmail');
