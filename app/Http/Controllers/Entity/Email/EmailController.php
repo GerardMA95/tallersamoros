@@ -87,7 +87,7 @@ class EmailController extends Controller
                 if (strpos($email->email_to, 'soporte') !== false ) {
                     $message->to('gerardma1995@gmail.com')->subject('SOPORTE - TALLERESAMOROS');
                 } else {
-                    $message->to('gerardma1995@gmail.com')->subject('CONTACTO WEB - TALLERESAMOROS');
+                    $message->to('talleresamoros@talleresamoros.com')->subject('CONTACTO WEB - TALLERESAMOROS');
                 }
             });
             $date =  new \DateTime();
