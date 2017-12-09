@@ -73,28 +73,26 @@ class EmailController extends Controller
 
     public function send(Request $request)
     {
-        return view('main');
-        die;
-        $emailsToSend = DB::table('email')
-            ->leftJoin('email_send', 'email.id', '=', 'email_send.email_id')
-            ->whereNull('email_send.send_date')
-            ->limit(20)
+        $emailsToSend = EmailSend::where('send_date', null)
+            ->take(20)
             ->get();
         foreach ($emailsToSend as $emailToSend) {
-            $email = Email::where('id', $emailToSend->id)
+            $email = Email::where('id', $emailToSend->email_id)
                    ->first();
-            $emailSend = EmailSend::where('email_id', $email->id)
-                  ->first();
             $data = array(
                 'email' => $email,
             );
             \Mail::send('contact.emailTemplate', $data, function ($message) use ($email) {
                 $message->from('info@talleresamoros.com', 'Talleresamoros');
-                $message->to('talleresamoros@talleresamoros.com')->subject('CONTACTO WEB - TALLERESAMOROS');
+                if (strpos($email->email_to, 'soporte') !== false ) {
+                    $message->to('gerardma1995@gmail.com')->subject('SOPORTE - TALLERESAMOROS');
+                } else {
+                    $message->to('gerardma1995@gmail.com')->subject('CONTACTO WEB - TALLERESAMOROS');
+                }
             });
             $date =  new \DateTime();
-            $emailSend->send_date = $date->format('Y-m-d H:i:s');
-            $emailSend->save();
+            $emailToSend->send_date = $date->format('Y-m-d H:i:s');
+            $emailToSend->save();
         }
 
         return view('main');
