@@ -2374,7 +2374,7 @@ Equipada con un dispositivo "Easy Start", garantiza el arranque de la máquina e
                     'price' => 750,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10,
+                    'priority' => 6,
                     'video_url' => null
                 ],
                 [
@@ -2389,7 +2389,7 @@ novedades, un par motor superior y sigue siendo la más ligera del mercado',
                     'price' => 800,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10,
+                    'priority' => 6,
                     'video_url' => '6fVr23ZuscU'
                 ],
                 [
@@ -2407,7 +2407,7 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'price' => 1020,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10,
+                    'priority' => 9,
                     'video_url' => null
                 ],
                 [
@@ -2422,10 +2422,10 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
 ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
 arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
 donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
-                    'price' => 968,
+                    'price' => 800,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10,
+                    'priority' => 7,
                     'video_url' => null
                 ],
                 [
@@ -2443,7 +2443,25 @@ donde el ruido puede ser un problema. Son lo suficientemente potentes para reali
                     'price' => 850,
                     'id_category' => '1',
                     'id_patent' => '3',
-                    'priority' => 10,
+                    'priority' => 7,
+                    'video_url' => null
+                ],
+                [
+                    'id' => '239',
+                    'name' => 'SELION PERTIGA TELESCOPICA T150-200',
+                    'short_name' => 'SELIONPERTIGATELESCOPICAT150-200',
+                    'short_description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'description' => 'Las pértigas de poda fijas SELION P180, y las telescópicas SELION T150/200 y SELION T220/300
+ofrecen una poda muy precisa. Con un alcance de hasta 4,5 metros, el trabajo se realiza sin
+arnés de transporte, gracias a su enorme ligereza. Las podadoras de pértiga Selion son ideales para lugares
+donde el ruido puede ser un problema. Son lo suficientemente potentes para realizar trabajos forestales.',
+                    'price' => 940,
+                    'id_category' => '1',
+                    'id_patent' => '3',
+                    'priority' => 8,
                     'video_url' => null
                 ],
                 [
@@ -2531,46 +2549,42 @@ Una sola pulsación en el interruptor basta para encenderlo.',
                     'priority' => 5,
                     'video_url' => 'mKW3n4iKqfw'
                 ],
-                // [
-                //     'id' => '57',
-                //     'name' => 'BATERIA LITIO 200',
-                //     'short_name' => 'BATERIALITIO200',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 956,
-                //     'id_category' => '7',
-                //     'id_patent' => '3'
-                // ],
-                // [
-                //     'id' => '58',
-                //     'name' => 'KIT BATERIA 400',
-                //     'short_name' => 'KITBATERIA400',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 956,
-                //     'id_category' => '7',
-                //     'id_patent' => '3'
-                // ],
-                // [
-                //     'id' => '59',
-                //     'name' => 'KIT BATERIA 700',
-                //     'short_name' => 'KITBATERIA700',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 956,
-                //     'id_category' => '7',
-                //     'id_patent' => '3'
-                // ],
-                // [
-                //     'id' => '60',
-                //     'name' => 'KIT BATERIA 1100',
-                //     'short_name' => 'KITBATERIA1100',
-                //     'short_description' => 'Sopladora de gran capacidad',
-                //     'description' => 'Sopladora de gran capacidadCortacesped de gran capacidad',
-                //     'price' => 1803,
-                //     'id_category' => '7',
-                //     'id_patent' => '3'
-                // ],
+                [
+                    'id' => '58',
+                    'name' => 'KIT BATERIA 400',
+                    'short_name' => 'KITBATERIA400',
+                    'short_description' => 'La gama de baterías ULiB de PELLENC permite un uso profesional de nuestras herramientas. Las baterías ULiB permiten al usuario trabajar hasta una jornada completa sin recargar. Pellenc ha inventado las herramientas profesionales con batería.',
+                    'description' => 'Las tecnologías de comunicación sin cables NFC (Near Field Communication) facilitan la recepción de datos diagnósticos, lo que permite que el experto trabaje con más rapidez. Las baterías Litio-ión pierden capacidad cuando se almacenan totalmente cargadas durante mucho tiempo. Las baterías PELLENC conservan su carga completa durante 10 días y luego se van descargando hasta quedar en una situación de almacenaje idónea. Las herramientas PELLENC envían a las baterías PELLENC sus datos de funcionamiento de modo que su uso sea siempre óptimo.Las baterías se adaptan a todas las herramientas de la gama.',
+                    'price' => 690,
+                    'id_category' => '7',
+                    'id_patent' => '3',
+                    'priority' => 10,
+                    'video_url' => null
+                ],
+                [
+                    'id' => '59',
+                    'name' => 'KIT BATERIA 700',
+                    'short_name' => 'KITBATERIA700',
+                    'short_description' => 'La gama de baterías ULiB de PELLENC permite un uso profesional de nuestras herramientas. Las baterías ULiB permiten al usuario trabajar hasta una jornada completa sin recargar. Pellenc ha inventado las herramientas profesionales con batería.',
+                    'description' => 'Las tecnologías de comunicación sin cables NFC (Near Field Communication) facilitan la recepción de datos diagnósticos, lo que permite que el experto trabaje con más rapidez. Las baterías Litio-ión pierden capacidad cuando se almacenan totalmente cargadas durante mucho tiempo. Las baterías PELLENC conservan su carga completa durante 10 días y luego se van descargando hasta quedar en una situación de almacenaje idónea. Las herramientas PELLENC envían a las baterías PELLENC sus datos de funcionamiento de modo que su uso sea siempre óptimo.Las baterías se adaptan a todas las herramientas de la gama.',
+                    'price' => 990,
+                    'id_category' => '7',
+                    'id_patent' => '3',
+                    'priority' => 10,
+                    'video_url' => null
+                ],
+                [
+                    'id' => '60',
+                    'name' => 'KIT BATERIA 1100',
+                    'short_name' => 'KITBATERIA1100',
+                    'short_description' => 'La gama de baterías ULiB de PELLENC permite un uso profesional de nuestras herramientas. Las baterías ULiB permiten al usuario trabajar hasta una jornada completa sin recargar. Pellenc ha inventado las herramientas profesionales con batería.',
+                    'description' => 'Las tecnologías de comunicación sin cables NFC (Near Field Communication) facilitan la recepción de datos diagnósticos, lo que permite que el experto trabaje con más rapidez. Las baterías Litio-ión pierden capacidad cuando se almacenan totalmente cargadas durante mucho tiempo. Las baterías PELLENC conservan su carga completa durante 10 días y luego se van descargando hasta quedar en una situación de almacenaje idónea. Las herramientas PELLENC envían a las baterías PELLENC sus datos de funcionamiento de modo que su uso sea siempre óptimo.Las baterías se adaptan a todas las herramientas de la gama.',
+                    'price' => 1490,
+                    'id_category' => '7',
+                    'id_patent' => '3',
+                    'priority' => 10,
+                    'video_url' => null
+                ],
                 [
                 'id' => '213' ,
                 'name' => 'RASION BASIC' ,

@@ -124,7 +124,7 @@ class ItemController extends Controller
      */
     public function outlet()
     {
-        $itemList = DB::table('item')->where('outlet', true)->orderBy('short_name', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
+        $itemList = DB::table('item')->where('outlet', true)->where('active', true)->orderBy('id_category', 'asc')->paginate(self::NUM_ITEMS_SEARCH);
         return view('item.itemListOutlet', ['itemList' => $itemList]);
     }
 
