@@ -1,4 +1,4 @@
-<section class="main special">
+<section id="video-section" class="main special">
   <div class="inner">
     <header class="major">
       <h2>

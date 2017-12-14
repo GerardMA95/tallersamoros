@@ -28,6 +28,9 @@
           <ul class="actions">
             <li><a href="#contact-section" class="button">Pedir presupuesto</a></li>
             <li><a href="{{ route('itemSearch') }}" class="button">Volver al buscador</a></li>
+            @if ($item->video_url)
+                <li><a href="#video-section" class="button">Ver vídeo</a></li>
+            @endif
           </ul>
         </footer>
       </div>
