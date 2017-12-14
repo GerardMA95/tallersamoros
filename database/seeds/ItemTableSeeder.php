@@ -23,7 +23,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped Honda IZY41P cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla',
                     'price' => 209,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 16
                 ],
                 [
                     'id' => '2',
@@ -33,7 +34,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La ergonomía también se ha mejorado significativamente respecto a los anteriores modelos de cortacéspedes eléctricos Honda. Se ha añadido un asa para facilitar el transporte, así como un nuevo interruptor más confortable que puede accionarse con ambas manos. Además, los cables quedan recogidos con un nuevo soporte, alejándolos de la cuchilla. Es una máquina muy ligera y por lo tanto, muy fácil de utilizar. El cortacésped eléctrico Honda HRE370 incorpora un portacables de diseño inteligente que libera la tensión del cable. Igualmente, impide que se pueda cortar mientras se trabaja y que el usuario pueda tropezar con él.',
                     'price' => 295,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 16
                 ],
                 [
                     'id' => '3',
@@ -43,7 +45,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped Honda IZY41P cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla.',
                     'price' => 399,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 17
                 ],
                 [
                     'id' => '4',
@@ -53,7 +56,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente. Los cortacéspedes Honda marcan la diferencia por su tecnología, prestaciones y diseño innovador. Los mejores materiales y las características más innovadoras, siempre pensando en hacer la vida más fácil. Honda es la marca número 1 de jardinería en Europa y cuenta con miles de felices usuarios, satisfechos con su elección. No lo dudes y forma parte del club.',
                     'price' => 649,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 17
                 ],
                 [
                     'id' => '5',
@@ -63,7 +67,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped Honda IZY41S cuenta con todas las ventajas tecnológicas de la gama Honda IZY, como la exclusiva cuchilla perforada de diseño patentado con 8 ranuras y forma Vortex. Gracias al flujo de aire se controla el nivel sonoro (30% menor). Además, ha sido fabricada con un material inteligente que se dobla al ser golpeada. De esta manera se evita que se rompa la carcasa o se doble el eje del motor. En caso de golpe, sólo se tendrá de sustituir la cuchilla.',
                     'price' => 548,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 17
                 ],
                 [
                     'id' => '6',
@@ -73,7 +78,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Como es habitual en los cortacéspedes Honda, éstos incorporan siempre la tecnología más innovadora y exclusiva. En este caso, el cortacésped Honda IZY46S disfruta del sistema Mulching Versamow Selective, que permite al usuario escoger fácilmente y de manera autónoma si quiere recoger la hierba cortada o prefiere cortar tipo mulching y que los restos caigan directamente al césped, convirtiéndose en abono natural.',
                     'price' => 698,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 17
                 ],
                 [
                     'id' => '7',
@@ -83,7 +89,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La carcasa del cortacésped Honda IZY53S es de acero, robusta, redondeada y con tratamiento anticorrosión. Fácil de limpiar. Su exclusivo diseño redondeado con ventilación trasera, consistente en un sistema patentado de ranuras en la carcasa y ángulo del chasis respecto al suelo, ayuda a mejorar la calidad de recogida del césped. Todo ello, con un nivel de ruido mucho más bajo del que podrías imaginar. Su nivel de ruido es de -2dB(A) LWA por debajo de la actual regulación europea de emisión de ruidos.',
                     'price' => 895,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 17
                 ],
                 [
                     'id' => '8',
@@ -93,7 +100,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente.',
                     'price' => 1075,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 17
                 ],
                 [
                     'id' => '9',
@@ -103,7 +111,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped Honda HRX476VYE incorpora el innovador sistema Smart Drive® de Honda para el cambio de velocidades. Este exclusivo sistema permite regular la velocidad de manera progresiva y precisa simplemente apoyando las manos en el manillar. El cortacésped es realmente autopropulsado, no es necesario empujarlo, avanza por sí solo y resulta extraordinariamente fácil y confortable para el usuario.',
                     'price' => 1330,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 18
                 ],
                 [
                     'id' => '10',
@@ -113,7 +122,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped Honda HRX476VYE incorpora el innovador sistema Smart Drive® de Honda para el cambio de velocidades. Este exclusivo sistema permite regular la velocidad de manera progresiva y precisa simplemente apoyando las manos en el manillar. El cortacésped es realmente autopropulsado, no es necesario empujarlo, avanza por sí solo y resulta extraordinariamente fácil y confortable para el usuario.',
                     'price' => 1449,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 18
                 ],
                 [
                     'id' => '11',
@@ -123,7 +133,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped HRX537VYE está equipado con chasis de Xenoy®. Se trata de una resina de alta resistencia utilizada en la fabricación de los parachoques de automóviles de gama alta. Es un material de extrema durabilidad y presenta una resistencia frente a los golpes muy superior a las carcasas de polipropileno estándar.',
                     'price' => 1440,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 18
                 ],
                 [
                     'id' => '12',
@@ -133,18 +144,20 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped HRX537VYE está equipado con chasis de Xenoy®. Se trata de una resina de alta resistencia utilizada en la fabricación de los parachoques de automóviles de gama alta. Es un material de extrema durabilidad y presenta una resistencia frente a los golpes muy superior a las carcasas de polipropileno estándar.',
                     'price' => 1590,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 18
                 ],
-                // [
-                //     'id' => '13',
-                //     'name' => 'HRD 536 CTX',
-                //     'short_name' => 'HRD536CTX',
-                //     'short_description' => 'Cortacésped Honda HRD536CTX, fiabilidad profesional para el particular, autopropulsado, carcasa aluminio, jardines medianos y grandes, Rotostop®, mulching opcional.',
-                //     'description' => 'El cortacésped Honda HRD536CTX incorpora el exclusivo sistema de seguridad Rotostop BBC®, que detiene el giro de la cuchilla del cortacésped sin necesidad de parar el motor y evita accidentes por proyección de piedras o manipulación indebida. Es un sistema que aporta seguridad a la vez que comodidad, ya que como usuario no tendrás que parar y arrancar el motor cada vez que te detengas a vaciar el recogedor.',
-                //     'price' => 1399,
-                //     'id_category' => '10',
-                //     'id_patent' => '1'
-                // ],
+                [
+                    'id' => '13',
+                    'name' => 'HRD 536 TXE',
+                    'short_name' => 'HRD536TXE',
+                    'short_description' => 'Cortacésped Honda HRD536TXE, fiabilidad profesional para el particular, autopropulsado, carcasa aluminio, jardines medianos y grandes, Rotostop®, mulching opcional.',
+                    'description' => 'El cortacésped Honda HRD536TXE incorpora el exclusivo sistema de seguridad Rotostop BBC®, que detiene el giro de la cuchilla del cortacésped sin necesidad de parar el motor y evita accidentes por proyección de piedras o manipulación indebida. Es un sistema que aporta seguridad a la vez que comodidad, ya que como usuario no tendrás que parar y arrancar el motor cada vez que te detengas a vaciar el recogedor.',
+                    'price' => 1399,
+                    'id_category' => '10',
+                    'id_patent' => '1',
+                    'priority' => 19
+                ],
                 [
                     'id' => '14',
                     'name' => 'HRD 536 HXE',
@@ -153,7 +166,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped Honda HRD 536 HXE incorpora el exclusivo sistema de seguridad Rotostop BBC®, que detiene el giro de la cuchilla del cortacésped sin necesidad de parar el motor y evita accidentes por proyección de piedras o manipulación indebida. Es un sistema que aporta seguridad a la vez que comodidad, ya que como usuario no tendrás que parar y arrancar el motor cada vez que te detengas a vaciar el recogedor.',
                     'price' => 1998,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 19
                 ],
                 [
                     'id' => '15',
@@ -165,7 +179,8 @@ class ItemTableSeeder extends Seeder
                     Dispone de regulación independiente de la altura de corte, con 7 posiciones a escoger según el estado del césped, y kit de mulching opcional para que la hierba cortada sea finamente triturada antes de que caiga al suelo de nuevo. Con esta técnica ahorras tiempo y disfrutarás de un césped impecable además de que lo proteges de sufrir deshidratación.',
                     'price' => 2299,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 19
                 ],
                 [
                     'id' => '16',
@@ -177,7 +192,8 @@ class ItemTableSeeder extends Seeder
                     Dispone de regulación independiente de la altura de corte, con 7 posiciones a escoger según el estado del césped, y kit de mulching opcional para que la hierba cortada sea finamente triturada antes de que caiga al suelo de nuevo. Con esta técnica ahorras tiempo y disfrutarás de un césped impecable además de que lo proteges de sufrir deshidratación.',
                     'price' => 2360,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 19
                 ],
                 [
                     'id' => '81',
@@ -187,7 +203,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente.',
                     'price' => 890,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 20
                 ],
                 [
                     'id' => '84' ,
@@ -197,7 +214,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortacésped de asiento HF1211H incorpora una carcasa de corte multifunción, tres en una, que permite adaptar el tipo de siega a tus necesidades y al tipo de terreno. Si no quieres recoger la hierba cortada, te ofrece dos alternativas: expulsión trasera o corte tipo mulching.' ,
                     'price' => 3442,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 25
                 ],
                 // [
                 //     'id' => '85' ,
@@ -217,7 +235,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Tener un césped limpio, sano y bien cortado no es complicado. La clave está en un buen cortacésped y la ilusión por mantener tu jardín perfecto. Honda reúne todos estos aspectos en la mejor gama de cortacéspedes disponibles hoy día en el mercado. En su corazón late el potente y mundialmente reconocido motor Honda de 4 tiempos, con el que tu cortacésped arrancará siempre a la primera, consumirá menos combustible y protegerá el medio ambiente.' ,
                     'price' => 4995,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 25
                 ],
                 [
                     'id' => '87' ,
@@ -228,7 +247,8 @@ class ItemTableSeeder extends Seeder
                     Con el motor en marcha, arrancas y regulas la velocidad de avance según las condiciones del terreno, simplemente con la presión del pie sobre el pedal. El pedal de marcha atrás queda perfectamente diferenciado para evitar accidentes por errores de maniobra.' ,
                     'price' => 5945,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 25
                 ],
                 [
                     'id' => '88' ,
@@ -239,7 +259,8 @@ class ItemTableSeeder extends Seeder
                     El cortacésped de asiento HF 2622 HM se beneficia de un nuevo diseño del capó y de los faros, mejorando la durabilidad y rigidez del conjunto. Incorpora un eje de hierro fundido, así como un nuevo parachoques de acero para la protección contra obstáculos como ramas y arbustos.' ,
                     'price' => 6995,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 25
                 ],
                 [
                     'id' => '89' ,
@@ -249,7 +270,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Miimo es nuestro robot cortacésped, inteligente y completamente autónomo que puede cuidar tu césped sin ninguna ayuda. Alimentado con baterías, Miimo es capaz de recargarse y adaptar sus sesiones de trabajo a conveniencia. Desde jardines simples hasta zonas complejas con parterres,  irregulares  o con pendientes,  Miimo te ayudará a conseguir un césped perfecto mientras tú disfrutas de tu tiempo libre haciendo las cosas que más te gustan. Encuentra el Honda Miimo adecuado para tu jardín.' ,
                     'price' => 1999,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 26
                 ],
                 [
                     'id' => '90' ,
@@ -259,7 +281,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Miimo es nuestro robot cortacésped, inteligente y completamente autónomo que puede cuidar tu césped sin ninguna ayuda. Alimentado con baterías, Miimo es capaz de recargarse y adaptar sus sesiones de trabajo a conveniencia. Desde jardines simples hasta zonas complejas con parterres,  irregulares  o con pendientes,  Miimo te ayudará a conseguir un césped perfecto mientras tú disfrutas de tu tiempo libre haciendo las cosas que más te gustan. Encuentra el Honda Miimo adecuado para tu jardín.' ,
                     'price' => 2995,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 26
                 ],
                 [
                     'id' => '91' ,
@@ -271,7 +294,8 @@ class ItemTableSeeder extends Seeder
                     El robot cortacésped Honda Miimo es capaz de cortar en pendientes de hasta el 47% gracias a su alto nivel de tracción y agarre. Nunca se atascará en un agujero o terreno irregular, gracias a sus sensores de elevación de reacción rápida. Su sensor de dirección exclusivo le permite mantener la trayectoria incluso en pendientes.' ,
                     'price' => 3399,
                     'id_category' => '10',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 26
                 ],
                 /* NOTE DESBROZADORA */
                 [
@@ -282,7 +306,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La desbrozadora de ruedas Honda UM526 es la más pequeña de la gama, pero no por ello deja de ofrecer un rendimiento profesional. Es muy fácil de usar y permite cortar sin dificultad hierba o maleza alta.',
                     'price' => 1520,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 21
                 ],
                 [
                     'id' => '18',
@@ -292,7 +317,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las ruedas de gran diámetro proporcionan una excelente tracción y la estabilidad al aumentar la superficie de contacto con el suelo. El diseño específico del neumático maximiza el agarre. Incorporan rodamiento de bolas que facilitan enormemente las maniobras. La rueda delantera giratoria aporta mayor movilidad y equilibrio en sus tareas. Puede hacer giros de 360º y también se puede bloquear cuando trabajas en pendientes o en línea recta. Todas estas prestaciones permiten que el usuario pueda realizar una larga jornada de trabajo sin cansarse.',
                     'price' => 3415,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 21
                 ],
                 [
                     'id' => '19',
@@ -303,7 +329,8 @@ class ItemTableSeeder extends Seeder
                     La calidad de corte es excepcional. Incluye embrague de cuchilla, para una mayor seguridad, y freno de tambor en ambas ruedas traseras, que garantizan el frenado incluso en fuertes pendientes, mejorando el control y la maniobrabilidad. La carcasa de acero es resistente a golpes y con tratamiento de cataforesis tratada para la prevenir la oxidación, la corrosión y el desgaste por los rayos UV. Con deflector lateral.',
                     'price' => 4100,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 21
                 ],
                 [
                     'id' => '20',
@@ -314,7 +341,8 @@ class ItemTableSeeder extends Seeder
                     Es muy fácil de usar y permite cortar sin dificultad hierba o maleza alta en cualquier tipo de terreno o situación, con una calidad y rendimiento de corte excepcionales. Los patines de la carcasa de corte facilitan el desplazamiento sobre la hierba y rmiten la instalación opcional de ruedas.',
                     'price' => 4780,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 21
                 ],
                 [
                     'id' => '75',
@@ -324,7 +352,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortabordes Honda UMS425 es el ideal para tu jardín. Si te gusta el trabajo bien hecho, no olvides repasar los bordes de tu césped. Te sorprenderá su corte limpio y eficaz. FICHA TÉCNICA Tipo de motor GX 25 Cilindrada 25 cm³ Potencia nominal 0,72 kW (0,98 cv) Depósito de gasolina Euro 95 0,58 litros Arranque Manual Sistema antivibración Doble Embrague Centrífugo Manillar Simple Diámetro del tubo 24 mm Peso (en seco) 5,4 Kg (sin accesorio)',
                     'price' => 399,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 28
                 ],
                 [
                     'id' => '76',
@@ -334,7 +363,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La desbrozadora Honda UMK 425 UE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
                     'price' => 448,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 28
                 ],
                 [
                     'id' => '77',
@@ -344,7 +374,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La desbrozadora Honda UMK 425 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
                     'price' => 399,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 28
                 ],
                 [
                     'id' => '78',
@@ -355,7 +386,8 @@ class ItemTableSeeder extends Seeder
                     Su especial diseño con barra ligera, a la vez que reforzada, y manillar doble articulado y ajustable sin necesidad de herramientas, permite trabajar con disco metálico en la posición más cómoda y adecuada para el usuario. La empuñadura ergonómica tiene una forma totalmente adaptada a la mano del usuario y está recubierto de un material suave exclusivo “soft skin”, de plástico inyectado y con revestimiento de caucho, para un excelente agarre, a la vez que reduce la fatiga y las vibraciones.',
                     'price' => 628,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 28
                 ],
                 [
                     'id' => '79',
@@ -365,7 +397,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La desbrozadora Honda UMK 435 LE incorpora un cabezal de nailon semiautomático “Tap&Go” de serie. Es el más cómodo para trabajar, ya que con un solo golpe en el suelo expulsa la cantidad de hilo necesaria. Es ideal tanto para el usuario particular como para profesionales con muchas horas de trabajo continuo.',
                     'price' => 568,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 28
                 ],
                 [
                     'id' => '80',
@@ -376,7 +409,8 @@ class ItemTableSeeder extends Seeder
                     La desbrozadora de mochila Honda UMR425 LE resulta ideal para zonas complicadas, de difícil acceso o con pendientes pronunciadas, así como en espacios reducidos del jardín. Ha sido diseñada pensando en la comodidad del usuario y para una óptima maniobrabilidad y confort. Su montura anti vibraciones, su mochila ergonómica y su reducido peso hacen de esta máquina la estrella del mercado.',
                     'price' => 894,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 28
                 ],
                 [
                     'id' => '102' ,
@@ -386,7 +420,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las nuevas herramientas de jardinería Honda son máquinas robustas, potentes y de alta tecnología. Con todo, son increíblemente ligeras, silenciosas y fáciles de manejar, ofreciendo al usuario un mayor control y una importante reducción de la fatiga.' ,
                     'price' => 278,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 [
                     'id' => '103' ,
@@ -396,7 +431,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las nuevas herramientas de jardinería Honda son máquinas robustas, potentes y de alta tecnología. Con todo, son increíblemente ligeras, silenciosas y fáciles de manejar, ofreciendo al usuario un mayor control y una importante reducción de la fatiga.' ,
                     'price' => 495,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 [
                     'id' => '104' ,
@@ -407,7 +443,8 @@ class ItemTableSeeder extends Seeder
                     Las baterías de alta calidad Honda HPB20AH son de iones de litio y se caracterizan por su alta densidad energética. Gozan de una tecnología patentada de enfriamiento de las celdas que garantiza una mayor autonomía y miles de ciclos de carga/descarga sin sufrir ninguna alteración en su rendimiento. Cada batería incluye un indicador de autonomía.' ,
                     'price' => 554,
                     'id_category' => '3',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 /* NOTE BARREDORA */
                 [
@@ -419,7 +456,8 @@ class ItemTableSeeder extends Seeder
                     Además, la barredora Honda FG 201 B te permite eliminar facilmente las partículas extrañas que haya en su superficie y el polvillo verde proveniente del desgaste de la fibra, al tiempo que limpias toda la suciedad que está mezclada con la arena.',
                     'price' => 1495,
                     'id_category' => '15',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 22
                 ],
                 /*  NOTE REGENERADOR */
                 [
@@ -432,7 +470,8 @@ class ItemTableSeeder extends Seeder
                     Superficie aconsejable de trabajo: 5.000 m2.',
                     'price' => 1098,
                     'id_category' => '16',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 23
                 ],
                 [
                     'id' => '24',
@@ -444,7 +483,8 @@ class ItemTableSeeder extends Seeder
                     Superficie aconsejable de trabajo: 5.000 m2.',
                     'price' => 1495,
                     'id_category' => '16',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 23
                 ],
                 [
                     'id' => '25',
@@ -455,7 +495,8 @@ class ItemTableSeeder extends Seeder
                     La regeneración del césped consiste en pasar el regenerador , el cual gracias a sus cuchillas flotantes va sacando las hojas muertas y el fieltro que se ha ido acumulando debido a los restos vegetales (tierra, restos de raíces y de hojas) y que impiden que el agua y el abono se filtren correctamente y que el césped se airee.',
                     'price' => 1795,
                     'id_category' => '16',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 23
                 ],
                 [
                     'id' => '82',
@@ -465,20 +506,22 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Consigue un jardín sano gracias al regenerador RH370 y no permitas que nada estropee tu bonito césped. La regeneración del césped consiste en pasar el regenerador, el cual gracias a sus 15 cuchillas fijas va sacando las hojas muertas y el fieltro que se ha ido acumulando debido a los restos vegetales (tierra, restos de raíces y de hojas). Éstos impiden que el agua y el abono se filtren correctamente y que el césped se airee. Recuerda regenerarlo una o dos veces al año: los momentos idóneos son entre febrero-marzo y septiembre-octubre.',
                     'price' => 799,
                     'id_category' => '16',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 23
                 ],
                 /* NOTE Aspiradores */
-                // [
-                //     'id' => '83',
-                //     'name' => 'AS 100',
-                //     'short_name' => 'AS100',
-                //     'short_description' => 'Aspirador autopropulsado de hojas AS 100 de gran capacidad, ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas, etc.',
-                //     'description' => 'El aspirador de hojas autopropulsado de gran capacidad AS 100 es ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas.Kit tubo aspiración adicional disponible, particularmente interesante para la aspiración en parterres de difícil acceso.
-                //     Bolsas desechables disponibles.También es posible convertirlo en soplador con el accesorio soplador lateral o el accesorio soplador con manguera de 4 metros.',
-                //     'price' => 2125,
-                //     'id_category' => '17',
-                //     'id_patent' => '1'
-                // ],
+                [
+                    'id' => '83',
+                    'name' => 'AS 100',
+                    'short_name' => 'AS100',
+                    'short_description' => 'Aspirador autopropulsado de hojas AS 100 de gran capacidad, ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas, etc.',
+                    'description' => 'El aspirador de hojas autopropulsado de gran capacidad AS 100 es ideal para la limpieza de parques y jardines, ambientes urbanos e instalaciones deportivas.Kit tubo aspiración adicional disponible, particularmente interesante para la aspiración en parterres de difícil acceso.
+                    Bolsas desechables disponibles.También es posible convertirlo en soplador con el accesorio soplador lateral o el accesorio soplador con manguera de 4 metros.',
+                    'price' => 2195,
+                    'id_category' => '17',
+                    'id_patent' => '1',
+                    'priority' => 24
+                ],
                 /* NOTE Cortasetos */
                 [
                     'id' => '92' ,
@@ -488,7 +531,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El cortasetos de cuchilla simple para un acabado preciso que todos los competidores querrán imitar. La potencia de un motor de 4 tiempos para trabajar en las más duras condiciones.' ,
                     'price' => 725,
                     'id_category' => '2',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 27
                 ],
                 [
                     'id' => '93' ,
@@ -498,7 +542,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La suave potencia que ofrece el nuevo motor 4 tiempos te permitirá trabajar con firmeza en las tareas que precisen un buen acabado. Este cortasetos monta manillar ajustable a 45º.' ,
                     'price' => 799,
                     'id_category' => '2',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 27
                 ],
                 [
                     'id' => '94' ,
@@ -508,7 +553,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La suave potencia que ofrece el nuevo motor 4 tiempos te permitirá trabajar con firmeza en las tareas que precisen un buen acabado. Este cortasetos monta manillar ajustable a 45º.' ,
                     'price' => 829,
                     'id_category' => '2',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 27
                 ],
                 [
                     'id' => '99' ,
@@ -518,7 +564,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las nuevas herramientas de jardinería Honda son máquinas robustas, potentes y de alta tecnología. Con todo, son increíblemente ligeras, silenciosas y fáciles de manejar, ofreciendo al usuario un mayor control y una importante reducción de la fatiga.' ,
                     'price' => 251,
                     'id_category' => '2',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 [
                     'id' => '100' ,
@@ -529,7 +576,8 @@ class ItemTableSeeder extends Seeder
                     Disponen de una batería común de 56V de iones de litio de alta calidad, caracterizada por su alta carga de energía, una gran autonomía y miles de ciclos de carga/descargar sin sufrir ninguna alteración en su rendimiento. Con esto, la nueva gama de batería Honda tiene todo lo necesario para garantizar al usuario un trabajo seguro, confortable y eficiente.' ,
                     'price' => 470,
                     'id_category' => '2',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 [
                     'id' => '101' ,
@@ -540,7 +588,8 @@ class ItemTableSeeder extends Seeder
                     Las baterías de alta calidad Honda HPB20AH son de iones de litio y se caracterizan por su alta densidad energética. Gozan de una tecnología patentada de enfriamiento de las celdas que garantiza una mayor autonomía y miles de ciclos de carga/descarga sin sufrir ninguna alteración en su rendimiento. Cada batería incluye un indicador de autonomía.' ,
                     'price' => 529,
                     'id_category' => '2',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 /* NOTE Sopladores */
                 [
@@ -551,7 +600,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'No renuncies a disponer de más tiempo libre durante el fin de semana con el sistema más cómodo para mantener limpio tu jardín, el soplador HHB 25. Además, pesa tan sólo 4,5 kg gracias al nuevo motor Honda GX25 de 4 tiempos.' ,
                     'price' => 586,
                     'id_category' => '4',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 27
                 ],
                 [
                     'id' => '96' ,
@@ -562,7 +612,8 @@ class ItemTableSeeder extends Seeder
                     Disponen de una batería común de 56V de iones de litio de alta calidad, caracterizada por su alta carga de energía, una gran autonomía y miles de ciclos de carga/descargar sin sufrir ninguna alteración en su rendimiento. Con esto, la nueva gama de batería Honda tiene todo lo necesario para garantizar al usuario un trabajo seguro, confortable y eficiente.' ,
                     'price' => 234,
                     'id_category' => '4',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 [
                     'id' => '97' ,
@@ -572,7 +623,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Sus 3 modos de funcionamiento permiten gestionar el flujo de aire y adaptarlo a cualquier situación. Compacto, ligero y bien equilibrado, su alta maniobrabilidad lo convierte en la máquina ideal para trabajar con gran confort. Las baterías de 56V permiten optimizar el tiempo de trabajo.' ,
                     'price' => 555,
                     'id_category' => '4',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 [
                     'id' => '98' ,
@@ -583,7 +635,8 @@ class ItemTableSeeder extends Seeder
                     Las baterías de alta calidad Honda HPB40AH son de iones de litio y se caracterizan por su alta densidad energética. Gozan de una tecnología patentada de enfriamiento de las celdas que garantiza una mayor autonomía y miles de ciclos de carga/descarga sin sufrir ninguna alteración en su rendimiento. Cada batería incluye un indicador de autonomía.' ,
                     'price' => 613,
                     'id_category' => '4',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 29
                 ],
                 /* NOTE Baterias */
                 [
@@ -594,7 +647,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las baterías de alta calidad Honda HPB 20 AH y HPB 40 AH son de iones de litio y se caracterizan por su alta densidad energética. Gozan de una tecnología patentada de enfriamiento de las celdas que garantiza una mayor autonomía y miles de ciclos de carga/descarga sin sufrir ninguna alteración en su rendimiento. Cada batería incluye un indicador de autonomía.' ,
                     'price' => 182,
                     'id_category' => '7',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 30
                 ],
                 [
                     'id' => '106' ,
@@ -604,7 +658,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las baterías de alta calidad Honda HPB 20 AH y HPB 40 AH son de iones de litio y se caracterizan por su alta densidad energética. Gozan de una tecnología patentada de enfriamiento de las celdas que garantiza una mayor autonomía y miles de ciclos de carga/descarga sin sufrir ninguna alteración en su rendimiento. Cada batería incluye un indicador de autonomía.' ,
                     'price' => 292,
                     'id_category' => '7',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 30
                 ],
                 /* NOTE Cargadores */
                 [
@@ -615,7 +670,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Cargador rápido de baterías Honda Cordless HBC210WE. Compatible con toda la gama.' ,
                     'price' => 90,
                     'id_category' => '18',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 30
                 ],
                 [
                     'id' => '108' ,
@@ -625,7 +681,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Cargador ultrarápido de baterías Honda Cordless HBC550WE. Compatible con toda la gama.' ,
                     'price' => 154,
                     'id_category' => '18',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 30
                 ],
                 /* NOTE Motoazadas */
                 [
@@ -636,7 +693,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Las motoazadas Honda son las preferidas de los usuarios por su fiabilidad, robustez y polivalencia. Son la mejor elección para el aficionado a la huerta o para el profesional, porque son potentes, silenciosas, económicas, seguras, cómodas y fáciles de utilizar. Desde su introducción en el mercado español hace ya 40 años, han sido siempre la referencia a seguir y líderes indiscutibles de ventas.' ,
                     'price' => 864,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 11
                 ],
                 [
                     'id' => '110' ,
@@ -647,7 +705,8 @@ class ItemTableSeeder extends Seeder
                     Para este tipo de usuario, para quien su huerto es un hobby y le puede dedicar quizá solo los fines de semana, Honda pone a su disposición la pequeña motoazada F220, capaz de quitarle de encima el trabajo pesado de la forma más rápida, fácil y cómoda.' ,
                     'price' => 898,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 11
                 ],
                 [
                     'id' => '111' ,
@@ -657,7 +716,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda FG320, por su construcción y calidad, no solo es adecuada para propietarios de pequeños huertos, sino que también es perfecta para parcelas de tamaño mediano, que requieren un uso más intensivo. Es ideal tanto para el usuario particular como para el agricultor que tiene huertos medianos en su explotación. Y todo ello, con la mejor relación calidad-precio.' ,
                     'price' => 569,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 11
                 ],
                 [
                     'id' => '112' ,
@@ -667,7 +727,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda FJ500 STD ofrece total versatilidad y comodidad para su uso en una amplia variedad de tareas del huerto y el jardín durante todo el año, a un precio muy competitivo. Está equipada con un motor Honda GX160, de especificación profesional. Incluye robustas fresas de eje hexagonal, de 3 coronas más disco por cada lado, que permiten el desmontaje de la última corona para disminuir el ancho de trabajo si fuera necesario.' ,
                     'price' => 998,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 12
                 ],
                 [
                     'id' => '113' ,
@@ -677,7 +738,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda FJ500 DLX ofrece total versatilidad y comodidad para su uso en una amplia variedad de tareas del huerto y el jardín durante todo el año, a un precio muy competitivo. Está equipada con un motor Honda GX160, de especificación profesional. Incluye robustas fresas de eje hexagonal, de 3 coronas más disco por cada lado, que permiten el desmontaje de la última corona para disminuir el ancho de trabajo si fuera necesario.' ,
                     'price' => 1280,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 12
                 ],
                 [
                     'id' => '114' ,
@@ -687,7 +749,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda F506 está concebida para trabajos profesionales. Permite adaptar la velocidad de trabajo a las condiciones del terreno y al tipo de accesorio que lleve acoplado. La marcha atrás facilita las maniobras. Dispone de manillar ergonómico, ajustable en altura y lateralmente. Así, en los trabajos de fresado deja un trabajo perfecto sin pisar la superficie.' ,
                     'price' => 2125,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 12
                 ],
                 [
                     'id' => '115' ,
@@ -697,7 +760,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda F510 está concebida para trabajos profesionales. Dispone de manillar reversible, ajustable en altura y lateralmente, que permite dejar un acabado perfecto en los trabajos de fresado, sin pisar la superficie trabajada. Es fácil de usar y ofrece un cómodo manejo, incluso durante largas jornadas de trabajo. Está equipada con mandos seguros y ergonómicos, que garantizan la comodidad, el control y la seguridad, y con embrague de seguridad, que detiene la máquina para evitar accidentes.' ,
                     'price' => 2530,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 13
                 ],
                 [
                     'id' => '116' ,
@@ -707,7 +771,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda F560 ofrece total versatilidad y comodidad para su uso en una amplia variedad de tareas del huerto y el jardín durante todo el año. Está equipada con un motor Honda GX160, de especificación profesional. Incluye robustas fresas de eje hexagonal, de 3 coronas más disco por cada lado, que permiten el desmontaje de la última corona para disminuir el ancho de trabajo si fuera necesario.' ,
                     'price' => 2899,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 13
                 ],
                 [
                     'id' => '117' ,
@@ -717,7 +782,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda FF 300 es la máquina ideal para el aficionado exigente que quiere trabajar sin esfuerzo y con la calidad que hasta ahora sólo se podía obtener con un motocultor profesional. Las motoazadas de fresa frontal son herramientas ligeras y compactas. Sin embargo, requieren una cierta pericia en su empleo. Por ejemplo, al trabajar en suelos duros resultan difíciles de equilibrar y al rebotar pueden sorprender al usuario.' ,
                     'price' => 2446,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 14
                 ],
                 [
                     'id' => '118' ,
@@ -727,7 +793,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motoazada Honda FF 500 es la máquina ideal para el aficionado exigente que quiere trabajar sin esfuerzo y con la calidad que hasta ahora sólo se podía obtener con un motocultor profesional. Las motoazadas de fresa frontal son herramientas ligeras y compactas. Sin embargo, requieren una cierta pericia en su empleo. Por ejemplo, al trabajar en suelos duros resultan difíciles de equilibrar y al rebotar pueden sorprender al usuario.' ,
                     'price' => 3208,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 14
                 ],
                 [
                     'id' => '119' ,
@@ -737,7 +804,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Con el motocultor Honda FR750 dispones de una amplia variedad de usos, ya que es posible arar, hacer surcos y labrar entre carriles con una misma máquina y sin cambiar accesorios. Sus fresas frontales de contra rotación permiten arar en profundidad hasta el final del terreno. Además, su diseño exclusivo reduce la cantidad de barro pegado en el centro.' ,
                     'price' => 3700,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 15
                 ],
                 [
                     'id' => '120' ,
@@ -747,7 +815,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'El motocultor Honda F560 M es una máquina de gran maniobrabilidad y que ofrece un trabajo de calidad. Es altamente robusta y fiable, perfecta para grandes extensiones. Dispone de una exclusiva fresa trasera de 2 velocidades que le permite dar un acabado esponjoso y fino a la tierra, dejándola a punto para la siembra.' ,
                     'price' => 4840,
                     'id_category' => '19',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 15
                 ],
                 /* NOTE Motobombas */
                 [
@@ -758,7 +827,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Motobomba de caudal Honda WX 10, la menor de la familia. Pequeña, económica y de fácil arranque que te sacará de cualquier apuro sin apenas ocupar espacio.' ,
                     'price' => 499,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 35
                 ],
                 [
                     'id' => '122' ,
@@ -768,7 +838,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motobomba de caudal Honda WX15 es la amiga de tu huerto. Motobomba compacta y potente que te ofrece un rendimiento insuperable. Portátil y muy ligera.' ,
                     'price' => 776,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 35
                 ],
                 [
                     'id' => '123' ,
@@ -778,7 +849,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Con la motobomba WB 20 XT la falta de lluvias ya no acabará con tu huerto. Mejor aprovechamiento de la potencia del motor. Con 37.200 litros/hora esta motobomba puede con todo.' ,
                     'price' => 470,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 35
                 ],
                 [
                     'id' => '124' ,
@@ -788,7 +860,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motobomba de caudal Honda WB 30 XT aprovecha al máximo de la potencia de su increíble motor Honda. Encontrarás la manera más fácil de achicar el agua.' ,
                     'price' => 569,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 35
                 ],
                 [
                     'id' => '125' ,
@@ -798,7 +871,8 @@ class ItemTableSeeder extends Seeder
                     'description' => '¿Sufrir? Nunca más con esta motobomba de aguas sucias Honda WT20 X. Motobomba imprescindible en trabajos de achique en la construcción o inundaciones.' ,
                     'price' => 1810,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 36
                 ],
                 [
                     'id' => '126' ,
@@ -808,7 +882,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Motobomba Honda para aguas sucias WT30X de cuerpo desmontable para que limpiarla sea un juego de niños. Se acabó el mantenimiento. ¡Un manguerazo y lista!' ,
                     'price' => 2369,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 36
                 ],
                 [
                     'id' => '127' ,
@@ -818,7 +893,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Potente por excelencia, la motobomba Honda WT40 X para aguas sucias es máquina perfecta para profesionales que necesitan potencia en condiciones extremas.' ,
                     'price' => 3295,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 36
                 ],
                 [
                     'id' => '128' ,
@@ -828,7 +904,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motobomba Honda de presión WH5, la más pequeña del mercado de motobombas de presión con motor de 4 tiempos. Nunca te fallará.',
                     'price' => 445,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 37
                 ],
                 [
                     'id' => '129' ,
@@ -838,7 +915,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Nunca falla. Motobomba de presión Honda WH10 con motor de 4 tiempos. Compacta y eficiente, perfecta para el riego por goteo o aspersión.',
                     'price' => 645,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 37
                 ],
                 [
                     'id' => '130' ,
@@ -848,7 +926,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'La motobomba de presión Honda WH20 X es la mejor opción para el riego. Te garantiza la presión la presión necesaria para el riego por goteo o aspersión.' ,
                     'price' => 890,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 37
                 ],
                 [
                     'id' => '131' ,
@@ -858,7 +937,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Motobomba de presión WH75X con motor Honda de 4 tiempos para cuando precises una motobomba de altas prestaciones. Siempre a punto. Máxima calidad.' ,
                     'price' => 970,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 37
                 ],
                 [
                     'id' => '132' ,
@@ -868,7 +948,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Motobomba de alta presión WH90 X con motor Honda de 4 tiempos. Una motobomba de fiabilidad a toda prueba, ideal para trasvasar agua en situaciones extremas.' ,
                     'price' => 1130,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 37
                 ],
                 [
                     'id' => '133' ,
@@ -878,7 +959,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Protege tu casa con motobomba de presión WH100X con motor Honda de 4 tiempos. La motobomba perfecta para riegos por aspersión o como equipo contra incendios.' ,
                     'price' => 2150,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 37
                 ],
                 [
                     'id' => '134' ,
@@ -888,7 +970,8 @@ class ItemTableSeeder extends Seeder
                     'description' => 'Motobomba Honda WMP20X para agua salada y líquidos especiales utilizados en agricultura e industria, gracias a su carcasa de termoplástico reforzado.' ,
                     'price' => 1225,
                     'id_category' => '20',
-                    'id_patent' => '1'
+                    'id_patent' => '1',
+                    'priority' => 38
                 ],
                 /* NOTE Generadores */
                 [
@@ -899,7 +982,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Generador para aparatos de medición, ordenadores y equipos que necesitan corriente eléctrica de calidad. Disfrútalos en silencio. Con regulación electrónica.' ,
                 'price' => 1899,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 39
                 ],
                 [
                 'id' => '136' ,
@@ -910,7 +994,8 @@ class ItemTableSeeder extends Seeder
                 Chasis robusto con paneles de insonorización que junto con el filtro de aire y el tubo de escape de gran tamaño ofrece un nivel de ruido inferior a los generadores tradicionales abiertos. Con depósito de grandes dimensiones para una mayor autonomía de trabajo.' ,
                 'price' => 2165,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 39
                 ],
                 [
                 'id' => '137' ,
@@ -921,7 +1006,8 @@ class ItemTableSeeder extends Seeder
                 Chasis robusto con paneles de insonorización que junto con el filtro de aire y el tubo de escape de gran tamaño ofrece un nivel de ruido inferior a los generadores tradicionales abiertos. Con depósito de grandes dimensiones para una mayor autonomía de trabajo.' ,
                 'price' => 2330,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 39
                 ],
                 [
                 'id' => '138' ,
@@ -932,7 +1018,8 @@ class ItemTableSeeder extends Seeder
                 Tecnología destacada:Nuevo motor iGX390 inteligente: con su regulador electrónico, ofrece una mayor potencia y una notable reducción del consumo (entre el 10% y el 15%). Mucho más silencioso y fácil de arrancar gracias al estárter automático.' ,
                 'price' => 2975,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 39
                 ],
                 [
                 'id' => '139' ,
@@ -942,7 +1029,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Generador monofásico Honda EC2000, ligero, robusto y de fácil manejo. Toda la calidad Honda aun precio razonable. Generador ligero, robusto y de fácil manejo.' ,
                 'price' => 698,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 40
                 ],
                 [
                 'id' => '140' ,
@@ -952,7 +1040,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Generador monofásico EC3000 con motor Honda, para disfrutar de toda la potencia a un buen precio. Robustez y resistencia. Un generador para que dispongas de 3 KVA. Honda a un buen precio.Kit de ruedas disponible.' ,
                 'price' => 765,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 40
                 ],
                 [
                 'id' => '141' ,
@@ -962,7 +1051,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Generador Honda EC3600, monofásico, potente y fiable. Máxima calidad a un precio económico. Kit de 2 o 4 ruedas disponible.' ,
                 'price' => 1299,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 40
                 ],
                 [
                 'id' => '142' ,
@@ -972,7 +1062,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Generador monofásico EC3600 AE con motor Honda y arranque eléctrico. Económico, potente. Consulta sus múltiples opciones y kits.' ,
                 'price' => 1460,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 40
                 ],
                 [
                 'id' => '143' ,
@@ -982,7 +1073,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'El generador Honda EC5000 es potente, económico y monofásico. Su robustez y resistencia lo hacen imprescindible para las tareas más duras. Un generador que te permite combinar diferentes opciones: arranque manual, eléctrico, con mando a distancia o automatismo de arranque. Todo para adaptarse a tus necesidades. Kit de ruedas disponible.' ,
                 'price' => 1762,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 40
                 ],
                 [
                 'id' => '144' ,
@@ -992,7 +1084,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Un generador que te permite combinar diferentes opciones: arranque manual, eléctrico, con mando a distancia o automatismo de arranque. Todo para adaptarse a tus necesidades. Kit de ruedas disponible.' ,
                 'price' => 1899,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 40
                 ],
                 [
                 'id' => '145' ,
@@ -1002,7 +1095,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Con el generador Honda ECT 7000 dispondrás de 7 KVA en corriente trifásica y 4 KVA en monofásica. Increíble pero cierto. Potente y económico.' ,
                 'price' => 1999,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 41
                 ],
                 [
                 'id' => '146' ,
@@ -1012,7 +1106,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Con el generador ECT 7000 AE dispondrás de 7 KVA en corriente trifásica y 4 KVA en monofásica. Consulta sus múltiples opciones.' ,
                 'price' => 2150,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 41
                 ],
                 [
                 'id' => '147' ,
@@ -1022,7 +1117,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Generador Honda ECT7000P, ideal para trabajar bajo la lluvia y en condiciones de extrema humedad (IP54). Generador industrial con regulación electrónica.' ,
                 'price' => 3070,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 41
                 ],
                 [
                 'id' => '148' ,
@@ -1032,7 +1128,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'El generador Honda ECMT7000 te ofrece gran autonomía gracias a su mayor depósito. Generador de prestaciones únicas. Incluye el kit de ruedas.' ,
                 'price' => 2612,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 41
                 ],
                 [
                 'id' => '152' ,
@@ -1045,7 +1142,8 @@ class ItemTableSeeder extends Seeder
                     Mayor autonomía: gracias al funcionamiento inteligente del motor, con la función “ECO” sólo consume la cantidad de combustible estrictamente necesaria, lo que aumenta la autonomía del motor. Puede funcionar de 4 hasta 8.3 horas seguidas con un único depósito de combustible, dependiendo de la carga. La tecnología Eco-Throttle ® mejora la eficiencia del combustible en más de un 10%. El motor se acelera en función de la demanda de potencia.' ,
                 'price' => 1348,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 43
                 ],
                 [
                 'id' => '153' ,
@@ -1058,7 +1156,8 @@ class ItemTableSeeder extends Seeder
                     Mayor autonomía: gracias al funcionamiento inteligente del motor, con la función “ECO” sólo consume la cantidad de combustible estrictamente necesaria, lo que aumenta la autonomía del motor. Puede funcionar de 4 hasta 15 horas seguidas con un único depósito de combustible, dependiendo de la carga. La tecnología Eco-Throttle ® mejora la eficiencia del combustible en más de un 10%. El motor se acelera en función de la demanda de potencia.' ,
                 'price' => 1890,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 43
                 ],
                 [
                 'id' => '154' ,
@@ -1071,7 +1170,8 @@ class ItemTableSeeder extends Seeder
                     Insonorizado: la normativa sobre el nivel de ruido es cada vez más severa. Los generadores insonorizados Honda de altas prestaciones responden perfectamente a estas exigencias, además de proporcionar toda la potencia necesaria para el funcionamiento de tus aparatos eléctricos.' ,
                 'price' => 3195,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 43
                 ],
                 [
                 'id' => '155' ,
@@ -1084,7 +1184,8 @@ class ItemTableSeeder extends Seeder
                     Mayor autonomía: gracias al funcionamiento inteligente del motor, con la función “ECO” sólo consume la cantidad de combustible estrictamente necesaria, lo que aumenta la autonomía del motor. Puede funcionar de 7.2 hasta 20 horas seguidas con un único depósito de combustible, dependiendo de la carga. La tecnología Eco-Throttle ® mejora la eficiencia del combustible en más de un 10%. El motor se acelera en función de la demanda de potencia.' ,
                 'price' => 3549,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 44
                 ],
                 [
                 'id' => '156' ,
@@ -1098,7 +1199,8 @@ class ItemTableSeeder extends Seeder
                     iMonitor: exclusivo display para un fácil reconocimiento del estado de la máquina. Su panel LCD muestra horas de uso, carga, r.p.m. del motor, función de autodiagnosis (en caso de fallo) y voltaje de la batería.' ,
                 'price' => 6275,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 44
                 ],
                 /* NOTE Motosoldadoras */
                 [
@@ -1109,7 +1211,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Motosoldadora EW120 con motor Honda pensada para el particular. Potente y económica. Para soldar sin contratiempos.' ,
                 'price' => 1178,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 42
                 ],
                 [
                 'id' => '150' ,
@@ -1119,7 +1222,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Honda te ofrece una motosoldadora de corriente alterna pensada para el particular, en la que podrás emplear electrodos de 1,5 a 3,25 mm, y disponer de corriente monofásica.. Kit de ruedas de transporte opcional.' ,
                 'price' => 1580,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 42
                 ],
                 [
                 'id' => '151' ,
@@ -1129,7 +1233,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Una motosoldadora profesional de corriente continua que aporta corriente monofásica y trifásica de alta calidad. para soldar sin problemas con electrodos de 1,5 hasta 4 mm. Ruedas de transporte opcionales.' ,
                 'price' => 2298,
                 'id_category' => '22',
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 42
                 ],
                 /* NOTE Biotrituradoras */
                 [
@@ -1140,7 +1245,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Con la biotrituradora eléctrica BIO 3000 aprenderás a reciclar. Con su sistema de corte de piñón dentado y contracuchilla, acepta cualquier tipo de resto vegetal.' ,
                 'price' => 299,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 31
                 ],
                 [
                 'id' => '158' ,
@@ -1150,7 +1256,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Desde el particular hasta el profesional, cualquier usuario encontrará soluciones en la gama de biotrituradoras Honda. Ahora este modelo incorpora propulsor eléctrico.' ,
                 'price' => 1218 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 31
                 ],
                 [
                 'id' => '159' ,
@@ -1160,7 +1267,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La biotrituradora BIO180 con motor Honda te ayuda a reciclar. Ideal para triturar cualquier resto de poda de un jardín o huerta particular.' ,
                 'price' => 1375 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 31
                 ],
                 [
                 'id' => '160' ,
@@ -1170,7 +1278,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Colabora con el medio ambiente y ahorra tiempo y dinero con la biotrituradora con motor Honda más ligera de la gama profesional, la BIO 320.' ,
                 'price' => 3180 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 32
                 ],
                 [
                 'id' => '161' ,
@@ -1180,7 +1289,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'El aprovechamiento de los restos de poda ha aumentado la demanda de equipos apropiados para el desmenuzado del material leñoso, la biotrituradora BIO 375 es la ideal para estas necesidades.' ,
                 'price' => 5095 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 32
                 ],
                 [
                 'id' => '162' ,
@@ -1190,7 +1300,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'El aprovechamiento de los restos de poda ha aumentado la demanda de equipos apropiados para el desmenuzado del material leñoso y la biotrituradora BIO 375 FE es la ideal para estas necesidades. Con remolque homologado para circular por carretera.' ,
                 'price' => 6370 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 32
                 ],
                 [
                 'id' => '163' ,
@@ -1200,7 +1311,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Biotrituradora astilladora BIO 510, con motor Honda GX390, incorpora remolque de serie para fácil transporte.' ,
                 'price' => 8898 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 33
                 ],
                 // [
                 // 'id' => '164' ,
@@ -1220,7 +1332,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Biotrituradora para conseguir la viruta perfecta y reutilizarla como nutriente natural. Una forma natural de alimentar los árboles, así como un gran ahorro.' ,
                 'price' => 16870 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 33
                 ],
                 [
                 'id' => '166' ,
@@ -1230,7 +1343,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La biotrituradora BIO 750 pro monta dos cuchillas fijas en un volante y se caracteriza por su gran rendimiento de trabajo al triturar restos de poda. Da seguridad en el manejo y facilidad de transporte.' ,
                 'price' => 23460 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 33
                 ],
                 [
                 'id' => '167' ,
@@ -1240,7 +1354,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Pequeña biotrituradora con toma de fuerza y de alimentación manual, con 2 cuchillas fijas y una capacidad de trabajo de 3 m3/h. Ideal para pequeños tractores tipo “Pasquali”.' ,
                 'price' => 3325 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 34
                 ],
                 [
                 'id' => '168' ,
@@ -1250,7 +1365,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La biotrituradora que ahorra tiempo y dinero. El modelo de biotrituradora profesional con toma de fuerza.' ,
                 'price' => 8770 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 34
                 ],
                 [
                 'id' => '169' ,
@@ -1260,7 +1376,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'Biotrituradora Honda de toma de fuerza, especialmente diseñada para utilizarla en el olivar por su boca amplia y alta. Con alimentación hidráulica, 10 martillos y 10 cuchillas, con gran capacidad de trabajo de 8 m3/h.' ,
                 'price' => 11700 ,
                 'id_category' => '21' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 34
                 ],
                 /* NOTE Carretillas */
                 [
@@ -1271,7 +1388,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad.' ,
                 'price' => 3275 ,
                 'id_category' => '23' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 45
                 ],
                 // [
                 // 'id' => '171' ,
@@ -1291,7 +1409,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La tecnología que Honda ha desarrollado para la gama de carretillas todo terreno aporta una fiabilidad a toda prueba y una gran durabilidad. Permiten transportar sin problemas entre 300 y 500 Kg de carga, como herramientas, ladrillos y todo tipo de material, con comodidad y suavidad. La carretilla todo terreno HP490 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad. Este modelo incluye transmisión hidrostática que permite ajustar la velocidad de forma variable, adaptándola a tus necesidades.' ,
                 'price' => 4268 ,
                 'id_category' => '23' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 45
                 ],
                 [
                 'id' => '173' ,
@@ -1301,7 +1420,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La carretilla todo terreno HP 500 está también pensada para el transporte de distintos materiales en la agricultura, como leña, fruta o restos de poda. Dispone de una plataforma de carga muy polivalente, ya que puede extenderse tanto en anchura como en longitud para adaptarse a las diferentes necesidades de carga. La carretilla todo terreno HP 500 dispone de embrague de seguridad que actúa sólo con soltar el manillar, parando el avance sin apagar el motor. Es capaz de detener la máquina incluso en pendientes, poniendo siempre por delante tu seguridad. Este modelo incluye transmisión hidrostática que permite ajustar la velocidad de forma variable, adaptándola a tus necesidades.' ,
                 'price' => 6225 ,
                 'id_category' => '23' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 45
                 ],
                 [
                 'id' => '174' ,
@@ -1311,7 +1431,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La carretilla pulverizadora CPH55 ofrece total versatilidad y comodidad para su uso en las tareas de eliminación y prevención de plagas en el huerto y el jardín durante todo el año, a un precio muy competitivo. Está equipada con un motor Honda GX25, potente y silencioso. Incluye ruedas de transporte, para su fácil maniobrabilidad.' ,
                 'price' => 796 ,
                 'id_category' => '23' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 46
                 ],
                 [
                 'id' => '175' ,
@@ -1321,7 +1442,8 @@ class ItemTableSeeder extends Seeder
                 'description' => 'La carretilla pulverizadora CPH 100 ofrece total versatilidad y comodidad para su uso en las tareas de eliminación y prevención de plagas en el huerto y el jardín durante todo el año. Está equipada con un motor Honda GX35, potente y silencioso. Incluye ruedas de transporte, para su fácil maniobrabilidad. Como cualquier máquina Honda, la carretilla pulverizadora CPH100 cuenta con todos los elementos de seguridad característicos de la marca. Igualmente, ha sido diseñada para la mayor comodidad de uso, gracias a sus ruedas de transporte, su depósito de polietileno traslúcido de fácil llenado, su manguera de 10 metros de serie y su boquilla especial para un mayor rendimiento.' ,
                 'price' => 979 ,
                 'id_category' => '23' ,
-                'id_patent' => '1'
+                'id_patent' => '1',
+                'priority' => 46
                 ],
                 /* NOTE Hidrolimpiadores */
                 // [
@@ -1353,9 +1475,12 @@ class ItemTableSeeder extends Seeder
                 'short_description' => 'Honda ha ideado este scooter eléctrico innovador y moderno que te proporciona movilidad y te ayuda en tus desplazamientos diarios para salir a pasear y disfrutar del aire libre de forma independiente y divertida. Las actividades cotidianas nunca más serán un problema para ti.' ,
                 'description' => 'Honda ha ideado este scooter eléctrico innovador y moderno que te proporciona movilidad y te ayuda en tus desplazamientos diarios para salir a pasear y disfrutar del aire libre de forma independiente y divertida. Las actividades cotidianas nunca más serán un problema para ti. Limpio, seguro, fiable, fácil de utilizar y de mantener, el scooter eléctrico Honda Monpal disfruta de toda la tecnología de un líder. Un amplio espacio para los pies, un cómodo asiento, un fácil acceso a los mandos, una cómoda posición de los brazos durante la conducción o el mando del acelerador adaptable para zurdos son algunos de los puntos más sobresalientes del vehículo. Dispone también de un cesto frontal con gran capacidad de carga para que siempre puedas llevar contigo tus cosas.',
                 'price' => 3602 ,
-                'id_category' => '25' ,
-                'id_patent' => '1'
+                'id_category' => '25',
+                'id_patent' => '1',
+                'priority' => 48
                 ],
+            ]);
+            DB::table('item')->insert([
                 /* TODO ECHO */
                 /* NOTE Sopladores */
                 [

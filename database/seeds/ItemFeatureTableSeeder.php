@@ -1084,18 +1084,18 @@ class ItemFeatureTableSeeder extends Seeder
                 ],
                 /* NOTE ASPIRADOR */
                 /* AS100 */
-                // [
-                //     'id_item' => '83',
-                //     'id_feature' => '680'
-                // ],
-                // [
-                //     'id_item' => '83',
-                //     'id_feature' => '1904'
-                // ],
-                // [
-                //     'id_item' => '83',
-                //     'id_feature' => '4093'
-                // ],
+                [
+                    'id_item' => '83',
+                    'id_feature' => '680'
+                ],
+                [
+                    'id_item' => '83',
+                    'id_feature' => '1904'
+                ],
+                [
+                    'id_item' => '83',
+                    'id_feature' => '4093'
+                ],
                 /* NOTE CORTASETO */
                 /* HHH25S75E */
                 [
