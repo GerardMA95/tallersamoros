@@ -12,8 +12,7 @@
          @includeIf('error.itemSearchError')
       @else
           @php
-                // var_dump($itemList->first());
-                // die;
+                $pellencId = 3;
           @endphp
           <section class="main special">
             <div class="inner">
@@ -54,7 +53,7 @@
                               <h2><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}">{{ $item->name }}</a></h2>
                               <ul class="meta">
                                   <li style="color: #e66666;">{{ $item->price }} €
-                                  @if ($patent == 'pellenc')
+                                  @if ($item->id_patent == $pellencId)
                                       + IVA
                                   @endif</li>
                                   <li><a href="{{ route('itemDescription', ['patent' => $patent, 'category' => $category, 'itemId' => $item->short_name]) }}" class="favorites">0</a></li>
